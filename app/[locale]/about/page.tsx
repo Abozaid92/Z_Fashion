@@ -150,10 +150,8 @@ export default async function AboutPage({
     ],
   };
 
-  try {
+  if (redisClient.isOpen) {
     redisClient.incr("stats:about").catch(() => {});
-  } catch (e) {
-    console.error("Redis error in stats:products :", e);
   }
 
   return (

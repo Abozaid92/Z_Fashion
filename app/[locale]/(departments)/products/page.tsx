@@ -139,10 +139,8 @@ export default async function PLPPage({ searchParams, params }: PageProps) {
   };
 
   // Redis Tracking
-  try {
+  if (redisClient.isOpen) {
     redisClient.incr("stats:products").catch(() => {});
-  } catch (e) {
-    console.error("Redis error in stats:products :", e);
   }
 
   const namespaces = [
