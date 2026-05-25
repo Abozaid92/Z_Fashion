@@ -181,12 +181,15 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-try {
-  redisClient
-    .hIncrBy("stats:total:allStats", "totalVisits", 1)
-    .catch((err) => console.error("Redis Incr Error:", err));
-} catch (e) {
-  console.error("Redis incre totalvisits err Error:", e);
+// ── الحماية الحديدية للـ Hash الـ الأخير ────────────────────────────
+if (process.env.NEXT_PHASE !== "phase-production-build") {
+  try {
+    redisClient
+      .hIncrBy("stats:total:allStats", "totalVisits", 1)
+      .catch((err) => console.error("Redis Incr Error:", err));
+  } catch (e) {
+    console.error("Redis incre totalvisits err Error:", e);
+  }
 }
 
 export default async function RootLayout({
