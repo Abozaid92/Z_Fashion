@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GlobalStore - Multi-language E-commerce Store
 
-## Getting Started
+A modern, responsive e-commerce platform built with Next.js 16, supporting 8 languages with RTL support.
 
-First, run the development server:
+## 🌍 Supported Languages
+
+- English (en) 🇬🇧
+- French (fr) 🇫🇷
+- German (de) 🇩🇪
+- Arabic (ar) 🇸🇦 - RTL Support
+- Chinese (zh) 🇨🇳
+- Hindi (hi) 🇮🇳
+- Spanish (es) 🇪🇸
+- Russian (ru) 🇷🇺
+
+## ✨ Features
+
+- 🌐 Multi-language support with next-intl
+- 🎨 Modern UI with Tailwind CSS
+- ⚡ Fast performance with Next.js 16
+- 📱 Fully responsive design
+- 🔄 RTL support for Arabic
+- 🛒 Product filtering and sorting
+- ⭐ Star ratings
+- 🎭 Smooth animations with Framer Motion
+- 🎠 Brand carousel with Swiper
+- 🔍 Product search functionality
+
+## 🚀 Getting Started
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+ecommerce-store/
+├── app/
+│   ├── [locale]/
+│   │   ├── layout.tsx      # Root layout with i18n
+│   │   └── page.tsx         # Home page
+│   └── globals.css          # Global styles
+├── components/
+│   ├── AnnouncementBar.tsx  # Top announcement banner
+│   ├── Navbar.tsx           # Navigation with language switcher
+│   ├── Filters.tsx          # Sidebar filters
+│   ├── ProductCard.tsx      # Product display card
+│   ├── ProductGrid.tsx      # Products grid with search/sort
+│   ├── BrandsSection.tsx    # Featured brands carousel
+│   └── Footer.tsx           # Footer with newsletter
+├── i18n/
+│   ├── routing.ts           # i18n routing config
+│   └── request.ts           # i18n request config
+├── messages/                # Translation files
+│   ├── en.json
+│   ├── fr.json
+│   ├── de.json
+│   ├── ar.json
+│   ├── zh.json
+│   ├── hi.json
+│   ├── es.json
+│   └── ru.json
+├── lib/
+│   └── data.ts              # Mock product data
+└── middleware.ts            # i18n middleware
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 16.1.5** - React framework
+- **React 19** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS 4** - Styling
+- **next-intl** - Internationalization
+- **Framer Motion** - Animations
+- **Swiper** - Carousels
+- **React Icons** - Icons
+- **React Rating Stars** - Product ratings
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design Features
 
-## Deploy on Vercel
+- Light color scheme
+- Google Fonts (Inter & Cairo)
+- Smooth transitions
+- Hover effects
+- Responsive breakpoints
+- Custom scrollbar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
+
+## 👨‍💻 Developer
+
+Built with ❤️ using Next.js and modern web technologies
