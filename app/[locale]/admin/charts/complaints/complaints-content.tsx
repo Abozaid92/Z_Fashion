@@ -1,0 +1,150 @@
+// app/charts/complaints/complaints-content.tsx
+"use client";
+
+import { useTranslations } from "next-intl";
+import { useQuery } from "@tanstack/react-query";
+import { useQueryState } from "nuqs";
+import {
+  AlertTriangleIcon,
+  ClockIcon,
+  CheckCircle2Icon,
+  XCircleIcon,
+} from "lucide-react";
+import { ComplaintsCharts } from "@/app/[locale]/_components/admin/analytics/complaints-charts";
+import { StatsCards } from "@/app/[locale]/_components/admin/analytics/stats-cards";
+import { InsightsPanel } from "@/app/[locale]/_components/admin/analytics/insights-panel";
+import { ExportButton } from "@/app/[locale]/_components/admin/analytics/export-button";
+import { EmptyState } from "@/app/[locale]/_components/admin/analytics/empty-state";
+import { TimeframeSelector } from "@/app/[locale]/_components/admin/analytics/timeframe-selector";
+import { ComparisonToggle } from "@/app/[locale]/_components/admin/analytics/comparison-toggle";
+import {
+  formatNumber,
+  generateInsights,
+} from "@/app/[locale]/_lib/analytics-utils";
+import { DOMAIN } from "@/lib/constants";
+export function ComplaintsContent() {
+  const t = useTranslations("AdminCharts.complaints" as any);
+  const [timeframe] = useQueryState("timeframe", { defaultValue: "30days" });
+  const [showComparison] = useQueryState("compare", {
+    defaultValue: false,
+    parse: (value) => value === "true",
+  });
+
+  const { data: analyticsData, isLoading } = useQuery({
+    queryKey: ["analytics", "COMPLAINTS", timeframe],
+    queryFn: async () => {
+      const response = await fetch(
+        `${DOMAIN}/api/analytics?type=COMPLAINTS&timeframe=${timeframe}`,
+      );
+      return response.json();
+    },
+    staleTime: 60 * 60 * 24,
+    gcTime: 60 * 60 * 24 * 100,
+    refetchOnWindowFocus: false,
+    refetchOnMount: false,
+  });
+
+  const { data: previousData } = useQuery({
+    queryKey: ["analytics", "COMPLAINTS", "previous", timeframe],
+    queryFn: async () => {
+      const response = await fetch(
+        `${DOMAIN}/api/analytics/previous?type=COMPLAINTS&timeframe=${timeframe}`,
+      );
+      return response.json();
+    },
+    staleTime: 60 * 60 * 24,
+    gcTime: 60 * 60 * 24 * 100,
+    refetchOnWindowFocus: false,
+    refetchOnMount: false,
+    enabled: !!showComparison,
+  });
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-red-50/20 to-orange-50/20 p-8 animate-pulse" />
+    );
+  }
+
+  if (!analyticsData?.data || analyticsData.data.length === 0) {
+    return <EmptyState />;
+  }
+
+  const { data, meta } = analyticsData;
+  const insights = generateInsights(data, meta);
+  const avgDaily = Math.round(meta.total / data.length);
+  // التعديل: إضافة any لمنع خطأ التايب سكريبت
+  const peakDay = data.reduce((max: any, curr: any) =>
+    curr.value > max.value ? curr : max,
+  );
+  const resolutionRate = 92; // Simulated
+
+  const stats = [
+    {
+      title: t("total"),
+      value: formatNumber(meta.total),
+      change: meta.percentageChange,
+      trend: meta.trend === "up" ? ("down" as const) : ("up" as const), // Inverted for complaints
+      icon: <AlertTriangleIcon className="w-6 h-6" />,
+    },
+    {
+      title: t("daily_avg"),
+      value: formatNumber(avgDaily),
+      change: meta.percentageChange,
+      trend: meta.trend === "up" ? ("down" as const) : ("up" as const),
+      icon: <ClockIcon className="w-6 h-6" />,
+    },
+    {
+      title: t("peak_volume"),
+      value: formatNumber(peakDay.value),
+      change: ((peakDay.value - avgDaily) / avgDaily) * 100,
+      trend: "down" as const,
+      icon: <XCircleIcon className="w-6 h-6" />,
+    },
+    {
+      title: t("resolution_rate"),
+      value: `${resolutionRate}%`,
+      change: resolutionRate,
+      trend: "up" as const,
+      icon: <CheckCircle2Icon className="w-6 h-6" />,
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-red-50/20 to-orange-50/20">
+      <div className="max-w-7xl mx-auto p-8">
+        <div className="mb-8">
+          <div className="flex flex-col items-start justify-between gap-3 mb-6">
+            <div>
+              <h1 className="text-4xl font-bold text-slate-900 mb-2 tracking-tight">
+                {t("title")}
+              </h1>
+              <p className="text-slate-600">{t("description")}</p>
+            </div>
+            <div className="flex items-center flex-wrap gap-3">
+              <TimeframeSelector />
+              <ComparisonToggle />
+              <ExportButton data={data} filename="complaints-analytics" />
+            </div>
+          </div>
+        </div>
+
+        <StatsCards stats={stats} />
+
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+          <div className="lg:col-span-2">
+            <ComplaintsCharts
+              data={data}
+              previousData={previousData}
+              showComparison={showComparison}
+            />
+          </div>
+          <div className="lg:col-span-1">
+            <div className="sticky top-8">
+              <InsightsPanel insights={insights} title={t("insights_title")} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

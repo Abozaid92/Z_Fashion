@@ -1,0 +1,564 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact",
+    "cart": "Panier",
+    "account": "Compte"
+  },
+  "announcement": {
+    "flash_sale": "⚡ Vente Flash: Jusqu'à 50% de réduction - Offre limitée!",
+    "free_shipping": "🚚 Livraison gratuite pour les commandes de plus de 50$",
+    "new_collection": "✨ Nouvelle Collection - Achetez maintenant!"
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenue de retour",
+      "subtitle": "Connectez-vous pour continuer",
+      "emailOrUsername": "Email ou nom d'utilisateur",
+      "emailPlaceholder": "Entrez votre email ou nom d'utilisateur",
+      "emailRequired": "Email ou nom d'utilisateur requis",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "passwordRequired": "Le mot de passe doit contenir au moins 6 caractères",
+      "forgotPassword": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "loading": "Connexion en cours...",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "register": "Créer un compte"
+    },
+    "register": {
+      "title": "Créer un nouveau compte",
+      "subtitle": "Rejoignez-nous et commencez à acheter",
+      "email": "Email",
+      "emailPlaceholder": "Entrez votre email",
+      "emailInvalid": "Adresse email invalide",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "Choisissez un nom d'utilisateur unique",
+      "usernameInvalid": "Le nom d'utilisateur doit contenir entre 3 et 20 caractères",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Choisissez un mot de passe sécurisé",
+      "passwordInvalid": "Le mot de passe doit contenir au moins 8 caractères",
+      "confirmPassword": "Confirmer le mot de passe",
+      "confirmPasswordPlaceholder": "Ressaisissez votre mot de passe",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "submit": "Créer un compte",
+      "loading": "Création du compte...",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "login": "Se connecter"
+    },
+    "forgot": {
+      "title": "Mot de passe oublié ?",
+      "subtitle": "Nous allons vous aider à le récupérer",
+      "info": "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "Entrez votre e-mail",
+      "emailInvalid": "Adresse e-mail invalide",
+      "submit": "Envoyer le lien",
+      "loading": "Envoi en cours...",
+      "backToLogin": "Retour à la connexion",
+      "successTitle": "Vérifiez vos e-mails",
+      "successSubtitle": "Lien de réinitialisation envoyé",
+      "successMessage": "Nous avons envoyé un lien de réinitialisation à votre adresse e-mail.",
+      "checkEmail": "Veuillez vérifier votre boîte de réception et vos courriers indésirables.",
+      "resend": "Renvoyer le lien"
+    },
+    "reset": {
+      "title": "Réinitialiser le mot de passe",
+      "subtitle": "Choisissez un nouveau mot de passe fort",
+      "newPassword": "Nouveau mot de passe",
+      "passwordPlaceholder": "Entrez le nouveau mot de passe",
+      "passwordInvalid": "Le mot de passe doit comporter au moins 8 caractères",
+      "confirmPassword": "Confirmer le mot de passe",
+      "confirmPasswordPlaceholder": "Retapez le mot de passe",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "weak": "Faible",
+      "medium": "Moyen",
+      "strong": "Fort",
+      "submit": "Mettre à jour",
+      "loading": "Mise à jour...",
+      "backToLogin": "Retour à la connexion",
+      "successTitle": "Succès !",
+      "successSubtitle": "Mot de passe mis à jour",
+      "successMessage": "Votre mot de passe a été mis à jour avec succès !",
+      "canLogin": "Vous pouvez maintenant vous connecter avec votre nouveau mot de passe.",
+      "loginNow": "Se connecter maintenant"
+    },
+    "social": {
+      "divider": "Ou connectez-vous avec"
+    }
+  },
+  "hero": {
+    "subtitle": "Mode de qualité premium pour tous",
+    "shop_now": "Acheter maintenant",
+    "title": {
+      "Streetwear": "Streetwear",
+      "Summer Collection": "Collection d'été",
+      "Luxury Watches": "Montres de luxe",
+      "Designer Bags": "Sacs de créateurs"
+    }
+  },
+  "filters": {
+    "title": "Filtres",
+    "price_range": "Gamme de prix",
+    "category": "Catégorie",
+    "gender": "Genre",
+    "brand": "Marque",
+    "rating": "Évaluation",
+    "clear_all": "Tout effacer",
+    "apply": "Appliquer les filtres",
+    "male": "Homme",
+    "female": "Femme",
+    "unisex": "Unisexe"
+  },
+  "products": {
+    "title": "Nos produits",
+    "sort_by": "Trier par",
+    "search": "Rechercher des produits...",
+    "price_low_high": "Prix: Croissant",
+    "price_high_low": "Prix: Décroissant",
+    "newest": "Plus récent",
+    "popular": "Plus populaire",
+    "add_to_cart": "Ajouter au panier",
+    "view_details": "Voir les détails",
+    "out_of_stock": "Rupture de stock"
+  },
+  "brands": {
+    "title": "Marques en vedette",
+    "subtitle": "Achetez auprès de nos partenaires de confiance"
+  },
+
+  "ShowcaseSection": {
+    "explore_all": "Explorez tout"
+  },
+
+  "AdminCharts": {
+    "complaints": {
+      "title": "Analyse des Plaintes",
+      "description": "Surveiller et résoudre efficacement les plaintes des clients",
+      "total": "Total des Plaintes",
+      "daily_avg": "Moyenne Quotidienne",
+      "peak_volume": "Volume Pic",
+      "resolution_rate": "Taux de Résolution",
+      "insights_title": "Informations sur les Plaintes"
+    },
+    "orders": {
+      "title": "Analyse des Commandes",
+      "description": "Suivre le volume de commandes et les métriques de performance",
+      "total": "Total des Commandes",
+      "daily_avg": "Moyenne Quotidienne",
+      "peak_volume": "Volume Pic",
+      "above_avg": "Au-dessus de la Moyenne",
+      "insights_title": "Informations sur les Commandes"
+    },
+    "revenue": {
+      "title": "Analyse des Revenus",
+      "description": "Surveiller les flux de revenus et les performances financières",
+      "total": "Total des Revenus",
+      "daily_avg": "Moyenne Quotidienne",
+      "peak": "Pic des Revenus",
+      "growth_rate": "Taux de Croissance",
+      "insights_title": "Informations sur les Revenus"
+    },
+    "users": {
+      "title": "Analyse des Utilisateurs",
+      "description": "Suivre la croissance des utilisateurs et les métriques d'engagement",
+      "total": "Total des Utilisateurs",
+      "daily_avg": "Moyenne Quotidienne",
+      "peak_day": "Jour Pic",
+      "growth_days": "Jours de Croissance",
+      "insights_title": "Informations sur les Utilisateurs"
+    },
+    "netProfit": {
+      "title": "Analyse du Bénéfice Net",
+      "description": "Surveiller la rentabilité et la performance des marges",
+      "total": "Total du Bénéfice Net",
+      "daily_avg": "Moyenne Quotidienne",
+      "profit_margin": "Marge Bénéficiaire",
+      "peak": "Pic de Bénéfice",
+      "insights_title": "Informations sur les Bénéfices"
+    },
+    "products": {
+      "title": "Analyse des Produits",
+      "description": "Suivre les performances des produits et les données de ventes",
+      "insights_title": "Informations sur les Produits"
+    },
+    "views": {
+      "title": "Analyse des Vues",
+      "description": "Surveiller les vues du site et les schémas de trafic",
+      "insights_title": "Informations sur les Vues"
+    }
+  },
+
+  "HeroSection": {
+    "announcement": "Soldes de saison nouvelle - Jusqu'à 50% de réduction sur les articles sélectionnés!",
+    "collection_badge": "Nouvelle collection printemps 2025",
+    "main_title_1": "Un style qui",
+    "main_title_2": "parle",
+    "main_title_3": "pour lui-même.",
+    "description": "Des pièces soigneusement sélectionnées. Qualité exceptionnelle. Prix équitables. Rejoignez plus de {users}+ acheteurs dans le monde.",
+    "shop_button": "Magasinez La Collection",
+    "lookbook_button": "Voir Le Lookbook",
+    "stat_1_value": "Clients Heureux",
+    "stat_1_sub": "Dans le monde entier",
+    "stat_2_value": "Avis 5 Étoiles",
+    "stat_2_sub": "Moyenne 4,9 ★",
+    "stat_3_value": "Styles Sélectionnés",
+    "stat_3_sub": "Nouveaux chaque semaine",
+    "stat_4_value": "Vues",
+    "stat_4_sub": "Portée d'audience totale accumulée",
+    "price_label": "À partir de",
+    "product_images": [
+      { "tag": "Nouvel Arrivage", "name": "Shopper Urbain", "price": "£89" },
+      { "tag": "Plus Demandé", "name": "Essentiel de Rue", "price": "£64" },
+      { "tag": "Édition Limitée", "name": "Édition Premium", "price": "£129" }
+    ],
+    "testimonial_quote": "La qualité est de classe mondiale!",
+    "testimonial_author": "Sarah M. — Vérifié",
+    "marquee_items": [
+      { "text": "Livraison Rapide" },
+      { "text": "Paiement Sécurisé" },
+      { "text": "Qualité Premium" },
+      { "text": "Nouveautés Chaque Semaine" }
+    ]
+  },
+
+  "TestimonialsSection": {
+    "verified_buyer": "Acheteur vérifié",
+    "testimonials": "Ce que disent nos clients",
+    "reviews": "28 000+ avis",
+    "rating": "4.9"
+  },
+
+  "CollectionsSlider": {
+    "curated": "Sélectionné",
+    "legendary_collections": "Collections Légendaires",
+    "view_all": "Voir tout",
+    "view_all_collections": "Voir toutes les collections"
+  },
+
+  "HorizontalProductScroll": {
+    "view_all": "Voir tout",
+    "view_all_title": "Voir tout {title}"
+  },
+
+  "footer": {
+    "about_us": "À propos de nous",
+    "customer_service": "Service client",
+    "follow_us": "Suivez-nous",
+    "newsletter": "Abonnez-vous à notre newsletter",
+    "subscribe": "S'abonner",
+    "rights": "Tous droits réservés"
+  },
+
+  "Footer": {
+    "brand_name": "Magasin Mondial",
+    "brand_description": "Votre destination de confiance pour les produits de qualité dans le monde entier. Nous vous offrons la meilleure expérience d'achat avec une sélection haut de gamme et un service exceptionnel.",
+    "sections": {
+      "about_us": "À Propos",
+      "customer_service": "Service Client",
+      "follow_us": "Nous Suivre"
+    },
+    "links": {
+      "our_story": "Notre Histoire",
+      "careers": "Carrières",
+      "press": "Presse",
+      "contact_us": "Nous Contacter",
+      "shipping_info": "Informations de Livraison",
+      "returns": "Retours et Échanges"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    },
+    "newsletter": {
+      "title": "Abonnez-vous à Notre Infolettre",
+      "placeholder": "Entrez votre adresse e-mail",
+      "subscribe_button": "S'abonner"
+    },
+    "copyright": {
+      "brand": "Magasin Mondial",
+      "rights_reserved": "Tous les droits sont réservés"
+    }
+  },
+
+  "Admin": {
+    "dashboard": "Tableau de bord",
+    "orders": "Commandes",
+    "products": "Produits",
+    "users": "Utilisateurs",
+    "support": "Support",
+    "notifications": "Notifications",
+    "analytics": "Analyses",
+    "calendar": "Calendrier",
+    "charts": "Graphiques",
+    "logout": "Déconnexion",
+    "settings": "Paramètres",
+    "profile": "Profil"
+  },
+
+  "AdminOrders": {
+    "title": "Commandes",
+    "order_id": "ID de commande",
+    "customer": "Client",
+    "total": "Total",
+    "status": "Statut",
+    "date": "Date",
+    "view": "Voir",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "pending": "En attente",
+    "confirmed": "Confirmé",
+    "shipped": "Expédié",
+    "delivered": "Livré",
+    "cancelled": "Annulé"
+  },
+
+  "AdminProducts": {
+    "title": "Produits",
+    "add_product": "Ajouter un produit",
+    "edit_product": "Modifier le produit",
+    "delete_product": "Supprimer le produit",
+    "categories": "Catégories",
+    "add_category": "Ajouter une catégorie",
+    "price": "Prix",
+    "stock": "Stock",
+    "name": "Nom",
+    "description": "Description",
+    "image": "Image",
+    "gallery": "Galerie"
+  },
+
+  "AdminUsers": {
+    "title": "Utilisateurs",
+    "user_id": "ID utilisateur",
+    "email": "Email",
+    "name": "Nom",
+    "role": "Rôle",
+    "status": "Statut",
+    "joined": "Inscrit",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "admin": "Admin",
+    "user": "Utilisateur",
+    "moderator": "Modérateur",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "banned": "Banni"
+  },
+
+  "AdminSupport": {
+    "title": "Tickets de support",
+    "ticket_id": "ID ticket",
+    "subject": "Sujet",
+    "customer": "Client",
+    "status": "Statut",
+    "priority": "Priorité",
+    "created": "Créé",
+    "open": "Ouvert",
+    "in_progress": "En cours",
+    "resolved": "Résolu",
+    "closed": "Fermé",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Bas",
+    "reply": "Répondre",
+    "close_ticket": "Fermer le ticket"
+  },
+
+  "AdminNotifications": {
+    "title": "Notifications",
+    "new_notification": "Nouvelle notification",
+    "send": "Envoyer",
+    "title_placeholder": "Titre de la notification",
+    "message_placeholder": "Message",
+    "recipients": "Destinataires",
+    "scheduled": "Planifié",
+    "status": "Statut",
+    "sent": "Envoyé",
+    "pending": "En attente",
+    "draft": "Brouillon"
+  },
+
+  "AdminAnalytics": {
+    "title": "Analyses",
+    "revenue": "Chiffre d'affaires",
+    "orders": "Commandes",
+    "users": "Utilisateurs",
+    "products": "Produits",
+    "views": "Vues",
+    "total_revenue": "Chiffre d'affaires total",
+    "total_orders": "Total des commandes",
+    "total_users": "Total des utilisateurs",
+    "this_month": "Ce mois",
+    "this_year": "Cette année",
+    "all_time": "Tous les temps",
+    "growth": "Croissance",
+    "decline": "Déclin"
+  },
+
+  "AdminCalendar": {
+    "title": "Calendrier",
+    "new_event": "Nouvel événement",
+    "event_title": "Titre de l'événement",
+    "start_date": "Date de début",
+    "end_date": "Date de fin",
+    "all_day": "Toute la journée",
+    "add_event": "Ajouter un événement",
+    "edit_event": "Modifier l'événement",
+    "delete_event": "Supprimer l'événement",
+    "sales": "Ventes",
+    "campaign": "Campagne",
+    "meeting": "Réunion",
+    "maintenance": "Maintenance",
+    "partnership": "Partenariat",
+    "operations": "Opérations"
+  },
+
+  "PLP": {
+    "filters": "Filtres",
+    "sort": "Trier",
+    "price": "Prix",
+    "category": "Catégorie",
+    "brand": "Marque",
+    "size": "Taille",
+    "sort_by": "Trier par",
+    "newest": "Les plus récents",
+    "popular": "Les plus populaires",
+    "price_low_high": "Prix: du plus bas au plus haut",
+    "price_high_low": "Prix: du plus haut au plus bas",
+    "rating": "Note",
+    "clear_filters": "Effacer les filtres",
+    "no_results": "Aucun résultat trouvé",
+    "showing": "Affichage",
+    "of": "de",
+    "results": "résultats"
+  },
+
+  "PDP": {
+    "size": "Taille",
+    "color": "Couleur",
+    "quantity": "Quantité",
+    "add_to_cart": "Ajouter au panier",
+    "add_to_favorites": "Ajouter aux favoris",
+    "share": "Partager",
+    "description": "Description",
+    "specifications": "Spécifications",
+    "reviews": "Avis",
+    "rating": "Note",
+    "in_stock": "En stock",
+    "out_of_stock": "Rupture de stock",
+    "select_size": "Veuillez sélectionner une taille",
+    "select_color": "Veuillez sélectionner une couleur"
+  },
+
+  "Filters": {
+    "all": "Tous",
+    "clear_all": "Tout effacer",
+    "apply": "Appliquer",
+    "male": "Homme",
+    "female": "Femme",
+    "kids": "Enfants",
+    "unisex": "Unisexe",
+    "small": "Petit",
+    "medium": "Moyen",
+    "large": "Grand",
+    "x_large": "Très grand",
+    "2x_large": "Très très grand"
+  },
+
+  "AdminSidebar": {
+    "nav": {
+      "aria_label": "Navigation administrateur"
+    },
+    "logo": {
+      "aria_label": "Aller au tableau de bord"
+    },
+    "mobile": {
+      "close_label": "Fermer la barre latérale"
+    },
+    "sections": {
+      "main": "Principal",
+      "commerce": "Commerce",
+      "analytics": "Analyses",
+      "communication": "Communication",
+      "system": "Système"
+    },
+    "items": {
+      "dashboard": "Tableau de bord",
+      "orders": "Commandes",
+      "users": "Utilisateurs",
+      "products": "Produits",
+      "categories": "Catégories",
+      "segments": "Segments",
+      "charts": "Graphiques",
+      "revenue": "Chiffre d'affaires",
+      "net_profit": "Bénéfice net",
+      "complaints": "Plaintes",
+      "notifications": "Notifications",
+      "calendar": "Calendrier",
+      "settings": "Paramètres"
+    },
+    "badge": {
+      "pending_count": "{count} en attente"
+    },
+    "subitems": {
+      "users": "Utilisateurs",
+      "orders": "Commandes",
+      "revenue": "Revenus",
+      "net profit": "Bénéfice Net",
+      "complaints": "Plaintes"
+    },
+    "sidebar": {
+      "aria_label": "Barre latérale d'administration"
+    },
+    "user_footer": {
+      "logout_label": "Déconnexion"
+    }
+  },
+
+  "CartItem": {
+    "delete_button": "Supprimer",
+    "delete_aria": "Supprimer {product}",
+    "quantity_aria": "Quantité",
+    "decrease_qty": "Réduire la quantité",
+    "increase_qty": "Augmenter la quantité",
+    "total_label": "Total"
+  },
+
+  "CartHeader": {
+    "title": "Panier",
+    "products_in_cart": "{count} produits dans le panier"
+  },
+
+  "Applyrequest": {
+    "order_summary": "Résumé de la commande",
+    "items_count": "{count} article",
+    "promo_code": "Code Promo",
+    "apply_code": "Appliquer",
+    "discount_applied": "Remise appliquée!",
+    "subtotal": "Sous-total",
+    "shipping_fee": "Frais de port",
+    "total": "Total",
+    "proceed_checkout": "Procéder au paiement",
+    "continue_shopping": "Continuer les achats"
+  },
+
+  "HeroSection": {
+    "announcement": "Vente de la nouvelle saison - Jusqu'à 50% de réduction sur les articles sélectionnés!"
+  },
+
+  "CategoryGrid": {
+    "shop_category": "Acheter par catégorie"
+  },
+
+  "Chat": {
+    "type_message": "Tapez un message...",
+    "choose_emoji": "Choisir emoji",
+    "send_message": "Envoyer le message"
+  }
+}

@@ -1,0 +1,12 @@
+export const DOMAIN = "http://localhost:3000";
+export const productPerPage = 10;
+export const couponCode = "Abouzaid2026";
+export const messagesPerOnce = 15;
+export const orderPerPage = 8;
+export const userPerPage = 8;
+export const chatRoomPerPage = 10;
+export const notificationPerPAge = 5;
+export const tokensPerPeriod = 100;
+export const revalidate = 68400;
+export const staleTime = 24 * 60 * 60 * 1000;
+export const gcTime = 24 * 60 * 60 * 1000;

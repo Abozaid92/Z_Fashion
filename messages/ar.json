@@ -1,0 +1,2136 @@
+{
+  "nav": {
+    "products": "المنتجات",
+    "contact": "اتصل بنا",
+    "cart": "السلة",
+    "account": "الحساب",
+    "about": "من نحن",
+    "dashboard": "لوحه تحكم الادمن ",
+    "home": "الرئيسية",
+    "ctg": {
+      "all": "الكل :",
+      "Accessories": "اكسسوارات",
+      "men": "رجالي",
+      "kids": "أطفالي",
+      "women": "نسائي",
+      "caps": "قمصان",
+      "Shirts": "قمصان",
+      "jackets": "جواكيت",
+      "Jacket": "جواكيت",
+      "pants": "بناطيل"
+    }
+  },
+  "Lang": {
+    "select_language": "اختر اللغة",
+    "language": "اللغة"
+  },
+  "CartNav": {
+    "empty_cart": "السلة فارغة",
+    "cart": "السلة",
+    "items": "عناصر",
+    "cart_label": "سلة التسوق",
+    "product_label": "منتج",
+    "continue_shopping": "متابعة التسوق",
+    "aria_label": "سلة التسوق",
+    "empty_text": "السلة فارغة",
+    "view_all": "عرض الكل ({count})",
+    "view_cart": "عرض السلة"
+  },
+  "EmptyCart": {
+    "cart_is_empty": "سلتك فارغة",
+    "start_shopping": "ابدأ التسوق",
+    "empty_cart_aria": "سلة التسوق فارغة",
+    "empty_cart_title": "لم تضف أي عناصر بعد",
+    "empty_cart_description": "يبدو أن سلتك فارغة، ابدأ بتصفح المنتجات وإضافة ما يناسبك.",
+    "browse_products": "تصفح المنتجات"
+  },
+  "Rating": {
+    "rating": "التقييم",
+    "rate_product": "قيم المنتج"
+  },
+  "Navbar": {
+    "aria_label": "الملاحة الرئيسية",
+    "mobileMenu": {
+      "AdminDashboard": "لوحه تحكم الادمن ",
+      "open": "فتح القائمة",
+      "close": "إغلاق القائمة",
+      "title": "القائمة",
+      "home": "الرئيسية",
+      "about": "من نحن",
+      "dashboard": "لوحه تحكم الادمن ",
+      "all": "الكل",
+      "myAccount": "حسابي",
+      "myOrders": "طلباتي",
+      "ctg": {
+        "all": "الكل :",
+        "Accessories": "اكسسوارات",
+        "men": "رجالي",
+        "kids": "أطفالي",
+        "women": "نسائي",
+        "caps": "قمصان",
+        "jackets": "جواكيت",
+        "Jacket": "جواكيت",
+        "pants": "بناطيل",
+        "Shirts": "قمصان"
+      }
+    }
+  },
+  "AnnouncementBar": {
+    "controls": {
+      "previous": "السابق",
+      "next": "التالي",
+      "dismiss": "إغلاق"
+    }
+  },
+
+  "ProductCard": {
+    "add_to_cart": "أضف للسلة",
+    "view_details": "عرض التفاصيل",
+    "out_of_stock": "نفذ من المخزون",
+    "discount_off": "{discount}% خصم",
+    "quick_view": "عرض سريع — {name}",
+    "view": "عرض {name}"
+  },
+  "Filters": {
+    "title": "الفلاتر",
+    "price_range": "نطاق السعر",
+    "price_0_50": "السعر من 0 إلى 50 دولار",
+    "price_50_100": "السعر من 50 إلى 100 دولار",
+    "price_100_200": "السعر من 100 إلى 200 دولار",
+    "price_200_plus": "السعر من 200 دولار فأكثر",
+    "category": "التصنيف",
+    "gender": "الجنس",
+    "gender_male": "رجالي",
+    "gender_female": "نسائي",
+    "gender_unisex": "للجنسين",
+    "gender_kids": "أطفال",
+    "size": "المقاس",
+    "size_small": "مقاس صغير",
+    "size_medium": "مقاس متوسط",
+    "size_large": "مقاس كبير",
+    "size_xlarge": "مقاس كبير جداً",
+    "brand": "العلامة التجارية",
+    "rating": "التقييم",
+    "clear_all": "مسح الكل",
+    "apply": "تطبيق الفلاتر",
+    "apply_filters": "تطبيق الفلاتر",
+    "clear_filters": "مسح جميع الفلاتر",
+    "filters_aria_label": "فلاتر المنتجات",
+    "male": "رجالي",
+    "female": "نسائي",
+    "unisex": "للجنسين",
+    "kids": "أطفالي"
+  },
+  "Hero": {
+    "shop_now": "تسوق الآن",
+    "discount_badge": "-50%",
+    "slides": {
+      "1": {
+        "title": "ملابس الشارع",
+        "tag": "🚀 الأكثر شعبية"
+      },
+      "2": {
+        "title": "مجموعة الصيف",
+        "tag": "🔥 ساخن"
+      },
+      "3": {
+        "title": "ساعات فاخرة",
+        "tag": "⭐ ممتاز"
+      },
+      "4": {
+        "title": "حقائب مصممين",
+        "tag": "💎 جديد"
+      }
+    }
+  },
+  "announcement": {
+    "flash_sale": "⚡ تخفيضات سريعة: حتى 50٪ خصم - لفترة محدودة فقط!",
+    "free_shipping": "🚚 شحن مجاني للطلبات فوق 50 دولار",
+    "new_collection": "✨ مجموعة جديدة - تسوق الآن!"
+  },
+  "auth": {
+    "logoutSuccessfully": "تم تسجيل الخروج بنجاح",
+    "failedLogout": "فشل تسجيل الدخول",
+    "somethingWentWrong": "حدث خطأ ما حاول مره اخري ",
+    "TooManyRequest": "من فضلك انتظر لحظة صغيرة قبل المحاولة مرة أخرى",
+    "loginACC": "تسجيل الدخول",
+    "registerACC": "إنشاء حساب",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "cart": "السلة",
+    "orders": "الطلبات",
+    "login": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "سجل دخولك للمتابعة",
+      "emailOrUsername": "البريد الإلكتروني ",
+      "emailPlaceholder": "أدخل البريد",
+      "emailRequired": "البريد الإلكتروني ",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "أدخل كلمة المرور",
+      "passwordRequired": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "submit": "تسجيل الدخول",
+      "loading": "جاري تسجيل الدخول...",
+      "noAccount": "ليس لديك حساب؟",
+      "register": "إنشاء حساب",
+      "loginSuccessfully": "تم تسجيل الدخول بنجاح",
+      "invalidCredentials": "اسم المستخدم او كلمه المرور غير صحيحه",
+      "AccessDenied": "يرجى تأكيد بريدك الإلكتروني للمتابعة. لقد أرسلنا رسالة تحقق إلى بريدك الإلكتروني"
+    },
+    "register": {
+      "title": "إنشاء حساب جديد",
+      "subtitle": "انضم إلينا وابدأ التسوق",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "emailInvalid": "البريد الإلكتروني غير صحيح",
+      "username": "اسم المستخدم",
+      "usernamePlaceholder": "اختر اسم مستخدم فريد",
+      "usernameInvalid": "اسم المستخدم يجب أن يكون من 3-20 حرف",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "اختر كلمة مرور قوية",
+      "passwordInvalid": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "confirmPasswordPlaceholder": "أعد إدخال كلمة المرور",
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "submit": "إنشاء حساب",
+      "loading": "جاري إنشاء الحساب...",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "login": "تسجيل الدخول",
+      "weak": "ضعيفة",
+      "medium": "متوسطة",
+      "strong": "قوية",
+      "Email is already taken": "البريد الاكتروني مستخدم بالفعل",
+      "Name is already taken": "اسم المستخدم مستخدم بالفعل"
+    },
+    "verify": {
+      "invalidLink": "رابط التحقق غير صالح",
+      "success": "تم التحقق من بريدك الإلكتروني بنجاح!",
+      "error": "حدث خطأ ما. حاول مجددًا من فضلك.",
+      "loading": "جارٍ التحقق...",
+      "successTitle": "تم التحقق من البريد! ✨",
+      "errorTitle": "فشل التحقق",
+      "successNote": "🎉 حسابك نشط الآن! يمكنك البدء في استخدام جميع الميزات.",
+      "goToLogin": "الذهاب إلى تسجيل الدخول",
+      "errorNote": "قد يكون رابط التحقق منتهيًا أو غير صالح.",
+      "resendEmail": "إعادة إرسال بريد التحقق",
+      "needHelp": "تحتاج مساعدة؟",
+      "contactSupport": "اتصل بالدعم"
+    },
+    "forgot": {
+      "title": "نسيت كلمة المرور؟",
+      "subtitle": "سنساعدك على استعادتها",
+      "info": "أدخل بريدك الإلكتروني وسنرسل لك رابطاً لإعادة تعيين كلمة المرور.",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "emailInvalid": "البريد الإلكتروني غير صحيح",
+      "submit": "إرسال رابط الاستعادة",
+      "loading": "جاري الإرسال...",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "successTitle": "تحقق من بريدك",
+      "successSubtitle": "تم إرسال رابط إعادة التعيين",
+      "successMessage": "لقد أرسلنا رابط إعادة تعيين كلمة المرور إلى بريدك.",
+      "checkEmail": "يرجى التحقق من صندوق الوارد والبريد المزعج.",
+      "resend": "إعادة إرسال الرابط",
+      "userNotFound": "المستخدم غير موجود"
+    },
+    "reset": {
+      "title": "إعادة تعيين كلمة المرور",
+      "subtitle": "اختر كلمة مرور قوية جديدة",
+      "newPassword": "كلمة المرور الجديدة",
+      "passwordPlaceholder": "أدخل كلمة المرور الجديدة",
+      "passwordInvalid": "كلمة المرور يجب أن تكون6 أحرف على الأقل",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "confirmPasswordPlaceholder": "أعد إدخال كلمة المرور",
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "weak": "ضعيفة",
+      "medium": "متوسطة",
+      "strong": "قوية",
+      "submit": "تحديث كلمة المرور",
+      "loading": "جاري التحديث...",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "successTitle": "تم بنجاح!",
+      "successSubtitle": "تم تحديث كلمة المرور",
+      "successMessage": "تم تحديث كلمة المرور بنجاح!",
+      "canLogin": "يمكنك الآن تسجيل الدخول بكلمة المرور الجديدة.",
+      "loginNow": "تسجيل الدخول الآن"
+    },
+    "social": {
+      "divider": "أو تسجيل الدخول بواسطة"
+    }
+  },
+  "hero": {
+    "subtitle": "أزياء عالية الجودة للجميع",
+    "shop_now": "تسوق الآن",
+    "title": {
+      "Streetwear": "ملابس الشارع",
+      "Summer Collection": "مجموعة الصيف",
+      "Luxury Watches": "ساعات فاخرة",
+      "Designer Bags": "حقائب مصممين"
+    }
+  },
+  "filters": {
+    "title": "الفلاتر",
+    "price_range": "نطاق السعر",
+    "category": "التصنيف",
+    "gender": "الجنس",
+    "size": "المقاس",
+    "brand": "العلامة التجارية",
+    "rating": "التقييم",
+    "clear_all": "مسح الكل",
+    "apply": "تطبيق الفلاتر",
+    "male": "رجالي",
+    "female": "نسائي",
+    "unisex": "للجنسين",
+    "kids": "اطفالي"
+  },
+  "products": {
+    "title": "منتجاتنا",
+    "sort_by": "ترتيب حسب",
+    "search": "ابحث عن المنتجات...",
+    "price_low_high": "السعر: من الأقل للأعلى",
+    "price_high_low": "السعر: من الأعلى للأقل",
+    "newest": "الأحدث أولاً",
+    "popular": "الأكثر شعبية",
+    "add_to_cart": "أضف للسلة",
+    "view_details": "عرض التفاصيل",
+    "out_of_stock": "نفذ من المخزون"
+  },
+  "brands": {
+    "title": "علامات تجارية مميزة",
+    "subtitle": "تسوق من شركائنا الموثوقين"
+  },
+  "AdminCharts": {
+    "complaints": {
+      "title": "تحليل الشكاوى",
+      "description": "راقب وحل شكاوى العملاء بفعالية",
+      "total": "إجمالي الشكاوى",
+      "daily_avg": "المتوسط اليومي",
+      "peak_volume": "ذروة الحجم",
+      "resolution_rate": "معدل الحل",
+      "insights_title": "رؤى بشأن الشكاوى"
+    },
+    "orders": {
+      "title": "تحليل الطلبات",
+      "description": "تتبع حجم الطلبات ومشارات الأداء",
+      "total": "إجمالي الطلبات",
+      "daily_avg": "المتوسط اليومي",
+      "peak_volume": "ذروة الحجم",
+      "above_avg": "أعلى من المتوسط",
+      "insights_title": "رؤى بشأن الطلبات"
+    },
+    "revenue": {
+      "title": "تحليل الإيرادات",
+      "description": "راقب الأطاليع مالية والأداء المالي",
+      "total": "إجمالي الإيرادات",
+      "daily_avg": "المتوسط اليومي",
+      "peak": "ذروة الإيرادات",
+      "growth_rate": "معدل النمو",
+      "insights_title": "رؤى بشأن الإيرادات"
+    },
+    "users": {
+      "title": "تحليل المستخدمين",
+      "description": "تتبع نمو والتفاعل مع المستخدمين",
+      "total": "إجمالي المستخدمين",
+      "daily_avg": "المتوسط اليومي",
+      "peak_day": "يوم ذروة",
+      "growth_days": "أيام النمو",
+      "insights_title": "رؤى بشأن المستخدمين"
+    },
+    "net_profit": {
+      "title": "تحليل صافي الربح",
+      "description": "راقب معدلات الربحية ومراجح الربح",
+      "total": "إجمالي صافي الربح",
+      "daily_avg": "المتوسط اليومي",
+      "profit_margin": "مراجح الربح",
+      "peak": "ذروة الربح",
+      "insights_title": "رؤى بشأن الربح"
+    },
+    "products": {
+      "title": "تحليل المنتجات",
+      "description": "تتبع أداء المنتجات وبيانات المبيعات",
+      "insights_title": "رؤى بشأن المنتجات"
+    },
+    "views": {
+      "title": "تحليل المشاهدات",
+      "description": "راقب مشاهدات الموقع وأنماط حركة المرور",
+      "insights_title": "رؤى بشأن المشاهدات"
+    }
+  },
+  "HeroSectionHome": {
+    "announcement": "بيع الموسم الجديد - خصم يصل إلى 50% على العناصر المختارة!",
+    "collection_badge": "مجموعة الربيع 2025",
+    "main_title_1": "الأسلوب الذي",
+    "main_title_2": "يتحدث",
+    "main_title_3": "عن نفسه.",
+    "description": "قطع منتقاة بعناية. جودة استثنائية. أسعار عادلة. انضم إلى أكثر من {users}+ متسوق في جميع أنحاء العالم.",
+    "shop_button": "تسوق المجموعة",
+    "lookbook_button": "شاهد الكتالوج",
+    "stat_1_value": "عملاء سعداء",
+    "stat_1_sub": "في جميع أنحاء العالم",
+    "stat_2_value": "تقييمات 5 نجوم",
+    "stat_2_sub": "متوسط 4.9 ★",
+    "stat_3_value": "أنماط منتقاة",
+    "stat_3_sub": "جديد أسبوعياً",
+    "stat_4_value": "مشاهدات",
+    "stat_4_sub": "إجمالي الوصول الجماهيري المتراكم",
+    "price_label": "ابتداءً من",
+    "product_images": [
+      {
+        "tag": "جديدنا",
+        "name": "حامل المدينة",
+        "price": "£89"
+      },
+      {
+        "tag": "الأكثر طلباً",
+        "name": "أساسي الشارع",
+        "price": "£64"
+      },
+      {
+        "tag": "إصدار محدود",
+        "name": "الإصدار المميز",
+        "price": "£129"
+      }
+    ],
+    "testimonial_quote": "الجودة عالمية المستوى!",
+    "testimonial_author": "سارة م. — موثق",
+    "marquee_items": [
+      {
+        "text": "توصيل سريع"
+      },
+      {
+        "text": "دفع آمن"
+      },
+      {
+        "text": "جودة مميزة"
+      },
+      {
+        "text": "قطع أسبوعية جديدة"
+      }
+    ]
+  },
+  "TestimonialsSection": {
+    "verified_buyer": "عميل تم التحقق منه",
+    "testimonials": "أراء عملائنا علي منتجاتنا",
+    "reviews": "28000+ تقييمات",
+    "rating": "4.9",
+    "customer_reviews": "آراء العملاء"
+  },
+  "CollectionsSlider": {
+    "collections": "المجموعات",
+    "view_collection": "عرض المجموعة",
+    "featured_collection": "المجموعة المميزة"
+  },
+  "HorizontalProductScroll": {
+    "view_all": "عرض الكل",
+    "products": "المنتجات",
+    "view_all_title": "عرض الكل"
+  },
+
+  "AdminTopNav": {
+    "alert": "تنبيه: يتم تحديث جميع الإحصائيات كل ساعة لضمان أعلى دقة للبيانات",
+    "hamburger_aria_label": "فتح القائمة",
+    "search_placeholder": "ابحث عن الطلبات والمستخدمين والمنتجات...",
+    "search_label": "البحث",
+    "search": "البحث",
+    "search_open_label": "فتح البحث",
+    "search_close_label": "إغلاق البحث",
+    "notifications": {
+      "title": "الإشعارات",
+      "new": "جديد",
+      "view_all": "عرض الكل",
+      "aria_label": "قائمة الطلبات"
+    },
+    "user_menu": {
+      "aria_label": "قائمة المستخدم",
+      "options_aria_label": "خيارات المستخدم",
+      "settings": "الإعدادات",
+      "my_profile": "ملفي الشخصي",
+      "help_and_support": "المساعدة والدعم",
+      "sign_out": "تسجيل الخروج"
+    },
+    "user": {
+      "short_name": "أنت",
+      "full_name": "اسم المستخدم الكامل",
+      "email": "البريد الإلكتروني"
+    }
+  },
+  "Notifications": {
+    "title": "الإشعارات",
+    "notifications_blocked": "الإشعارات محجوبة. سمح بالإشعارات من إعدادات المتصفح.",
+    "enable_notifications": "تفعيل الإشعارات",
+    "mark_all_read": "تحديد الكل كمقروء",
+    "notifications_disabled_warning": "لتلقي الإشعارات، سمح بالإشعارات من المتصفح.",
+    "delete_all_read": "حذف جميع الإشعارات المقروءة",
+    "no_notifications_yet": "لا توجد إشعارات بعد.",
+    "delete_this_notification": "حذف هذا الإشعار",
+    "delete_notification_aria": "حذف الإشعار",
+    "bell_aria": "الإشعارات، {count} غير مقروء",
+    "notification_details_title": "تفاصيل الإشعار",
+    "sender_alt": "المرسل"
+  },
+  "AdminStatus": {
+    "statuses": {
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى",
+      "View": "عرض التفاصيل"
+    }
+  },
+  "AdminStatusFilter": {
+    "filter_aria_label": "تصفية حسب الحالة",
+    "all_statuses": "جميع الحالات",
+    "statuses": {
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى"
+    }
+  },
+  "AdminUpdateStatusModal": {
+    "modal_title": "تحديث الحالة",
+    "current_status_label": "الحالة الحالية",
+    "change_to_label": "تغيير إلى",
+    "cancel_button": "إلغاء",
+    "confirm_button": "تأكيد",
+    "saving_text": "جاري الحفظ…",
+    "statuses": {
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى"
+    }
+  },
+  "AdminViewItemsModal": {
+    "modal_title": "عناصر الطلب",
+    "item_count": "{count} منتج",
+    "unit_count": "{count} وحدة",
+    "column_product": "المنتج",
+    "column_qty": "الكمية",
+    "column_price": "السعر",
+    "subtotal_label": "الإجمالي الفرعي"
+  },
+  "ComparisonToggle": {
+    "compare_period": "مقارنة الفترة"
+  },
+  "ExportButton": {
+    "export_csv": "تصدير CSV"
+  },
+  "EmptyState": {
+    "no_data_available": "لا توجد بيانات متاحة",
+    "no_data_description": "لم يتم العثور على بيانات لتعرضها"
+  },
+  "TimeframeSelector": {
+    "last_7_days": "آخر 7 أيام",
+    "last_30_days": "آخر 30 يوماً",
+    "last_90_days": "آخر 90 يوماً",
+    "this_year": "هذه السنة"
+  },
+  "DataTable": {
+    "no_orders_found": "لم يتم العثور على طلبات"
+  },
+  "NotifFilter": {
+    "sort_by": "الترتيب حسب",
+    "opens_count": "عدد الفتحات",
+    "target_users": "عدد المستخدمين",
+    "sort_order": "ترتيب الفرز",
+    "high_to_low": "من الأعلى للأقل",
+    "low_to_high": "من الأقل للأعلى",
+    "sort_by_aria_label": "الترتيب حسب",
+    "order_aria_label": "ترتيب الفرز"
+  },
+  "NotifRow": {
+    "view_details": "عرض التفاصيل",
+    "delete": "حذف",
+    "sent_at": "تم الإرسال في",
+    "opens": "الفتحات",
+    "opens_count": "عدد الفتحات",
+    "target_users": "المستخدمون المستهدفون",
+    "delete_confirmation": "هل أنت متأكد من حذف هذا الإشعار؟",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء"
+  },
+  "StatsGrid": {
+    "total_sent": "الإجمالي المُرسل",
+    "total_opens": "إجمالي الفتحات",
+    "open_rate": "معدل الفتح",
+    "avg_open_rate": "متوسط معدل الفتح"
+  },
+  "NotifHistory": {
+    "tab_notifications": "الإشعارات الفورية والداخلية",
+    "tab_announcements": "شريط الإعلانات",
+    "total": "الإجمالي:",
+    "aria_label": "سجل الإشعارات",
+
+    "empty_notifications": "لا توجد إشعارات بعد",
+    "empty_announcements": "لا توجد أشرطة إعلانية بعد",
+    "empty_created_items_hint": "ستظهر العناصر التي أنشأتها هنا"
+  },
+  "AdminProductBasicInfo": {
+    "section_title": "معلومات الأساسية",
+    "section_subtitle": "الاسم والوصف والفئة",
+    "field_product_name": "اسم المنتج",
+    "placeholder_product_name": "مثال: قميص أبيض كلاسيكي"
+  },
+  "AdminProductPricing": {
+    "section_title": "الأسعار والمخزون",
+    "section_subtitle": "السعر والخصم والمخزون",
+    "field_price": "السعر (ج.م)",
+    "field_discount": "الخصم %"
+  },
+  "AdminGalleryUpload": {
+    "max_files_error": "الحد الأقصى {count} صور مسموح",
+    "file_too_large": "الملف يتجاوز {size} MB",
+    "invalid_format": "صيغة الملف غير مدعومة",
+    "drag_drop": "اسحب الصور هنا أو انقر للاختيار"
+  },
+  "AdminImageUpload": {
+    "max_size_error": "الملف يتجاوز الحد الأقصى {size} MB",
+    "invalid_format": "فقط JPG و PNG و WebP مقبولة",
+    "drag_drop": "اسحب الصورة هنا أو انقر للاختيار",
+    "remove_image": "إزالة الصورة"
+  },
+  "AdminDeleteDialog": {
+    "close_aria_label": "إغلاق الحوار",
+    "cancel_button": "إلغاء",
+    "confirm_button": "تأكيد الحذف",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "deleting": "جارٍ الحذف..."
+  },
+  "AdminCategories": {
+    "new_root_title": "قسم جديد",
+    "title": "الفئات",
+    "edit_title": "تعديل القسم",
+    "loading": "جاري التحميل…",
+    "stats": "{root} قسم · {sub} فرعية",
+    "new_category": "فئة جديدة",
+    "search_placeholder": "ابحث في الفئات…",
+    "search_aria": "بحث في الفئات",
+    "refresh": "تحديث الفئات",
+    "results_for": "{count} نتيجة لـ \"{query}\"",
+    "categories_count": "{count} فئة",
+    "add_root": "إضافة قسم",
+    "failed_to_load": "فشل تحميل الفئات",
+    "try_again": "حاول مرة أخرى",
+    "no_match": "لا توجد فئات مطابقة للبحث",
+    "no_categories_yet": "لا توجد فئات بعد",
+    "try_different_keyword": "حاول كلمة مفتاحية مختلفة",
+    "create_first_category": "أنشئ فئتك الأولى لتبدأ",
+    "hover_help_prefix": "مرر المؤشر على الفئة لرؤية الإجراءات",
+    "add_category_aria": "أضف فئة جديدة",
+    "add_category": "أضف فئة",
+    "sub_label": "فرعية",
+    "add_sub_aria": "أضف فئة فرعية إلى {name}",
+    "add_sub": "أضف فرعية",
+    "edit_aria": "تعديل {name}",
+    "edit": "تعديل",
+    "delete_aria": "حذف {name}",
+    "delete": "حذف",
+    "delete_category": "حذف الفئة",
+    "delete_confirm": "هل أنت متأكد أنك تريد حذف \"{name}\"؟ سيؤدي ذلك أيضًا إلى حذف {count} فئة فرعية (إن وُجدت).",
+    "field_name": "اسم الفئة",
+    "placeholder_example": "مثال: ملابس",
+    "field_slug": "معرف (slug)",
+    "auto_generated": "تُولد تلقائيًا",
+    "placeholder_slug": "slug مثال: clothing",
+    "field_image": "صورة الفئة",
+    "field_image_hint": "اختياري · يظهر في المتجر",
+    "uploading_image": "جارٍ رفع الصورة...",
+    "sub_categories": "الفئات الفرعية",
+    "optional": "اختياري",
+    "no_sub_categories": "لا توجد فئات فرعية بعد",
+    "field_parent": "الفئة الأب",
+    "select_parent": "اختر الفئة الأب…",
+    "add": "إضافة",
+    "placeholder_sub_name": "اسم الفئة الفرعية",
+    "placeholder_sub_slug": "slug فرعي",
+    "remove_sub_aria": "إزالة الفئة الفرعية",
+    "editable": "قابلة للتعديل",
+    "leave_empty_root": "اتركه فارغًا ليصبح فئة قسم",
+    "no_parent_root": "بدون أب (فئة قسم)",
+    "cancel": "إلغاء",
+    "saving": "جارٍ الحفظ...",
+    "save_changes": "حفظ التغييرات",
+    "create": "إنشاء"
+  },
+  "AdminStatsCards": {
+    "vs_previous_period": "مقابل الفترة السابقة"
+  },
+  "AdminInsightsPanel": {
+    "default_title": "الرؤى الرئيسية"
+  },
+  "AdminCustomTooltip": {
+    "value_label": "القيمة"
+  },
+  "AdminNotifRow": {
+    "view_details": "عرض التفاصيل",
+    "delete": "حذف",
+    "customize": "تخصيص",
+    "preview_link": "معاينة الرابط",
+    "mark_read": "تحديد كمقروء",
+    "mark_unread": "تحديد كغير مقروء"
+  },
+  "AdminNotifComposer": {
+    "title": "مُنشئ الإشعارات",
+    "aria_label": "إنشاء إشعار",
+    "select_recipients": "اختر المستقبلين",
+    "notification_type": "قناة الإرسال",
+    "push_notification": "إشعار فوري",
+    "in_app": "داخل التطبيق",
+    "announcement_bar": "شريط الإعلانات",
+    "notification_title": "عنوان الإشعار",
+    "notification_description": "وصف الإشعار",
+    "preview_button": "معاينة",
+    "send_button": "إرسال الآن",
+    "schedule_button": "جدولة",
+    "subtitle": "إرسال الإشعارات لجميع المستخدمين فورًا",
+    "sending_as": "الإرسال كـ {role}",
+    "you": "أنت",
+    "mobile_desktop": "جوال وسطح المكتب",
+    "in_app_hint": "أيقونة الجرس · واجهة الويب",
+    "announcement_bar_hint": "شريط أعلى الموقع",
+    "notification_sent_success": "تم إرسال الإشعار إلى جميع المستخدمين!",
+    "notification_sent_error": "فشل الإرسال. حاول مرة أخرى.",
+    "title_placeholder": "مثال: 🔥 عرض سريع — 24 ساعة فقط!",
+    "description_placeholder": "اكتب رسالة الإشعار. اجعلها واضحة وداعمة للإجراء.",
+    "push_only": "خاص بالدفع فقط",
+    "action_url": "رابط الإجراء",
+    "push_only_hint": "— خاص بإشعار الدفع",
+    "notification_image": "صورة الإشعار",
+    "uploading": "جارٍ الرفع...",
+    "uploaded": "تم الرفع",
+    "drop_to_upload": "إفلت للرفع",
+    "drag_click_to_choose": "اسحب وأفلت أو انقر للاختيار",
+    "file_types_hint": "PNG, JPG, WEBP · أقصى حجم 5MB",
+    "announcement_bar_only": "خاص بشريط الإعلانات",
+    "bar_link_label": "رابط الشريط",
+    "bar_background_color": "لون خلفية الشريط",
+    "push_url_placeholder": "https://yourapp.com/عرض",
+    "push_image_preview_alt": "معاينة صورة الإشعار",
+    "pick_color": "اختيار اللون",
+    "close": "إغلاق",
+    "bar_preview": "معاينة الشريط",
+    "announcement_placeholder": "نص إعلانك سيظهر هنا…",
+    "sending": "جارٍ الإرسال",
+    "broadcast_to_all_users": "إرسال إلى جميع المستخدمين",
+    "will_be_sent_to_users": "سيتم الإرسال فورًا إلى ~{count} مستخدمًا"
+  },
+  "AdminPreviews": {
+    "phone_preview": "معاينة الهاتف",
+    "in_app_preview": "معاينة داخل التطبيق",
+    "announcement_preview": "معاينة شريط الإعلانات",
+    "now": "الآن",
+    "notification_title_placeholder": "عنوان الإشعار",
+    "message_placeholder": "ستظهر رسالتك هنا.",
+    "notifications_label": "الإشعارات",
+    "new_count": "جديد {count}",
+    "no_other_notifications": "لا توجد إشعارات أخرى"
+  },
+  "AdminAnnouncementBarPreview": {
+    "view_offer": "عرض العرض",
+    "aria_label": "معاينة شريط الإعلانات",
+    "live_preview": "المعاينة المباشرة · شريط الإعلانات"
+  },
+  "AdminChatPane": {
+    "conversation": "المحادثة",
+    "ticket_details": "تفاصيل التذكرة",
+    "message_input": "اكتب رسالتك...",
+    "send_message": "إرسال",
+    "status_label": "الحالة:",
+    "priority_label": "الأولوية:"
+  },
+  "AdminTicketList": {
+    "search_tickets": "ابحث عن التذاكر",
+    "no_tickets": "لا توجد تذاكر",
+    "unread": "جديد"
+  },
+  "AdminUsersFilter": {
+    "search_users": "ابحث عن المستخدمين",
+    "filter_role": "حسب الدور",
+    "filter_status": "حسب الحالة",
+    "items_per_page": "عناصر لكل صفحة",
+    "all_roles": "جميع الأدوار",
+    "all_statuses": "جميع الحالات"
+  },
+  "AdminUsersStats": {
+    "total_users": "إجمالي المستخدمين",
+    "active_users": "المستخدمون النشطون",
+    "banned_users": "المستخدمون المحظورون"
+  },
+  "AdminUpdataStatusModal": {
+    "title": "تحديث حالة المستخدم",
+    "current_status": "الحالة الحالية:",
+    "new_status": "الحالة الجديدة:",
+    "cancel_button": "إلغاء",
+    "save_button": "حفظ"
+  },
+  "AdminChartCard": {
+    "view_full_chart": "عرض الرسم البياني الكامل",
+    "loading": "جاري التحميل..."
+  },
+  "AdminStatCard": {
+    "view_analytics": "عرض التحليلات"
+  },
+  "AdminGeoMap": {
+    "sales_by_region": "المبيعات حسب المنطقة",
+    "total_revenue": "إجمالي الإيرادات"
+  },
+  "AdminAvatar": {
+    "user_avatar": "صورة المستخدم",
+    "online": "متصل",
+    "offline": "غير متصل"
+  },
+  "AdminBadge": {
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "pending": "قيد الانتظار",
+    "completed": "مكتمل",
+    "admin": "مسؤول",
+    "user": "مستخدم",
+    "moderator": "مشرف",
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "AdminButton": {
+    "loading": "جاري المعالجة...",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل"
+  },
+  "AdminModal": {
+    "close": "إغلاق"
+  },
+  "AdminDataTable": {
+    "search": "بحث...",
+    "no_results": "لا توجد نتائج",
+    "sort_ascending": "ترتيب تصاعدي",
+    "sort_descending": "ترتيب تنازلي",
+    "sort_toggle": "تبديل الترتيب",
+    "Status": "الحاله"
+  },
+  "AdminShell": {
+    "mobile_menu": "قائمة الملاحة"
+  },
+  "CardNav": {
+    "cart": "السلة",
+    "delete_item": "حذف العنصر",
+    "back": "رجوع",
+    "size": "المقاس",
+    "total_price": "السعر الإجمالي",
+    "checkout": "إتمام الشراء"
+  },
+  "MainContent": {
+    "filters": "المرشحات",
+    "products": "المنتجات",
+    "no_products": "لا توجد منتجات"
+  },
+  "Pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من",
+    "results": "المجموع",
+    "showing": "عرض"
+  },
+  "BellItem": {
+    "delete": "حذف",
+    "mark_as_read": "تحديد كمقروء",
+    "mark_as_unread": "تحديد كغير مقروء"
+  },
+  "BellOnceItem": {
+    "view_more": "عرض المزيد",
+    "close": "إغلاق",
+    "date": "التاريخ"
+  },
+  "DeleteAllNotifButton": {
+    "delete_all": "حذف الكل",
+    "delete_all_notifications": "حذف جميع الإشعارات"
+  },
+  "HeaderBell": {
+    "notifications": "الإشعارات",
+    "mark_all_as_read": "تحديد الكل كمقروء"
+  },
+  "Cart": {
+    "shopping_cart": "سلة التسوق",
+    "empty_cart": "السلة فارغة",
+    "continue_shopping": "متابعة التسوق",
+    "checkout": "إتمام الشراء",
+    "order_summary": "ملخص الطلب",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "total": "الإجمالي",
+    "items": "عناصر",
+    "view_cart": "عرض السلة",
+    "view_all": "عرض الكل ({count})",
+    "items_label": "عناصر السلة",
+    "remove": "حذف المنتج"
+  },
+  "CartItem": {
+    "size": "المقاس",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "remove": "إزالة",
+    "delete": "حذف",
+    "delete_aria": "حذف {product}",
+    "quantity_aria": "كمية المنتج",
+    "decrease_qty": "تقليل الكمية",
+    "increase_qty": "زيادة الكمية",
+    "total_label": "الإجمالي"
+  },
+  "Applyrequest": {
+    "title": "ملخص الطلب",
+    "subtotal": "المجموع الجزئي",
+    "shipping": "الشحن",
+    "total": "الإجمالي",
+    "checkout": "إتمام الشراء",
+    "apply_request": "تطبيق الطلب",
+    "order_summary": "ملخص الطلب",
+    "items_count": "{count} عنصر",
+    "show_more": "عرض {count} عنصر إضافي",
+    "promo_label": "كود الخصم",
+    "promo_placeholder": "أدخل الكود",
+    "apply_button": "تطبيق",
+    "coupon_success": "تم تطبيق الكود {code}! تم منح خصم 40%",
+    "coupon_error": "الكود غير صالح",
+    "discount_label": "نسبة الخصم",
+    "shipping_label": "الشحن",
+    "grand_total_label": "الإجمالي",
+    "checkout_button": "إتمام الطلب",
+    "vat_note": "شامل ضريبة القيمة المضافة",
+    "promo_aria": "حقل كود الخصم",
+    "price_details_aria": "تفاصيل السعر",
+    "grand_total_aria": "ملخص الإجمالي",
+    "cart_items_aria": "عناصر السلة",
+    "promo_code": "كود الخصم",
+    "apply_code": "تطبيق",
+    "discount_applied": "تم تطبيق الخصم!",
+    "shipping_fee": "رسوم الشحن",
+    "proceed_checkout": "متابعة إلى الدفع",
+    "continue_shopping": "متابعة التسوق",
+    "trust": {
+      "safe_payment": "دفع آمن",
+      "quality": "ضمان الجودة",
+      "free_returns": "إرجاع مجاني"
+    }
+  },
+  "trust": {
+    "safe_payment": "دفع آمن",
+    "quality": "ضمان الجودة",
+    "free_returns": "إرجاع مجاني"
+  },
+
+  "CartHeader": {
+    "products": "المنتجات",
+    "cart_header": "رأس السلة",
+    "title": "سلة التسوق",
+    "products_in_cart": "{count} منتج في سلتك"
+  },
+  "ChatWindow": {
+    "messages": "الرسائل",
+    "type_message": "اكتب رسالتك...",
+    "send": "إرسال",
+    "minimize": "تقليل",
+    "maximize": "توسيع",
+    "close": "إغلاق"
+  },
+  "MessageItem": {
+    "delivered": "تم التسليم",
+    "read": "مقروءة",
+    "sending": "جاري الإرسال..."
+  },
+  "Carousel": {
+    "previous": "السابق",
+    "next": "التالي",
+    "slide": "الشريحة"
+  },
+  "CategoryGrid": {
+    "categories": "الأقسام",
+    "shop_category": "تسوق حسب الفئه",
+    "shop": "تسوق",
+    "no_categories": "لا توجد فئات",
+    "CATEGORY": "الانواع",
+    "ctgDescribtion": "استكشف احدث الانواع لدينا ",
+    "men": "رجالي",
+    "kids": "أطفالي",
+    "Accessories": "اكسسوارات"
+  },
+  "ProductCardHome": {
+    "add_to_cart": "أضف إلى السلة",
+    "quick_view": "عرض سريع",
+    "out_of_stock": "نفد المخزون",
+    "price": "السعر"
+  },
+  "ShowcaseSection": {
+    "featured": "المميزة",
+    "shop_now": "تسوق الآن",
+    "view_all": "عرض الكل",
+    "explore_all": "اكتشف الكل",
+    "Men's_Collection": "رجالي",
+    "Little_Legends": "اطفالي",
+    "men-pants": "احدث صيحات الموضة",
+    "Accessories": "اكسسوارات",
+    "Jackets": "جواكيت",
+    "men_describe": "من اجلك",
+    "pants_describe": "احدث صيحات الموضة",
+    "women_describe": "احدث الاكسسوارات",
+    "Accessories_describe": "اكمل استايلاتك",
+    "jackets_describe": "للبرد القارص",
+    "jacket_describe": "للبرد القارص"
+  },
+  "ZoomOverlay": {
+    "aria_zoom": "تكبير — {name}",
+    "zoom_in": "تكبير",
+    "zoom_out": "تصغير",
+    "rotate": "تدوير",
+    "reset": "إعادة",
+    "close": "إغلاق",
+    "hint": "اضغط بالإصبع أو قم بالتمرير للتكبير · اسحب للتحريك"
+  },
+  "CheckoutClient": {
+    "checkout": "إتمام الشراء",
+    "step": "خطوة",
+    "cart": "السلة",
+    "address": "العنوان",
+    "payment": "الدفع",
+    "confirmation": "تأكيد"
+  },
+
+  "CheckoutStepper": {
+    "step_cart": "السلة",
+    "step_address": "العنوان",
+    "step_payment": "الدفع",
+    "step_confirmation": "التأكيد",
+    "completed": "مكتمل"
+  },
+
+  "SocialLogin": {
+    "sign_up_with": "التسجيل عبر",
+    "facebook": "فيسبوك",
+    "google": "جوجل",
+    "github": "جيت هاب",
+    "tiktok": "تيك توك",
+    "instagram": "إنستجرام"
+  },
+  "PDPDetails": {
+    "product_details": "تفاصيل المنتج",
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "reviews": "التقييمات",
+    "add_to_cart": "أضف إلى السلة",
+    "add_to_wishlist": "أضف إلى قائمة الرغبات",
+    "size": "المقاس",
+    "quantity": "الكمية",
+    "in_stock": "متوفر",
+    "out_of_stock": "نفد المخزون",
+    "save_percent": "وفر {percent}%",
+    "color_label": "اللون:",
+    "size_error": "الرجاء اختيار المقاس",
+    "size_label": "المقاس:",
+    "select_size": "اختر المقاس",
+    "size_guide": "دليل المقاسات",
+    "guarantees": {
+      "free_returns": "إرجاع مجاني",
+      "secure_checkout": "دفع آمن",
+      "fast_delivery": "توصيل سريع"
+    }
+  },
+  "PDPGallery": {
+    "product_gallery": "معرض المنتج",
+    "previous": "السابق",
+    "next": "التالي",
+    "thumbnail": "صورة مصغرة",
+    "zoom": "تكبير"
+  },
+  "PLPClient": {
+    "products": "المنتجات",
+    "sort": "ترتيب",
+    "filter": "مرشح",
+    "no_products": "لا توجد منتجات",
+    "price_low_to_high": "السعر: منخفض إلى مرتفع",
+    "price_high_to_low": "السعر: مرتفع إلى منخفض",
+    "newest": "الأحدث",
+    "bestseller": "الأكثر مبيعاً"
+  },
+  "DepartmentsProductCard": {
+    "view": "عرض",
+    "add_to_cart": "أضف إلى السلة",
+    "add_to_wishlist": "أضف إلى المفضلة",
+    "rating": "التقييم",
+    "price": "السعر",
+    "in_stock": "متوفر"
+  },
+  "ProductDiffrentActions": {
+    "add_to_cart": "أضف إلى السلة",
+    "add_to_wishlist": "أضف إلى المفضلة",
+    "share": "شارك",
+    "quantity": "الكمية",
+    "size": "المقاس",
+    "decrease": "تقليل",
+    "increase": "زيادة"
+  },
+  "ProductActions": {
+    "quantity": "الكمية",
+    "adding": "جاري الإضافة...",
+    "added": "✓ أضيف",
+    "add_to_cart": "أضف إلى السلة",
+    "share_aria": "مشاركة المنتج"
+  },
+  "ReviewSection": {
+    "reviews": "التقييمات",
+    "header": {
+      "title": "آراء العملاء",
+      "verified_purchases": "مشتريات موثقة"
+    },
+    "rating_distribution": "توزيع التقييمات",
+    "star_label": "{count} نجوم",
+    "write_review": "اكتب تقييماً",
+    "visual_breakdown": "تفصيل بصري",
+    "rating": "التقييم",
+    "review": "التقييم",
+    "verified_buyer": "مشترٍ موثق",
+    "helpful": "مفيد",
+    "not_helpful": "غير مفيد",
+    "submit": "إرسال",
+    "loading_reviews": "جاري تحميل التقييمات...",
+    "no_reviews_yet": "لا توجد تقييمات حتى الآن",
+    "be_first": "كن أول من يشارك رأيه!",
+    "loading_more": "جارٍ تحميل المزيد من التقييمات...",
+    "all_reviews_loaded": "تم تحميل جميع التقييمات ({count})",
+    "customer_recommended": "نسبة التوصية من العملاء",
+    "out_of": "من",
+    "customers": "عملاء",
+    "anonymous": "مجهول",
+    "just_posted": "تم النشر للتو",
+    "mark_helpful_aria": "ضع علامة كمفيد{count, plural, =0 {} one{ (1)} other{ ({count})}}",
+    "form": {
+      "title": "أضف تقييماً",
+      "your_rating": "تقييمك",
+      "your_review": "مراجعتك",
+      "placeholder": "اكتب تجربتك هنا...",
+      "min_chars": "الحد الأدنى 10 أحرف",
+      "submitting": "جاري الإرسال...",
+      "submit": "إرسال",
+      "cancel": "إلغاء"
+    }
+  },
+  "DepartmentsStarRating": {
+    "rating": "التقييم",
+    "stars": "نجوم",
+    "rate": "قيّم",
+    "out_of_5": "من 5"
+  },
+  "ProfileContent": {
+    "loading": "جاري التحميل...",
+    "profile": "الملف الشخصي",
+    "user_profile": "ملف المستخدم"
+  },
+  "ProfileSkeleton": {
+    "loading": "جاري التحميل..."
+  },
+  "profile": {
+    "pageTitle": "الملف الشخصي",
+    "pageDescription": "تصفح معلوماتك الشخصية، طلباتك، مفضلاتك، وإعداداتك.",
+    "admin": {
+      "title": "لوحة إدارة المستخدم",
+      "notification": {
+        "title": "إرسال إشعار للمستخدم",
+        "titleLabel": "عنوان الإشعار",
+        "titlePlaceholder": "اكتب عنوان الإشعار...",
+        "messageLabel": "رسالة الإشعار",
+        "messagePlaceholder": "اكتب رسالة الإشعار...",
+        "sending": "جارٍ الإرسال…",
+        "send": "إرسال"
+      },
+      "insights": {
+        "title": "الإحصاءات",
+        "lifetimeValue": "قيمة العميل طوال حياته",
+        "totalOrders": "إجمالي الطلبات",
+        "avgOrderValue": "متوسط قيمة الطلب",
+        "favorites": "المفضلات"
+      },
+      "statusToggle": {
+        "confirm": "هل أنت متأكد من تغيير حالة المستخدم إلى {status}?",
+        "title": "تبديل الحالة",
+        "current": "الحالة الحالية",
+        "loading": "جارٍ التحديث…",
+        "ban": "حظر",
+        "activate": "تفعيل"
+      }
+    },
+    "miniCart": {
+      "title": "عربة التسوق المصغرة",
+      "empty": "فارغة",
+      "noItems": "لا توجد عناصر في السلة",
+      "shopNow": "تسوق الآن",
+      "items": "عناصر",
+      "viewAll": "عرض الكل",
+      "subtotal": "المجموع الجزئي",
+      "viewCart": "عرض السلة"
+    },
+    "favorites": {
+      "title": "المفضلات",
+      "noItems": "لا توجد عناصر مفضلة",
+      "startBrowsing": "ابدأ بتصفح المنتجات",
+      "browseProducts": "تصفح المنتجات",
+      "viewAll": "عرض الكل",
+      "items": "عناصر"
+    },
+    "orders": {
+      "title": "الطلبات",
+      "noOrders": "لا توجد طلبات",
+      "startShopping": "ابدأ التسوق",
+      "shopNow": "تسوق الآن",
+      "viewAll": "عرض الكل",
+      "viewDetails": "عرض التفاصيل",
+      "recentOrders": "الطلبات الأخيرة",
+      "viewAllOrders": "عرض كل الطلبات"
+    }
+  },
+  "CalendarClient": {
+    "calendar": "التقويم",
+    "add_event": "أضف حدثاً",
+    "event": "حدث",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "title": "العنوان",
+    "description": "الوصف",
+    "save": "حفظ",
+    "delete": "حذف",
+    "close": "إغلاق",
+    "edit": "تعديل"
+  },
+  "OrdersClient": {
+    "orders": "الطلبات",
+    "order_id": "معرف الطلب",
+    "customer": "العميل",
+    "date": "التاريخ",
+    "status": "الحالة",
+    "total": "الإجمالي",
+    "actions": "الإجراءات",
+    "view": "عرض",
+    "download": "تحميل",
+    "filter": "مرشح",
+    "search": "بحث",
+    "no_orders": "لا توجد طلبات",
+    "status_pending": "قيد الانتظار",
+    "status_processing": "جاري المعالجة",
+    "status_shipped": "تم الشحن",
+    "status_delivered": "تم التسليم",
+    "status_cancelled": "تم الإلغاء"
+  },
+  "Orders": {
+    "title": "طلباتي",
+    "orders": "الطلبات",
+    "empty_title": "لا توجد طلبات بعد",
+    "empty_subtitle": "ابدأ بتصفح المتجر وإضافة منتجات لسلتك.",
+    "browse_products": "تسوق الآن",
+    "labels": {
+      "order_number": "رقم الطلب",
+      "date": "التاريخ",
+      "total": "الإجمالي"
+    },
+    "status": {
+      "pending_payment": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "تم الإلغاء"
+    },
+    "cancel": {
+      "success": "تم إلغاء الطلب بنجاح",
+      "error": "فشل إلغاء الطلب",
+      "loading": "جاري الإلغاء...",
+      "button": "إلغاء الطلب"
+    }
+  },
+  "SupportClient": {
+    "support": "الدعم",
+    "tickets": "التذاكر",
+    "messages": "الرسائل",
+    "chat": "الدردشة",
+    "ticket_id": "معرف التذكرة",
+    "subject": "الموضوع",
+    "status": "الحالة",
+    "priority": "الأولوية",
+    "created": "تم الإنشاء",
+    "type_message": "اكتب رسالتك...",
+    "send": "إرسال",
+    "no_tickets": "لا توجد تذاكر",
+    "no_messages": "لا توجد رسائل"
+  },
+  "UsersClient": {
+    "users": "المستخدمون",
+    "user_id": "معرف المستخدم",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "filter": "مرشح",
+    "search": "بحث",
+    "no_users": "لا توجد مستخدمون",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "admin": "مسؤول",
+    "user": "مستخدم"
+  },
+  "AdminDashboard": {
+    "dashboard": "لوحة المعلومات",
+    "welcome": "أهلا وسهلا",
+    "overview": "نظرة عامة",
+    "revenue": "الإيرادات",
+    "orders": "الطلبات",
+    "users": "المستخدمون",
+    "products": "المنتجات",
+    "total_revenue": "إجمالي الإيرادات",
+    "total_orders": "إجمالي الطلبات",
+    "total_users": "إجمالي المستخدمين",
+    "total_products": "إجمالي المنتجات",
+    "growth": "النمو",
+    "last_30_days": "آخر 30 يوم"
+  },
+  "AdminDashboardClient": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً بعودتك! هذا ما يحدث في متجرك اليوم.",
+    "live": "متصل"
+  },
+  "AdminLatestOrders": {
+    "title": "الطلبات الأخيرة",
+    "order_id": "رقم الطلب",
+    "customer": "العميل",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "status_pending_payment": "في انتظار الدفع",
+    "status_processing": "قيد المعالجة",
+    "status_shipped": "تم الشحن",
+    "status_delivered": "تم التسليم",
+    "status_cancelled": "ملغى",
+    "status_refunded": "تم رد المبلغ"
+  },
+  "AdminLatestUsers": {
+    "title": "المستخدمون الجدد",
+    "user": "المستخدم",
+    "email": "البريد الإلكتروني",
+    "status": "الحالة",
+    "joined": "انضم",
+    "status_active": "نشط",
+    "status_inactive": "غير نشط"
+  },
+  "AdminGeography": {
+    "title": "الوصول العالمي",
+    "loading_map": "جارٍ تحميل الخريطة...",
+    "home_page": "الصفحة الرئيسية",
+    "product_page": "صفحة المنتج",
+    "about_page": "صفحة من نحن",
+    "traffic_distribution": "توزيع الحركة",
+    "global_reach": "الوصول العالمي"
+  },
+
+  "AdminStats": {
+    "total_revenue": "إجمالي الإيرادات",
+    "total_orders": "إجمالي الطلبات",
+    "user_growth": "نمو المستخدمين",
+    "total_visits": "إجمالي الزيارات",
+    "vs_last_week": "مقارنة بالأسبوع الماضي"
+  },
+
+  "AdminChartsUI": {
+    "profit_volatility_analysis": "تحليل تقلب الربح",
+    "peak": "الذروة",
+    "low": "الانخفاض",
+    "revenue_vs_growth": "الإيرادات مقابل معدل النمو",
+    "revenue": "الإيرادات",
+    "growth_percent": "% النمو",
+    "cumulative_user_growth": "النمو التراكمي للمستخدمين",
+    "users": "المستخدمون",
+    "orders_multi_view_analysis": "تحليل الطلبات متعدد العروض",
+    "orders": "الطلبات",
+    "traffic_distribution": "توزيع الحركة",
+    "track_pages": "تتبع الصفحات التي تجذب معظم الزوار"
+  },
+
+  "AdminChartsLabels": {
+    "profit": "الربح",
+    "average": "المتوسط"
+  },
+  "NotificationsPage": {
+    "notifications": "الإشعارات",
+    "send_notification": "إرسال إشعار",
+    "notification_title": "عنوان الإشعار",
+    "notificatio\n_message": "رسالة الإشعار",
+    "recipients": "المستقبلين",
+    "send": "إرسال",
+    "success": "تم الإرسال بنجاح",
+    "error": "خطأ في الإرسال",
+    "pending": "قيد الانتظار",
+    "sent": "تم الإرسال",
+    "failed": "فشل"
+  },
+  "ChatModal": {
+    "contact_admin": "اتصل بالمسؤول",
+    "type_message": "اكتب رسالتك...",
+    "send": "إرسال",
+    "close": "إغلاق",
+    "minimize": "تقليل",
+    "maximize": "توسيع",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "new_message": "رسالة جديدة",
+    "typing": "جاري الكتابة...",
+    "sent": "تم الإرسال",
+    "delivered": "تم التسليم",
+    "read": "مقروءة"
+  },
+
+  "ChatWidget": {
+    "chatbot": {
+      "ariaLabel": "المساعد الذكي",
+      "botName": "ZFashin-helper",
+      "status": "● رد فوري •",
+      "clearChat": "مسح المحادثة",
+      "close": "إغلاق",
+      "quickQuestionsLabel": "أسئلة شائعة",
+      "loading": "جاري التحميل",
+      "olderMessages": "رسائل أقدم",
+      "typing": "جاري كتابة الرد",
+      "emptyStateTitle": "مرحباً! كيف أساعدك؟ 👋",
+      "emptyStateSubtitle": "اختر سؤالاً من الأعلى أو اكتب رسالتك",
+      "inputPlaceholder": "اكتب رسالتك...",
+      "inputLabel": "حقل إدخال الرسالة",
+      "sendMessage": "إرسال الرسالة",
+      "poweredBy": "مدعوم بالذكاء الاصطناعي"
+    },
+    "quickQuestions": {
+      "q1": "حول مصمم المتجر  وكيفيه التواصل معه",
+      "q2": "ما هو موقع ZFAShion",
+      "q3": "ما اهم ما يميز هذا المتجر "
+    },
+    "menu": {
+      "ariaLabel": "خيارات التواصل",
+      "unreadMessages": "{{count}} رسائل غير مقروءة",
+      "technicalSupport": {
+        "title": "الدعم الفني",
+        "subtitle": "تحدث مع فريق الدعم"
+      },
+      "whatsapp": {
+        "title": "واتساب",
+        "subtitle": "راسلنا مباشرة"
+      },
+      "hotline": {
+        "title": "الخط الساخن",
+        "number": "01080761700"
+      },
+      "aiAssistant": {
+        "title": "المساعد الذكي",
+        "subtitle": "رد فوري • AI"
+      }
+    },
+    "fab": {
+      "close": "إغلاق القائمة",
+      "open": "فتح خيارات التواصل"
+    },
+    "errors": {
+      "loadMessages": "فشل تحميل الرسائل",
+      "connectionFailed": "فشل الاتصال"
+    }
+  },
+
+  "UserColumns": {
+    "user": "مستخدم",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "status": "الحالة",
+    "joined": "انضم في",
+    "actions": "الإجراءات",
+    "admin": "مسؤول",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "banned": "محظور"
+  },
+  "Admin": {
+    "dashboard": "لوحة التحكم",
+    "orders": "الطلبات",
+    "products": "المنتجات",
+    "users": "المستخدمون",
+    "support": "الدعم",
+    "notifications": "الإشعارات",
+    "analytics": "التحليلات",
+    "calendar": "التقويم",
+    "charts": "الرسوم البيانية",
+    "logout": "تسجيل الخروج",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي"
+  },
+  "AdminOrders": {
+    "Orders": "الطلبات",
+    "title": "الطلبات",
+    "order_id": "معرف الطلب",
+    "customer": "العميل",
+    "total": "الإجمالي",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "pending": "قيد الانتظار",
+    "confirmed": "مؤكد",
+    "shipped": "مشحون",
+    "delivered": "تم التسليم",
+    "cancelled": "ملغي",
+    "confirmed_revenue": "الايرادات المكتمله"
+  },
+  "AdminProducts": {
+    "title": "المنتجات",
+    "add_product": "إضافة منتج",
+    "edit_product": "تعديل المنتج",
+    "delete_product": "حذف المنتج",
+    "categories": "الأقسام",
+    "add_category": "إضافة فئة",
+    "price": "السعر",
+    "stock": "المخزون",
+    "name": "الاسم",
+    "description": "الوصف",
+    "image": "الصورة",
+    "gallery": "المعرض",
+    "filters": "الفلاتر",
+    "reset_all": "إعادة ضبط الكل",
+    "category": "التصنيف",
+    "all_categories": "كل الفئات",
+    "price_range": "نطاق السعر (ج.م)",
+    "min": "الحد الأدنى",
+    "max": "الحد الأقصى",
+    "gender": "الجنس",
+    "gender_male": "رجالي",
+    "gender_female": "نسائي",
+    "gender_kids": "أطفال",
+    "gender_unisex": "للجنسين",
+    "sizes": "المقاسات",
+    "size_small": "S",
+    "size_medium": "M",
+    "size_large": "L",
+    "size_xlarge": "XL",
+    "filters_active": "مطبق: {count}",
+    "loading": "جاري التحميل…",
+    "products_found": "{count} منتج تم العثور عليه",
+    "search_placeholder": "ابحث عن المنتجات…",
+    "no_products_found": "لم يتم العثور على منتجات",
+    "try_adjust_filters": "حاول تعديل الفلاتر",
+    "create_first_product": "أنشئ منتجك الأول",
+    "clear_filters": "مسح الفلاتر",
+    "failed_to_load": "فشل تحميل المنتجات",
+    "try_again": "حاول مرة أخرى",
+    "active_label": "نشط:",
+    "min_label": "الحد الأدنى £",
+    "max_label": "الحد الأقصى £",
+    "col_product": "المنتج",
+    "col_category": "الفئة",
+    "col_price": "السعر",
+    "col_stock": "المخزون",
+    "col_sizes": "المقاسات",
+    "col_rating": "التقييم",
+    "col_actions": "الإجراءات",
+    "discount_off": "{discount}% خصم",
+    "in_stock": "متوفر",
+    "out_of_stock": "غير متوفر",
+    "units": "وحدة/وحدات",
+    "delete_confirm": "هل أنت متأكد أنك تريد حذف \"{name}\"؟ هذا الإجراء لا يمكن التراجع عنه."
+  },
+  "AdminProductForm": {
+    "edit_title": "تعديل المنتج",
+    "new_title": "منتج جديد",
+    "editing": "التعديل: {name}",
+    "fill_in_details": "املأ تفاصيل المنتج",
+    "main_image": "الصورة الرئيسية",
+    "current_image_shown": "الصورة الحالية معروضة",
+    "required": "مطلوب",
+    "gallery": "المعرض",
+    "gallery_count": "{count} / 8 صور",
+    "variants": "متغيرات",
+    "gender": "الجنس",
+    "sizes": "المقاسات",
+    "cancel": "إلغاء",
+    "save_changes": "حفظ التغييرات",
+    "create_product": "إنشاء المنتج",
+    "uploading_main": "جاري رفع الصورة الرئيسية…",
+    "uploading_gallery": "جاري رفع {count} ملف(ملفات)…",
+    "upload_failed": "فشل رفع الصورة. حاول مرة أخرى."
+  },
+  "AdminUsers": {
+    "title": "المستخدمون",
+    "user_id": "معرف المستخدم",
+    "email": "البريد الإلكتروني",
+    "name": "الاسم",
+    "role": "الدور",
+    "status": "الحالة",
+    "joined": "انضم",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "admin": "مسؤول",
+    "user": "مستخدم",
+    "moderator": "وسيط",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "banned": "محظور"
+  },
+  "AdminSupport": {
+    "title": "تذاكر الدعم",
+    "ticket_id": "معرف التذكرة",
+    "subject": "الموضوع",
+    "customer": "العميل",
+    "status": "الحالة",
+    "priority": "الأولوية",
+    "created": "تم الإنشاء",
+    "open": "مفتوح",
+    "in_progress": "قيد المعالجة",
+    "resolved": "تم الحل",
+    "closed": "مغلق",
+    "high": "عالي",
+    "medium": "متوسط",
+    "low": "منخفض",
+    "reply": "الرد",
+    "close_ticket": "إغلاق التذكرة",
+    "select_conversation": "اختر محادثة",
+    "choose_ticket_from_left": "اختر تذكرة دعم من اللوحة اليسرى لعرض المحادثة.",
+    "email_aria": "أرسل بريدًا إلكترونيًا إلى {name}",
+    "more_options": "المزيد من الخيارات",
+    "chat_messages_aria": "رسائل المحادثة",
+    "conversation_separator": "محادثة",
+    "ticket_list_panel_aria": "لوحة قائمة التذاكر",
+    "support_tickets_list_aria": "قائمة تذاكر الدعم",
+    "tickets": "التذاكر",
+    "search_placeholder": "ابحث عن تذكرة أو رسالة...",
+    "search_aria": "بحث في التذاكر",
+    "clear_search": "مسح البحث",
+    "filter_by_status_aria": "تصفية حسب الحالة",
+    "status_all": "الكل",
+    "status_open": "مفتوح",
+    "status_pending": "قيد الانتظار",
+    "status_resolved": "تم الحل",
+    "status_closed": "مغلق",
+    "no_tickets_found": "لم يتم العثور على تذاكر",
+    "no_messages": "لا رسائل",
+    "ticket_from": "تذكرة من {name}",
+    "showing_range": "عرض {shown} من {total}",
+    "chat_panel_aria": "لوحة المحادثة",
+    "back_to_ticket_list_aria": "العودة إلى قائمة التذاكر",
+    "all_tickets": "كل التذاكر"
+  },
+  "AdminNotifications": {
+    "title": "الإشعارات",
+    "new_notification": "إشعار جديد",
+    "send": "إرسال",
+    "title_placeholder": "عنوان الإشعار",
+    "message_placeholder": "الرسالة",
+    "recipients": "المستقبلون",
+    "scheduled": "مجدول",
+    "status": "الحالة",
+    "sent": "مرسل",
+    "pending": "قيد الانتظار",
+    "draft": "مسودة",
+    "broadcast_center": "مركز البث",
+    "global_notifications": "الإشعارات العامة",
+    "send_notifications_description": "أرسل إشعارات لجميع المستخدمين المسجلين فورًا."
+  },
+  "AdminAnalytics": {
+    "title": "التحليلات",
+    "revenue": "الإيرادات",
+    "orders": "الطلبات",
+    "users": "المستخدمون",
+    "products": "المنتجات",
+    "views": "المشاهدات",
+    "total_revenue": "إجمالي الإيرادات",
+    "total_orders": "إجمالي الطلبات",
+    "total_users": "إجمالي المستخدمين",
+    "this_month": "هذا الشهر",
+    "this_year": "هذا العام",
+    "all_time": "كل الوقت",
+    "growth": "النمو",
+    "decline": "الانخفاض"
+  },
+  "AdminCalendar": {
+    "title": "التقويم",
+    "new_event": "حدث جديد",
+    "event_title": "عنوان الحدث",
+    "start_date": "تاريخ البداية",
+    "end_date": "تاريخ النهاية",
+    "all_day": "طوال اليوم",
+    "add_event": "إضافة حدث",
+    "edit_event": "تعديل الحدث",
+    "delete_event": "حذف الحدث",
+    "sales": "المبيعات",
+    "campaign": "حملة",
+    "meeting": "اجتماع",
+    "maintenance": "الصيانة",
+    "partnership": "شراكة",
+    "operations": "العمليات"
+  },
+  "PLP": {
+    "title_mens_collection": "مجموعة الرجال",
+    "subtitle_shop": "تسوق",
+    "aria": {
+      "product_listing": "قائمة المنتجات",
+      "products": "المنتجات"
+    },
+    "errors": {
+      "failed_to_load_products": "فشل تحميل المنتجات."
+    },
+    "actions": {
+      "retry": "إعادة المحاولة",
+      "clear_filters_button": "مسح الفلاتر"
+    },
+    "empty": {
+      "no_products": "لم يتم العثور على منتجات",
+      "try_adjusting": "حاول تعديل الفلاتر أو استعلام البحث"
+    }
+  },
+  "PDP": {
+    "size": "الحجم",
+    "color": "اللون",
+    "quantity": "الكمية",
+    "add_to_cart": "إضافة إلى السلة",
+    "add_to_favorites": "إضافة إلى المفضلة",
+    "share": "مشاركة",
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "reviews": "التقييمات",
+    "rating": "التقييم",
+    "in_stock": "متوفر",
+    "out_of_stock": "غير متوفر",
+    "select_size": "يرجى تحديد حجم",
+    "select_color": "يرجى تحديد لون"
+  },
+  "AdminSidebar": {
+    "nav": {
+      "aria_label": "ملاحة المسؤول",
+      "about": "من نحن",
+      "dashboard": "لوحه تحكم الادمن "
+    },
+    "logo": {
+      "aria_label": "الذهاب إلى لوحة التحكم"
+    },
+    "mobile": {
+      "close_label": "إغلاق الشريط الجانبي"
+    },
+    "sections": {
+      "main": "الرئيسية",
+      "commerce": "التجارة",
+      "analytics": "التحليلات",
+      "communication": "التواصل",
+      "system": "النظام"
+    },
+    "items": {
+      "dashboard": "لوحة التحكم",
+      "orders": "الطلبات",
+      "users": "المستخدمون",
+      "products": "المنتجات",
+      "categories": "الأقسام",
+      "support_and_complaint": "الشكاوي والدعم",
+      "charts": "الرسوم البيانية",
+      "revenue": "الإيرادات",
+      "net_profit": "الربح الصافي",
+      "complaints": "الشكاوى",
+      "notifications": "الإشعارات",
+      "calendar": "التقويم",
+      "settings": "الإعدادات"
+    },
+    "badge": {
+      "pending_count": "{count} قيد الانتظار"
+    },
+    "subitems": {
+      "users": "المستخدمون",
+      "orders": "الطلبات",
+      "revenue": "الإيرادات",
+      "net profit": "صافي الربح",
+      "complaints": "الشكاوى"
+    },
+    "sidebar": {
+      "aria_label": "شريط الجانب للمسؤول"
+    },
+    "user_footer": {
+      "logout_label": "تسجيل الخروج"
+    }
+  },
+
+  "Chat": {
+    "type_message": "اكتب رسالة...",
+    "choose_emoji": "اختر تعبير وجه",
+    "send_message": "إرسال الرسالة",
+    "support": "الدعم الفني",
+    "maximize": "تكبير",
+    "minimize": "تصغير",
+    "close_chat": "إغلاق المحادثة",
+    "please_login_before_continue": "يرجى تسجيل الدخول للمتابعة",
+    "welcome_message": "أهلاً بيك في ZFashion! سيب رسالتك وفريقنا هيرد عليك في خلال دقايق.. إحنا هنا عشان نساعدك ❤😊"
+  },
+  "FilterSidebar": {
+    "sections": {
+      "category": "التصنيف",
+      "size": "المقاس",
+      "brand": "العلامة التجارية",
+      "price_egp": "السعر (ج.م)",
+      "filters": "الفلاتر"
+    },
+    "categories": {
+      "All": "الكل",
+      "Shirts": "قمصان",
+      "Pants": "بناطيل",
+      "T-Shirts": "تي شيرت",
+      "Jackets": "جاكيتات",
+      "Knitwear": "كنزات",
+      "Hoodies": "هوديز",
+      "Polo": "بولو",
+      "Shorts": "شورتات"
+    },
+    "sizes": {
+      "Small": "صغير",
+      "Medium": "متوسط",
+      "Large": "كبير",
+      "XLarge": "كبير جداً",
+      "labels": {
+        "Small": "S",
+        "Medium": "M",
+        "Large": "L",
+        "XLarge": "XL"
+      }
+    },
+    "brands": {
+      "Heritage": "هيريتاج",
+      "Core": "كور",
+      "Prestige": "بريستيج"
+    },
+    "placeholders": {
+      "min": "الحد الأدنى",
+      "max": "الحد الأقصى"
+    },
+    "aria": {
+      "size_filter": "مرشح المقاس",
+      "min_price": "السعر الأدنى",
+      "max_price": "السعر الأقصى",
+      "product_filters": "فلاتر المنتجات",
+      "close_filters": "إغلاق الفلاتر"
+    },
+    "actions": {
+      "clear_all_filters": "مسح جميع الفلاتر",
+      "clear": "مسح الكل"
+    }
+  },
+  "PLPParts": {
+    "hero": {
+      "aria_category_banner": "{title} - راية الفئة"
+    },
+    "toolbar": {
+      "open_filters": "فتح الفلاتر",
+      "filters": "الفلاتر",
+      "search_placeholder": "ابحث في المنتجات...",
+      "search_aria": "ابحث في المنتجات",
+      "products": "منتجات"
+    },
+    "sort": {
+      "newest": "الأحدث",
+      "price_asc": "السعر: من الأقل للأعلى",
+      "price_desc": "السعر: من الأعلى للأقل",
+      "top_rated": "الأعلى تقييماً",
+      "discount": "أكبر خصم"
+    },
+    "pagination": {
+      "aria": "ترقيم الصفحات",
+      "previous_page": "الصفحة السابقة",
+      "page": "الصفحة {page}",
+      "next_page": "الصفحة التالية"
+    }
+  },
+
+  "About": {
+    "Metadata": {
+      "title": "من نحن - متجر ZFashion | حيث تلتقي الأناقة العالمية بالابتكار الرقمي",
+      "description": "اكتشف مهمة متجر ZFashion في إعادة تعريف صناعة الأزياء من خلال التكنولوجيا المتطورة والأناقة الخالدة. تأسس بواسطة إبراهيم أبو زيد.",
+      "keywords": "ZFashion, من نحن, متجر ملابس, أزياء راقية, تجارة إلكترونية, إبراهيم أبو زيد, موضة حديثة, تسوق أونلاين",
+      "og_title": "عن متجر ZFashion - إعادة تعريف الموضة الرقمية",
+      "og_description": "استكشف رحلتنا في بناء منصة أزياء عالية الأداء تضع تجربة المستخدم والأناقة العالمية في المقدمة.",
+      "og_image_alt": "متجر ZFashion - منصة التجارة الإلكترونية الفاخرة للأزياء",
+      "twitter_title": "من نحن | ZFashion - أناقة عالمية وابتكار رقمي",
+      "twitter_description": "نقود مستقبل تجارة الأزياء الرقمية بسرعة وأمان فائقين."
+    },
+    "seo": {
+      "breadcrumb_name": "من نحن",
+      "faq": {
+        "q1": {
+          "question": "ما هو متجر ZFashion؟",
+          "answer": "ZFashion هو منصة تجارة إلكترونية فاخرة مخصصة لتقديم أحدث صيحات الموضة العالمية مع التركيز على السرعة، الأمان، وتجربة المستخدم المميزة."
+        },
+        "q2": {
+          "question": "من هو مؤسس ZFashion؟",
+          "answer": "تم تأسيس وتطوير ZFashion بواسطة إبراهيم أبو زيد، بهدف سد الفجوة بين الموضة الراقية وهندسة البرمجيات الحديثة."
+        },
+        "q3": {
+          "question": "هل التسوق في ZFashion آمن؟",
+          "answer": "نعم، نستخدم بروتوكولات أمان متعددة الطبقات وأحدث معايير التشفير لضمان أن كل عملية شرائية آمنة بنسبة 100%."
+        },
+        "q4": {
+          "question": "ما الذي يميز ZFashion؟",
+          "answer": "تجمع منصتنا بين سرعات تحميل لا مثيل لها وتشكيلة مختارة بعناية من المنتجات، مدعومة بتقنية Next.js الحديثة."
+        },
+        "q5": {
+          "question": "هل تقدمون دعماً فنياً؟",
+          "answer": "بالتأكيد! يعمل فريقنا الهندسي المخصص على المراقبة الفنية على مدار الساعة لضمان تجربة تسوق خالية من العوائق."
+        }
+      }
+    },
+    "breadcrumb": {
+      "home": "الرئيسية",
+      "current": "من نحن"
+    },
+    "hero": {
+      "title_part_1": "حيث تلتقي الأناقة العالمية",
+      "title_part_2": "بالابتكار الرقمي",
+      "description": "في متجر ZFashion، نؤمن بأن الأناقة لا يجب أن تكون محل مساومة. لقد قمنا ببناء منصة توائم بين فن الموضة ودقة التكنولوجيا الحديثة.",
+      "badges": {
+        "seo": "أداء SEO 100%",
+        "support": "دعم فني 24/7",
+        "security": "أمان متعدد الطبقات"
+      }
+    },
+    "story": {
+      "title": "قصتنا",
+      "p1": "ولدت ZFashion من رؤية بسيطة وطموحة في آن واحد: خلق تجربة تسوق رقمية تضاهي أناقة الملابس التي نبيعها. لاحظنا أن العديد من المنصات تفتقر إلى السرعة والسلاسة التي يستحقها عملاء اليوم.",
+      "p2": "تأسست المنصة على يد إبراهيم أبو زيد، ولم نكتفِ ببناء متجر؛ بل صممنا نظاماً تقنياً متكاملاً عالي الأداء. باستخدام أحدث تقنيات الويب، أنشأنا مساحة يكون فيها التصفح فورياً وأمانك بعيداً عن أي شك.",
+      "stats": {
+        "hours": { "value": "1000+", "label": "ساعة من التطوير" },
+        "seo": { "value": "100%", "label": "أداء محركات البحث" },
+        "support": { "value": "24/7", "label": "تميز تقني" }
+      }
+    },
+    "mission_vision": {
+      "title": "المهمة والرؤية",
+      "mission": {
+        "title": "مهمتنا",
+        "description": "تمكين محبي الموضة من خلال توفير منصة سلسة، سريعة، وآمنة تجلب الصيحات العالمية إلى باب منزلهم بضغطة زر واحدة."
+      },
+      "vision": {
+        "title": "رؤيتنا",
+        "description": "أن نصبح المعيار العالمي للتجارة الإلكترونية في مجال الأزياء، حيث تكون التكنولوجيا هي الخيط الخفي الذي ينسج كل قطعة من الأناقة."
+      }
+    },
+    "values": {
+      "title": "قيمنا الجوهرية",
+      "subtitle": "المبادئ التي تقود كل سطر من الأكواد وكل تشكيلة منتجات نقدمها لك.",
+      "perfection": {
+        "title": "الكمال التقني",
+        "description": "نحن مهووسون بالأداء، ونضمن أن تكون منصتنا من الأسرع في هذه الصناعة."
+      },
+      "integrity": {
+        "title": "النزاهة",
+        "description": "نؤمن بالشفافية المطلقة في عملياتنا، وتسعيرنا، والتعامل مع بيانات العملاء."
+      },
+      "innovation": {
+        "title": "الابتكار",
+        "description": "نحن لا نتبع الصيحات؛ بل نصنعها من خلال دمج الذكاء الاصطناعي والربط اللحظي في تسوقك."
+      },
+      "trust": {
+        "title": "ثقة مستدامة",
+        "description": "بناء علاقة طويلة الأمد مع عملائنا من خلال الموثوقية والجودة العالية."
+      }
+    },
+    "support": {
+      "title": "مهندسون خبراء في خدمتك",
+      "p1_part1": "خلف واجهة متجرنا الأنيقة يقبع فريق مخصص. نحن لا نبيع الملابس فحسب؛ بل نقدم",
+      "p1_strong": "راحة بال تقنية",
+      "p1_part2": ".",
+      "p2": "يراقب فريقنا استقرار المنصة في الوقت الفعلي، لضمان عدم انقطاع رحلة تسوقك بسبب أي عوائق تقنية.",
+      "stats": {
+        "monitoring": { "value": "24/7", "label": "مراقبة لحظية" },
+        "response": { "value": "أقل من 1ث", "label": "سرعة الاستجابة" },
+        "resolution": { "value": "100%", "label": "حل المشكلات" },
+        "dedication": { "value": "∞", "label": "مستوى التفاني" }
+      }
+    },
+    "why": {
+      "title": "لماذا ZFashion؟",
+      "subtitle": "التميز التقني يلتقي بالابتكار في عالم الموضة",
+      "features": {
+        "unrivaled_speed": {
+          "title": "سرعة لا تضاهى",
+          "description": "مبني على Next.js 15 لسرعات تحميل فورية على جميع الأجهزة."
+        },
+        "modern_saas": {
+          "title": "معمارية حديثة",
+          "description": "بنية سحابية قوية تتطور وتنمو مع احتياجات عملائنا المتزايدة."
+        },
+        "realtime_connectivity": {
+          "title": "تواصل لحظي",
+          "description": "تتبع المخزون مباشرة وتحديثات حالة الطلب الفورية لشفافية كاملة."
+        },
+        "smart_notifications": {
+          "title": "تنبيهات ذكية",
+          "description": "ابقَ على اطلاع بتنبيهات مخصصة حول انخفاض الأسعار والوصول الجديد."
+        },
+        "elite_security": {
+          "title": "أمان النخبة",
+          "description": "تشفير كامل من طرف إلى طرف لمدفوعاتك وبياناتك الشخصية."
+        },
+        "seamless_experience": {
+          "title": "تجربة مستخدم سلسة",
+          "description": "واجهة مصممة لتصفح حدسي وعملية دفع سهلة للغاية."
+        }
+      }
+    },
+    "cta": {
+      "title": "جاهز لتجربة التميز؟",
+      "description": "انضم إلى آلاف محبي الموضة الذين يختارون ZFashion لتجربة تسوق راقية.",
+      "button": "ابدأ التسوق الآن"
+    }
+  },
+  "Checkout": {
+    "aria_label": "صفحة الدفع",
+    "order_summary_sidebar": "ملخص الطلب - الشريط الجانبي",
+    "your_information": "معلوماتك",
+    "payment": "الدفع",
+    "steps": {
+      "information": "معلومات",
+      "payment": "الدفع",
+      "confirmation": "التأكيد"
+    }
+  },
+  "AddressForm": {
+    "aria_label": "نموذج معلومات الشحن",
+    "contact": "التواصل",
+    "email_address": "البريد الإلكتروني",
+    "email_placeholder": "you@example.com",
+    "phone_number": "رقم الهاتف",
+    "phone_placeholder": "123 456 7890",
+    "shipping_address": "عنوان الشحن",
+    "country": "الدولة",
+    "select_country": "اختر الدولة…",
+    "first_name": "الاسم الأول",
+    "first_name_placeholder": "أحمد",
+    "last_name": "اسم العائلة",
+    "last_name_placeholder": "المراد",
+    "street_address": "عنوان الشارع",
+    "street_placeholder": "شارع رئيسي 123",
+    "apartment_optional": "الشقة / الوحدة (اختياري)",
+    "apartment_placeholder": "شقة 4ب",
+    "city": "المدينة",
+    "city_placeholder": "القاهرة",
+    "postal_code": "الرمز البريدي",
+    "postal_placeholder": "10001",
+    "state_governorate": "المحافظة / الولاية",
+    "loading": "جاري التحميل…",
+    "select_country_first": "اختر الدولة أولاً",
+    "select_state": "اختر المحافظة…",
+    "continue_to_payment": "متابعة إلى الدفع →"
+  },
+  "PaymentDemo": {
+    "card_details": "تفاصيل البطاقة",
+    "secure": "آمن",
+    "card_number": "رقم البطاقة",
+    "cardholder_name": "اسم حامل البطاقة",
+    "expiry": "تاريخ الانتهاء",
+    "cvv": "رمز التحقق (CVV)",
+    "processing": "جاري المعالجة…",
+    "pay_button": "ادفع {amount} →",
+    "or": "أو",
+    "redirecting": "إعادة التوجيه…",
+    "pay_with_paypal": "الدفع عبر PayPal",
+    "back_to_information": "العودة للمعلومات",
+    "ssl_secured": "مؤمن بواسطة SSL"
+  },
+  "OrderSummary": {
+    "aria_label": "ملخص الطلب",
+    "order_summary": "ملخص الطلب",
+    "discount_code": "رمز الخصم",
+    "coupon_placeholder": "مثال: SAVE10",
+    "apply": "تطبيق",
+    "invalid_coupon": "رمز قسيمة غير صالح",
+    "applied_suffix": "تم التطبيق — {percent}% خصم!",
+    "subtotal": "المجموع الجزئي",
+    "discount_label": "نسبة الخصم ({percent}%)",
+    "shipping": "الشحن",
+    "free": "مجاني",
+    "estimated_tax": "الضريبة المقدرة",
+    "total": "الإجمالي",
+    "secure_ssl": "تشفير SSL 256‑بت آمن"
+  },
+  "SuccessScreen": {
+    "order_confirmed": "تم تأكيد الطلب",
+    "thank_you": "شكراً لك",
+    "order_placed": "تم إرسال طلبك وهو قيد التحضير.",
+    "order_number": "رقم الطلب",
+    "email": "البريد الإلكتروني",
+    "ship_to": "الشحن إلى",
+    "shipping": "الشحن",
+    "timeline": {
+      "confirmed": "تم تأكيد الطلب",
+      "just_now": "الآن",
+      "prepared": "قيد التحضير",
+      "estimated_hours": "تقديري {hours} ساعات",
+      "out_for_delivery": "تم إخراجه للتسليم",
+      "estimated_days": "تقدر بـ {days} يوم",
+      "email_sent": "تم إرسال بريد التأكيد"
+    },
+    "continue_shopping": "متابعة التسوق",
+    "track_order": "تتبع الطلب"
+  },
+  "Footer": {
+    "brand": {
+      "name": "متجرك",
+      "description": "ننتقي منتجات وتجارب استثنائية للعملاء المميزين منذ 2014."
+    },
+    "newsletter": {
+      "title": "ابقَ على اطلاع",
+      "placeholder": "أدخل بريدك الإلكتروني",
+      "done": "تم!",
+      "join": "انضم",
+      "note": "احصل على عروض حصرية ونصائح للستايل والوصول المبكر للمجموعات الجديدة."
+    },
+    "shop": {
+      "title": "التسوق",
+      "new_arrivals": "وصل حديثاً",
+      "bestsellers": "الأكثر مبيعاً",
+      "sale": "تخفيضات",
+      "collections": "المجموعات",
+      "gift_cards": "بطاقات الهدايا"
+    },
+    "support": {
+      "title": "الدعم",
+      "contact_us": "تواصل معنا",
+      "faqs": "الأسئلة الشائعة",
+      "shipping": "معلومات الشحن",
+      "returns": "الإرجاع والاستبدال",
+      "size_guide": "دليل المقاسات"
+    },
+    "company": {
+      "title": "الشركة",
+      "about": "من نحن",
+      "careers": "الوظائف",
+      "sustainability": "الاستدامة",
+      "press": "الصحافة",
+      "blog": "المدونة"
+    },
+    "contact": {
+      "title": "تواصل",
+      "linkedin": "الملف على لينكد إن"
+    },
+    "legal": {
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة",
+      "cookies": "سياسة الكوكيز"
+    },
+    "bottom": {
+      "copy": "© {year} متجرك. كل الحقوق محفوظة."
+    },
+    "payments": {
+      "accept": "نقبل:"
+    }
+  }
+}

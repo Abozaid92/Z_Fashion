@@ -1,0 +1,2008 @@
+{
+  "nav": {
+    "products": "Products",
+    "contact": "Contact Us",
+    "cart": "Cart",
+    "account": "Account",
+    "about": "About Us",
+    "dashboard": "Admin Dashboard",
+    "home": "Home",
+    "ctg": {
+      "all": "All:",
+      "Accessories": "Accessories",
+      "men": "Men",
+      "kids": "Kids",
+      "women": "Women",
+      "caps": "Shirts",
+      "Shirts": "Shirts",
+      "jackets": "Jackets",
+      "Jacket": "Jackets",
+      "pants": "Pants"
+    }
+  },
+  "Lang": { "select_language": "Select Language", "language": "Language" },
+  "CartNav": {
+    "empty_cart": "Cart is empty",
+    "cart": "Cart",
+    "items": "Items",
+    "cart_label": "Shopping Cart",
+    "product_label": "Product",
+    "continue_shopping": "Continue Shopping",
+    "aria_label": "Shopping Cart",
+    "empty_text": "Cart is empty",
+    "view_all": "View All ({count})",
+    "view_cart": "View Cart"
+  },
+  "EmptyCart": {
+    "cart_is_empty": "Your cart is empty",
+    "start_shopping": "Start Shopping",
+    "empty_cart_aria": "Shopping cart is empty",
+    "empty_cart_title": "No items added yet",
+    "empty_cart_description": "Your cart is empty. Start browsing products and add what suits you.",
+    "browse_products": "Browse Products"
+  },
+  "Rating": { "rating": "Rating", "rate_product": "Rate Product" },
+  "Navbar": {
+    "aria_label": "Main Navigation",
+    "mobileMenu": {
+      "AdminDashboard": "Admin Dashboard",
+      "open": "Open Menu",
+      "close": "Close Menu",
+      "title": "Menu",
+      "home": "Home",
+      "about": "About Us",
+      "dashboard": "Admin Dashboard",
+      "all": "All",
+      "myAccount": "My Account",
+      "myOrders": "My Orders",
+      "ctg": {
+        "all": "All:",
+        "Accessories": "Accessories",
+        "men": "Men",
+        "kids": "Kids",
+        "women": "Women",
+        "caps": "Shirts",
+        "jackets": "Jackets",
+        "Jacket": "Jackets",
+        "pants": "Pants",
+        "Shirts": "Shirts"
+      }
+    }
+  },
+  "AnnouncementBar": {
+    "controls": { "previous": "Previous", "next": "Next", "dismiss": "Dismiss" }
+  },
+  "ProductCard": {
+    "add_to_cart": "Add to Cart",
+    "view_details": "View Details",
+    "out_of_stock": "Out of Stock",
+    "discount_off": "{discount}% Off",
+    "quick_view": "Quick View — {name}",
+    "view": "View {name}"
+  },
+  "Filters": {
+    "title": "Filters",
+    "price_range": "Price Range",
+    "price_0_50": "Price $0 to $50",
+    "price_50_100": "Price $50 to $100",
+    "price_100_200": "Price $100 to $200",
+    "price_200_plus": "Price $200 and above",
+    "category": "Category",
+    "gender": "Gender",
+    "gender_male": "Men",
+    "gender_female": "Women",
+    "gender_unisex": "Unisex",
+    "gender_kids": "Kids",
+    "size": "Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "size_xlarge": "Extra Large",
+    "brand": "Brand",
+    "rating": "Rating",
+    "clear_all": "Clear All",
+    "apply": "Apply Filters",
+    "apply_filters": "Apply Filters",
+    "clear_filters": "Clear All Filters",
+    "filters_aria_label": "Product Filters",
+    "male": "Men",
+    "female": "Women",
+    "unisex": "Unisex",
+    "kids": "Kids"
+  },
+  "Hero": {
+    "shop_now": "Shop Now",
+    "discount_badge": "-50%",
+    "slides": {
+      "1": { "title": "Streetwear", "tag": "🚀 Most Popular" },
+      "2": { "title": "Summer Collection", "tag": "🔥 Hot" },
+      "3": { "title": "Luxury Watches", "tag": "⭐ Premium" },
+      "4": { "title": "Designer Bags", "tag": "💎 New" }
+    }
+  },
+  "announcement": {
+    "flash_sale": "⚡ Flash Sale: Up to 50% Off - Limited Time Only!",
+    "free_shipping": "🚚 Free Shipping on Orders Over $50",
+    "new_collection": "✨ New Collection - Shop Now!"
+  },
+  "auth": {
+    "logoutSuccessfully": "Logged out successfully",
+    "failedLogout": "Logout failed",
+    "somethingWentWrong": "Something went wrong, please try again",
+    "TooManyRequest": "Please wait a moment before trying again",
+    "loginACC": "Sign In",
+    "registerACC": "Create Account",
+    "profile": "Profile",
+    "logout": "Logout",
+    "cart": "Cart",
+    "orders": "Orders",
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to continue",
+      "emailOrUsername": "Email",
+      "emailPlaceholder": "Enter email",
+      "emailRequired": "Email is required",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "passwordRequired": "Password must be at least 6 characters",
+      "forgotPassword": "Forgot Password?",
+      "submit": "Sign In",
+      "loading": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "register": "Create Account",
+      "loginSuccessfully": "Signed in successfully",
+      "invalidCredentials": "Username or password is incorrect",
+      "AccessDenied": "Please verify your email to continue. We have sent a verification email to your inbox"
+    },
+    "register": {
+      "title": "Create New Account",
+      "subtitle": "Join us and start shopping",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "emailInvalid": "Invalid email",
+      "username": "Username",
+      "usernamePlaceholder": "Choose a unique username",
+      "usernameInvalid": "Username must be 3-20 characters",
+      "password": "Password",
+      "passwordPlaceholder": "Choose a strong password",
+      "passwordInvalid": "Password must be at least 6 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "passwordMismatch": "Passwords do not match",
+      "submit": "Create Account",
+      "loading": "Creating account...",
+      "haveAccount": "Already have an account?",
+      "login": "Sign In",
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong",
+      "Email is already taken": "Email is already taken",
+      "Name is already taken": "Username is already taken"
+    },
+    "verify": {
+      "invalidLink": "Invalid verification link",
+      "success": "Your email has been verified successfully!",
+      "error": "Something went wrong. Please try again.",
+      "loading": "Verifying...",
+      "successTitle": "Email Verified! ✨",
+      "errorTitle": "Verification Failed",
+      "successNote": "🎉 Your account is now active! You can start using all features.",
+      "goToLogin": "Go to Sign In",
+      "errorNote": "The verification link may have expired or is invalid.",
+      "resendEmail": "Resend Verification Email",
+      "needHelp": "Need help?",
+      "contactSupport": "Contact Support"
+    },
+    "forgot": {
+      "title": "Forgot Password?",
+      "subtitle": "We'll help you recover it",
+      "info": "Enter your email and we'll send you a password reset link.",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "emailInvalid": "Invalid email",
+      "submit": "Send Reset Link",
+      "loading": "Sending...",
+      "backToLogin": "Back to Sign In",
+      "successTitle": "Check Your Email",
+      "successSubtitle": "Reset Link Sent",
+      "successMessage": "We've sent a password reset link to your email.",
+      "checkEmail": "Please check your inbox and spam folder.",
+      "resend": "Resend Link",
+      "userNotFound": "User not found"
+    },
+    "reset": {
+      "title": "Reset Password",
+      "subtitle": "Choose a new strong password",
+      "newPassword": "New Password",
+      "passwordPlaceholder": "Enter new password",
+      "passwordInvalid": "Password must be at least 6 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "passwordMismatch": "Passwords do not match",
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong",
+      "submit": "Update Password",
+      "loading": "Updating...",
+      "backToLogin": "Back to Sign In",
+      "successTitle": "Success!",
+      "successSubtitle": "Password Updated",
+      "successMessage": "Your password has been updated successfully!",
+      "canLogin": "You can now sign in with your new password.",
+      "loginNow": "Sign In Now"
+    },
+    "social": { "divider": "Or sign in with" }
+  },
+  "hero": {
+    "subtitle": "High Quality Fashion for Everyone",
+    "shop_now": "Shop Now",
+    "title": {
+      "Streetwear": "Streetwear",
+      "Summer Collection": "Summer Collection",
+      "Luxury Watches": "Luxury Watches",
+      "Designer Bags": "Designer Bags"
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "price_range": "Price Range",
+    "category": "Category",
+    "gender": "Gender",
+    "size": "Size",
+    "brand": "Brand",
+    "rating": "Rating",
+    "clear_all": "Clear All",
+    "apply": "Apply Filters",
+    "male": "Men",
+    "female": "Women",
+    "unisex": "Unisex",
+    "kids": "Kids"
+  },
+  "products": {
+    "title": "Our Products",
+    "sort_by": "Sort By",
+    "search": "Search for products...",
+    "price_low_high": "Price: Low to High",
+    "price_high_low": "Price: High to Low",
+    "newest": "Newest First",
+    "popular": "Most Popular",
+    "add_to_cart": "Add to Cart",
+    "view_details": "View Details",
+    "out_of_stock": "Out of Stock"
+  },
+  "brands": {
+    "title": "Featured Brands",
+    "subtitle": "Shop from our trusted partners"
+  },
+  "AdminCharts": {
+    "complaints": {
+      "title": "Complaints Analysis",
+      "description": "Monitor and resolve customer complaints effectively",
+      "total": "Total Complaints",
+      "daily_avg": "Daily Average",
+      "peak_volume": "Peak Volume",
+      "resolution_rate": "Resolution Rate",
+      "insights_title": "Complaints Insights"
+    },
+    "orders": {
+      "title": "Orders Analysis",
+      "description": "Track order volume and performance metrics",
+      "total": "Total Orders",
+      "daily_avg": "Daily Average",
+      "peak_volume": "Peak Volume",
+      "above_avg": "Above Average",
+      "insights_title": "Orders Insights"
+    },
+    "revenue": {
+      "title": "Revenue Analysis",
+      "description": "Monitor financial trends and performance",
+      "total": "Total Revenue",
+      "daily_avg": "Daily Average",
+      "peak": "Peak Revenue",
+      "growth_rate": "Growth Rate",
+      "insights_title": "Revenue Insights"
+    },
+    "users": {
+      "title": "Users Analysis",
+      "description": "Track user growth and engagement",
+      "total": "Total Users",
+      "daily_avg": "Daily Average",
+      "peak_day": "Peak Day",
+      "growth_days": "Growth Days",
+      "insights_title": "User Insights"
+    },
+    "net_profit": {
+      "title": "Net Profit Analysis",
+      "description": "Monitor profitability and profit margins",
+      "total": "Total Net Profit",
+      "daily_avg": "Daily Average",
+      "profit_margin": "Profit Margin",
+      "peak": "Peak Profit",
+      "insights_title": "Profit Insights"
+    },
+    "products": {
+      "title": "Products Analysis",
+      "description": "Track product performance and sales data",
+      "insights_title": "Product Insights"
+    },
+    "views": {
+      "title": "Views Analysis",
+      "description": "Monitor site views and traffic patterns",
+      "insights_title": "Views Insights"
+    }
+  },
+  "HeroSectionHome": {
+    "announcement": "New Season Sale - Up to 50% off on selected items!",
+    "collection_badge": "Spring 2025 Collection",
+    "main_title_1": "Style that",
+    "main_title_2": "speaks",
+    "main_title_3": "for itself.",
+    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
+    "shop_button": "Shop Collection",
+    "lookbook_button": "View Lookbook",
+    "stat_1_value": "Happy Customers",
+    "stat_1_sub": "Worldwide",
+    "stat_2_value": "5-Star Reviews",
+    "stat_2_sub": "4.9 ★ Average",
+    "stat_3_value": "Curated Styles",
+    "stat_3_sub": "New Weekly",
+    "stat_4_value": "Views",
+    "stat_4_sub": "Total Cumulative Reach",
+    "price_label": "Starting from",
+    "product_images": [
+      { "tag": "New Arrival", "name": "City Carrier", "price": "£89" },
+      { "tag": "Most Wanted", "name": "Street Essential", "price": "£64" },
+      { "tag": "Limited Edition", "name": "Premium Edition", "price": "£129" }
+    ],
+    "testimonial_quote": "World-class quality!",
+    "testimonial_author": "Sarah M. — Verified",
+    "marquee_items": [
+      { "text": "Fast Delivery" },
+      { "text": "Secure Payment" },
+      { "text": "Premium Quality" },
+      { "text": "New Pieces Weekly" }
+    ]
+  },
+  "TestimonialsSection": {
+    "verified_buyer": "Verified Customer",
+    "testimonials": "Customer Reviews on Our Products",
+    "reviews": "28000+ Reviews",
+    "rating": "4.9",
+    "customer_reviews": "Customer Reviews"
+  },
+  "CollectionsSlider": {
+    "collections": "Collections",
+    "view_collection": "View Collection",
+    "featured_collection": "Featured Collection"
+  },
+  "HorizontalProductScroll": {
+    "view_all": "View All",
+    "products": "Products",
+    "view_all_title": "View All"
+  },
+  "AdminTopNav": {
+    "alert": "Alert: All stats are updated hourly to ensure the most accurate data",
+    "hamburger_aria_label": "Open Menu",
+    "search_placeholder": "Search orders, users, products...",
+    "search_label": "Search",
+    "search": "Search",
+    "search_open_label": "Open Search",
+    "search_close_label": "Close Search",
+    "notifications": {
+      "title": "Notifications",
+      "new": "New",
+      "view_all": "View All",
+      "aria_label": "Orders List"
+    },
+    "user_menu": {
+      "aria_label": "User Menu",
+      "options_aria_label": "User Options",
+      "settings": "Settings",
+      "my_profile": "My Profile",
+      "help_and_support": "Help and Support",
+      "sign_out": "Sign Out"
+    },
+    "user": {
+      "short_name": "You",
+      "full_name": "Full Username",
+      "email": "Email"
+    }
+  },
+  "Notifications": {
+    "title": "Notifications",
+    "notifications_blocked": "Notifications blocked. Allow notifications from browser settings.",
+    "enable_notifications": "Enable Notifications",
+    "mark_all_read": "Mark All as Read",
+    "notifications_disabled_warning": "To receive notifications, allow them from your browser.",
+    "delete_all_read": "Delete All Read Notifications",
+    "no_notifications_yet": "No notifications yet.",
+    "delete_this_notification": "Delete this notification",
+    "delete_notification_aria": "Delete notification",
+    "bell_aria": "Notifications, {count} unread",
+    "notification_details_title": "Notification Details",
+    "sender_alt": "Sender"
+  },
+  "AdminStatus": {
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled",
+      "View": "View Details"
+    }
+  },
+  "AdminStatusFilter": {
+    "filter_aria_label": "Filter by status",
+    "all_statuses": "All Statuses",
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminUpdateStatusModal": {
+    "modal_title": "Update Status",
+    "current_status_label": "Current Status",
+    "change_to_label": "Change To",
+    "cancel_button": "Cancel",
+    "confirm_button": "Confirm",
+    "saving_text": "Saving…",
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminViewItemsModal": {
+    "modal_title": "Order Items",
+    "item_count": "{count} product",
+    "unit_count": "{count} unit",
+    "column_product": "Product",
+    "column_qty": "Quantity",
+    "column_price": "Price",
+    "subtotal_label": "Subtotal"
+  },
+  "ComparisonToggle": { "compare_period": "Compare Period" },
+  "ExportButton": { "export_csv": "Export CSV" },
+  "EmptyState": {
+    "no_data_available": "No data available",
+    "no_data_description": "No data found to display"
+  },
+  "TimeframeSelector": {
+    "last_7_days": "Last 7 Days",
+    "last_30_days": "Last 30 Days",
+    "last_90_days": "Last 90 Days",
+    "this_year": "This Year"
+  },
+  "DataTable": { "no_orders_found": "No orders found" },
+  "NotifFilter": {
+    "sort_by": "Sort By",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "sort_order": "Sort Order",
+    "high_to_low": "High to Low",
+    "low_to_high": "Low to High",
+    "sort_by_aria_label": "Sort By",
+    "order_aria_label": "Sort Order"
+  },
+  "NotifRow": {
+    "view_details": "View Details",
+    "delete": "Delete",
+    "sent_at": "Sent at",
+    "opens": "Opens",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "delete_confirmation": "Are you sure you want to delete this notification?",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "StatsGrid": {
+    "total_sent": "Total Sent",
+    "total_opens": "Total Opens",
+    "open_rate": "Open Rate",
+    "avg_open_rate": "Average Open Rate"
+  },
+  "NotifHistory": {
+    "tab_notifications": "Push & In-App Notifications",
+    "tab_announcements": "Announcement Bar",
+    "total": "Total:",
+    "aria_label": "Notification History",
+    "empty_notifications": "No notifications yet",
+    "empty_announcements": "No announcement bars yet",
+    "empty_created_items_hint": "Items you create will appear here"
+  },
+  "AdminProductBasicInfo": {
+    "section_title": "Basic Information",
+    "section_subtitle": "Name, description, and category",
+    "field_product_name": "Product Name",
+    "placeholder_product_name": "Example: Classic White Shirt"
+  },
+  "AdminProductPricing": {
+    "section_title": "Pricing & Stock",
+    "section_subtitle": "Price, discount, and inventory",
+    "field_price": "Price (EGP)",
+    "field_discount": "Discount %"
+  },
+  "AdminGalleryUpload": {
+    "max_files_error": "Maximum {count} images allowed",
+    "file_too_large": "File exceeds {size} MB",
+    "invalid_format": "File format not supported",
+    "drag_drop": "Drag images here or click to select"
+  },
+  "AdminImageUpload": {
+    "max_size_error": "File exceeds maximum {size} MB",
+    "invalid_format": "Only JPG, PNG, and WebP accepted",
+    "drag_drop": "Drag image here or click to select",
+    "remove_image": "Remove Image"
+  },
+  "AdminDeleteDialog": {
+    "close_aria_label": "Close Dialog",
+    "cancel_button": "Cancel",
+    "confirm_button": "Confirm Delete",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting..."
+  },
+  "AdminCategories": {
+    "new_root_title": "New Category",
+    "title": "Categories",
+    "edit_title": "Edit Category",
+    "loading": "Loading…",
+    "stats": "{root} categories · {sub} subcategories",
+    "new_category": "New Category",
+    "search_placeholder": "Search categories…",
+    "search_aria": "Search categories",
+    "refresh": "Refresh Categories",
+    "results_for": "{count} results for \"{query}\"",
+    "categories_count": "{count} categories",
+    "add_root": "Add Category",
+    "failed_to_load": "Failed to load categories",
+    "try_again": "Try Again",
+    "no_match": "No matching categories found",
+    "no_categories_yet": "No categories yet",
+    "try_different_keyword": "Try a different keyword",
+    "create_first_category": "Create your first category to get started",
+    "hover_help_prefix": "Hover over category to see actions",
+    "add_category_aria": "Add new category",
+    "add_category": "Add Category",
+    "sub_label": "Subcategory",
+    "add_sub_aria": "Add subcategory to {name}",
+    "add_sub": "Add Subcategory",
+    "edit_aria": "Edit {name}",
+    "edit": "Edit",
+    "delete_aria": "Delete {name}",
+    "delete": "Delete",
+    "delete_category": "Delete Category",
+    "delete_confirm": "Are you sure you want to delete \"{name}\"? This will also delete {count} subcategories (if any).",
+    "field_name": "Category Name",
+    "placeholder_example": "Example: Clothing",
+    "field_slug": "Slug",
+    "auto_generated": "Auto-generated",
+    "placeholder_slug": "slug example: clothing",
+    "field_image": "Category Image",
+    "field_image_hint": "Optional · Displayed in store",
+    "uploading_image": "Uploading image...",
+    "sub_categories": "Subcategories",
+    "optional": "Optional",
+    "no_sub_categories": "No subcategories yet",
+    "field_parent": "Parent Category",
+    "select_parent": "Select parent category…",
+    "add": "Add",
+    "placeholder_sub_name": "Subcategory name",
+    "placeholder_sub_slug": "subcategory slug",
+    "remove_sub_aria": "Remove subcategory",
+    "editable": "Editable",
+    "leave_empty_root": "Leave empty to make it a root category",
+    "no_parent_root": "No parent (root category)",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save_changes": "Save Changes",
+    "create": "Create"
+  },
+  "AdminStatsCards": { "vs_previous_period": "vs Previous Period" },
+  "AdminInsightsPanel": { "default_title": "Key Insights" },
+  "AdminCustomTooltip": { "value_label": "Value" },
+  "AdminNotifRow": {
+    "view_details": "View Details",
+    "delete": "Delete",
+    "customize": "Customize",
+    "preview_link": "Preview Link",
+    "mark_read": "Mark as Read",
+    "mark_unread": "Mark as Unread"
+  },
+  "AdminNotifComposer": {
+    "title": "Notification Composer",
+    "aria_label": "Create Notification",
+    "select_recipients": "Select Recipients",
+    "notification_type": "Send Channel",
+    "push_notification": "Push Notification",
+    "in_app": "In-App",
+    "announcement_bar": "Announcement Bar",
+    "notification_title": "Notification Title",
+    "notification_description": "Notification Description",
+    "preview_button": "Preview",
+    "send_button": "Send Now",
+    "schedule_button": "Schedule",
+    "subtitle": "Send notifications to all users instantly",
+    "sending_as": "Sending as {role}",
+    "you": "You",
+    "mobile_desktop": "Mobile & Desktop",
+    "in_app_hint": "Bell icon · Web interface",
+    "announcement_bar_hint": "Top site banner",
+    "notification_sent_success": "Notification sent to all users!",
+    "notification_sent_error": "Failed to send. Try again.",
+    "title_placeholder": "Example: 🔥 Flash Deal — 24 Hours Only!",
+    "description_placeholder": "Write notification message. Make it clear and action-oriented.",
+    "push_only": "Push only",
+    "action_url": "Action Link",
+    "push_only_hint": "— Push notification only",
+    "notification_image": "Notification Image",
+    "uploading": "Uploading...",
+    "uploaded": "Uploaded",
+    "drop_to_upload": "Drop to upload",
+    "drag_click_to_choose": "Drag and drop or click to select",
+    "file_types_hint": "PNG, JPG, WEBP · Max 5MB",
+    "announcement_bar_only": "Announcement bar only",
+    "bar_link_label": "Bar Link",
+    "bar_background_color": "Bar Background Color",
+    "push_url_placeholder": "https://yourapp.com/offer",
+    "push_image_preview_alt": "Notification image preview",
+    "pick_color": "Pick Color",
+    "close": "Close",
+    "bar_preview": "Bar Preview",
+    "announcement_placeholder": "Your announcement text will appear here…",
+    "sending": "Sending",
+    "broadcast_to_all_users": "Broadcast to All Users",
+    "will_be_sent_to_users": "Will be sent instantly to ~{count} users"
+  },
+  "AdminPreviews": {
+    "phone_preview": "Phone Preview",
+    "in_app_preview": "In-App Preview",
+    "announcement_preview": "Announcement Bar Preview",
+    "now": "Now",
+    "notification_title_placeholder": "Notification Title",
+    "message_placeholder": "Your message will appear here.",
+    "notifications_label": "Notifications",
+    "new_count": "{count} New",
+    "no_other_notifications": "No other notifications"
+  },
+  "AdminAnnouncementBarPreview": {
+    "view_offer": "View Offer",
+    "aria_label": "Announcement bar preview",
+    "live_preview": "Live Preview · Announcement Bar"
+  },
+  "AdminChatPane": {
+    "conversation": "Conversation",
+    "ticket_details": "Ticket Details",
+    "message_input": "Type your message...",
+    "send_message": "Send",
+    "status_label": "Status:",
+    "priority_label": "Priority:"
+  },
+  "AdminTicketList": {
+    "search_tickets": "Search Tickets",
+    "no_tickets": "No Tickets",
+    "unread": "New"
+  },
+  "AdminUsersFilter": {
+    "search_users": "Search Users",
+    "filter_role": "By Role",
+    "filter_status": "By Status",
+    "items_per_page": "Items per Page",
+    "all_roles": "All Roles",
+    "all_statuses": "All Statuses"
+  },
+  "AdminUsersStats": {
+    "total_users": "Total Users",
+    "active_users": "Active Users",
+    "banned_users": "Banned Users"
+  },
+  "AdminUpdataStatusModal": {
+    "title": "Update User Status",
+    "current_status": "Current Status:",
+    "new_status": "New Status:",
+    "cancel_button": "Cancel",
+    "save_button": "Save"
+  },
+  "AdminChartCard": {
+    "view_full_chart": "View Full Chart",
+    "loading": "Loading..."
+  },
+  "AdminStatCard": { "view_analytics": "View Analytics" },
+  "AdminGeoMap": {
+    "sales_by_region": "Sales by Region",
+    "total_revenue": "Total Revenue"
+  },
+  "AdminAvatar": {
+    "user_avatar": "User Avatar",
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "AdminBadge": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "completed": "Completed",
+    "admin": "Admin",
+    "user": "User",
+    "moderator": "Moderator",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "AdminButton": {
+    "loading": "Processing...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "AdminModal": { "close": "Close" },
+  "AdminDataTable": {
+    "search": "Search...",
+    "no_results": "No Results",
+    "sort_ascending": "Sort Ascending",
+    "sort_descending": "Sort Descending",
+    "sort_toggle": "Toggle Sort",
+    "Status": "Status"
+  },
+  "AdminShell": { "mobile_menu": "Navigation Menu" },
+  "CardNav": {
+    "cart": "Cart",
+    "delete_item": "Delete Item",
+    "back": "Back",
+    "size": "Size",
+    "total_price": "Total Price",
+    "checkout": "Checkout"
+  },
+  "MainContent": {
+    "filters": "Filters",
+    "products": "Products",
+    "no_products": "No Products"
+  },
+  "Pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "results": "Total",
+    "showing": "Showing"
+  },
+  "BellItem": {
+    "delete": "Delete",
+    "mark_as_read": "Mark as Read",
+    "mark_as_unread": "Mark as Unread"
+  },
+  "BellOnceItem": {
+    "view_more": "View More",
+    "close": "Close",
+    "date": "Date"
+  },
+  "DeleteAllNotifButton": {
+    "delete_all": "Delete All",
+    "delete_all_notifications": "Delete All Notifications"
+  },
+  "HeaderBell": {
+    "notifications": "Notifications",
+    "mark_all_as_read": "Mark All as Read"
+  },
+  "Cart": {
+    "shopping_cart": "Shopping Cart",
+    "empty_cart": "Cart is empty",
+    "continue_shopping": "Continue Shopping",
+    "checkout": "Checkout",
+    "order_summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "items": "Items",
+    "view_cart": "View Cart",
+    "view_all": "View All ({count})",
+    "items_label": "Cart Items",
+    "remove": "Remove Product"
+  },
+  "CartItem": {
+    "size": "Size",
+    "price": "Price",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "delete": "Delete",
+    "delete_aria": "Delete {product}",
+    "quantity_aria": "Product quantity",
+    "decrease_qty": "Decrease quantity",
+    "increase_qty": "Increase quantity",
+    "total_label": "Total"
+  },
+  "Applyrequest": {
+    "title": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Checkout",
+    "apply_request": "Apply Request",
+    "order_summary": "Order Summary",
+    "items_count": "{count} item",
+    "show_more": "Show {count} more items",
+    "promo_label": "Discount Code",
+    "promo_placeholder": "Enter code",
+    "apply_button": "Apply",
+    "coupon_success": "Code {code} applied! 40% discount granted",
+    "coupon_error": "Invalid code",
+    "discount_label": "Discount",
+    "shipping_label": "Shipping",
+    "grand_total_label": "Total",
+    "checkout_button": "Complete Order",
+    "vat_note": "VAT included",
+    "promo_aria": "Discount code field",
+    "price_details_aria": "Price details",
+    "grand_total_aria": "Grand total summary",
+    "cart_items_aria": "Cart items",
+    "promo_code": "Discount Code",
+    "apply_code": "Apply",
+    "discount_applied": "Discount applied!",
+    "shipping_fee": "Shipping Fee",
+    "proceed_checkout": "Proceed to Checkout",
+    "continue_shopping": "Continue Shopping",
+    "trust": {
+      "safe_payment": "Safe Payment",
+      "quality": "Quality Guarantee",
+      "free_returns": "Free Returns"
+    }
+  },
+  "trust": {
+    "safe_payment": "Safe Payment",
+    "quality": "Quality Guarantee",
+    "free_returns": "Free Returns"
+  },
+  "CartHeader": {
+    "products": "Products",
+    "cart_header": "Cart Header",
+    "title": "Shopping Cart",
+    "products_in_cart": "{count} products in your cart"
+  },
+  "ChatWindow": {
+    "messages": "Messages",
+    "type_message": "Type your message...",
+    "send": "Send",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "Close"
+  },
+  "MessageItem": {
+    "delivered": "Delivered",
+    "read": "Read",
+    "sending": "Sending..."
+  },
+  "Carousel": { "previous": "Previous", "next": "Next", "slide": "Slide" },
+  "CategoryGrid": {
+    "categories": "Categories",
+    "shop_category": "Shop by Category",
+    "shop": "Shop",
+    "no_categories": "No Categories",
+    "CATEGORY": "Categories",
+    "ctgDescribtion": "Explore our latest categories",
+    "men": "Men",
+    "kids": "Kids",
+    "Accessories": "Accessories"
+  },
+  "ProductCardHome": {
+    "add_to_cart": "Add to Cart",
+    "quick_view": "Quick View",
+    "out_of_stock": "Out of Stock",
+    "price": "Price"
+  },
+  "ShowcaseSection": {
+    "featured": "Featured",
+    "shop_now": "Shop Now",
+    "view_all": "View All",
+    "explore_all": "Explore All",
+    "Men's_Collection": "Men",
+    "Little_Legends": "Kids",
+    "men-pants": "Latest Fashion Trends",
+    "Accessories": "Accessories",
+    "Jackets": "Jackets",
+    "men_describe": "For You",
+    "pants_describe": "Latest Fashion Trends",
+    "women_describe": "Latest Accessories",
+    "Accessories_describe": "Complete Your Style",
+    "jackets_describe": "For Cold Weather",
+    "jacket_describe": "For Cold Weather"
+  },
+  "ZoomOverlay": {
+    "aria_zoom": "Zoom — {name}",
+    "zoom_in": "Zoom In",
+    "zoom_out": "Zoom Out",
+    "rotate": "Rotate",
+    "reset": "Reset",
+    "close": "Close",
+    "hint": "Pinch or scroll to zoom · Drag to pan"
+  },
+  "CheckoutClient": {
+    "checkout": "Checkout",
+    "step": "Step",
+    "cart": "Cart",
+    "address": "Address",
+    "payment": "Payment",
+    "confirmation": "Confirmation"
+  },
+  "CheckoutStepper": {
+    "step_cart": "Cart",
+    "step_address": "Address",
+    "step_payment": "Payment",
+    "step_confirmation": "Confirmation",
+    "completed": "Completed"
+  },
+  "SocialLogin": {
+    "sign_up_with": "Sign up with",
+    "facebook": "Facebook",
+    "google": "Google",
+    "github": "GitHub",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "PDPDetails": {
+    "product_details": "Product Details",
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "add_to_cart": "Add to Cart",
+    "add_to_wishlist": "Add to Wishlist",
+    "size": "Size",
+    "quantity": "Quantity",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "save_percent": "Save {percent}%",
+    "color_label": "Color:",
+    "size_error": "Please select size",
+    "size_label": "Size:",
+    "select_size": "Select Size",
+    "size_guide": "Size Guide",
+    "guarantees": {
+      "free_returns": "Free Returns",
+      "secure_checkout": "Secure Checkout",
+      "fast_delivery": "Fast Delivery"
+    }
+  },
+  "PDPGallery": {
+    "product_gallery": "Product Gallery",
+    "previous": "Previous",
+    "next": "Next",
+    "thumbnail": "Thumbnail",
+    "zoom": "Zoom"
+  },
+  "PLPClient": {
+    "products": "Products",
+    "sort": "Sort",
+    "filter": "Filter",
+    "no_products": "No Products",
+    "price_low_to_high": "Price: Low to High",
+    "price_high_to_low": "Price: High to Low",
+    "newest": "Newest",
+    "bestseller": "Bestseller"
+  },
+  "DepartmentsProductCard": {
+    "view": "View",
+    "add_to_cart": "Add to Cart",
+    "add_to_wishlist": "Add to Wishlist",
+    "rating": "Rating",
+    "price": "Price",
+    "in_stock": "In Stock"
+  },
+  "ProductDiffrentActions": {
+    "add_to_cart": "Add to Cart",
+    "add_to_wishlist": "Add to Wishlist",
+    "share": "Share",
+    "quantity": "Quantity",
+    "size": "Size",
+    "decrease": "Decrease",
+    "increase": "Increase"
+  },
+  "ProductActions": {
+    "quantity": "Quantity",
+    "adding": "Adding...",
+    "added": "✓ Added",
+    "add_to_cart": "Add to Cart",
+    "share_aria": "Share product"
+  },
+  "ReviewSection": {
+    "reviews": "Reviews",
+    "header": {
+      "title": "Customer Reviews",
+      "verified_purchases": "Verified Purchases"
+    },
+    "rating_distribution": "Rating Distribution",
+    "star_label": "{count} stars",
+    "write_review": "Write Review",
+    "visual_breakdown": "Visual Breakdown",
+    "rating": "Rating",
+    "review": "Review",
+    "verified_buyer": "Verified Buyer",
+    "helpful": "Helpful",
+    "not_helpful": "Not Helpful",
+    "submit": "Submit",
+    "loading_reviews": "Loading reviews...",
+    "no_reviews_yet": "No reviews yet",
+    "be_first": "Be the first to share your opinion!",
+    "loading_more": "Loading more reviews...",
+    "all_reviews_loaded": "All reviews loaded ({count})",
+    "customer_recommended": "Customer Recommendation Rate",
+    "out_of": "out of",
+    "customers": "customers",
+    "anonymous": "Anonymous",
+    "just_posted": "Just Posted",
+    "mark_helpful_aria": "Mark as helpful{count, plural, =0 {} one{ (1)} other{ ({count})}}",
+    "form": {
+      "title": "Add Review",
+      "your_rating": "Your Rating",
+      "your_review": "Your Review",
+      "placeholder": "Write your experience here...",
+      "min_chars": "Minimum 10 characters",
+      "submitting": "Submitting...",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    }
+  },
+  "DepartmentsStarRating": {
+    "rating": "Rating",
+    "stars": "Stars",
+    "rate": "Rate",
+    "out_of_5": "out of 5"
+  },
+  "ProfileContent": {
+    "loading": "Loading...",
+    "profile": "Profile",
+    "user_profile": "User Profile"
+  },
+  "ProfileSkeleton": { "loading": "Loading..." },
+  "profile": {
+    "pageTitle": "Profile",
+    "pageDescription": "Browse your personal information, orders, favorites, and settings.",
+    "admin": {
+      "title": "User Management Panel",
+      "notification": {
+        "title": "Send Notification to User",
+        "titleLabel": "Notification Title",
+        "titlePlaceholder": "Enter notification title...",
+        "messageLabel": "Notification Message",
+        "messagePlaceholder": "Enter notification message...",
+        "sending": "Sending…",
+        "send": "Send"
+      },
+      "insights": {
+        "title": "Statistics",
+        "lifetimeValue": "Customer Lifetime Value",
+        "totalOrders": "Total Orders",
+        "avgOrderValue": "Average Order Value",
+        "favorites": "Favorites"
+      },
+      "statusToggle": {
+        "confirm": "Are you sure you want to change user status to {status}?",
+        "title": "Toggle Status",
+        "current": "Current Status",
+        "loading": "Updating…",
+        "ban": "Ban",
+        "activate": "Activate"
+      }
+    },
+    "miniCart": {
+      "title": "Mini Cart",
+      "empty": "Empty",
+      "noItems": "No items in cart",
+      "shopNow": "Shop Now",
+      "items": "Items",
+      "viewAll": "View All",
+      "subtotal": "Subtotal",
+      "viewCart": "View Cart"
+    },
+    "favorites": {
+      "title": "Favorites",
+      "noItems": "No favorite items",
+      "startBrowsing": "Start browsing products",
+      "browseProducts": "Browse Products",
+      "viewAll": "View All",
+      "items": "Items"
+    },
+    "orders": {
+      "title": "Orders",
+      "noOrders": "No orders",
+      "startShopping": "Start Shopping",
+      "shopNow": "Shop Now",
+      "viewAll": "View All",
+      "viewDetails": "View Details",
+      "recentOrders": "Recent Orders",
+      "viewAllOrders": "View All Orders"
+    }
+  },
+  "CalendarClient": {
+    "calendar": "Calendar",
+    "add_event": "Add Event",
+    "event": "Event",
+    "date": "Date",
+    "time": "Time",
+    "title": "Title",
+    "description": "Description",
+    "save": "Save",
+    "delete": "Delete",
+    "close": "Close",
+    "edit": "Edit"
+  },
+  "OrdersClient": {
+    "orders": "Orders",
+    "order_id": "Order ID",
+    "customer": "Customer",
+    "date": "Date",
+    "status": "Status",
+    "total": "Total",
+    "actions": "Actions",
+    "view": "View",
+    "download": "Download",
+    "filter": "Filter",
+    "search": "Search",
+    "no_orders": "No Orders",
+    "status_pending": "Pending",
+    "status_processing": "Processing",
+    "status_shipped": "Shipped",
+    "status_delivered": "Delivered",
+    "status_cancelled": "Cancelled"
+  },
+  "Orders": {
+    "title": "My Orders",
+    "orders": "Orders",
+    "empty_title": "No orders yet",
+    "empty_subtitle": "Start browsing the store and add products to your cart.",
+    "browse_products": "Shop Now",
+    "labels": {
+      "order_number": "Order Number",
+      "date": "Date",
+      "total": "Total"
+    },
+    "status": {
+      "pending_payment": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "cancel": {
+      "success": "Order cancelled successfully",
+      "error": "Failed to cancel order",
+      "loading": "Cancelling...",
+      "button": "Cancel Order"
+    }
+  },
+  "SupportClient": {
+    "support": "Support",
+    "tickets": "Tickets",
+    "messages": "Messages",
+    "chat": "Chat",
+    "ticket_id": "Ticket ID",
+    "subject": "Subject",
+    "status": "Status",
+    "priority": "Priority",
+    "created": "Created",
+    "type_message": "Type your message...",
+    "send": "Send",
+    "no_tickets": "No Tickets",
+    "no_messages": "No Messages"
+  },
+  "UsersClient": {
+    "users": "Users",
+    "user_id": "User ID",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "actions": "Actions",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "filter": "Filter",
+    "search": "Search",
+    "no_users": "No Users",
+    "active": "Active",
+    "inactive": "Inactive",
+    "admin": "Admin",
+    "user": "User"
+  },
+  "AdminDashboard": {
+    "dashboard": "Dashboard",
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "users": "Users",
+    "products": "Products",
+    "total_revenue": "Total Revenue",
+    "total_orders": "Total Orders",
+    "total_users": "Total Users",
+    "total_products": "Total Products",
+    "growth": "Growth",
+    "last_30_days": "Last 30 Days"
+  },
+  "AdminDashboardClient": {
+    "title": "Dashboard",
+    "welcome": "Welcome back! Here's what's happening in your store today.",
+    "live": "Live"
+  },
+  "AdminLatestOrders": {
+    "title": "Latest Orders",
+    "order_id": "Order ID",
+    "customer": "Customer",
+    "amount": "Amount",
+    "status": "Status",
+    "date": "Date",
+    "status_pending_payment": "Pending Payment",
+    "status_processing": "Processing",
+    "status_shipped": "Shipped",
+    "status_delivered": "Delivered",
+    "status_cancelled": "Cancelled",
+    "status_refunded": "Refunded"
+  },
+  "AdminLatestUsers": {
+    "title": "New Users",
+    "user": "User",
+    "email": "Email",
+    "status": "Status",
+    "joined": "Joined",
+    "status_active": "Active",
+    "status_inactive": "Inactive"
+  },
+  "AdminGeography": {
+    "title": "Global Reach",
+    "loading_map": "Loading map...",
+    "home_page": "Home Page",
+    "product_page": "Product Page",
+    "about_page": "About Page",
+    "traffic_distribution": "Traffic Distribution",
+    "global_reach": "Global Reach"
+  },
+  "AdminStats": {
+    "total_revenue": "Total Revenue",
+    "total_orders": "Total Orders",
+    "user_growth": "User Growth",
+    "total_visits": "Total Visits",
+    "vs_last_week": "vs Last Week"
+  },
+  "AdminChartsUI": {
+    "profit_volatility_analysis": "Profit Volatility Analysis",
+    "peak": "Peak",
+    "low": "Low",
+    "revenue_vs_growth": "Revenue vs Growth Rate",
+    "revenue": "Revenue",
+    "growth_percent": "% Growth",
+    "cumulative_user_growth": "Cumulative User Growth",
+    "users": "Users",
+    "orders_multi_view_analysis": "Orders Multi-View Analysis",
+    "orders": "Orders",
+    "traffic_distribution": "Traffic Distribution",
+    "track_pages": "Track pages attracting most visitors"
+  },
+  "AdminChartsLabels": { "profit": "Profit", "average": "Average" },
+  "NotificationsPage": {
+    "notifications": "Notifications",
+    "send_notification": "Send Notification",
+    "notification_title": "Notification Title",
+    "notificatio\n_message": "Notification Message",
+    "recipients": "Recipients",
+    "send": "Send",
+    "success": "Sent Successfully",
+    "error": "Send Error",
+    "pending": "Pending",
+    "sent": "Sent",
+    "failed": "Failed"
+  },
+  "ChatModal": {
+    "contact_admin": "Contact Admin",
+    "type_message": "Type your message...",
+    "send": "Send",
+    "close": "Close",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "online": "Online",
+    "offline": "Offline",
+    "new_message": "New Message",
+    "typing": "Typing...",
+    "sent": "Sent",
+    "delivered": "Delivered",
+    "read": "Read"
+  },
+  "ChatWidget": {
+    "chatbot": {
+      "ariaLabel": "AI Assistant",
+      "botName": "ZFashin-helper",
+      "status": "● Instant Reply •",
+      "clearChat": "Clear Chat",
+      "close": "Close",
+      "quickQuestionsLabel": "Common Questions",
+      "loading": "Loading",
+      "olderMessages": "Older Messages",
+      "typing": "Typing reply",
+      "emptyStateTitle": "Hello! How can I help you? 👋",
+      "emptyStateSubtitle": "Choose a question from above or type your message",
+      "inputPlaceholder": "Type your message...",
+      "inputLabel": "Message input field",
+      "sendMessage": "Send Message",
+      "poweredBy": "Powered by AI"
+    },
+    "quickQuestions": {
+      "q1": "About the store designer and how to contact",
+      "q2": "What is ZFashion website",
+      "q3": "What makes this store special"
+    },
+    "menu": {
+      "ariaLabel": "Contact Options",
+      "unreadMessages": "{{count}} unread messages",
+      "technicalSupport": {
+        "title": "Technical Support",
+        "subtitle": "Chat with support team"
+      },
+      "whatsapp": { "title": "WhatsApp", "subtitle": "Message us directly" },
+      "hotline": { "title": "Hotline", "number": "01080761700" },
+      "aiAssistant": {
+        "title": "AI Assistant",
+        "subtitle": "Instant Reply • AI"
+      }
+    },
+    "fab": { "close": "Close Menu", "open": "Open Contact Options" },
+    "errors": {
+      "loadMessages": "Failed to load messages",
+      "connectionFailed": "Connection Failed"
+    }
+  },
+  "UserColumns": {
+    "user": "User",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "joined": "Joined",
+    "actions": "Actions",
+    "admin": "Admin",
+    "active": "Active",
+    "inactive": "Inactive",
+    "banned": "Banned"
+  },
+  "Admin": {
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "products": "Products",
+    "users": "Users",
+    "support": "Support",
+    "notifications": "Notifications",
+    "analytics": "Analytics",
+    "calendar": "Calendar",
+    "charts": "Charts",
+    "logout": "Logout",
+    "settings": "Settings",
+    "profile": "Profile"
+  },
+  "AdminOrders": {
+    "Orders": "Orders",
+    "title": "Orders",
+    "order_id": "Order ID",
+    "customer": "Customer",
+    "total": "Total",
+    "status": "Status",
+    "date": "Date",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "confirmed_revenue": "Confirmed Revenue"
+  },
+  "AdminProducts": {
+    "title": "Products",
+    "add_product": "Add Product",
+    "edit_product": "Edit Product",
+    "delete_product": "Delete Product",
+    "categories": "Categories",
+    "add_category": "Add Category",
+    "price": "Price",
+    "stock": "Stock",
+    "name": "Name",
+    "description": "Description",
+    "image": "Image",
+    "gallery": "Gallery",
+    "filters": "Filters",
+    "reset_all": "Reset All",
+    "category": "Category",
+    "all_categories": "All Categories",
+    "price_range": "Price Range (EGP)",
+    "min": "Min",
+    "max": "Max",
+    "gender": "Gender",
+    "gender_male": "Men",
+    "gender_female": "Women",
+    "gender_kids": "Kids",
+    "gender_unisex": "Unisex",
+    "sizes": "Sizes",
+    "size_small": "S",
+    "size_medium": "M",
+    "size_large": "L",
+    "size_xlarge": "XL",
+    "filters_active": "Applied: {count}",
+    "loading": "Loading…",
+    "products_found": "{count} products found",
+    "search_placeholder": "Search products…",
+    "no_products_found": "No products found",
+    "try_adjust_filters": "Try adjusting filters",
+    "create_first_product": "Create your first product",
+    "clear_filters": "Clear Filters",
+    "failed_to_load": "Failed to load products",
+    "try_again": "Try Again",
+    "active_label": "Active:",
+    "min_label": "Min £",
+    "max_label": "Max £",
+    "col_product": "Product",
+    "col_category": "Category",
+    "col_price": "Price",
+    "col_stock": "Stock",
+    "col_sizes": "Sizes",
+    "col_rating": "Rating",
+    "col_actions": "Actions",
+    "discount_off": "{discount}% Off",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "units": "unit/units",
+    "delete_confirm": "Are you sure you want to delete \"{name}\"? This action cannot be undone."
+  },
+  "AdminProductForm": {
+    "edit_title": "Edit Product",
+    "new_title": "New Product",
+    "editing": "Editing: {name}",
+    "fill_in_details": "Fill in product details",
+    "main_image": "Main Image",
+    "current_image_shown": "Current image shown",
+    "required": "Required",
+    "gallery": "Gallery",
+    "gallery_count": "{count} / 8 images",
+    "variants": "Variants",
+    "gender": "Gender",
+    "sizes": "Sizes",
+    "cancel": "Cancel",
+    "save_changes": "Save Changes",
+    "create_product": "Create Product",
+    "uploading_main": "Uploading main image…",
+    "uploading_gallery": "Uploading {count} file(s)…",
+    "upload_failed": "Image upload failed. Try again."
+  },
+  "AdminUsers": {
+    "title": "Users",
+    "user_id": "User ID",
+    "email": "Email",
+    "name": "Name",
+    "role": "Role",
+    "status": "Status",
+    "joined": "Joined",
+    "edit": "Edit",
+    "delete": "Delete",
+    "admin": "Admin",
+    "user": "User",
+    "moderator": "Moderator",
+    "active": "Active",
+    "inactive": "Inactive",
+    "banned": "Banned"
+  },
+  "AdminSupport": {
+    "title": "Support Tickets",
+    "ticket_id": "Ticket ID",
+    "subject": "Subject",
+    "customer": "Customer",
+    "status": "Status",
+    "priority": "Priority",
+    "created": "Created",
+    "open": "Open",
+    "in_progress": "In Progress",
+    "resolved": "Resolved",
+    "closed": "Closed",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "reply": "Reply",
+    "close_ticket": "Close Ticket",
+    "select_conversation": "Select Conversation",
+    "choose_ticket_from_left": "Choose a support ticket from the left panel to view the conversation.",
+    "email_aria": "Email {name}",
+    "more_options": "More Options",
+    "chat_messages_aria": "Chat Messages",
+    "conversation_separator": "Conversation",
+    "ticket_list_panel_aria": "Ticket List Panel",
+    "support_tickets_list_aria": "Support Tickets List",
+    "tickets": "Tickets",
+    "search_placeholder": "Search tickets or messages...",
+    "search_aria": "Search tickets",
+    "clear_search": "Clear Search",
+    "filter_by_status_aria": "Filter by Status",
+    "status_all": "All",
+    "status_open": "Open",
+    "status_pending": "Pending",
+    "status_resolved": "Resolved",
+    "status_closed": "Closed",
+    "no_tickets_found": "No tickets found",
+    "no_messages": "No Messages",
+    "ticket_from": "Ticket from {name}",
+    "showing_range": "Showing {shown} of {total}",
+    "chat_panel_aria": "Chat Panel",
+    "back_to_ticket_list_aria": "Back to Ticket List",
+    "all_tickets": "All Tickets"
+  },
+  "AdminNotifications": {
+    "title": "Notifications",
+    "new_notification": "New Notification",
+    "send": "Send",
+    "title_placeholder": "Notification Title",
+    "message_placeholder": "Message",
+    "recipients": "Recipients",
+    "scheduled": "Scheduled",
+    "status": "Status",
+    "sent": "Sent",
+    "pending": "Pending",
+    "draft": "Draft",
+    "broadcast_center": "Broadcast Center",
+    "global_notifications": "Global Notifications",
+    "send_notifications_description": "Send notifications to all registered users instantly."
+  },
+  "AdminAnalytics": {
+    "title": "Analytics",
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "users": "Users",
+    "products": "Products",
+    "views": "Views",
+    "total_revenue": "Total Revenue",
+    "total_orders": "Total Orders",
+    "total_users": "Total Users",
+    "this_month": "This Month",
+    "this_year": "This Year",
+    "all_time": "All Time",
+    "growth": "Growth",
+    "decline": "Decline"
+  },
+  "AdminCalendar": {
+    "title": "Calendar",
+    "new_event": "New Event",
+    "event_title": "Event Title",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "all_day": "All Day",
+    "add_event": "Add Event",
+    "edit_event": "Edit Event",
+    "delete_event": "Delete Event",
+    "sales": "Sales",
+    "campaign": "Campaign",
+    "meeting": "Meeting",
+    "maintenance": "Maintenance",
+    "partnership": "Partnership",
+    "operations": "Operations"
+  },
+  "PLP": {
+    "title_mens_collection": "Men's Collection",
+    "subtitle_shop": "Shop",
+    "aria": { "product_listing": "Product Listing", "products": "Products" },
+    "errors": { "failed_to_load_products": "Failed to load products." },
+    "actions": { "retry": "Retry", "clear_filters_button": "Clear Filters" },
+    "empty": {
+      "no_products": "No products found",
+      "try_adjusting": "Try adjusting filters or search query"
+    }
+  },
+  "PDP": {
+    "size": "Size",
+    "color": "Color",
+    "quantity": "Quantity",
+    "add_to_cart": "Add to Cart",
+    "add_to_favorites": "Add to Favorites",
+    "share": "Share",
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "rating": "Rating",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "select_size": "Please select size",
+    "select_color": "Please select color"
+  },
+  "AdminSidebar": {
+    "nav": {
+      "aria_label": "Admin Navigation",
+      "about": "About Us",
+      "dashboard": "Admin Dashboard"
+    },
+    "logo": { "aria_label": "Go to Dashboard" },
+    "mobile": { "close_label": "Close Sidebar" },
+    "sections": {
+      "main": "Main",
+      "commerce": "Commerce",
+      "analytics": "Analytics",
+      "communication": "Communication",
+      "system": "System"
+    },
+    "items": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "users": "Users",
+      "products": "Products",
+      "categories": "Categories",
+      "support_and_complaint": "Support & Complaints",
+      "charts": "Charts",
+      "revenue": "Revenue",
+      "net_profit": "Net Profit",
+      "complaints": "Complaints",
+      "notifications": "Notifications",
+      "calendar": "Calendar",
+      "settings": "Settings"
+    },
+    "badge": { "pending_count": "{count} pending" },
+    "subitems": {
+      "users": "Users",
+      "orders": "Orders",
+      "revenue": "Revenue",
+      "net profit": "Net Profit",
+      "complaints": "Complaints"
+    },
+    "sidebar": { "aria_label": "Admin Sidebar" },
+    "user_footer": { "logout_label": "Logout" }
+  },
+  "Chat": {
+    "type_message": "Type message...",
+    "choose_emoji": "Choose emoji",
+    "send_message": "Send Message",
+    "support": "Technical Support",
+    "maximize": "Maximize",
+    "minimize": "Minimize",
+    "close_chat": "Close Chat",
+    "please_login_before_continue": "Please sign in to continue",
+    "welcome_message": "Welcome to ZFashion! Drop us a message and we’ll get back to you in a few minutes. We're here to help you ❤😊"
+  },
+  "FilterSidebar": {
+    "sections": {
+      "category": "Category",
+      "size": "Size",
+      "brand": "Brand",
+      "price_egp": "Price (EGP)",
+      "filters": "Filters"
+    },
+    "categories": {
+      "All": "All",
+      "Shirts": "Shirts",
+      "Pants": "Pants",
+      "T-Shirts": "T-Shirts",
+      "Jackets": "Jackets",
+      "Knitwear": "Knitwear",
+      "Hoodies": "Hoodies",
+      "Polo": "Polo",
+      "Shorts": "Shorts"
+    },
+    "sizes": {
+      "Small": "Small",
+      "Medium": "Medium",
+      "Large": "Large",
+      "XLarge": "Extra Large",
+      "labels": { "Small": "S", "Medium": "M", "Large": "L", "XLarge": "XL" }
+    },
+    "brands": {
+      "Heritage": "Heritage",
+      "Core": "Core",
+      "Prestige": "Prestige"
+    },
+    "placeholders": { "min": "Min", "max": "Max" },
+    "aria": {
+      "size_filter": "Size Filter",
+      "min_price": "Minimum Price",
+      "max_price": "Maximum Price",
+      "product_filters": "Product Filters",
+      "close_filters": "Close Filters"
+    },
+    "actions": {
+      "clear_all_filters": "Clear All Filters",
+      "clear": "Clear All"
+    }
+  },
+  "PLPParts": {
+    "hero": { "aria_category_banner": "{title} - Category Banner" },
+    "toolbar": {
+      "open_filters": "Open Filters",
+      "filters": "Filters",
+      "search_placeholder": "Search products...",
+      "search_aria": "Search products",
+      "products": "Products"
+    },
+    "sort": {
+      "newest": "Newest",
+      "price_asc": "Price: Low to High",
+      "price_desc": "Price: High to Low",
+      "top_rated": "Top Rated",
+      "discount": "Biggest Discount"
+    },
+    "pagination": {
+      "aria": "Pagination",
+      "previous_page": "Previous Page",
+      "page": "Page {page}",
+      "next_page": "Next Page"
+    }
+  },
+  "About": {
+    "Metadata": {
+      "title": "About Us - ZFashion Store | Where Global Elegance Meets Digital Innovation",
+      "description": "Discover ZFashion Store's mission to redefine the fashion industry through cutting-edge technology and timeless elegance. Founded by Ibrahim AbuZaid.",
+      "keywords": "ZFashion, about us, fashion store, premium clothes, e-commerce, Ibrahim AbuZaid, modern fashion, luxury style",
+      "og_title": "About ZFashion Store - Redefining Digital Fashion",
+      "og_description": "Explore our journey of building a high-performance fashion platform that prioritizes user experience and global style.",
+      "og_image_alt": "ZFashion Store - Premium Fashion E-Commerce Platform",
+      "twitter_title": "About ZFashion Store | Global Elegance & Digital Innovation",
+      "twitter_description": "Leading the future of digital fashion commerce with speed and security."
+    },
+    "seo": {
+      "breadcrumb_name": "About Us",
+      "faq": {
+        "q1": {
+          "question": "What is ZFashion Store?",
+          "answer": "ZFashion Store is a premium e-commerce platform dedicated to providing the latest global fashion trends with a focus on speed, security, and user experience."
+        },
+        "q2": {
+          "question": "Who founded ZFashion?",
+          "answer": "ZFashion was founded and developed by Ibrahim AbuZaid, aiming to bridge the gap between high-end fashion and modern software engineering."
+        },
+        "q3": {
+          "question": "Is shopping at ZFashion secure?",
+          "answer": "Yes, we use multi-layer security protocols and the latest encryption standards to ensure every transaction is 100% safe."
+        },
+        "q4": {
+          "question": "What makes ZFashion different?",
+          "answer": "Our platform combines unrivaled loading speeds with a curated selection of products, powered by modern Next.js technology."
+        },
+        "q5": {
+          "question": "Do you offer technical support?",
+          "answer": "Absolutely! Our dedicated engineering team provides 24/7 technical monitoring to ensure a seamless shopping experience."
+        }
+      }
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "About Us"
+    },
+    "hero": {
+      "title_part_1": "Where Global Elegance",
+      "title_part_2": "Meets Digital Innovation",
+      "description": "At ZFashion Store, we believe that style should never be a compromise. We've built a platform that harmonizes the art of fashion with the precision of modern technology.",
+      "badges": {
+        "seo": "100% SEO Score",
+        "support": "24/7 Technical Support",
+        "security": "Multi-Layer Security"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "ZFashion was born out of a simple yet ambitious vision: to create a digital shopping experience that is as elegant as the clothes we sell. We noticed that many platforms lacked the speed and smoothness that modern customers deserve.",
+      "p2": "Founded by Ibrahim AbuZaid, we didn't just build a store; we engineered a high-performance ecosystem. Using the latest web technologies, we've created a space where browsing is instant, and your security is never in doubt.",
+      "stats": {
+        "hours": { "value": "1000+", "label": "Hours of Development" },
+        "seo": { "value": "100%", "label": "SEO Performance" },
+        "support": { "value": "24/7", "label": "Technical Excellence" }
+      }
+    },
+    "mission_vision": {
+      "title": "Mission & Vision",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To empower fashion enthusiasts by providing a seamless, fast, and secure platform that brings global trends to their doorstep with a single click."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become the global benchmark for fashion e-commerce, where technology serves as the invisible thread weaving through every piece of style."
+      }
+    },
+    "values": {
+      "title": "Core Values",
+      "subtitle": "The principles that drive every line of code and every curated collection we offer.",
+      "perfection": {
+        "title": "Technical Perfection",
+        "description": "We are obsessed with performance, ensuring our platform is one of the fastest in the industry."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We believe in absolute transparency in our operations, pricing, and customer data handling."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We don't follow trends; we set them by integrating AI and real-time connectivity into your shopping."
+      },
+      "trust": {
+        "title": "Sustainable Trust",
+        "description": "Building a long-term relationship with our customers through reliability and quality."
+      }
+    },
+    "support": {
+      "title": "Expert Engineers at Your Service",
+      "p1_part1": "Behind our elegant storefront lies a dedicated team. We don't just sell clothes; we offer",
+      "p1_strong": "Technical Peace of Mind",
+      "p1_part2": ".",
+      "p2": "Our team monitors platform stability in real-time, ensuring that your shopping journey is never interrupted by technical hurdles.",
+      "stats": {
+        "monitoring": { "value": "24/7", "label": "Real-Time Monitoring" },
+        "response": { "value": "<1s", "label": "Average Response" },
+        "resolution": { "value": "100%", "label": "Issue Resolution" },
+        "dedication": { "value": "∞", "label": "Dedication Level" }
+      }
+    },
+    "why": {
+      "title": "Why ZFashion?",
+      "subtitle": "Technical excellence meets fashion-forward innovation",
+      "features": {
+        "unrivaled_speed": {
+          "title": "Unrivaled Speed",
+          "description": "Built on Next.js 15 for near-instant loading times across all devices."
+        },
+        "modern_saas": {
+          "title": "Modern Architecture",
+          "description": "A robust cloud-native architecture that grows with our customer needs."
+        },
+        "realtime_connectivity": {
+          "title": "Real-Time Updates",
+          "description": "Live stock tracking and instant order status updates for total clarity."
+        },
+        "smart_notifications": {
+          "title": "Smart Notifications",
+          "description": "Stay updated with personalized alerts on price drops and new arrivals."
+        },
+        "elite_security": {
+          "title": "Elite Security",
+          "description": "End-to-end encryption for your payments and personal data."
+        },
+        "seamless_experience": {
+          "title": "Seamless UX",
+          "description": "An interface designed for intuitive navigation and effortless checkout."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience Excellence?",
+      "description": "Join thousands of fashion enthusiasts who choose ZFashion for a premium shopping experience.",
+      "button": "Start Shopping Now"
+    }
+  },
+  "Checkout": {
+    "aria_label": "Checkout Page",
+    "order_summary_sidebar": "Order Summary - Sidebar",
+    "your_information": "Your Information",
+    "payment": "Payment",
+    "steps": {
+      "information": "Information",
+      "payment": "Payment",
+      "confirmation": "Confirmation"
+    }
+  },
+  "AddressForm": {
+    "aria_label": "Shipping Information Form",
+    "contact": "Contact",
+    "email_address": "Email",
+    "email_placeholder": "you@example.com",
+    "phone_number": "Phone Number",
+    "phone_placeholder": "123 456 7890",
+    "shipping_address": "Shipping Address",
+    "country": "Country",
+    "select_country": "Select Country…",
+    "first_name": "First Name",
+    "first_name_placeholder": "Ahmed",
+    "last_name": "Last Name",
+    "last_name_placeholder": "Al-Murad",
+    "street_address": "Street Address",
+    "street_placeholder": "123 Main Street",
+    "apartment_optional": "Apartment / Unit (Optional)",
+    "apartment_placeholder": "Apt 4B",
+    "city": "City",
+    "city_placeholder": "Cairo",
+    "postal_code": "Postal Code",
+    "postal_placeholder": "10001",
+    "state_governorate": "State / Governorate",
+    "loading": "Loading…",
+    "select_country_first": "Select country first",
+    "select_state": "Select State…",
+    "continue_to_payment": "Continue to Payment →"
+  },
+  "PaymentDemo": {
+    "card_details": "Card Details",
+    "secure": "Secure",
+    "card_number": "Card Number",
+    "cardholder_name": "Cardholder Name",
+    "expiry": "Expiry Date",
+    "cvv": "CVV",
+    "processing": "Processing…",
+    "pay_button": "Pay {amount} →",
+    "or": "Or",
+    "redirecting": "Redirecting…",
+    "pay_with_paypal": "Pay with PayPal",
+    "back_to_information": "Back to Information",
+    "ssl_secured": "SSL Secured"
+  },
+  "OrderSummary": {
+    "aria_label": "Order Summary",
+    "order_summary": "Order Summary",
+    "discount_code": "Discount Code",
+    "coupon_placeholder": "Example: SAVE10",
+    "apply": "Apply",
+    "invalid_coupon": "Invalid coupon code",
+    "applied_suffix": "Applied — {percent}% off!",
+    "subtotal": "Subtotal",
+    "discount_label": "Discount ({percent}%)",
+    "shipping": "Shipping",
+    "free": "Free",
+    "estimated_tax": "Estimated Tax",
+    "total": "Total",
+    "secure_ssl": "Secure 256-bit SSL Encryption"
+  },
+  "SuccessScreen": {
+    "order_confirmed": "Order Confirmed",
+    "thank_you": "Thank You",
+    "order_placed": "Your order has been placed and is being prepared.",
+    "order_number": "Order Number",
+    "email": "Email",
+    "ship_to": "Ship To",
+    "shipping": "Shipping",
+    "timeline": {
+      "confirmed": "Order Confirmed",
+      "just_now": "Just Now",
+      "prepared": "Being Prepared",
+      "estimated_hours": "Estimated {hours} hours",
+      "out_for_delivery": "Out for Delivery",
+      "estimated_days": "Estimated {days} days",
+      "email_sent": "Confirmation Email Sent"
+    },
+    "continue_shopping": "Continue Shopping",
+    "track_order": "Track Order"
+  },
+  "Footer": {
+    "brand": {
+      "name": "Your Store",
+      "description": "Curating exceptional products and experiences for discerning customers since 2014."
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "Enter your email",
+      "done": "Done!",
+      "join": "Join",
+      "note": "Get exclusive offers, style tips, and early access to new collections."
+    },
+    "shop": {
+      "title": "Shop",
+      "new_arrivals": "New Arrivals",
+      "bestsellers": "Bestsellers",
+      "sale": "Sale",
+      "collections": "Collections",
+      "gift_cards": "Gift Cards"
+    },
+    "support": {
+      "title": "Support",
+      "contact_us": "Contact Us",
+      "faqs": "FAQs",
+      "shipping": "Shipping Information",
+      "returns": "Returns & Exchanges",
+      "size_guide": "Size Guide"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "careers": "Careers",
+      "sustainability": "Sustainability",
+      "press": "Press",
+      "blog": "Blog"
+    },
+    "contact": { "title": "Contact", "linkedin": "LinkedIn Profile" },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "bottom": { "copy": "© {year} Your Store. All rights reserved." },
+    "payments": { "accept": "We accept:" }
+  }
+}

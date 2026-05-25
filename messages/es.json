@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "account": "Account"
+  },
+  "Hero": {
+    "subtitle": "Premium quality fashion for everyone",
+    "shop_now": "Shop Now",
+    "discount_badge": "Save 50%",
+    "slides": {
+      "1": {
+        "title": "Streetwear"
+      },
+      "2": {
+        "title": "Summer Collection"
+      },
+      "3": {
+        "title": "Luxury Watches"
+      },
+      "4": {
+        "title": "Designer Bags"
+      }
+    }
+  },
+  "HeroSection": {
+    "announcement": "New Season Sale - Up to 50% OFF on select items!",
+    "collection_badge": "Spring Collection 2025",
+    "main_title_1": "Style That",
+    "main_title_2": "speaks",
+    "main_title_3": "For Itself.",
+    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
+    "shop_button": "Shop The Drop",
+    "lookbook_button": "See Lookbook",
+    "stat_1_value": "Happy Customers",
+    "stat_1_sub": "Worldwide",
+    "stat_2_value": "5-Star Reviews",
+    "stat_2_sub": "Avg. Rating",
+    "stat_3_value": "Curated Styles",
+    "stat_3_sub": "New Weekly",
+    "stat_4_value": "Total Views",
+    "stat_4_sub": "Audience Reach",
+    "price_label": "Starting from",
+    "testimonial_quote": "Quality is world-class!",
+    "testimonial_author": "Sarah M. — Verified"
+  },
+  "ShowcaseSection": {
+    "explore_all": "Explore All",
+    "view_all": "View All",
+    "new_arrivals": "New Arrivals",
+    "complete_look": "Complete the Look"
+  },
+  "HorizontalProductScroll": {
+    "view_all": "View All",
+    "scroll": "Scroll"
+  },
+  "TestimonialsSection": {
+    "testimonials": "What Our Customers Say",
+    "verified_buyer": "Verified Buyer",
+    "reviews": "28,000+ reviews",
+    "rating": "4.9"
+  },
+  "Chat": {
+    "support": "Support",
+    "test_button": "Test Button",
+    "type_message": "Type a message...",
+    "offline": "Offline"
+  },
+  "Filters": {
+    "title": "Filtros",
+    "filters_aria_label": "Filtros de productos",
+    "price_range": "Rango de precios",
+    "price_0_50": "Precio $0 - $50",
+    "price_50_100": "Precio $50 - $100",
+    "price_100_200": "Precio $100 - $200",
+    "price_200_plus": "Precio $200+",
+    "gender": "Género",
+    "gender_male": "Hombre",
+    "male": "Hombres",
+    "gender_female": "Mujer",
+    "female": "Mujeres",
+    "gender_unisex": "Unisex",
+    "unisex": "Unisex",
+    "gender_kids": "Niños",
+    "kids": "Niños",
+    "size": "Talla",
+    "size_small": "Pequeño",
+    "size_medium": "Mediano",
+    "size_large": "Grande",
+    "size_xlarge": "Muy grande",
+    "apply_filters": "Aplicar filtros",
+    "apply": "Aplicar",
+    "clear_filters": "Limpiar todo",
+    "clear_all": "Limpiar todo"
+  },
+  "Categories": {
+    "accessories": "Accesorios",
+    "men": "Hombres",
+    "women": "Mujeres",
+    "kids": "Niños",
+    "Shirts": "Gorras",
+    "jackets": "Chaquetas",
+    "pants": "Pantalones",
+    "shirts": "Camisas",
+    "t_shirts": "Camisetas",
+    "hoodies": "Sudaderas",
+    "knitwear": "Prendas de punto",
+    "polo": "Polo",
+    "shorts": "Pantalones cortos"
+  },
+  "AdminCharts": {
+    "complaints": {
+      "title": "Complaints Analytics",
+      "description": "Monitor and resolve customer complaints effectively",
+      "total": "Total Complaints",
+      "daily_avg": "Daily Average",
+      "peak_volume": "Peak Volume",
+      "resolution_rate": "Resolution Rate",
+      "insights_title": "Complaint Insights"
+    },
+    "orders": {
+      "title": "Order Analytics",
+      "description": "Track order volume and performance metrics",
+      "total": "Total Orders",
+      "daily_avg": "Daily Average",
+      "peak_volume": "Peak Volume",
+      "above_avg": "Above Average",
+      "insights_title": "Order Insights"
+    },
+    "revenue": {
+      "title": "Revenue Analytics",
+      "description": "Monitor revenue streams and financial performance",
+      "total": "Total Revenue",
+      "daily_avg": "Daily Average",
+      "peak": "Peak Revenue",
+      "growth_rate": "Growth Rate",
+      "insights_title": "Revenue Insights"
+    },
+    "users": {
+      "title": "User Analytics",
+      "description": "Track user growth and engagement metrics",
+      "total": "Total Users",
+      "daily_avg": "Daily Average",
+      "peak_day": "Peak Day",
+      "growth_days": "Growth Days",
+      "insights_title": "User Insights"
+    },
+    "netProfit": {
+      "title": "Net Profit Analytics",
+      "description": "Monitor profitability and margin performance",
+      "total": "Total Net Profit",
+      "daily_avg": "Daily Average",
+      "profit_margin": "Profit Margin",
+      "peak": "Peak Profit",
+      "insights_title": "Profit Insights"
+    },
+    "products": {
+      "title": "Product Analytics",
+      "description": "Track product performance and sales data",
+      "insights_title": "Product Insights"
+    },
+    "views": {
+      "title": "Views Analytics",
+      "description": "Monitor website views and traffic patterns",
+      "insights_title": "Views Insights"
+    }
+  },
+  "Footer": {
+    "brand_name": "Global Store",
+    "brand_description": "Your trusted destination for quality products worldwide"
+  }
+}

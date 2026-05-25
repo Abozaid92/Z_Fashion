@@ -1,0 +1,564 @@
+{
+  "nav": {
+    "home": "होम",
+    "shop": "दुकान",
+    "products": "उत्पाद",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "cart": "कार्ट",
+    "account": "खाता"
+  },
+  "announcement": {
+    "flash_sale": "⚡ फ्लैश सेल: 50% तक की छूट - सीमित समय के लिए!",
+    "free_shipping": "🚚 $50 से अधिक के ऑर्डर पर मुफ्त शिपिंग",
+    "new_collection": "✨ नया संग्रह - अभी खरीदें!"
+  },
+  "auth": {
+    "login": {
+      "title": "वापसी पर स्वागत है",
+      "subtitle": "जारी रखने के लिए लॉग इन करें",
+      "emailOrUsername": "ईमेल या उपयोगकर्ता नाम",
+      "emailPlaceholder": "अपना ईमेल या उपयोगकर्ता नाम दर्ज करें",
+      "emailRequired": "ईमेल या उपयोगकर्ता नाम आवश्यक है",
+      "password": "पासवर्ड",
+      "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+      "passwordRequired": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए",
+      "forgotPassword": "पासवर्ड भूल गए?",
+      "submit": "लॉग इन करें",
+      "loading": "लॉग इन हो रहा है...",
+      "noAccount": "खाता नहीं है?",
+      "register": "खाता बनाएं"
+    },
+    "register": {
+      "title": "नया खाता बनाएं",
+      "subtitle": "हमसे जुड़ें और खरीदारी शुरू करें",
+      "email": "ईमेल",
+      "emailPlaceholder": "अपना ईमेल दर्ज करें",
+      "emailInvalid": "अमान्य ईमेल पता",
+      "username": "उपयोगकर्ता नाम",
+      "usernamePlaceholder": "एक अनूठा उपयोगकर्ता नाम चुनें",
+      "usernameInvalid": "उपयोगकर्ता नाम 3-20 अक्षरों का होना चाहिए",
+      "password": "पासवर्ड",
+      "passwordPlaceholder": "एक सुरक्षित पासवर्ड चुनें",
+      "passwordInvalid": "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए",
+      "confirmPassword": "पासवर्ड की पुष्टि करें",
+      "confirmPasswordPlaceholder": "अपना पासवर्ड फिर से दर्ज करें",
+      "passwordMismatch": "पासवर्ड मेल नहीं खाते",
+      "submit": "खाता बनाएं",
+      "loading": "खाता बनाया जा रहा है...",
+      "haveAccount": "पहले से ही खाता है?",
+      "login": "लॉग इन करें"
+    },
+    "forgot": {
+      "title": "पासवर्ड भूल गए?",
+      "subtitle": "हम इसे पुनः प्राप्त करने में आपकी सहायता करेंगे",
+      "info": "अपना ईमेल पता दर्ज करें और हम आपको अपना पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे।",
+      "email": "ईमेल पता",
+      "emailPlaceholder": "अपना ईमेल दर्ज करें",
+      "emailInvalid": "अमान्य ईमेल पता",
+      "submit": "रीसेट लिंक भेजें",
+      "loading": "भेजा जा रहा है...",
+      "backToLogin": "लॉगिन पर वापस जाएं",
+      "successTitle": "अपना ईमेल जांचें",
+      "successSubtitle": "रीसेट लिंक भेज दिया गया",
+      "successMessage": "हमने आपके ईमेल पते पर पासवर्ड रीसेट लिंक भेज दिया है।",
+      "checkEmail": "कृपया अपना इनबॉक्स और स्पैम फ़ोल्डर जांचें।",
+      "resend": "लिंक पुन: भेजें"
+    },
+    "reset": {
+      "title": "पासवर्ड रीसेट करें",
+      "subtitle": "एक नया मजबूत पासवर्ड चुनें",
+      "newPassword": "नया पासवर्ड",
+      "passwordPlaceholder": "नया पासवर्ड दर्ज करें",
+      "passwordInvalid": "पासवर्ड कम से कम 8 अक्षर का होना चाहिए",
+      "confirmPassword": "पासवर्ड की पुष्टि करें",
+      "confirmPasswordPlaceholder": "पासवर्ड दोबारा दर्ज करें",
+      "passwordMismatch": "पासवर्ड मेल नहीं खाते",
+      "weak": "कमजोर",
+      "medium": "मध्यम",
+      "strong": "मजबूत",
+      "submit": "पासवर्ड अपडेट करें",
+      "loading": "अपडेट हो रहा है...",
+      "backToLogin": "लॉगिन पर वापस जाएं",
+      "successTitle": "सफलता!",
+      "successSubtitle": "पासवर्ड अपडेट हो गया",
+      "successMessage": "आपका पासवर्ड सफलतापूर्वक अपडेट कर दिया गया है!",
+      "canLogin": "अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।",
+      "loginNow": "अभी लॉगिन करें"
+    },
+    "social": {
+      "divider": "या निम्नलिखित के साथ लॉग इन करें"
+    }
+  },
+  "hero": {
+    "subtitle": "सभी के लिए प्रीमियम गुणवत्ता फैशन",
+    "shop_now": "अभी खरीदें",
+    "title": {
+      "Streetwear": "स्ट्रीटवियर",
+      "Summer Collection": "गर्मी संग्रह",
+      "Luxury Watches": "लक्ज़री घड़ियाँ",
+      "Designer Bags": "डिज़ाइनर बैग"
+    }
+  },
+  "filters": {
+    "title": "फिल्टर",
+    "price_range": "मूल्य सीमा",
+    "category": "श्रेणी",
+    "gender": "लिंग",
+    "brand": "ब्रांड",
+    "rating": "रेटिंग",
+    "clear_all": "सभी साफ़ करें",
+    "apply": "फ़िल्टर लागू करें",
+    "male": "पुरुष",
+    "female": "महिला",
+    "unisex": "यूनिसेक्स"
+  },
+  "products": {
+    "title": "हमारे उत्पाद",
+    "sort_by": "इसके अनुसार क्रमबद्ध करें",
+    "search": "उत्पाद खोजें...",
+    "price_low_high": "मूल्य: कम से अधिक",
+    "price_high_low": "मूल्य: अधिक से कम",
+    "newest": "नवीनतम पहले",
+    "popular": "सबसे लोकप्रिय",
+    "add_to_cart": "कार्ट में जोड़ें",
+    "view_details": "विवरण देखें",
+    "out_of_stock": "स्टॉक में नहीं"
+  },
+  "brands": {
+    "title": "विशेष ब्रांड",
+    "subtitle": "हमारे विश्वसनीय भागीदारों से खरीदें"
+  },
+
+  "ShowcaseSection": {
+    "explore_all": "सभी देखें"
+  },
+
+  "AdminCharts": {
+    "complaints": {
+      "title": "शिकायत विश्लेषण",
+      "description": "ग्राहक शिकायतों को के संवीदण सतः निगरानी करें",
+      "total": "कुल शिकायतें",
+      "daily_avg": "दैनिक औसत",
+      "peak_volume": "शीर्ष प्रषष्ठ",
+      "resolution_rate": "समाधान दर",
+      "insights_title": "शिकायत अंतर्दृष्टि"
+    },
+    "orders": {
+      "title": "ऑर्डर विश्लेषण",
+      "description": "ऑर्डर वॉल्यूम और कसरत थिक्म को गौ संधतें",
+      "total": "कुल ऑर्डरें",
+      "daily_avg": "दैनिक औसत",
+      "peak_volume": "शीर्ष प्रषष्ठ",
+      "above_avg": "औसत से कम ऊपी",
+      "insights_title": "ऑर्डर अंतर्दृष्टि"
+    },
+    "revenue": {
+      "title": "साधन विश्लेषण",
+      "description": "राजस्व धारण असर उतदाड़ बुझे देखूफल करें",
+      "total": "कुल साधन",
+      "daily_avg": "दैनिक औसत",
+      "peak": "ध्वजोत्वर साधन",
+      "growth_rate": "मुढत की संदर",
+      "insights_title": "साधन अंतर्दृष्टि"
+    },
+    "users": {
+      "title": "उपयोगकर्ता विश्लेषण",
+      "description": "उपयोगकर्ता बढ़त और गपत थिक्म को गौ संधतें",
+      "total": "कुल उपयोगकर्ता",
+      "daily_avg": "दैनिक औसत",
+      "peak_day": "शीर्ष दिन",
+      "growth_days": "बढ़त कथप",
+      "insights_title": "उपयोगकर्ता अंतर्दृष्टि"
+    },
+    "netProfit": {
+      "title": "शुद्ध लाभ विश्लेषण",
+      "description": "मुढत्वतिह असर असर लाभ मौड़ थिक्म संलंग रहें",
+      "total": "कुल शुद्ध लाभ",
+      "daily_avg": "दैनिक औसत",
+      "profit_margin": "लाभ मौड़",
+      "peak": "शीर्ष लाभ",
+      "insights_title": "लाभ अंतर्दृष्टि"
+    },
+    "products": {
+      "title": "उतपाद विश्लेषण",
+      "description": "उतपाद कसरत असर बकरी लेखौं को गौ संधतें",
+      "insights_title": "उतपाद अंतर्दृष्टि"
+    },
+    "views": {
+      "title": "देखी विश्लेषण",
+      "description": "वेबसीट देख असर केडी शुलवार को सलामलंग रहें",
+      "insights_title": "देखी अंतर्दृष्टि"
+    }
+  },
+
+  "HeroSection": {
+    "announcement": "नई सीजन सेल - चयनित वस्तुओं पर 50% तक छूट!",
+    "collection_badge": "वसंत संग्रह 2025",
+    "main_title_1": "शैली जो",
+    "main_title_2": "अपने लिए",
+    "main_title_3": "बोलती है।",
+    "description": "सावधानीपूर्वक चयनित टुकड़े। असाधारण गुणवत्ता। न्यायसंगत कीमतें। विश्वव्यापी {users}+ खरीदारों में शामिल हों।",
+    "shop_button": "संग्रह खरीदें",
+    "lookbook_button": "लुकबुक देखें",
+    "stat_1_value": "खुश ग्राहक",
+    "stat_1_sub": "विश्वव्यापी",
+    "stat_2_value": "5-सितारा रिव्यू",
+    "stat_2_sub": "औसतन 4.9 ★",
+    "stat_3_value": "क्यूरेटेड स्टाइलें",
+    "stat_3_sub": "साप्ताहिक नई",
+    "stat_4_value": "दृश्य",
+    "stat_4_sub": "कुल संचित दर्शक पहुंच",
+    "price_label": "से शुरुआत",
+    "product_images": [
+      { "tag": "नई आगमन", "name": "शहरी खरीदार", "price": "£89" },
+      { "tag": "सबसे अधिक मांग", "name": "स्ट्रीट एसेंशियल", "price": "£64" },
+      { "tag": "सीमित संस्करण", "name": "प्रीमियम संस्करण", "price": "£129" }
+    ],
+    "testimonial_quote": "गुणवत्ता विश्व-स्तरीय है!",
+    "testimonial_author": "Sarah M. — सत्यापित",
+    "marquee_items": [
+      { "text": "तेज़ डिलीवरी" },
+      { "text": "सुरक्षित भुगतान" },
+      { "text": "प्रीमियम गुणवत्ता" },
+      { "text": "साप्ताहिक बूंदें" }
+    ]
+  },
+
+  "TestimonialsSection": {
+    "verified_buyer": "सत्यापित खरीदार",
+    "testimonials": "हमारे ग्राहक क्या कहते हैं",
+    "reviews": "28,000+ समीक्षाएं",
+    "rating": "4.9"
+  },
+
+  "CollectionsSlider": {
+    "curated": "चयनित",
+    "legendary_collections": "किंवदंती संग्रह",
+    "view_all": "सभी देखें",
+    "view_all_collections": "सभी संग्रह देखें"
+  },
+
+  "HorizontalProductScroll": {
+    "view_all": "सभी देखें",
+    "view_all_title": "सभी {title} देखें"
+  },
+
+  "footer": {
+    "about_us": "हमारे बारे में",
+    "customer_service": "ग्राहक सेवा",
+    "follow_us": "हमें फॉलो करें",
+    "newsletter": "हमारे न्यूज़लेटर की सदस्यता लें",
+    "subscribe": "सदस्यता लें",
+    "rights": "सर्वाधिकार सुरक्षित"
+  },
+
+  "Footer": {
+    "brand_name": "ग्लोबल स्टोर",
+    "brand_description": "दुनिया भर में गुणवत्तापूर्ण उत्पादों के लिए आपका विश्वसनीय गंतव्य। हम आपको सर्वोत्तम खरीदारी अनुभव प्रदान करते हैं जिसमें प्रीमियम चयन और असाधारण सेवा शामिल है।",
+    "sections": {
+      "about_us": "हमारे बारे में",
+      "customer_service": "ग्राहक सेवा",
+      "follow_us": "हमें फॉलो करें"
+    },
+    "links": {
+      "our_story": "हमारी कहानी",
+      "careers": "करियर",
+      "press": "प्रेस",
+      "contact_us": "हमसे संपर्क करें",
+      "shipping_info": "शिपिंग जानकारी",
+      "returns": "रिटर्न और विनिमय"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    },
+    "newsletter": {
+      "title": "हमारे न्यूजलेटर की सदस्यता लें",
+      "placeholder": "अपना ईमेल दर्ज करें",
+      "subscribe_button": "सदस्य बनें"
+    },
+    "copyright": {
+      "brand": "ग्लोबल स्टोर",
+      "rights_reserved": "सर्वाधिकार सुरक्षित"
+    }
+  },
+
+  "Admin": {
+    "dashboard": "डैशबोर्ड",
+    "orders": "ऑर्डर",
+    "products": "उत्पाद",
+    "users": "उपयोगकर्ता",
+    "support": "समर्थन",
+    "notifications": "सूचनाएं",
+    "analytics": "विश्लेषण",
+    "calendar": "कैलेंडर",
+    "charts": "चार्ट",
+    "logout": "लॉगआउट",
+    "settings": "सेटिंग्स",
+    "profile": "प्रोफ़ाइल"
+  },
+
+  "AdminOrders": {
+    "title": "ऑर्डर",
+    "order_id": "ऑर्डर ID",
+    "customer": "ग्राहक",
+    "total": "कुल",
+    "status": "स्थिति",
+    "date": "तारीख",
+    "view": "देखें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "pending": "लंबित",
+    "confirmed": "पुष्टि की गई",
+    "shipped": "भेज दिया गया",
+    "delivered": "डिलीवर किया गया",
+    "cancelled": "रद्द किया गया"
+  },
+
+  "AdminProducts": {
+    "title": "उत्पाद",
+    "add_product": "उत्पाद जोड़ें",
+    "edit_product": "उत्पाद संपादित करें",
+    "delete_product": "उत्पाद हटाएं",
+    "categories": "श्रेणियां",
+    "add_category": "श्रेणी जोड़ें",
+    "price": "कीमत",
+    "stock": "स्टॉक",
+    "name": "नाम",
+    "description": "विवरण",
+    "image": "छवि",
+    "gallery": "गैलरी"
+  },
+
+  "AdminUsers": {
+    "title": "उपयोगकर्ता",
+    "user_id": "उपयोगकर्ता ID",
+    "email": "ईमेल",
+    "name": "नाम",
+    "role": "भूमिका",
+    "status": "स्थिति",
+    "joined": "शामिल हुए",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "admin": "प्रशासक",
+    "user": "उपयोगकर्ता",
+    "moderator": "मॉडरेटर",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "banned": "प्रतिबंधित"
+  },
+
+  "AdminSupport": {
+    "title": "समर्थन टिकट",
+    "ticket_id": "टिकट ID",
+    "subject": "विषय",
+    "customer": "ग्राहक",
+    "status": "स्थिति",
+    "priority": "प्राथमिकता",
+    "created": "बनाया गया",
+    "open": "खुला",
+    "in_progress": "प्रगति में",
+    "resolved": "समाधान किया गया",
+    "closed": "बंद",
+    "high": "उच्च",
+    "medium": "मध्यम",
+    "low": "निम्न",
+    "reply": "जवाब",
+    "close_ticket": "टिकट बंद करें"
+  },
+
+  "AdminNotifications": {
+    "title": "सूचनाएं",
+    "new_notification": "नई सूचना",
+    "send": "भेजें",
+    "title_placeholder": "सूचना शीर्षक",
+    "message_placeholder": "संदेश",
+    "recipients": "प्राप्तकर्ता",
+    "scheduled": "अनुसूचित",
+    "status": "स्थिति",
+    "sent": "भेजा गया",
+    "pending": "लंबित",
+    "draft": "ड्राफ्ट"
+  },
+
+  "AdminAnalytics": {
+    "title": "विश्लेषण",
+    "revenue": "राजस्व",
+    "orders": "ऑर्डर",
+    "users": "उपयोगकर्ता",
+    "products": "उत्पाद",
+    "views": "दृश्य",
+    "total_revenue": "कुल राजस्व",
+    "total_orders": "कुल ऑर्डर",
+    "total_users": "कुल उपयोगकर्ता",
+    "this_month": "इस महीने",
+    "this_year": "इस वर्ष",
+    "all_time": "सभी समय",
+    "growth": "वृद्धि",
+    "decline": "गिरावट"
+  },
+
+  "AdminCalendar": {
+    "title": "कैलेंडर",
+    "new_event": "नया ईवेंट",
+    "event_title": "ईवेंट शीर्षक",
+    "start_date": "शुरुआती तारीख",
+    "end_date": "अंतिम तारीख",
+    "all_day": "पूरे दिन",
+    "add_event": "ईवेंट जोड़ें",
+    "edit_event": "ईवेंट संपादित करें",
+    "delete_event": "ईवेंट हटाएं",
+    "sales": "बिक्रय",
+    "campaign": "अभियान",
+    "meeting": "बैठक",
+    "maintenance": "रखरखाव",
+    "partnership": "भागीदारी",
+    "operations": "संचालन"
+  },
+
+  "PLP": {
+    "filters": "फ़िल्टर",
+    "sort": "क्रमबद्ध करें",
+    "price": "कीमत",
+    "category": "श्रेणी",
+    "brand": "ब्रांड",
+    "size": "आकार",
+    "sort_by": "क्रमबद्ध करें",
+    "newest": "नवीनतम",
+    "popular": "सबसे लोकप्रिय",
+    "price_low_high": "कीमत: कम से अधिक",
+    "price_high_low": "कीमत: अधिक से कम",
+    "rating": "रेटिंग",
+    "clear_filters": "फ़िल्टर साफ़ करें",
+    "no_results": "कोई परिणाम नहीं मिले",
+    "showing": "दिखा रहे हैं",
+    "of": "का",
+    "results": "परिणाम"
+  },
+
+  "PDP": {
+    "size": "आकार",
+    "color": "रंग",
+    "quantity": "मात्रा",
+    "add_to_cart": "कार्ट में जोड़ें",
+    "add_to_favorites": "पसंदीदा में जोड़ें",
+    "share": "शेयर करें",
+    "description": "विवरण",
+    "specifications": "विनिर्देश",
+    "reviews": "समीक्षाएं",
+    "rating": "रेटिंग",
+    "in_stock": "स्टॉक में",
+    "out_of_stock": "स्टॉक से बाहर",
+    "select_size": "कृपया आकार चुनें",
+    "select_color": "कृपया रंग चुनें"
+  },
+
+  "Filters": {
+    "all": "सभी",
+    "clear_all": "सभी साफ़ करें",
+    "apply": "लागू करें",
+    "male": "पुरुष",
+    "female": "महिला",
+    "kids": "बच्चे",
+    "unisex": "यूनिसेक्स",
+    "small": "छोटा",
+    "medium": "मध्यम",
+    "large": "बड़ा",
+    "x_large": "अतिरिक्त बड़ा",
+    "2x_large": "2XL"
+  },
+
+  "AdminSidebar": {
+    "nav": {
+      "aria_label": "व्यवस्थापक नेविगेशन"
+    },
+    "logo": {
+      "aria_label": "डैशबोर्ड पर जाएं"
+    },
+    "mobile": {
+      "close_label": "साइडबार बंद करें"
+    },
+    "sections": {
+      "main": "मुख्य",
+      "commerce": "व्यापार",
+      "analytics": "विश्लेषण",
+      "communication": "संचार",
+      "system": "सिस्टम"
+    },
+    "items": {
+      "dashboard": "डैशबोर्ड",
+      "orders": "ऑर्डर",
+      "users": "उपयोगकर्ता",
+      "products": "उत्पाद",
+      "categories": "श्रेणियां",
+      "segments": "खंड",
+      "charts": "चार्ट",
+      "revenue": "राजस्व",
+      "net_profit": "शुद्ध लाभ",
+      "complaints": "शिकायतें",
+      "notifications": "सूचनाएं",
+      "calendar": "कैलेंडर",
+      "settings": "सेटिंग्स"
+    },
+    "badge": {
+      "pending_count": "{count} लंबित"
+    },
+    "subitems": {
+      "users": "उपयोगकर्ता",
+      "orders": "ऑर्डर",
+      "revenue": "राजस्व",
+      "net profit": "शुद्ध लाभ",
+      "complaints": "शिकायतें"
+    },
+    "sidebar": {
+      "aria_label": "प्रशासक साइडबार"
+    },
+    "user_footer": {
+      "logout_label": "लॉगआउट"
+    }
+  },
+
+  "CartItem": {
+    "delete_button": "हटाने",
+    "delete_aria": "{product} हटाने",
+    "quantity_aria": "मात्रा",
+    "decrease_qty": "मात्रा कम करें",
+    "increase_qty": "मात्रा बढ़ाएं",
+    "total_label": "कुल"
+  },
+
+  "CartHeader": {
+    "title": "शॉपिंग कार्ट",
+    "products_in_cart": "कार्ट में {count} उत्पाद"
+  },
+
+  "Applyrequest": {
+    "order_summary": "ऑर्डर सारांश",
+    "items_count": "{count} वस्तु",
+    "promo_code": "प्रचार कोड",
+    "apply_code": "लागू करें",
+    "discount_applied": "छूट लागू की गई!",
+    "subtotal": "उप-कुल",
+    "shipping_fee": "शिपिंग शुल्क",
+    "total": "कुल",
+    "proceed_checkout": "चेकआउट के लिए आगे बढ़ें",
+    "continue_shopping": "खरीदारी जारी रखें"
+  },
+
+  "HeroSection": {
+    "announcement": "नई मौसम की बिक्री - चुनिंदा वस्तुओं पर 50% तक छूट!"
+  },
+
+  "CategoryGrid": {
+    "shop_category": "श्रेणी के अनुसार खरीदें"
+  },
+
+  "Chat": {
+    "type_message": "संदेश टाइप करें...",
+    "choose_emoji": "इमोजी चुनें",
+    "send_message": "संदेश भेजें"
+  }
+}
