@@ -19,15 +19,16 @@ import {
 import { staleTime, gcTime, DOMAIN } from "@/lib/constants";
 
 // ── Redis ────────────────────────────────────────────────────
-try {
-  redisClient
-    .incr("stats:homepage")
-    .catch((err: any) => console.error("Redis Incr Error:", err));
-  //  state will show to user (never reset)
-} catch (e) {
-  console.error("Redis Connection Error:", e);
+// ── Redis ────────────────────────────────────────────────────
+if (process.env.NEXT_PHASE !== "phase-production-build") {
+  try {
+    redisClient
+      .incr("stats:homepage")
+      .catch((err: any) => console.error("Redis Incr Error:", err));
+  } catch (e) {
+    console.error("Redis Connection Error:", e);
+  }
 }
-
 // ── ISR ────────────────────────────────────────────────────
 export const revalidate = 86400;
 
