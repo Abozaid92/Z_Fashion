@@ -110,11 +110,22 @@ const getGenericAnalytics = async (idAnalytics: string) => {
 };
 
 const getTotalVisitsAnaltiycs = async () => {
+  // 🚀 الحل السحري: لو إحنا وقت الـ Build، اخلع فوراً ورجع داتا وهمية عشان الـ Build يعدي
+  if (process.env.NEXT_PHASE === "phase-production-build") {
+    return {
+      card: {
+        total: 0,
+        percentage: 0,
+        trend: "up",
+      },
+    };
+  }
+
   try {
     const visitsStringFromredis = await redisClient.hGetAll(
       "stats:total:allStats",
     );
-    const visitsStringFormat = visitsStringFromredis.totalVisits;
+    const visitsStringFormat = visitsStringFromredis?.totalVisits;
 
     const totalVisits =
       visitsStringFormat ? parseInt(visitsStringFormat, 10) : 0;
