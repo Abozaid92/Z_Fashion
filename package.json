@@ -11,7 +11,8 @@
     "prisma:generate": "prisma generate",
     "prisma:fix": "node cleanup-and-fix.js",
     "prisma:augment": "node generate-augment.js",
-    "prisma:studio": "prisma studio"
+    "prisma:studio": "prisma studio",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.82.0",
