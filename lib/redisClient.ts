@@ -15,21 +15,24 @@ if (!globalForRedis.redis) {
     },
   });
 
-  // 2. ربط الـ Listeners هنا جوة الـ if عشان يتنفذوا مرة واحدة بس في العمر!
+  // 2. ربط الـ Listeners
   redisClient.on("error", (err) =>
     console.error("❌ Redis Client Error:", err),
   );
   redisClient.on("connect", () => console.log("✅ Redis Client Connected"));
 
-  // 3. فتح الاتصال
-  redisClient.connect();
+  // 3. فتح الاتصال (التعديل السحري هنا) 👇
+  // اتصل فقط لو إحنا مش في مرحلة الـ Build
+  if (process.env.NEXT_PHASE !== "phase-production-build") {
+    redisClient.connect();
+  }
 
   // 4. حفظه في الـ Global
   if (process.env.NODE_ENV !== "production") {
     globalForRedis.redis = redisClient;
   }
 } else {
-  // إذا كان موجود مسبقاً، استخدمه هو هو من غير ما تضيف عليه Listeners جديدة
+  // إذا كان موجود مسبقاً، استخدمه هو هو
   redisClient = globalForRedis.redis;
 }
 
