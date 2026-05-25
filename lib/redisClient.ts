@@ -8,6 +8,7 @@ if (!globalForRedis.redis) {
   // 1. إنشاء الاتصال لأول مرة فقط
   redisClient = createClient({
     url: process.env.REDIS_URL,
+    disableOfflineQueue: true,
     socket: {
       reconnectStrategy: (retries) => {
         return Math.min(retries * 50, 3000);
