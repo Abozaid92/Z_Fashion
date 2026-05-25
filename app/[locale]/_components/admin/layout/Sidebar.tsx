@@ -13,7 +13,6 @@ import {
   Bell,
   CalendarDays,
   Settings,
-  LogOut,
   ChevronRight,
   X,
   Zap,
@@ -116,6 +115,16 @@ const NAV_SECTIONS: NavSectionType[] = [
             label: "complaints",
             icon: "MessageSquare",
           },
+          {
+            href: "/admin/charts/products",
+            label: "products",
+            icon: "Package",
+          },
+          {
+            href: "/admin/charts/views",
+            label: "views",
+            icon: "Package",
+          },
         ],
       },
     ],
@@ -206,37 +215,6 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
       // غيرنا الأبيض الصريح لـ slate-50 عشان يفصل عن الـ Main Content
       className="flex flex-col h-full bg-slate-50 border-r border-slate-200 text-slate-700 w-64 shrink-0 shadow-sm"
     >
-      {/* ── Logo ── */}
-      <div className="flex items-center justify-between h-16 px-5 border-b border-slate-200 shrink-0">
-        <Link
-          href="/en/admin"
-          className="flex items-center gap-2.5 group"
-          aria-label={t("logo.aria_label")}
-        >
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center shadow-md shadow-emerald-500/20 group-hover:shadow-emerald-500/40 transition-shadow">
-            <Zap size={16} className="text-white" />
-          </div>
-          <div className="flex flex-col leading-tight">
-            <span className="font-display font-bold text-slate-900 tracking-tight text-base">
-              NEXUS
-            </span>
-            <span className="text-[9px] font-bold tracking-widest text-emerald-600 uppercase">
-              Admin
-            </span>
-          </div>
-        </Link>
-
-        {/* Mobile close button */}
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label={t("mobile.close_label")}
-          className="xl:hidden p-1.5 rounded-md text-slate-400 hover:text-slate-700 hover:bg-slate-200 transition-colors"
-        >
-          <X size={18} />
-        </button>
-      </div>
-
       {/* ── Nav Sections ── */}
       <div className="flex-1 overflow-y-auto py-5 px-3 space-y-7 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-300">
         {NAV_SECTIONS.map((section) => (
@@ -363,7 +341,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
                         className={cn(
                           "overflow-hidden transition-all duration-200 ease-in-out",
                           isExpanded ?
-                            "max-h-60 opacity-100 mt-1"
+                            "max-h-70 opacity-100 mt-1"
                           : "max-h-0 opacity-0",
                         )}
                       >
@@ -423,30 +401,6 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             </ul>
           </div>
         ))}
-      </div>
-
-      {/* ── User Profile Footer ── */}
-      <div className="shrink-0 border-t border-slate-200 p-4 bg-slate-100/50">
-        <div className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-200/60 transition-all cursor-pointer group">
-          <div className="w-9 h-9 rounded-full bg-emerald-200 border border-emerald-300 flex items-center justify-center text-emerald-800 text-sm font-bold shrink-0">
-            EW
-          </div>
-          <div className="flex-1 min-w-0">
-            <p className="text-sm font-bold text-slate-900 truncate">
-              Ethan Walker
-            </p>
-            <p className="text-xs text-slate-500 truncate font-medium">
-              ethan@nexus.com
-            </p>
-          </div>
-          <button
-            type="button"
-            aria-label={t("user_footer.logout_label")}
-            className="p-1.5 rounded-md text-slate-400 hover:text-rose-600 hover:bg-rose-100 transition-colors shrink-0"
-          >
-            <LogOut size={16} />
-          </button>
-        </div>
       </div>
     </nav>
   );

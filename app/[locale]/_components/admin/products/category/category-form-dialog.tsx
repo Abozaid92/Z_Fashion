@@ -48,7 +48,7 @@ function toSlug(str: string) {
 // Cloudinary upload helper
 // ─────────────────────────────────────────────────────────────
 async function uploadToCloudinary(file: File): Promise<string> {
-  console.log("upload called");
+  // console.log("upload called");
   const formData = new FormData();
   formData.append("file", file);
   formData.append(
@@ -61,7 +61,7 @@ async function uploadToCloudinary(file: File): Promise<string> {
     `https://api.cloudinary.com/v1_1/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload`,
     { method: "POST", body: formData },
   );
-  console.log(res);
+
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));
     throw new Error(err?.error?.message ?? "Image upload failed");

@@ -1,11 +1,12 @@
 import { createClient, RedisClientType } from "redis";
 
-// تعريف الـ Global عشان نمنع تكرار الـ Connections في الـ Development (Next.js Hot Reload)
 const globalForRedis = global as unknown as { redis: RedisClientType };
 
-const redisClient =
-  globalForRedis.redis ||
-  createClient({
+let redisClient: RedisClientType;
+
+if (!globalForRedis.redis) {
+  // 1. إنشاء الاتصال لأول مرة فقط
+  redisClient = createClient({
     url: process.env.REDIS_URL,
     socket: {
       reconnectStrategy: (retries) => {
@@ -14,16 +15,22 @@ const redisClient =
     },
   });
 
-// في بيئة التطوير، بنخزن الـ Client في الـ Global object
-if (process.env.NODE_ENV !== "production") globalForRedis.redis = redisClient;
+  // 2. ربط الـ Listeners هنا جوة الـ if عشان يتنفذوا مرة واحدة بس في العمر!
+  redisClient.on("error", (err) =>
+    console.error("❌ Redis Client Error:", err),
+  );
+  redisClient.on("connect", () => console.log("✅ Redis Client Connected"));
 
-// التعامل مع الأخطاء عشان السيرفر ميقعش
-redisClient.on("error", (err) => console.error("❌ Redis Client Error:", err));
-redisClient.on("connect", () => console.log("✅ Redis Client Connected"));
-
-// فتح الاتصال آلياً
-if (!redisClient.isOpen) {
+  // 3. فتح الاتصال
   redisClient.connect();
+
+  // 4. حفظه في الـ Global
+  if (process.env.NODE_ENV !== "production") {
+    globalForRedis.redis = redisClient;
+  }
+} else {
+  // إذا كان موجود مسبقاً، استخدمه هو هو من غير ما تضيف عليه Listeners جديدة
+  redisClient = globalForRedis.redis;
 }
 
 export default redisClient;

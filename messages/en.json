@@ -1637,6 +1637,7 @@
       "revenue": "Revenue",
       "net_profit": "Net Profit",
       "complaints": "Complaints",
+      "views": "Views",
       "notifications": "Notifications",
       "calendar": "Calendar",
       "settings": "Settings"
@@ -1647,7 +1648,9 @@
       "orders": "Orders",
       "revenue": "Revenue",
       "net profit": "Net Profit",
-      "complaints": "Complaints"
+      "complaints": "Complaints",
+      "products": "Products",
+      "views": "Views"
     },
     "sidebar": { "aria_label": "Admin Sidebar" },
     "user_footer": { "logout_label": "Logout" }

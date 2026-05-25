@@ -131,11 +131,6 @@ export function adminGuard<T>(
 
     // 4. الفحص بـ Zod وتمرير البيانات للـ Handler
     try {
-      console.log(
-        "this is data ----------------------------------------------",
-        dataToValidate,
-      );
-
       const validatedData = schema.parse(dataToValidate);
 
       // هنا بننادي الفانكشن الأصلية وبنباصي ليها البيانات "النضيفة"

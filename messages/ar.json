@@ -1742,7 +1742,8 @@
       "complaints": "الشكاوى",
       "notifications": "الإشعارات",
       "calendar": "التقويم",
-      "settings": "الإعدادات"
+      "settings": "الإعدادات",
+      "views": "المشاهدات"
     },
     "badge": {
       "pending_count": "{count} قيد الانتظار"
@@ -1752,7 +1753,9 @@
       "orders": "الطلبات",
       "revenue": "الإيرادات",
       "net profit": "صافي الربح",
-      "complaints": "الشكاوى"
+      "complaints": "الشكاوى",
+      "products": "المنتجات",
+      "views": "المشاهدات"
     },
     "sidebar": {
       "aria_label": "شريط الجانب للمسؤول"

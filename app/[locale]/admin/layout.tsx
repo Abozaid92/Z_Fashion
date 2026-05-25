@@ -31,8 +31,8 @@ const dmMono = DM_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nexus Admin",
-    template: "%s | Nexus Admin",
+    default: "Z_Fashion Admin",
+    template: "%s | Z_Fashion Admin",
   },
   description: "Enterprise E-commerce Admin Dashboard",
   robots: { index: false, follow: false },

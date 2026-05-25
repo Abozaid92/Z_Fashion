@@ -46,7 +46,7 @@ export default async function NetProfitPage({
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50 p-8 animate-pulse" />
+        <div className="min-h-screen bg-linear-to-br from-slate-50 to-emerald-50 p-8 animate-pulse" />
       }
     >
       <NetProfitContent />

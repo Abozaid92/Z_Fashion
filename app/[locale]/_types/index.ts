@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// NEXUS ADMIN — Global TypeScript Types
+// Z_Fashion ADMIN — Global TypeScript Types
 // Swap: replace dummy arrays with → await prisma.model.findMany()
 // ─────────────────────────────────────────────────────────────────────────────
 

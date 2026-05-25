@@ -4,14 +4,17 @@ import { routing } from "./routing";
 if (process.env.NODE_ENV === "production") {
   const originalError = console.error;
   console.error = (...args) => {
-    // إذا كان الخطأ يحتوي على كلمة MISSING_MESSAGE، تجاهله تماماً
-    if (typeof args[0] === "string" && args[0].includes("MISSING_MESSAGE")) {
-      return;
+    // هنا بنحول أول عنصر لنص سواء كان String أو Error Object عشان نضمن إنه يلقط الكلمة
+    const errorString =
+      args[0] instanceof Error ? args[0].message : String(args[0]);
+
+    if (errorString.includes("MISSING_MESSAGE")) {
+      return; // كتم الخطأ تماماً
     }
-    // غير ذلك، اطبع الخطأ بشكل طبيعي
     originalError(...args);
   };
 }
+
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
 
@@ -23,15 +26,14 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale,
     messages: (await import(`@/messages/${locale}.json`)).default,
 
-    // 1. دي اللي بتسكت الإيرورز الحمراء في الكونسول
+    // بنسيبها فاضية عشان نكتم أي شكوى داخلية من المكتبة
     onError(error) {
-      // بنسيبها فاضية عشان نكتم أي شكوى من المكتبة
+      if (error.code === "MISSING_MESSAGE") return;
     },
 
-    // 2. دي اللي بتخلي الموقع ميبوظش لو الترجمة ناقصة
-    // بتعرض الـ key نفسه (مثلاً: "Buttons.save") بدل ما تطلع إيرور
-    onMessageFallback({ key, namespace }: any) {
-      return key;
+    // التعديل الصح هنا: getMessageFallback وليس onMessageFallback
+    getMessageFallback({ key, namespace }) {
+      return namespace ? `${namespace}.${key}` : key;
     },
   };
 });

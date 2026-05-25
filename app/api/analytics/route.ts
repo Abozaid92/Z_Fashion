@@ -1,22 +1,31 @@
-// api/analytics
-
 import { NextRequest, NextResponse } from "next/server";
-import { z } from "zod";
 import prisma from "@/lib/db";
-
 import { analyticsQuerySchema } from "../utils/analyticsSchema";
+import { auth } from "@/auth";
 
-// 🔥 helper لتفادي مشاكل timezone
 const formatDate = (date: Date) => {
   return date.toLocaleDateString("en-CA"); // YYYY-MM-DD
 };
 
-export const GET = async (
-  request: NextRequest,
-  userId: string,
-  validatedData: z.infer<typeof analyticsQuerySchema>,
-) => {
+export const GET = async (request: NextRequest) => {
   try {
+    const { searchParams } = new URL(request.url);
+    const queryParams = Object.fromEntries(searchParams.entries());
+
+    const validationResult = analyticsQuerySchema.safeParse(queryParams);
+
+    if (!validationResult.success) {
+      return NextResponse.json(
+        {
+          message: "Invalid query parameters",
+          errors: validationResult.error.errors,
+        },
+        { status: 400 },
+      );
+    }
+
+    // البيانات المعتمدة الآن جاهزة للاستخدام بأمان
+    const validatedData = validationResult.data;
     const { type, timeframe, from, to } = validatedData;
 
     let startDate = new Date();
@@ -47,7 +56,7 @@ export const GET = async (
     const previousStartDate = new Date(startDate.getTime() - durationInMs);
     const previousEndDate = new Date(startDate.getTime());
 
-    // 3. جلب البيانات
+    // 3. جلب البيانات من قاعدة البيانات
     const [currentPeriodData, previousPeriodData] = await Promise.all([
       prisma.chartAnalyticsByday.findMany({
         where: {
@@ -73,7 +82,7 @@ export const GET = async (
       ]),
     );
 
-    // 4. Filling gaps
+    // 4. ملء الفجوات (Filling gaps)
     const formattedData = [];
     let currentTotal = 0;
 
@@ -83,9 +92,7 @@ export const GET = async (
       d.setDate(d.getDate() + 1)
     ) {
       const dateString = formatDate(d);
-
       const value = analyticsMap.get(dateString) || 0;
-
       currentTotal += value;
 
       formattedData.push({
@@ -94,7 +101,7 @@ export const GET = async (
       });
     }
 
-    // 5. نسبة التغير
+    // 5. حساب نسبة التغير
     const previousTotal = previousPeriodData._sum.totalAnalytics || 0;
     let percentageChange = 0;
 
@@ -104,7 +111,7 @@ export const GET = async (
       percentageChange = ((currentTotal - previousTotal) / previousTotal) * 100;
     }
 
-    // 6. response
+    // 6. إرسال الرد بنجاح
     return NextResponse.json({
       success: true,
       data: formattedData,
@@ -117,7 +124,7 @@ export const GET = async (
       },
     });
   } catch (error) {
-    console.error("Analytics API Error:", error);
+    console.error("❌ Analytics API Error:", error);
     return NextResponse.json(
       { message: "Failed to fetch analytics" },
       { status: 500 },
