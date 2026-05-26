@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { FaFacebook, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { signIn } from "next-auth/react";
 
@@ -17,16 +17,7 @@ const socialProviders = [
     borderColor: "border border-gray-200",
     shadow: "hover:shadow-gray-100",
   },
-  {
-    name: "facebook",
-    icon: FaFacebook,
-    label: "Facebook",
-    bgColor: "bg-[#1877F2] hover:bg-[#166FE5]",
-    textColor: "text-white",
-    borderColor: "border border-[#1877F2]",
-    shadow: "hover:shadow-blue-200",
-    iconColor: "text-white",
-  },
+
   {
     name: "github",
     icon: FaGithub,

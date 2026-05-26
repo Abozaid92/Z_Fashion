@@ -31,6 +31,7 @@ const AccountNav = ({ session }: { session: typeProps | null }) => {
       await signOut({ redirect: false });
       router.refresh();
       router.push("/login");
+
       toast.success(r("logoutSuccessfully"));
     } catch {
       toast.error(r("failedLogout"));
