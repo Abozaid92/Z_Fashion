@@ -2,11 +2,9 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 
 import redisClient from "@/lib/redisClient";
-
 import { showcaseKeys } from "@/hooks/use-showcase";
 
 import { HeroSection } from "@/components/homePage/hero-section";
-// import { CollectionsSlider } from "@/components/homePage/collections-slider";
 import { CategoryGrid } from "@/components/homePage/category-grid";
 import { ShowcaseSection } from "@/components/homePage/showcase-section";
 import { TestimonialsSection } from "@/components/homePage/testimonials-section";
@@ -17,8 +15,9 @@ import {
   getHomepageShowcaseProducts,
 } from "./(departments)/(main-layouts)/clothes/api";
 import { staleTime, gcTime, DOMAIN } from "@/lib/constants";
+import ServerIntl from "@/lib/server-intl";
+import getQueryClient from "@/lib/getQueryClient";
 
-// ── Redis ────────────────────────────────────────────────────
 // ── Redis ────────────────────────────────────────────────────
 if (process.env.NEXT_PHASE !== "phase-production-build") {
   try {
@@ -29,8 +28,6 @@ if (process.env.NEXT_PHASE !== "phase-production-build") {
     console.error("Redis Connection Error:", e);
   }
 }
-// ── ISR ────────────────────────────────────────────────────
-export const revalidate = 86400;
 
 // ── SEO Metadata ────────────────────────────────────────────
 export const metadata: Metadata = {
@@ -48,7 +45,6 @@ export const metadata: Metadata = {
     "online shopping",
     "fashion brands",
   ],
-
   category: "Fashion & Apparel",
   classification: "E-Commerce",
   other: {
@@ -98,9 +94,6 @@ function TestimonialsSkeleton() {
 }
 
 // ── Page ───────────────────────────────────────────────────
-import ServerIntl from "@/lib/server-intl";
-import getQueryClient from "@/lib/getQueryClient";
-
 export default async function HomePage({
   params,
 }: {
@@ -118,24 +111,23 @@ export default async function HomePage({
   ];
   const queryClient = getQueryClient();
 
-  const [q1, q2, q3] = await Promise.all([
-    queryClient.prefetchQuery({
-      queryKey: showcaseKeys.products(),
-      queryFn: getHomepageShowcaseProducts,
-    }),
-    queryClient.prefetchQuery({
-      queryKey: showcaseKeys.comments(),
-      queryFn: getHomepageShowcaseComments,
-    }),
-    queryClient.prefetchQuery({
-      queryKey: showcaseKeys.ctgImag(),
-      queryFn: getCtgImage,
-    }),
-    // await redisClient.get("stats:total:homepage"),
-    // await prisma.user.count(),
-    // await prisma.product.count(),
-    // await prisma.comment.count(),
-  ]);
+  // 🚀 حماية الـ Prefetch: متعملش Prefetch للـ APIs الداخلية والموقع لسه بيتبني والسيرفر طافي
+  if (process.env.NEXT_PHASE !== "phase-production-build") {
+    await Promise.all([
+      queryClient.prefetchQuery({
+        queryKey: showcaseKeys.products(),
+        queryFn: getHomepageShowcaseProducts,
+      }),
+      queryClient.prefetchQuery({
+        queryKey: showcaseKeys.comments(),
+        queryFn: getHomepageShowcaseComments,
+      }),
+      queryClient.prefetchQuery({
+        queryKey: showcaseKeys.ctgImag(),
+        queryFn: getCtgImage,
+      }),
+    ]);
+  }
 
   // ── Structured Data (JSON-LD) ────────────────────────────
   const structuredData = {
@@ -185,11 +177,8 @@ export default async function HomePage({
         "@type": "Store",
         "@id": `${DOMAIN}/#store`,
         name: "ZFashin Online Store",
-        // image: "https://www.zfashin.com/store-image.jpg",
         description:
           "Premium online fashion store offering Buck Commander®, Tough As Buck, and outdoor apparel collections.",
-        // priceRange: "$$",
-        // currenciesAccepted: "USD, EUR, GBP, EG",
         paymentAccepted: "Credit Card, PayPal, Apple Pay, Google Pay",
         openingHours: "Mo-Su 00:00-24:00",
         url: "https://www.zfashin.com",
@@ -214,7 +203,6 @@ export default async function HomePage({
 
   return (
     <ServerIntl namespaces={namespaces} params={params}>
-      {/* Structured Data Injection */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -226,10 +214,7 @@ export default async function HomePage({
         itemScope
         itemType="https://schema.org/WebPage"
       >
-        <HeroSection
-        // stats={{ totalVisits, totalUsers, totalProducts, totalComments }}
-        />{" "}
-        {/* <CollectionsSlider /> */}
+        <HeroSection />
         <Suspense fallback={<ShowcaseSkeleton />}>
           <CategoryGrid />
         </Suspense>
