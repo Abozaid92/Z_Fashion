@@ -51,7 +51,7 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: t("og_title"),
+      title: "ZFashion",
       description: t("og_description"),
       url: `${DOMAIN}`,
       siteName: "ZFashion Store",
@@ -59,7 +59,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: "/og-about.jpg",
+          url: `${DOMAIN}/logo.png`,
           width: 1200,
           height: 630,
           alt: t("og_image_alt"),
@@ -68,10 +68,10 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitter_title"),
+      title: "ZFashion",
       description: t("twitter_description"),
       creator: "@zfashionstore",
-      images: ["/twitter-about.jpg"],
+      images: [`${DOMAIN}/logo.png`],
     },
     category: "Fashion & E-Commerce & clothes & products",
   };
@@ -98,7 +98,7 @@ export default async function AboutPage({
         "@type": "ListItem",
         position: 3,
         name: t("seo.breadcrumb_name"),
-        item: "https://zfashion.store/about",
+        item: `${DOMAIN}/about`,
       },
     ],
   };
@@ -315,7 +315,10 @@ export default async function AboutPage({
                     {t("story.p2")}
                   </p>
                   <meta itemProp="name" content="ZFashion Store" />
-                  <meta itemProp="url" content="http://localhost:3000" />
+                  <meta
+                    itemProp="url"
+                    content="https://z-fashion-ecru.vercel.app"
+                  />
                 </div>
 
                 <div className="relative">

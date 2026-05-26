@@ -126,6 +126,8 @@ export const metadata: Metadata = {
     "online shopping",
     "clothing",
     "ZFashion",
+    "Z Fashion",
+    "z fashion",
     "ecommerce fashion",
   ],
 
@@ -138,7 +140,7 @@ export const metadata: Metadata = {
       "Premium global fashion with cutting-edge performance and seamless shopping.",
     images: [
       {
-        url: `${DOMAIN}/og.jpg`,
+        url: `${DOMAIN}/logo.png`,
         width: 1200,
         height: 630,
       },
@@ -162,7 +164,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ZFashion Store",
     description: "Premium global fashion platform",
-    images: [`${DOMAIN}/og.jpg`],
+    images: [`${DOMAIN}/logo.png`],
   },
 
   robots: {
@@ -225,7 +227,8 @@ export default async function RootLayout({
   const queryClient = getQueryClient();
   await queryClient.prefetchQuery({
     queryKey: navCategoryKeys.list(),
-    queryFn: () => fetchNavCategories(DOMAIN ?? "http://localhost:3000"),
+    queryFn: () =>
+      fetchNavCategories(DOMAIN ?? "https://z-fashion-ecru.vercel.app"),
   });
   await queryClient.prefetchQuery({
     queryKey: ["announcement"],

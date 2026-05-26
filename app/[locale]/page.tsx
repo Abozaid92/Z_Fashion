@@ -1,3 +1,4 @@
+// app/[locale]/page.tsx
 import { Suspense } from "react";
 import type { Metadata } from "next";
 
@@ -18,7 +19,7 @@ import { staleTime, gcTime, DOMAIN } from "@/lib/constants";
 import ServerIntl from "@/lib/server-intl";
 import getQueryClient from "@/lib/getQueryClient";
 
-// ── Redis ────────────────────────────────────────────────────
+// ── Redis (مراقبة الزيارات في الـ Production) ────────────────
 if (process.env.NEXT_PHASE !== "phase-production-build") {
   try {
     redisClient
@@ -29,33 +30,100 @@ if (process.env.NEXT_PHASE !== "phase-production-build") {
   }
 }
 
-// ── SEO Metadata ────────────────────────────────────────────
-export const metadata: Metadata = {
-  title:
-    "ZFashin - Premium Fashion & Outdoor Apparel for Men, Women & Kids | Shop Buck Commander® Collections",
-  description:
-    "Discover ZFashin's premium fashion collections featuring Buck Commander®, Tough As Buck, and legendary outdoor apparel. Shop high-quality clothing for men, women, and kids with fast shipping. Free returns on all orders. Trusted by over 100,000+ customers worldwide.",
-  keywords: [
-    "ZFashin",
-    "fashion clothing",
-    "men's fashion",
-    "women's fashion",
-    "kids clothing",
-    "fashion store",
-    "online shopping",
-    "fashion brands",
-  ],
-  category: "Fashion & Apparel",
-  classification: "E-Commerce",
-  other: {
-    "mobile-web-app-capable": "yes",
-    "apple-mobile-web-app-capable": "yes",
-    "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "theme-color": "#ffffff",
+// ── قاموس الميتادات والترجمات للـ 8 لغات ──────────────────────
+const contentTranslations: Record<
+  string,
+  { title: string; desc: string; homeBtn: string }
+> = {
+  en: {
+    title: "ZFashin - Premium Fashion & Outdoor Apparel",
+    desc: "Discover premium fashion collections with fast shipping worldwide.",
+    homeBtn: "Home",
+  },
+  ar: {
+    title: "زد فاشن - منصة أزياء عالمية فاخرة",
+    desc: "اكتشف تشكيلات الأزياء الراقية والملابس العصرية مع شحن سريع لكل العالم.",
+    homeBtn: "الرئيسية",
+  },
+  de: {
+    title: "ZFashin - Premium-Mode & Outdoor-Bekleidung",
+    desc: "Entdecken Sie Premium-Modekollektionen mit schnellem weltweiten Versand.",
+    homeBtn: "Startseite",
+  },
+  hi: {
+    title: "ZFashin - प्रीमियम फैशन और आउटडोर परिधान",
+    desc: "दुनिया भर में तेज़ शिपिंग के साथ प्रीमियम फैशन संग्रह खोजें।",
+    homeBtn: "होम",
+  },
+  zh: {
+    title: "ZFashin - 高端时尚与户外服饰",
+    desc: "探索高端时尚系列，全球快速发货。",
+    homeBtn: "首页",
+  },
+  ru: {
+    title: "ZFashin - Премиальная мода и одежда для отдыха",
+    desc: "Откройте для себя коллекции премиальной моды с быстрой доставкой по всему миру.",
+    homeBtn: "Главная",
+  },
+  fr: {
+    title: "ZFashin - Mode Haut de Gamme & Vêtements Outdoor",
+    desc: "Découvrez des collections de mode haut de gamme avec une livraison rapide dans le monde entier.",
+    homeBtn: "Accueil",
+  },
+  es: {
+    title: "ZFashin - Moda Premium y Ropa Outdoor",
+    desc: "Descubre colecciones de moda premium con envío rápido a todo el mundo.",
+    homeBtn: "Inicio",
   },
 };
 
-// ── Skeletons ──────────────────────────────────────────────
+// ── توليد الميتادات ديناميكياً للـ 8 لغات (SEO) ────────────────
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const translation = contentTranslations[locale] || contentTranslations.en;
+
+  return {
+    title: `${translation.title} | Shop Buck Commander®`,
+    description: `${translation.desc} Trusted by over 100,000+ customers worldwide. Free returns on all orders.`,
+    metadataBase: new URL(DOMAIN || "https://z-fashion-ecru.vercel.app"),
+    keywords: [
+      "ZFashin",
+      "fashion store",
+      "online shopping",
+      "premium apparel",
+    ],
+    category: "Fashion & Apparel",
+    classification: "E-Commerce",
+    twitter: {
+      card: "summary",
+      title: translation.title,
+      description: translation.desc,
+      images: ["/logo.png"],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+    other: {
+      "mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-status-bar-style": "black-translucent",
+      "theme-color": "#ffffff",
+    },
+  };
+}
+
+// ── Skeletons (مؤشرات التحميل المستقرة) ────────────────────────
 function ShowcaseSkeleton() {
   return (
     <section className="py-16 bg-white" aria-hidden="true">
@@ -93,12 +161,16 @@ function TestimonialsSkeleton() {
   );
 }
 
-// ── Page ───────────────────────────────────────────────────
+// ── Component الصفحة الرئيسية ──────────────────────────────
 export default async function HomePage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params; // فك الـ Promise الخاص باللغة هنا
+  const translation = contentTranslations[locale] || contentTranslations.en;
+  const currentLocalizedUrl = `${DOMAIN}/${locale}`;
+
   const namespaces = [
     "HeroSectionHome",
     "CollectionsSlider",
@@ -111,7 +183,7 @@ export default async function HomePage({
   ];
   const queryClient = getQueryClient();
 
-  // 🚀 حماية الـ Prefetch: متعملش Prefetch للـ APIs الداخلية والموقع لسه بيتبني والسيرفر طافي
+  // 🚀 حماية الـ Prefetch أثناء الـ Build
   if (process.env.NEXT_PHASE !== "phase-production-build") {
     await Promise.all([
       queryClient.prefetchQuery({
@@ -129,47 +201,50 @@ export default async function HomePage({
     ]);
   }
 
-  // ── Structured Data (JSON-LD) ────────────────────────────
+  // ── الـ JSON-LD الديناميكي المتكامل والخالي من الأخطاء ─────────
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebSite",
-        "@id": "https://www.zfashin.com/#website",
-        url: "https://www.zfashin.com",
+        "@type": "Organization",
+        "@id": `${DOMAIN}/#organization`,
         name: "ZFashin",
-        description:
-          "Premium fashion and outdoor apparel for men, women, and kids. Shop Buck Commander®, Tough As Buck collections.",
+        url: DOMAIN,
+        logo: `${DOMAIN}/logo.png`,
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${DOMAIN}/#website`,
+        url: DOMAIN,
+        name: "ZFashin",
         publisher: {
-          "@id": `${DOMAIN}//#organization`,
+          "@id": `${DOMAIN}/#organization`,
         },
         potentialAction: {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
-            urlTemplate:
-              "https://www.zfashin.com/search?q={search_term_string}",
+            urlTemplate: `${currentLocalizedUrl}/search?q={search_term_string}`,
           },
           "query-input": "required name=search_term_string",
         },
       },
       {
         "@type": "WebPage",
-        "@id": `${DOMAIN}/#webpage`,
-        url: `${DOMAIN}`,
-        name: "ZFashin - Premium Fashion & Outdoor Apparel Collections",
-        description:
-          "Shop Buck Commander®, Tough As Buck, and legendary outdoor collections for men, women, and kids. Premium quality with free shipping and returns.",
+        "@id": `${currentLocalizedUrl}/#webpage`,
+        url: currentLocalizedUrl,
+        name: translation.title,
+        description: translation.desc,
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `${DOMAIN}/#breadcrumb`,
+        "@id": `${currentLocalizedUrl}/#breadcrumb`,
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
-            name: "Home",
-            item: `${DOMAIN}`,
+            name: translation.homeBtn,
+            item: currentLocalizedUrl,
           },
         ],
       },
@@ -177,22 +252,21 @@ export default async function HomePage({
         "@type": "Store",
         "@id": `${DOMAIN}/#store`,
         name: "ZFashin Online Store",
-        description:
-          "Premium online fashion store offering Buck Commander®, Tough As Buck, and outdoor apparel collections.",
+        description: translation.desc,
         paymentAccepted: "Credit Card, PayPal, Apple Pay, Google Pay",
         openingHours: "Mo-Su 00:00-24:00",
-        url: "https://www.zfashin.com",
+        url: currentLocalizedUrl,
       },
       {
         "@type": "ItemList",
-        "@id": `${DOMAIN}/products/#itemlist`,
+        "@id": `${currentLocalizedUrl}/products/#itemlist`,
         name: "Featured Products",
         description: "Curated selection of our most popular fashion items",
         numberOfItems: 50,
       },
       {
         "@type": "AggregateRating",
-        "@id": "https://www.zfashin.com/#aggregaterating",
+        "@id": `${DOMAIN}/#aggregaterating`,
         ratingValue: "4.8",
         reviewCount: "12847",
         bestRating: "5",
@@ -203,6 +277,7 @@ export default async function HomePage({
 
   return (
     <ServerIntl namespaces={namespaces} params={params}>
+      {/* حقن سكريبت الـ Schema الاحترافي */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -215,15 +290,19 @@ export default async function HomePage({
         itemType="https://schema.org/WebPage"
       >
         <HeroSection />
+
         <Suspense fallback={<ShowcaseSkeleton />}>
           <CategoryGrid />
         </Suspense>
+
         <Suspense fallback={<ShowcaseSkeleton />}>
           <ShowcaseSection />
         </Suspense>
+
         <Suspense fallback={<TestimonialsSkeleton />}>
           <TestimonialsSection />
         </Suspense>
+
         <BrandsSection />
       </main>
     </ServerIntl>
