@@ -19,11 +19,35 @@ export const metadata: Metadata = {
 };
 
 // ── Fetch countries from REST Countries API (server-only) ────────────────────
+// ── Fetch countries from REST Countries API (server-only) ────────────────────
 async function fetchCountries(): Promise<Country[]> {
+  const fallbackCountries = [
+    { code: "US", name: "United States", flag: "🇺🇸", dialCode: "+1" },
+    { code: "GB", name: "United Kingdom", flag: "🇬🇧", dialCode: "+44" },
+    { code: "CA", name: "Canada", flag: "🇨🇦", dialCode: "+1" },
+    { code: "AU", name: "Australia", flag: "🇦🇺", dialCode: "+61" },
+    { code: "DE", name: "Germany", flag: "🇩🇪", dialCode: "+49" },
+    { code: "FR", name: "France", flag: "🇫🇷", dialCode: "+33" },
+    { code: "EG", name: "Egypt", flag: "🇪🇬", dialCode: "+20" },
+    { code: "AE", name: "United Arab Emirates", flag: "🇦🇪", dialCode: "+971" },
+    { code: "SA", name: "Saudi Arabia", flag: "🇸🇦", dialCode: "+966" },
+    { code: "JP", name: "Japan", flag: "🇯🇵", dialCode: "+81" },
+    { code: "IN", name: "India", flag: "🇮🇳", dialCode: "+91" },
+    { code: "BR", name: "Brazil", flag: "🇧🇷", dialCode: "+55" },
+    { code: "SG", name: "Singapore", flag: "🇸🇬", dialCode: "+65" },
+    { code: "NL", name: "Netherlands", flag: "🇳🇱", dialCode: "+31" },
+  ];
+
+  // 🚀 حماية الـ Build القصوى: لو السيرفر بيعمل Build، ارجع الـ Fallback فوراً في ملي ثانية ومتحاولش تكلم الـ API
+  if (process.env.NEXT_PHASE === "phase-production-build") {
+    return fallbackCountries;
+  }
+
   try {
+    // تم تصحيح الـ URL وحذف سهم السنجل كوت (') الزيادة اللي كان بعد كلمة all
     const res = await fetch(
-      "https://restcountries.com/v3.1/all'?fields=name,cca2,flag,idd",
-      { next: { revalidate: 86400 } }, // Cache 24 h — country list changes rarely
+      "https://restcountries.com/v3.1/all?fields=name,cca2,flag,idd",
+      { next: { revalidate: 86400 } }, // Cache 24 h
     );
 
     if (!res.ok) throw new Error("Countries API error");
@@ -48,28 +72,8 @@ async function fetchCountries(): Promise<Country[]> {
         .sort((a: Country, b: Country) => a.name.localeCompare(b.name))
     );
   } catch {
-    // Graceful fallback — a minimal static list so the page never breaks
-    return [
-      { code: "US", name: "United States", flag: "🇺🇸", dialCode: "+1" },
-      { code: "GB", name: "United Kingdom", flag: "🇬🇧", dialCode: "+44" },
-      { code: "CA", name: "Canada", flag: "🇨🇦", dialCode: "+1" },
-      { code: "AU", name: "Australia", flag: "🇦🇺", dialCode: "+61" },
-      { code: "DE", name: "Germany", flag: "🇩🇪", dialCode: "+49" },
-      { code: "FR", name: "France", flag: "🇫🇷", dialCode: "+33" },
-      { code: "EG", name: "Egypt", flag: "🇪🇬", dialCode: "+20" },
-      {
-        code: "AE",
-        name: "United Arab Emirates",
-        flag: "🇦🇪",
-        dialCode: "+971",
-      },
-      { code: "SA", name: "Saudi Arabia", flag: "🇸🇦", dialCode: "+966" },
-      { code: "JP", name: "Japan", flag: "🇯🇵", dialCode: "+81" },
-      { code: "IN", name: "India", flag: "🇮🇳", dialCode: "+91" },
-      { code: "BR", name: "Brazil", flag: "🇧🇷", dialCode: "+55" },
-      { code: "SG", name: "Singapore", flag: "🇸🇬", dialCode: "+65" },
-      { code: "NL", name: "Netherlands", flag: "🇳🇱", dialCode: "+31" },
-    ];
+    // الـ Fallback الطبيعي لو الـ API وقع والموقع شغال لايف
+    return fallbackCountries;
   }
 }
 
