@@ -225,8 +225,7 @@ export default async function RootLayout({
   const queryClient = getQueryClient();
   await queryClient.prefetchQuery({
     queryKey: navCategoryKeys.list(),
-    queryFn: () =>
-      fetchNavCategories(DOMAIN ?? "https://z-fashion-ecru.vercel.app"),
+    queryFn: () => fetchNavCategories(DOMAIN ?? "http://localhost:3000"),
   });
   await queryClient.prefetchQuery({
     queryKey: ["announcement"],

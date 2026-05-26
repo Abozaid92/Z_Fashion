@@ -1,176 +1,2147 @@
 {
   "nav": {
-    "home": "Home",
-    "shop": "Shop",
-    "products": "Products",
-    "about": "About",
-    "contact": "Contact",
-    "cart": "Cart",
-    "account": "Account"
+    "products": "Productos",
+    "contact": "Contáctanos",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "about": "Sobre Nosotros",
+    "dashboard": "Panel de Administración",
+    "home": "Inicio",
+    "ctg": {
+      "all": "Todos:",
+      "Accessories": "Accesorios",
+      "men": "Men",
+      "kids": "Niños",
+      "women": "Mujeres",
+      "caps": "Shirts",
+      "Shirts": "Shirts",
+      "jackets": "Jackets",
+      "Jacket": "Jackets",
+      "pants": "Pants"
+    }
   },
-  "Hero": {
-    "subtitle": "Premium quality fashion for everyone",
-    "shop_now": "Shop Now",
-    "discount_badge": "Save 50%",
-    "slides": {
-      "1": {
-        "title": "Streetwear"
-      },
-      "2": {
-        "title": "Summer Collection"
-      },
-      "3": {
-        "title": "Luxury Watches"
-      },
-      "4": {
-        "title": "Designer Bags"
+  "Lang": {
+    "select_language": "Seleccionar Idioma",
+    "language": "Language"
+  },
+  "CartNav": {
+    "empty_cart": "Cart is empty",
+    "cart": "Carrito",
+    "items": "Artículos",
+    "cart_label": "Carrito de Compras",
+    "product_label": "Producto",
+    "continue_shopping": "Seguir Comprando",
+    "aria_label": "Carrito de Compras",
+    "empty_text": "Cart is empty",
+    "view_all": "Ver Todo ({count})",
+    "view_cart": "Ver Carrito"
+  },
+  "EmptyCart": {
+    "cart_is_empty": "Tu carrito está vacío",
+    "start_shopping": "Empezar a Comprar",
+    "empty_cart_aria": "Shopping cart is empty",
+    "empty_cart_title": "No items added yet",
+    "empty_cart_description": "Tu carrito está vacío. Explora productos y añade lo que te guste.",
+    "browse_products": "Explorar Productos"
+  },
+  "Rating": {
+    "rating": "Calificación",
+    "rate_product": "Rate Product"
+  },
+  "Navbar": {
+    "aria_label": "Main Navigation",
+    "mobileMenu": {
+      "AdminDashboard": "Panel de Administración",
+      "open": "Abrir Menú",
+      "close": "Cerrar Menú",
+      "title": "Menu",
+      "home": "Inicio",
+      "about": "Sobre Nosotros",
+      "dashboard": "Panel de Administración",
+      "all": "Todos",
+      "myAccount": "Mi Cuenta",
+      "myOrders": "Mis Pedidos",
+      "ctg": {
+        "all": "Todos:",
+        "Accessories": "Accesorios",
+        "men": "Men",
+        "kids": "Niños",
+        "women": "Mujeres",
+        "caps": "Shirts",
+        "jackets": "Jackets",
+        "Jacket": "Jackets",
+        "pants": "Pants",
+        "Shirts": "Shirts"
       }
     }
   },
-  "HeroSection": {
-    "announcement": "New Season Sale - Up to 50% OFF on select items!",
-    "collection_badge": "Spring Collection 2025",
-    "main_title_1": "Style That",
-    "main_title_2": "speaks",
-    "main_title_3": "For Itself.",
-    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
-    "shop_button": "Shop The Drop",
-    "lookbook_button": "See Lookbook",
-    "stat_1_value": "Happy Customers",
-    "stat_1_sub": "Worldwide",
-    "stat_2_value": "5-Star Reviews",
-    "stat_2_sub": "Avg. Rating",
-    "stat_3_value": "Curated Styles",
-    "stat_3_sub": "New Weekly",
-    "stat_4_value": "Total Views",
-    "stat_4_sub": "Audience Reach",
-    "price_label": "Starting from",
-    "testimonial_quote": "Quality is world-class!",
-    "testimonial_author": "Sarah M. — Verified"
+  "AnnouncementBar": {
+    "controls": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "dismiss": "Descartar"
+    }
   },
-  "ShowcaseSection": {
-    "explore_all": "Explore All",
-    "view_all": "View All",
-    "new_arrivals": "New Arrivals",
-    "complete_look": "Complete the Look"
-  },
-  "HorizontalProductScroll": {
-    "view_all": "View All",
-    "scroll": "Scroll"
-  },
-  "TestimonialsSection": {
-    "testimonials": "What Our Customers Say",
-    "verified_buyer": "Verified Buyer",
-    "reviews": "28,000+ reviews",
-    "rating": "4.9"
-  },
-  "Chat": {
-    "support": "Support",
-    "test_button": "Test Button",
-    "type_message": "Type a message...",
-    "offline": "Offline"
+  "ProductCard": {
+    "add_to_cart": "Añadir al Carrito",
+    "view_details": "Ver Detalles",
+    "out_of_stock": "Agotado",
+    "discount_off": "{discount}% Off",
+    "quick_view": "Vista Rápida — {name}",
+    "view": "View {name}"
   },
   "Filters": {
     "title": "Filtros",
-    "filters_aria_label": "Filtros de productos",
-    "price_range": "Rango de precios",
-    "price_0_50": "Precio $0 - $50",
-    "price_50_100": "Precio $50 - $100",
-    "price_100_200": "Precio $100 - $200",
-    "price_200_plus": "Precio $200+",
+    "price_range": "Rango de Precio",
+    "price_0_50": "Precio $0 a $50",
+    "price_50_100": "Precio $50 a $100",
+    "price_100_200": "Precio $100 a $200",
+    "price_200_plus": "Precio $200 y más",
+    "category": "Categoría",
     "gender": "Género",
-    "gender_male": "Hombre",
-    "male": "Hombres",
-    "gender_female": "Mujer",
-    "female": "Mujeres",
+    "gender_male": "Men",
+    "gender_female": "Mujeres",
     "gender_unisex": "Unisex",
-    "unisex": "Unisex",
     "gender_kids": "Niños",
-    "kids": "Niños",
     "size": "Talla",
-    "size_small": "Pequeño",
-    "size_medium": "Mediano",
-    "size_large": "Grande",
-    "size_xlarge": "Muy grande",
-    "apply_filters": "Aplicar filtros",
-    "apply": "Aplicar",
-    "clear_filters": "Limpiar todo",
-    "clear_all": "Limpiar todo"
+    "size_small": "Small",
+    "size_medium": "Medio",
+    "size_large": "Large",
+    "size_xlarge": "Extra Large",
+    "brand": "Marca",
+    "rating": "Calificación",
+    "clear_all": "Limpiar Todo",
+    "apply": "Aplicar Filtros",
+    "apply_filters": "Aplicar Filtros",
+    "clear_filters": "Limpiar Todos los Filtros",
+    "filters_aria_label": "Filtros de Producto",
+    "male": "Men",
+    "female": "Mujeres",
+    "unisex": "Unisex",
+    "kids": "Niños"
   },
-  "Categories": {
-    "accessories": "Accesorios",
-    "men": "Hombres",
-    "women": "Mujeres",
-    "kids": "Niños",
-    "Shirts": "Gorras",
-    "jackets": "Chaquetas",
-    "pants": "Pantalones",
-    "shirts": "Camisas",
-    "t_shirts": "Camisetas",
-    "hoodies": "Sudaderas",
-    "knitwear": "Prendas de punto",
-    "polo": "Polo",
-    "shorts": "Pantalones cortos"
+  "Hero": {
+    "shop_now": "Comprar Ahora",
+    "discount_badge": "-50%",
+    "slides": {
+      "1": {
+        "title": "Streetwear",
+        "tag": "🚀 Most Popular"
+      },
+      "2": {
+        "title": "Summer Collection",
+        "tag": "🔥 Hot"
+      },
+      "3": {
+        "title": "Relojes de Lujo",
+        "tag": "⭐ Premium"
+      },
+      "4": {
+        "title": "Bolsos de Diseñador",
+        "tag": "💎 New"
+      }
+    }
+  },
+  "announcement": {
+    "flash_sale": "⚡ Flash Sale: Up to 50% Off - Limited Time Only!",
+    "free_shipping": "🚚 Free Shipping on Orders Over $50",
+    "new_collection": "✨ New Collection - Shop Now!"
+  },
+  "auth": {
+    "logoutSuccessfully": "Logged out successfully",
+    "failedLogout": "Logout failed",
+    "somethingWentWrong": "Algo salió mal, por favor intenta de nuevo",
+    "TooManyRequest": "Por favor espera un momento antes de intentar de nuevo",
+    "loginACC": "Iniciar Sesión",
+    "registerACC": "Crear Cuenta",
+    "profile": "Perfil",
+    "logout": "Cerrar Sesión",
+    "cart": "Carrito",
+    "orders": "Pedidos",
+    "login": {
+      "title": "Bienvenido de Nuevo",
+      "subtitle": "Inicia sesión para continuar",
+      "emailOrUsername": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa el correo",
+      "emailRequired": "Email is required",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa la contraseña",
+      "passwordRequired": "La contraseña debe tener al menos 6 caracteres",
+      "forgotPassword": "¿Olvidaste tu Contraseña?",
+      "submit": "Iniciar Sesión",
+      "loading": "Signing in...",
+      "noAccount": "¿No tienes una cuenta?",
+      "register": "Crear Cuenta",
+      "loginSuccessfully": "Signed in successfully",
+      "invalidCredentials": "Username or password is incorrect",
+      "AccessDenied": "Por favor verifica tu correo para continuar. Te hemos enviado un correo de verificación."
+    },
+    "register": {
+      "title": "Crear Nueva Cuenta",
+      "subtitle": "Join us and start shopping",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo",
+      "emailInvalid": "Correo inválido",
+      "username": "Nombre de Usuario",
+      "usernamePlaceholder": "Choose a unique username",
+      "usernameInvalid": "Username must be 3-20 characters",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Choose a strong password",
+      "passwordInvalid": "La contraseña debe tener al menos 6 caracteres",
+      "confirmPassword": "Confirmar Contraseña",
+      "confirmPasswordPlaceholder": "Vuelve a ingresar la contraseña",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "submit": "Crear Cuenta",
+      "loading": "Creating account...",
+      "haveAccount": "¿Ya tienes una cuenta?",
+      "login": "Iniciar Sesión",
+      "weak": "Débil",
+      "medium": "Medio",
+      "strong": "Fuerte",
+      "Email is already taken": "Email is already taken",
+      "Name is already taken": "Username is already taken"
+    },
+    "verify": {
+      "invalidLink": "Enlace de verificación inválido",
+      "success": "¡Tu correo ha sido verificado exitosamente!",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "loading": "Verifying...",
+      "successTitle": "¡Correo Verificado! ✨",
+      "errorTitle": "Verification Failed",
+      "successNote": "🎉 Your account is now active! You can start using all features.",
+      "goToLogin": "Ir a Iniciar Sesión",
+      "errorNote": "The verification link may have expired or is invalid.",
+      "resendEmail": "Reenviar Correo de Verificación",
+      "needHelp": "¿Necesitas ayuda?",
+      "contactSupport": "Contactar Soporte"
+    },
+    "forgot": {
+      "title": "¿Olvidaste tu Contraseña?",
+      "subtitle": "We'll help you recover it",
+      "info": "Ingresa tu correo y te enviaremos un enlace para restablecer tu contraseña.",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo",
+      "emailInvalid": "Correo inválido",
+      "submit": "Send Reset Link",
+      "loading": "Enviando...",
+      "backToLogin": "Volver a Iniciar Sesión",
+      "successTitle": "Revisa tu Correo",
+      "successSubtitle": "Enlace de Restablecimiento Enviado",
+      "successMessage": "We've sent a password reset link to your email.",
+      "checkEmail": "Por favor revisa tu bandeja de entrada y carpeta de spam.",
+      "resend": "Reenviar Enlace",
+      "userNotFound": "User not found"
+    },
+    "reset": {
+      "title": "Restablecer Contraseña",
+      "subtitle": "Choose a new strong password",
+      "newPassword": "New Password",
+      "passwordPlaceholder": "Ingresa la nueva contraseña",
+      "passwordInvalid": "La contraseña debe tener al menos 6 caracteres",
+      "confirmPassword": "Confirmar Contraseña",
+      "confirmPasswordPlaceholder": "Vuelve a ingresar la contraseña",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "weak": "Débil",
+      "medium": "Medio",
+      "strong": "Fuerte",
+      "submit": "Actualizar Contraseña",
+      "loading": "Updating...",
+      "backToLogin": "Volver a Iniciar Sesión",
+      "successTitle": "¡Éxito!",
+      "successSubtitle": "Password Updated",
+      "successMessage": "¡Tu contraseña ha sido actualizada exitosamente!",
+      "canLogin": "You can now sign in with your new password.",
+      "loginNow": "Iniciar Sesión Ahora"
+    },
+    "social": {
+      "divider": "O iniciar sesión con"
+    }
+  },
+  "hero": {
+    "subtitle": "Moda de Alta Calidad para Todos",
+    "shop_now": "Comprar Ahora",
+    "title": {
+      "Streetwear": "Streetwear",
+      "Summer Collection": "Summer Collection",
+      "Luxury Watches": "Relojes de Lujo",
+      "Designer Bags": "Bolsos de Diseñador"
+    }
+  },
+  "filters": {
+    "title": "Filtros",
+    "price_range": "Rango de Precio",
+    "category": "Categoría",
+    "gender": "Género",
+    "size": "Talla",
+    "brand": "Marca",
+    "rating": "Calificación",
+    "clear_all": "Limpiar Todo",
+    "apply": "Aplicar Filtros",
+    "male": "Men",
+    "female": "Mujeres",
+    "unisex": "Unisex",
+    "kids": "Niños"
+  },
+  "products": {
+    "title": "Our Products",
+    "sort_by": "Ordenar Por",
+    "search": "Search for products...",
+    "price_low_high": "Precio: Bajo a Alto",
+    "price_high_low": "Precio: Alto a Bajo",
+    "newest": "Más Reciente Primero",
+    "popular": "Más Popular",
+    "add_to_cart": "Añadir al Carrito",
+    "view_details": "Ver Detalles",
+    "out_of_stock": "Agotado"
+  },
+  "brands": {
+    "title": "Featured Brands",
+    "subtitle": "Shop from our trusted partners"
   },
   "AdminCharts": {
     "complaints": {
-      "title": "Complaints Analytics",
+      "title": "Complaints Analysis",
       "description": "Monitor and resolve customer complaints effectively",
-      "total": "Total Complaints",
-      "daily_avg": "Daily Average",
-      "peak_volume": "Peak Volume",
+      "total": "Total de Quejas",
+      "daily_avg": "Promedio Diario",
+      "peak_volume": "Volumen Pico",
       "resolution_rate": "Resolution Rate",
-      "insights_title": "Complaint Insights"
+      "insights_title": "Complaints Insights"
     },
     "orders": {
-      "title": "Order Analytics",
+      "title": "Orders Analysis",
       "description": "Track order volume and performance metrics",
-      "total": "Total Orders",
-      "daily_avg": "Daily Average",
-      "peak_volume": "Peak Volume",
-      "above_avg": "Above Average",
-      "insights_title": "Order Insights"
+      "total": "Total de Pedidos",
+      "daily_avg": "Promedio Diario",
+      "peak_volume": "Volumen Pico",
+      "above_avg": "Por Encima del Promedio",
+      "insights_title": "Ideas de Pedidos"
     },
     "revenue": {
-      "title": "Revenue Analytics",
-      "description": "Monitor revenue streams and financial performance",
-      "total": "Total Revenue",
-      "daily_avg": "Daily Average",
-      "peak": "Peak Revenue",
-      "growth_rate": "Growth Rate",
-      "insights_title": "Revenue Insights"
+      "title": "Análisis de Ingresos",
+      "description": "Monitor financial trends and performance",
+      "total": "Ingresos Totales",
+      "daily_avg": "Promedio Diario",
+      "peak": "Ingreso Pico",
+      "growth_rate": "Tasa de Crecimiento",
+      "insights_title": "Ideas de Ingresos"
     },
     "users": {
-      "title": "User Analytics",
-      "description": "Track user growth and engagement metrics",
-      "total": "Total Users",
-      "daily_avg": "Daily Average",
-      "peak_day": "Peak Day",
-      "growth_days": "Growth Days",
-      "insights_title": "User Insights"
+      "title": "Users Analysis",
+      "description": "Track user growth and engagement",
+      "total": "Total de Usuarios",
+      "daily_avg": "Promedio Diario",
+      "peak_day": "Día Pico",
+      "growth_days": "Días de Crecimiento",
+      "insights_title": "Ideas de Usuarios"
     },
-    "netProfit": {
-      "title": "Net Profit Analytics",
-      "description": "Monitor profitability and margin performance",
-      "total": "Total Net Profit",
-      "daily_avg": "Daily Average",
-      "profit_margin": "Profit Margin",
-      "peak": "Peak Profit",
-      "insights_title": "Profit Insights"
+    "net_profit": {
+      "title": "Net Profit Analysis",
+      "description": "Monitor profitability and profit margins",
+      "total": "Ganancia Neta Total",
+      "daily_avg": "Promedio Diario",
+      "profit_margin": "Margen de Ganancia",
+      "peak": "Ganancia Pico",
+      "insights_title": "Ideas de Ganancia"
     },
     "products": {
-      "title": "Product Analytics",
+      "title": "Products Analysis",
       "description": "Track product performance and sales data",
-      "insights_title": "Product Insights"
+      "insights_title": "Ideas de Producto"
     },
     "views": {
-      "title": "Views Analytics",
-      "description": "Monitor website views and traffic patterns",
-      "insights_title": "Views Insights"
+      "title": "Análisis de Vistas",
+      "description": "Monitor site views and traffic patterns",
+      "insights_title": "Ideas de Vistas"
     }
   },
+  "HeroSectionHome": {
+    "announcement": "¡Venta de Nueva Temporada - Hasta 50% de descuento en artículos seleccionados!",
+    "collection_badge": "Spring 2025 Collection",
+    "main_title_1": "Estilo que",
+    "main_title_2": "speaks",
+    "main_title_3": "for itself.",
+    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
+    "shop_button": "Comprar Colección",
+    "lookbook_button": "View Lookbook",
+    "stat_1_value": "Happy Customers",
+    "stat_1_sub": "Worldwide",
+    "stat_2_value": "Reseñas de 5 Estrellas",
+    "stat_2_sub": "4,9 ★ Promedio",
+    "stat_3_value": "Curated Styles",
+    "stat_3_sub": "New Weekly",
+    "stat_4_value": "Vistas",
+    "stat_4_sub": "Alcance Acumulado Total",
+    "price_label": "Starting from",
+    "product_images": [
+      {
+        "tag": "Nueva Llegada",
+        "name": "City Carrier",
+        "price": "£89"
+      },
+      {
+        "tag": "Más Buscado",
+        "name": "Street Essential",
+        "price": "£64"
+      },
+      {
+        "tag": "Edición Limitada",
+        "name": "Premium Edition",
+        "price": "£129"
+      }
+    ],
+    "testimonial_quote": "¡Calidad de clase mundial!",
+    "testimonial_author": "Sarah M. — Verified",
+    "marquee_items": [
+      {
+        "text": "Entrega Rápida"
+      },
+      {
+        "text": "Pago Seguro"
+      },
+      {
+        "text": "Premium Quality"
+      },
+      {
+        "text": "New Pieces Weekly"
+      }
+    ]
+  },
+  "TestimonialsSection": {
+    "verified_buyer": "Verified Customer",
+    "testimonials": "Customer Reviews on Our Products",
+    "reviews": "28000+ Reseñas",
+    "rating": "4,9",
+    "customer_reviews": "Customer Reviews"
+  },
+  "CollectionsSlider": {
+    "collections": "Collections",
+    "view_collection": "Ver Colección",
+    "featured_collection": "Featured Collection"
+  },
+  "HorizontalProductScroll": {
+    "view_all": "Ver Todo",
+    "products": "Productos",
+    "view_all_title": "Ver Todo"
+  },
+  "AdminTopNav": {
+    "alert": "Alerta: Todas las estadísticas se actualizan cada hora",
+    "hamburger_aria_label": "Abrir Menú",
+    "search_placeholder": "Buscar pedidos, usuarios, productos...",
+    "search_label": "Buscar",
+    "search": "Buscar",
+    "search_open_label": "Open Search",
+    "search_close_label": "Close Search",
+    "notifications": {
+      "title": "Notificaciones",
+      "new": "Nuevo",
+      "view_all": "Ver Todo",
+      "aria_label": "Lista de Pedidos"
+    },
+    "user_menu": {
+      "aria_label": "Menú de Usuario",
+      "options_aria_label": "Opciones de Usuario",
+      "settings": "Configuración",
+      "my_profile": "Mi Perfil",
+      "help_and_support": "Ayuda y Soporte",
+      "sign_out": "Cerrar Sesión"
+    },
+    "user": {
+      "short_name": "Tú",
+      "full_name": "Full Username",
+      "email": "Correo Electrónico"
+    }
+  },
+  "Notifications": {
+    "title": "Notificaciones",
+    "notifications_blocked": "Notificaciones bloqueadas. Permite las notificaciones en la configuración del navegador.",
+    "enable_notifications": "Habilitar Notificaciones",
+    "mark_all_read": "Marcar Todo como Leído",
+    "notifications_disabled_warning": "To receive notifications, allow them from your browser.",
+    "delete_all_read": "Eliminar Todas las Notificaciones Leídas",
+    "no_notifications_yet": "No notifications yet.",
+    "delete_this_notification": "Eliminar esta notificación",
+    "delete_notification_aria": "Eliminar notificación",
+    "bell_aria": "Notificaciones, {count} no leídas",
+    "notification_details_title": "Detalles de Notificación",
+    "sender_alt": "Sender"
+  },
+  "AdminStatus": {
+    "statuses": {
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "shipped": "Enviado",
+      "delivered": "Entregado",
+      "cancelled": "Cancelled",
+      "View": "Ver Detalles"
+    }
+  },
+  "AdminStatusFilter": {
+    "filter_aria_label": "Filter by status",
+    "all_statuses": "Todos los Estados",
+    "statuses": {
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "shipped": "Enviado",
+      "delivered": "Entregado",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminUpdateStatusModal": {
+    "modal_title": "Actualizar Estado",
+    "current_status_label": "Estado Actual",
+    "change_to_label": "Change To",
+    "cancel_button": "Cancelar",
+    "confirm_button": "Confirmar",
+    "saving_text": "Saving…",
+    "statuses": {
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "shipped": "Enviado",
+      "delivered": "Entregado",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminViewItemsModal": {
+    "modal_title": "Artículos del Pedido",
+    "item_count": "{count} product",
+    "unit_count": "{count} unit",
+    "column_product": "Producto",
+    "column_qty": "Cantidad",
+    "column_price": "Precio",
+    "subtotal_label": "Subtotal"
+  },
+  "ComparisonToggle": {
+    "compare_period": "Compare Period"
+  },
+  "ExportButton": {
+    "export_csv": "Exportar CSV"
+  },
+  "EmptyState": {
+    "no_data_available": "No hay datos disponibles",
+    "no_data_description": "No data found to display"
+  },
+  "TimeframeSelector": {
+    "last_7_days": "Últimos 7 Días",
+    "last_30_days": "Últimos 30 Días",
+    "last_90_days": "Últimos 90 Días",
+    "this_year": "This Year"
+  },
+  "DataTable": {
+    "no_orders_found": "No se encontraron pedidos"
+  },
+  "NotifFilter": {
+    "sort_by": "Ordenar Por",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "sort_order": "Orden de Clasificación",
+    "high_to_low": "High to Low",
+    "low_to_high": "Low to High",
+    "sort_by_aria_label": "Ordenar Por",
+    "order_aria_label": "Orden de Clasificación"
+  },
+  "NotifRow": {
+    "view_details": "Ver Detalles",
+    "delete": "Eliminar",
+    "sent_at": "Enviado el",
+    "opens": "Opens",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "delete_confirmation": "¿Estás seguro de eliminar esta notificación?",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "StatsGrid": {
+    "total_sent": "Total Enviado",
+    "total_opens": "Aperturas Totales",
+    "open_rate": "Tasa de Apertura",
+    "avg_open_rate": "Average Open Rate"
+  },
+  "NotifHistory": {
+    "tab_notifications": "Push & In-App Notifications",
+    "tab_announcements": "Barra de Anuncios",
+    "total": "Total:",
+    "aria_label": "Historial de Notificaciones",
+    "empty_notifications": "Aún no hay notificaciones",
+    "empty_announcements": "No announcement bars yet",
+    "empty_created_items_hint": "Items you create will appear here"
+  },
+  "AdminProductBasicInfo": {
+    "section_title": "Basic Information",
+    "section_subtitle": "Name, description, and category",
+    "field_product_name": "Nombre del Producto",
+    "placeholder_product_name": "Ejemplo: Camisa Blanca Clásica"
+  },
+  "AdminProductPricing": {
+    "section_title": "Precios y Stock",
+    "section_subtitle": "Price, discount, and inventory",
+    "field_price": "Precio (EGP)",
+    "field_discount": "% de Descuento"
+  },
+  "AdminGalleryUpload": {
+    "max_files_error": "Maximum {count} images allowed",
+    "file_too_large": "File exceeds {size} MB",
+    "invalid_format": "File format not supported",
+    "drag_drop": "Arrastra imágenes aquí o haz clic para seleccionar"
+  },
+  "AdminImageUpload": {
+    "max_size_error": "File exceeds maximum {size} MB",
+    "invalid_format": "Solo se aceptan JPG, PNG y WebP",
+    "drag_drop": "Arrastra la imagen aquí o haz clic para seleccionar",
+    "remove_image": "Eliminar Imagen"
+  },
+  "AdminDeleteDialog": {
+    "close_aria_label": "Close Dialog",
+    "cancel_button": "Cancelar",
+    "confirm_button": "Confirmar Eliminación",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "deleting": "Deleting..."
+  },
+  "AdminCategories": {
+    "new_root_title": "New Category",
+    "title": "Categorías",
+    "edit_title": "Editar Categoría",
+    "loading": "Cargando…",
+    "stats": "{root} categories · {sub} subcategories",
+    "new_category": "New Category",
+    "search_placeholder": "Buscar categorías…",
+    "search_aria": "Buscar categorías",
+    "refresh": "Refresh Categories",
+    "results_for": "{count} results for \"{query}\"",
+    "categories_count": "{count} categories",
+    "add_root": "Añadir Categoría",
+    "failed_to_load": "Failed to load categories",
+    "try_again": "Intentar de Nuevo",
+    "no_match": "No se encontraron categorías coincidentes",
+    "no_categories_yet": "Aún no hay categorías",
+    "try_different_keyword": "Intenta una palabra clave diferente",
+    "create_first_category": "Crea tu primera categoría para comenzar",
+    "hover_help_prefix": "Pasa el cursor sobre la categoría para ver acciones",
+    "add_category_aria": "Añadir nueva categoría",
+    "add_category": "Añadir Categoría",
+    "sub_label": "Subcategoría",
+    "add_sub_aria": "Añadir subcategoría a {name}",
+    "add_sub": "Añadir Subcategoría",
+    "edit_aria": "Edit {name}",
+    "edit": "Editar",
+    "delete_aria": "Delete {name}",
+    "delete": "Eliminar",
+    "delete_category": "Eliminar Categoría",
+    "delete_confirm": "¿Estás seguro de eliminar \"{name}\"? Esto también eliminará {count} subcategorías (si las hay).",
+    "field_name": "Nombre de Categoría",
+    "placeholder_example": "Example: Clothing",
+    "field_slug": "Slug",
+    "auto_generated": "Auto-generado",
+    "placeholder_slug": "slug example: clothing",
+    "field_image": "Imagen de Categoría",
+    "field_image_hint": "Opcional · Mostrado en la tienda",
+    "uploading_image": "Uploading image...",
+    "sub_categories": "Subcategorías",
+    "optional": "Opcional",
+    "no_sub_categories": "Aún no hay subcategorías",
+    "field_parent": "Parent Category",
+    "select_parent": "Seleccionar categoría padre…",
+    "add": "Añadir",
+    "placeholder_sub_name": "Subcategory name",
+    "placeholder_sub_slug": "subcategory slug",
+    "remove_sub_aria": "Remove subcategory",
+    "editable": "Editable",
+    "leave_empty_root": "Déjalo vacío para hacer una categoría raíz",
+    "no_parent_root": "Sin padre (categoría raíz)",
+    "cancel": "Cancelar",
+    "saving": "Saving...",
+    "save_changes": "Guardar Cambios",
+    "create": "Crear"
+  },
+  "AdminStatsCards": {
+    "vs_previous_period": "vs Previous Period"
+  },
+  "AdminInsightsPanel": {
+    "default_title": "Ideas Clave"
+  },
+  "AdminCustomTooltip": {
+    "value_label": "Value"
+  },
+  "AdminNotifRow": {
+    "view_details": "Ver Detalles",
+    "delete": "Eliminar",
+    "customize": "Personalizar",
+    "preview_link": "Enlace de Vista Previa",
+    "mark_read": "Marcar como Leído",
+    "mark_unread": "Marcar como No Leído"
+  },
+  "AdminNotifComposer": {
+    "title": "Composición de Notificaciones",
+    "aria_label": "Create Notification",
+    "select_recipients": "Seleccionar Destinatarios",
+    "notification_type": "Canal de Envío",
+    "push_notification": "Notificación Push",
+    "in_app": "En la App",
+    "announcement_bar": "Barra de Anuncios",
+    "notification_title": "Título de Notificación",
+    "notification_description": "Notification Description",
+    "preview_button": "Vista Previa",
+    "send_button": "Enviar Ahora",
+    "schedule_button": "Schedule",
+    "subtitle": "Send notifications to all users instantly",
+    "sending_as": "Enviando como {role}",
+    "you": "Tú",
+    "mobile_desktop": "Móvil y Escritorio",
+    "in_app_hint": "Icono de campana · Interfaz web",
+    "announcement_bar_hint": "Banner superior del sitio",
+    "notification_sent_success": "Notification sent to all users!",
+    "notification_sent_error": "Failed to send. Try again.",
+    "title_placeholder": "Example: 🔥 Flash Deal — 24 Hours Only!",
+    "description_placeholder": "Escribe el mensaje de notificación. Que sea claro y orientado a la acción.",
+    "push_only": "Solo Push",
+    "action_url": "Enlace de Acción",
+    "push_only_hint": "— Push notification only",
+    "notification_image": "Imagen de Notificación",
+    "uploading": "Uploading...",
+    "uploaded": "Subido",
+    "drop_to_upload": "Suelta para subir",
+    "drag_click_to_choose": "Arrastra y suelta o haz clic para seleccionar",
+    "file_types_hint": "PNG, JPG, WEBP · Max 5MB",
+    "announcement_bar_only": "Announcement bar only",
+    "bar_link_label": "Enlace de Barra",
+    "bar_background_color": "Bar Background Color",
+    "push_url_placeholder": "https://yourapp.com/offer",
+    "push_image_preview_alt": "Notification image preview",
+    "pick_color": "Elegir Color",
+    "close": "Cerrar",
+    "bar_preview": "Vista Previa de Barra",
+    "announcement_placeholder": "Your announcement text will appear here…",
+    "sending": "Sending",
+    "broadcast_to_all_users": "Transmitir a Todos los Usuarios",
+    "will_be_sent_to_users": "Se enviará instantáneamente a ~{count} usuarios"
+  },
+  "AdminPreviews": {
+    "phone_preview": "Vista Previa de Teléfono",
+    "in_app_preview": "Vista Previa en App",
+    "announcement_preview": "Vista Previa de la Barra de Anuncios",
+    "now": "Ahora",
+    "notification_title_placeholder": "Título de Notificación",
+    "message_placeholder": "Tu mensaje aparecerá aquí.",
+    "notifications_label": "Notificaciones",
+    "new_count": "{count} New",
+    "no_other_notifications": "No hay otras notificaciones"
+  },
+  "AdminAnnouncementBarPreview": {
+    "view_offer": "Ver Oferta",
+    "aria_label": "Announcement bar preview",
+    "live_preview": "Vista Previa en Vivo · Barra de Anuncios"
+  },
+  "AdminChatPane": {
+    "conversation": "Conversación",
+    "ticket_details": "Detalles del Ticket",
+    "message_input": "Escribe tu mensaje...",
+    "send_message": "Enviar",
+    "status_label": "Status:",
+    "priority_label": "Priority:"
+  },
+  "AdminTicketList": {
+    "search_tickets": "Buscar Tickets",
+    "no_tickets": "Sin Tickets",
+    "unread": "Nuevo"
+  },
+  "AdminUsersFilter": {
+    "search_users": "Search Users",
+    "filter_role": "Por Rol",
+    "filter_status": "Por Estado",
+    "items_per_page": "Artículos por Página",
+    "all_roles": "All Roles",
+    "all_statuses": "Todos los Estados"
+  },
+  "AdminUsersStats": {
+    "total_users": "Total de Usuarios",
+    "active_users": "Usuarios Activos",
+    "banned_users": "Banned Users"
+  },
+  "AdminUpdataStatusModal": {
+    "title": "Update User Status",
+    "current_status": "Estado Actual:",
+    "new_status": "New Status:",
+    "cancel_button": "Cancelar",
+    "save_button": "Guardar"
+  },
+  "AdminChartCard": {
+    "view_full_chart": "Ver Tabla Completa",
+    "loading": "Cargando..."
+  },
+  "AdminStatCard": {
+    "view_analytics": "Ver Analítica"
+  },
+  "AdminGeoMap": {
+    "sales_by_region": "Ventas por Región",
+    "total_revenue": "Ingresos Totales"
+  },
+  "AdminAvatar": {
+    "user_avatar": "Avatar de Usuario",
+    "online": "En Línea",
+    "offline": "Desconectado"
+  },
+  "AdminBadge": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "admin": "Administrador",
+    "user": "Usuario",
+    "moderator": "Moderador",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo"
+  },
+  "AdminButton": {
+    "loading": "Processing...",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar"
+  },
+  "AdminModal": {
+    "close": "Cerrar"
+  },
+  "AdminDataTable": {
+    "search": "Search...",
+    "no_results": "Sin Resultados",
+    "sort_ascending": "Ordenar Ascendente",
+    "sort_descending": "Ordenar Descendente",
+    "sort_toggle": "Toggle Sort",
+    "Status": "Estado"
+  },
+  "AdminShell": {
+    "mobile_menu": "Navigation Menu"
+  },
+  "CardNav": {
+    "cart": "Carrito",
+    "delete_item": "Delete Item",
+    "back": "Atrás",
+    "size": "Talla",
+    "total_price": "Total Price",
+    "checkout": "Pagar"
+  },
+  "MainContent": {
+    "filters": "Filtros",
+    "products": "Productos",
+    "no_products": "Sin Productos"
+  },
+  "Pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página",
+    "of": "of",
+    "results": "Total",
+    "showing": "Mostrando"
+  },
+  "BellItem": {
+    "delete": "Eliminar",
+    "mark_as_read": "Marcar como Leído",
+    "mark_as_unread": "Marcar como No Leído"
+  },
+  "BellOnceItem": {
+    "view_more": "View More",
+    "close": "Cerrar",
+    "date": "Fecha"
+  },
+  "DeleteAllNotifButton": {
+    "delete_all": "Eliminar Todo",
+    "delete_all_notifications": "Eliminar Todas las Notificaciones"
+  },
+  "HeaderBell": {
+    "notifications": "Notificaciones",
+    "mark_all_as_read": "Marcar Todo como Leído"
+  },
+  "Cart": {
+    "shopping_cart": "Carrito de Compras",
+    "empty_cart": "Cart is empty",
+    "continue_shopping": "Seguir Comprando",
+    "checkout": "Pagar",
+    "order_summary": "Resumen del Pedido",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "total": "Total",
+    "items": "Artículos",
+    "view_cart": "Ver Carrito",
+    "view_all": "Ver Todo ({count})",
+    "items_label": "Artículos del Carrito",
+    "remove": "Eliminar Producto"
+  },
+  "CartItem": {
+    "size": "Talla",
+    "price": "Precio",
+    "quantity": "Cantidad",
+    "remove": "Eliminar",
+    "delete": "Eliminar",
+    "delete_aria": "Delete {product}",
+    "quantity_aria": "Product quantity",
+    "decrease_qty": "Decrease quantity",
+    "increase_qty": "Increase quantity",
+    "total_label": "Total"
+  },
+  "Applyrequest": {
+    "title": "Resumen del Pedido",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "total": "Total",
+    "checkout": "Pagar",
+    "apply_request": "Solicitar",
+    "order_summary": "Resumen del Pedido",
+    "items_count": "{count} item",
+    "show_more": "Mostrar {count} artículos más",
+    "promo_label": "Código de Descuento",
+    "promo_placeholder": "Ingresa el código",
+    "apply_button": "Aplicar",
+    "coupon_success": "¡Código {code} aplicado! 40% de descuento concedido",
+    "coupon_error": "Código inválido",
+    "discount_label": "Descuento",
+    "shipping_label": "Envío",
+    "grand_total_label": "Total",
+    "checkout_button": "Complete Order",
+    "vat_note": "IVA incluido",
+    "promo_aria": "Discount code field",
+    "price_details_aria": "Price details",
+    "grand_total_aria": "Grand total summary",
+    "cart_items_aria": "Cart items",
+    "promo_code": "Código de Descuento",
+    "apply_code": "Aplicar",
+    "discount_applied": "¡Descuento aplicado!",
+    "shipping_fee": "Costo de Envío",
+    "proceed_checkout": "Proceed to Checkout",
+    "continue_shopping": "Seguir Comprando",
+    "trust": {
+      "safe_payment": "Pago Seguro",
+      "quality": "Quality Guarantee",
+      "free_returns": "Devoluciones Gratuitas"
+    }
+  },
+  "trust": {
+    "safe_payment": "Pago Seguro",
+    "quality": "Quality Guarantee",
+    "free_returns": "Devoluciones Gratuitas"
+  },
+  "CartHeader": {
+    "products": "Productos",
+    "cart_header": "Encabezado del Carrito",
+    "title": "Carrito de Compras",
+    "products_in_cart": "{count} products in your cart"
+  },
+  "ChatWindow": {
+    "messages": "Mensajes",
+    "type_message": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "Cerrar"
+  },
+  "MessageItem": {
+    "delivered": "Entregado",
+    "read": "Read",
+    "sending": "Enviando..."
+  },
+  "Carousel": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "slide": "Slide"
+  },
+  "CategoryGrid": {
+    "categories": "Categorías",
+    "shop_category": "Comprar por Categoría",
+    "shop": "Tienda",
+    "no_categories": "Sin Categorías",
+    "CATEGORY": "Categorías",
+    "ctgDescribtion": "Explora nuestras categorías más recientes",
+    "men": "Men",
+    "kids": "Niños",
+    "Accessories": "Accesorios"
+  },
+  "ProductCardHome": {
+    "add_to_cart": "Añadir al Carrito",
+    "quick_view": "Vista Rápida",
+    "out_of_stock": "Agotado",
+    "price": "Precio"
+  },
+  "ShowcaseSection": {
+    "featured": "Featured",
+    "shop_now": "Comprar Ahora",
+    "view_all": "Ver Todo",
+    "explore_all": "Explorar Todo",
+    "Men's_Collection": "Men",
+    "Little_Legends": "Niños",
+    "men-pants": "Últimas Tendencias de Moda",
+    "Accessories": "Accesorios",
+    "Jackets": "Jackets",
+    "men_describe": "Para Ti",
+    "pants_describe": "Últimas Tendencias de Moda",
+    "women_describe": "Últimos Accesorios",
+    "Accessories_describe": "Completa tu Estilo",
+    "jackets_describe": "Para Clima Frío",
+    "jacket_describe": "Para Clima Frío"
+  },
+  "ZoomOverlay": {
+    "aria_zoom": "Zoom — {name}",
+    "zoom_in": "Acercar",
+    "zoom_out": "Alejar",
+    "rotate": "Rotate",
+    "reset": "Restablecer",
+    "close": "Cerrar",
+    "hint": "Pinch or scroll to zoom · Drag to pan"
+  },
+  "CheckoutClient": {
+    "checkout": "Pagar",
+    "step": "Step",
+    "cart": "Carrito",
+    "address": "Dirección",
+    "payment": "Pago",
+    "confirmation": "Confirmation"
+  },
+  "CheckoutStepper": {
+    "step_cart": "Carrito",
+    "step_address": "Dirección",
+    "step_payment": "Pago",
+    "step_confirmation": "Confirmation",
+    "completed": "Completado"
+  },
+  "SocialLogin": {
+    "sign_up_with": "Registrarse con",
+    "facebook": "Facebook",
+    "google": "Google",
+    "github": "GitHub",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "PDPDetails": {
+    "product_details": "Detalles del Producto",
+    "description": "Descripción",
+    "specifications": "Especificaciones",
+    "reviews": "Reseñas",
+    "add_to_cart": "Añadir al Carrito",
+    "add_to_wishlist": "Añadir a Lista de Deseos",
+    "size": "Talla",
+    "quantity": "Cantidad",
+    "in_stock": "En Stock",
+    "out_of_stock": "Agotado",
+    "save_percent": "Ahorrar {percent}%",
+    "color_label": "Color:",
+    "size_error": "Por favor selecciona una talla",
+    "size_label": "Talla:",
+    "select_size": "Seleccionar Talla",
+    "size_guide": "Guía de Tallas",
+    "guarantees": {
+      "free_returns": "Devoluciones Gratuitas",
+      "secure_checkout": "Pago Seguro",
+      "fast_delivery": "Entrega Rápida"
+    }
+  },
+  "PDPGallery": {
+    "product_gallery": "Galería de Producto",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "thumbnail": "Thumbnail",
+    "zoom": "Zoom"
+  },
+  "PLPClient": {
+    "products": "Productos",
+    "sort": "Ordenar",
+    "filter": "Filtrar",
+    "no_products": "Sin Productos",
+    "price_low_to_high": "Precio: Bajo a Alto",
+    "price_high_to_low": "Precio: Alto a Bajo",
+    "newest": "Más Reciente",
+    "bestseller": "Más Vendido"
+  },
+  "DepartmentsProductCard": {
+    "view": "Ver",
+    "add_to_cart": "Añadir al Carrito",
+    "add_to_wishlist": "Añadir a Lista de Deseos",
+    "rating": "Calificación",
+    "price": "Precio",
+    "in_stock": "En Stock"
+  },
+  "ProductDiffrentActions": {
+    "add_to_cart": "Añadir al Carrito",
+    "add_to_wishlist": "Añadir a Lista de Deseos",
+    "share": "Compartir",
+    "quantity": "Cantidad",
+    "size": "Talla",
+    "decrease": "Decrease",
+    "increase": "Increase"
+  },
+  "ProductActions": {
+    "quantity": "Cantidad",
+    "adding": "Añadiendo...",
+    "added": "✓ Added",
+    "add_to_cart": "Añadir al Carrito",
+    "share_aria": "Compartir producto"
+  },
+  "ReviewSection": {
+    "reviews": "Reseñas",
+    "header": {
+      "title": "Customer Reviews",
+      "verified_purchases": "Verified Purchases"
+    },
+    "rating_distribution": "Distribución de Calificaciones",
+    "star_label": "{count} stars",
+    "write_review": "Escribir Reseña",
+    "visual_breakdown": "Visual Breakdown",
+    "rating": "Calificación",
+    "review": "Review",
+    "verified_buyer": "Verified Buyer",
+    "helpful": "Helpful",
+    "not_helpful": "Not Helpful",
+    "submit": "Enviar",
+    "loading_reviews": "Cargando reseñas...",
+    "no_reviews_yet": "No reviews yet",
+    "be_first": "¡Sé el primero en compartir tu opinión!",
+    "loading_more": "Cargando más reseñas...",
+    "all_reviews_loaded": "All reviews loaded ({count})",
+    "customer_recommended": "Tasa de Recomendación de Clientes",
+    "out_of": "out of",
+    "customers": "customers",
+    "anonymous": "Anónimo",
+    "just_posted": "Just Posted",
+    "mark_helpful_aria": "Marcar como útil{count, plural, =0 {} one{ (1)} other{ ({count})}}",
+    "form": {
+      "title": "Añadir Reseña",
+      "your_rating": "Your Rating",
+      "your_review": "Your Review",
+      "placeholder": "Escribe tu experiencia aquí...",
+      "min_chars": "Minimum 10 characters",
+      "submitting": "Submitting...",
+      "submit": "Enviar",
+      "cancel": "Cancelar"
+    }
+  },
+  "DepartmentsStarRating": {
+    "rating": "Calificación",
+    "stars": "Stars",
+    "rate": "Rate",
+    "out_of_5": "out of 5"
+  },
+  "ProfileContent": {
+    "loading": "Cargando...",
+    "profile": "Perfil",
+    "user_profile": "Perfil de Usuario"
+  },
+  "ProfileSkeleton": {
+    "loading": "Cargando..."
+  },
+  "profile": {
+    "pageTitle": "Perfil",
+    "pageDescription": "Browse your personal information, orders, favorites, and settings.",
+    "admin": {
+      "title": "User Management Panel",
+      "notification": {
+        "title": "Send Notification to User",
+        "titleLabel": "Título de Notificación",
+        "titlePlaceholder": "Enter notification title...",
+        "messageLabel": "Notification Message",
+        "messagePlaceholder": "Enter notification message...",
+        "sending": "Enviando…",
+        "send": "Enviar"
+      },
+      "insights": {
+        "title": "Statistics",
+        "lifetimeValue": "Valor de Vida del Cliente",
+        "totalOrders": "Total de Pedidos",
+        "avgOrderValue": "Valor Promedio de Pedido",
+        "favorites": "Favoritos"
+      },
+      "statusToggle": {
+        "confirm": "¿Estás seguro de cambiar el estado del usuario a {status}?",
+        "title": "Cambiar Estado",
+        "current": "Estado Actual",
+        "loading": "Updating…",
+        "ban": "Banear",
+        "activate": "Activar"
+      }
+    },
+    "miniCart": {
+      "title": "Mini Cart",
+      "empty": "Empty",
+      "noItems": "No items in cart",
+      "shopNow": "Comprar Ahora",
+      "items": "Artículos",
+      "viewAll": "Ver Todo",
+      "subtotal": "Subtotal",
+      "viewCart": "Ver Carrito"
+    },
+    "favorites": {
+      "title": "Favoritos",
+      "noItems": "Sin artículos favoritos",
+      "startBrowsing": "Start browsing products",
+      "browseProducts": "Explorar Productos",
+      "viewAll": "Ver Todo",
+      "items": "Artículos"
+    },
+    "orders": {
+      "title": "Pedidos",
+      "noOrders": "No orders",
+      "startShopping": "Empezar a Comprar",
+      "shopNow": "Comprar Ahora",
+      "viewAll": "Ver Todo",
+      "viewDetails": "Ver Detalles",
+      "recentOrders": "Recent Orders",
+      "viewAllOrders": "Ver Todos los Pedidos"
+    }
+  },
+  "CalendarClient": {
+    "calendar": "Calendario",
+    "add_event": "Añadir Evento",
+    "event": "Event",
+    "date": "Fecha",
+    "time": "Hora",
+    "title": "Título",
+    "description": "Descripción",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "close": "Cerrar",
+    "edit": "Editar"
+  },
+  "OrdersClient": {
+    "orders": "Pedidos",
+    "order_id": "ID de Pedido",
+    "customer": "Cliente",
+    "date": "Fecha",
+    "status": "Estado",
+    "total": "Total",
+    "actions": "Acciones",
+    "view": "Ver",
+    "download": "Descargar",
+    "filter": "Filtrar",
+    "search": "Buscar",
+    "no_orders": "Sin Pedidos",
+    "status_pending": "Pendiente",
+    "status_processing": "Procesando",
+    "status_shipped": "Enviado",
+    "status_delivered": "Entregado",
+    "status_cancelled": "Cancelled"
+  },
+  "Orders": {
+    "title": "Mis Pedidos",
+    "orders": "Pedidos",
+    "empty_title": "Aún no hay pedidos",
+    "empty_subtitle": "Start browsing the store and add products to your cart.",
+    "browse_products": "Comprar Ahora",
+    "labels": {
+      "order_number": "Número de Pedido",
+      "date": "Fecha",
+      "total": "Total"
+    },
+    "status": {
+      "pending_payment": "Pendiente",
+      "processing": "Procesando",
+      "shipped": "Enviado",
+      "delivered": "Entregado",
+      "cancelled": "Cancelled"
+    },
+    "cancel": {
+      "success": "Order cancelled successfully",
+      "error": "Failed to cancel order",
+      "loading": "Cancelling...",
+      "button": "Cancelar Pedido"
+    }
+  },
+  "SupportClient": {
+    "support": "Soporte",
+    "tickets": "Tickets",
+    "messages": "Mensajes",
+    "chat": "Chat",
+    "ticket_id": "ID de Ticket",
+    "subject": "Subject",
+    "status": "Estado",
+    "priority": "Prioridad",
+    "created": "Created",
+    "type_message": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "no_tickets": "Sin Tickets",
+    "no_messages": "Sin Mensajes"
+  },
+  "UsersClient": {
+    "users": "Usuarios",
+    "user_id": "ID de Usuario",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "role": "Rol",
+    "status": "Estado",
+    "actions": "Acciones",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "filter": "Filtrar",
+    "search": "Buscar",
+    "no_users": "Sin Usuarios",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "admin": "Administrador",
+    "user": "Usuario"
+  },
+  "AdminDashboard": {
+    "dashboard": "Panel",
+    "welcome": "Bienvenido",
+    "overview": "Resumen",
+    "revenue": "Ingresos",
+    "orders": "Pedidos",
+    "users": "Usuarios",
+    "products": "Productos",
+    "total_revenue": "Ingresos Totales",
+    "total_orders": "Total de Pedidos",
+    "total_users": "Total de Usuarios",
+    "total_products": "Total de Productos",
+    "growth": "Crecimiento",
+    "last_30_days": "Últimos 30 Días"
+  },
+  "AdminDashboardClient": {
+    "title": "Panel",
+    "welcome": "¡Bienvenido de nuevo! Esto es lo que está pasando en tu tienda hoy.",
+    "live": "En Vivo"
+  },
+  "AdminLatestOrders": {
+    "title": "Latest Orders",
+    "order_id": "ID de Pedido",
+    "customer": "Cliente",
+    "amount": "Monto",
+    "status": "Estado",
+    "date": "Fecha",
+    "status_pending_payment": "Pending Payment",
+    "status_processing": "Procesando",
+    "status_shipped": "Enviado",
+    "status_delivered": "Entregado",
+    "status_cancelled": "Cancelled",
+    "status_refunded": "Refunded"
+  },
+  "AdminLatestUsers": {
+    "title": "Nuevos Usuarios",
+    "user": "Usuario",
+    "email": "Correo Electrónico",
+    "status": "Estado",
+    "joined": "Joined",
+    "status_active": "Activo",
+    "status_inactive": "Inactivo"
+  },
+  "AdminGeography": {
+    "title": "Alcance Global",
+    "loading_map": "Loading map...",
+    "home_page": "Página de Inicio",
+    "product_page": "Product Page",
+    "about_page": "Página Acerca de",
+    "traffic_distribution": "Distribución de Tráfico",
+    "global_reach": "Alcance Global"
+  },
+  "AdminStats": {
+    "total_revenue": "Ingresos Totales",
+    "total_orders": "Total de Pedidos",
+    "user_growth": "Crecimiento de Usuarios",
+    "total_visits": "Total de Visitas",
+    "vs_last_week": "vs Last Week"
+  },
+  "AdminChartsUI": {
+    "profit_volatility_analysis": "Análisis de Volatilidad de Ganancias",
+    "peak": "Pico",
+    "low": "Bajo",
+    "revenue_vs_growth": "Ingresos vs Tasa de Crecimiento",
+    "revenue": "Ingresos",
+    "growth_percent": "% Crecimiento",
+    "cumulative_user_growth": "Crecimiento Acumulado de Usuarios",
+    "users": "Usuarios",
+    "orders_multi_view_analysis": "Análisis Multi-Vista de Pedidos",
+    "orders": "Pedidos",
+    "traffic_distribution": "Distribución de Tráfico",
+    "track_pages": "Track pages attracting most visitors"
+  },
+  "AdminChartsLabels": {
+    "profit": "Ganancia",
+    "average": "Promedio"
+  },
+  "NotificationsPage": {
+    "notifications": "Notificaciones",
+    "send_notification": "Enviar Notificación",
+    "notification_title": "Título de Notificación",
+    "notificatio\n_message": "Notification Message",
+    "recipients": "Destinatarios",
+    "send": "Enviar",
+    "success": "Enviado Exitosamente",
+    "error": "Send Error",
+    "pending": "Pendiente",
+    "sent": "Enviado",
+    "failed": "Failed"
+  },
+  "ChatModal": {
+    "contact_admin": "Contact Admin",
+    "type_message": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "close": "Cerrar",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "online": "En Línea",
+    "offline": "Desconectado",
+    "new_message": "New Message",
+    "typing": "Typing...",
+    "sent": "Enviado",
+    "delivered": "Entregado",
+    "read": "Read"
+  },
+  "ChatWidget": {
+    "chatbot": {
+      "ariaLabel": "Asistente de IA",
+      "botName": "ZFashin-helper",
+      "status": "● Instant Reply •",
+      "clearChat": "Limpiar Chat",
+      "close": "Cerrar",
+      "quickQuestionsLabel": "Common Questions",
+      "loading": "Cargando",
+      "olderMessages": "Older Messages",
+      "typing": "Typing reply",
+      "emptyStateTitle": "Hello! How can I help you? 👋",
+      "emptyStateSubtitle": "Elige una pregunta de arriba o escribe tu mensaje",
+      "inputPlaceholder": "Escribe tu mensaje...",
+      "inputLabel": "Campo de entrada de mensaje",
+      "sendMessage": "Enviar Mensaje",
+      "poweredBy": "Powered by AI"
+    },
+    "quickQuestions": {
+      "q1": "Sobre el diseñador de la tienda y cómo contactar",
+      "q2": "¿Qué es el sitio web de ZFashion",
+      "q3": "Qué hace especial a esta tienda"
+    },
+    "menu": {
+      "ariaLabel": "Opciones de Contacto",
+      "unreadMessages": "{{count}} unread messages",
+      "technicalSupport": {
+        "title": "Soporte Técnico",
+        "subtitle": "Chatear con el equipo de soporte"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "Escríbenos directamente"
+      },
+      "hotline": {
+        "title": "Hotline",
+        "number": "01080761700"
+      },
+      "aiAssistant": {
+        "title": "Asistente de IA",
+        "subtitle": "Instant Reply • AI"
+      }
+    },
+    "fab": {
+      "close": "Cerrar Menú",
+      "open": "Abrir Opciones de Contacto"
+    },
+    "errors": {
+      "loadMessages": "Failed to load messages",
+      "connectionFailed": "Conexión Fallida"
+    }
+  },
+  "UserColumns": {
+    "user": "Usuario",
+    "email": "Correo Electrónico",
+    "role": "Rol",
+    "status": "Estado",
+    "joined": "Joined",
+    "actions": "Acciones",
+    "admin": "Administrador",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "banned": "Baneado"
+  },
+  "Admin": {
+    "dashboard": "Panel",
+    "orders": "Pedidos",
+    "products": "Productos",
+    "users": "Usuarios",
+    "support": "Soporte",
+    "notifications": "Notificaciones",
+    "analytics": "Analítica",
+    "calendar": "Calendario",
+    "charts": "Charts",
+    "logout": "Cerrar Sesión",
+    "settings": "Configuración",
+    "profile": "Perfil"
+  },
+  "AdminOrders": {
+    "Orders": "Pedidos",
+    "title": "Pedidos",
+    "order_id": "ID de Pedido",
+    "customer": "Cliente",
+    "total": "Total",
+    "status": "Estado",
+    "date": "Fecha",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "pending": "Pendiente",
+    "confirmed": "Confirmed",
+    "shipped": "Enviado",
+    "delivered": "Entregado",
+    "cancelled": "Cancelled",
+    "confirmed_revenue": "Confirmed Revenue"
+  },
+  "AdminProducts": {
+    "title": "Productos",
+    "add_product": "Añadir Producto",
+    "edit_product": "Editar Producto",
+    "delete_product": "Eliminar Producto",
+    "categories": "Categorías",
+    "add_category": "Añadir Categoría",
+    "price": "Precio",
+    "stock": "Stock",
+    "name": "Nombre",
+    "description": "Descripción",
+    "image": "Imagen",
+    "gallery": "Galería",
+    "filters": "Filtros",
+    "reset_all": "Restablecer Todo",
+    "category": "Categoría",
+    "all_categories": "Todas las Categorías",
+    "price_range": "Rango de Precio (EGP)",
+    "min": "Min",
+    "max": "Max",
+    "gender": "Género",
+    "gender_male": "Men",
+    "gender_female": "Mujeres",
+    "gender_kids": "Niños",
+    "gender_unisex": "Unisex",
+    "sizes": "Tallas",
+    "size_small": "S",
+    "size_medium": "M",
+    "size_large": "L",
+    "size_xlarge": "XL",
+    "filters_active": "Applied: {count}",
+    "loading": "Cargando…",
+    "products_found": "{count} products found",
+    "search_placeholder": "Search products…",
+    "no_products_found": "No se encontraron productos",
+    "try_adjust_filters": "Intenta ajustar los filtros",
+    "create_first_product": "Crea tu primer producto",
+    "clear_filters": "Clear Filters",
+    "failed_to_load": "Error al cargar productos",
+    "try_again": "Intentar de Nuevo",
+    "active_label": "Activo:",
+    "min_label": "Min £",
+    "max_label": "Max £",
+    "col_product": "Producto",
+    "col_category": "Categoría",
+    "col_price": "Precio",
+    "col_stock": "Stock",
+    "col_sizes": "Tallas",
+    "col_rating": "Calificación",
+    "col_actions": "Acciones",
+    "discount_off": "{discount}% Off",
+    "in_stock": "En Stock",
+    "out_of_stock": "Agotado",
+    "units": "unit/units",
+    "delete_confirm": "¿Estás seguro de eliminar \"{name}\"? Esta acción no se puede deshacer."
+  },
+  "AdminProductForm": {
+    "edit_title": "Editar Producto",
+    "new_title": "New Product",
+    "editing": "Editando: {name}",
+    "fill_in_details": "Completa los detalles del producto",
+    "main_image": "Main Image",
+    "current_image_shown": "Imagen actual mostrada",
+    "required": "Required",
+    "gallery": "Galería",
+    "gallery_count": "{count} / 8 images",
+    "variants": "Variants",
+    "gender": "Género",
+    "sizes": "Tallas",
+    "cancel": "Cancelar",
+    "save_changes": "Guardar Cambios",
+    "create_product": "Crear Producto",
+    "uploading_main": "Uploading main image…",
+    "uploading_gallery": "Uploading {count} file(s)…",
+    "upload_failed": "Image upload failed. Try again."
+  },
+  "AdminUsers": {
+    "title": "Usuarios",
+    "user_id": "ID de Usuario",
+    "email": "Correo Electrónico",
+    "name": "Nombre",
+    "role": "Rol",
+    "status": "Estado",
+    "joined": "Joined",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "admin": "Administrador",
+    "user": "Usuario",
+    "moderator": "Moderador",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "banned": "Baneado"
+  },
+  "AdminSupport": {
+    "title": "Tickets de Soporte",
+    "ticket_id": "ID de Ticket",
+    "subject": "Subject",
+    "customer": "Cliente",
+    "status": "Estado",
+    "priority": "Prioridad",
+    "created": "Created",
+    "open": "Abierto",
+    "in_progress": "En Progreso",
+    "resolved": "Resuelto",
+    "closed": "Cerrado",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo",
+    "reply": "Responder",
+    "close_ticket": "Cerrar Ticket",
+    "select_conversation": "Select Conversation",
+    "choose_ticket_from_left": "Elige un ticket de soporte del panel izquierdo para ver la conversación.",
+    "email_aria": "Email {name}",
+    "more_options": "Más Opciones",
+    "chat_messages_aria": "Mensajes de Chat",
+    "conversation_separator": "Conversación",
+    "ticket_list_panel_aria": "Panel de Lista de Tickets",
+    "support_tickets_list_aria": "Support Tickets List",
+    "tickets": "Tickets",
+    "search_placeholder": "Buscar tickets o mensajes...",
+    "search_aria": "Buscar tickets",
+    "clear_search": "Limpiar Búsqueda",
+    "filter_by_status_aria": "Filtrar por Estado",
+    "status_all": "Todos",
+    "status_open": "Abierto",
+    "status_pending": "Pendiente",
+    "status_resolved": "Resuelto",
+    "status_closed": "Cerrado",
+    "no_tickets_found": "No se encontraron tickets",
+    "no_messages": "Sin Mensajes",
+    "ticket_from": "Ticket from {name}",
+    "showing_range": "Mostrando {shown} de {total}",
+    "chat_panel_aria": "Panel de Chat",
+    "back_to_ticket_list_aria": "Volver a la Lista de Tickets",
+    "all_tickets": "All Tickets"
+  },
+  "AdminNotifications": {
+    "title": "Notificaciones",
+    "new_notification": "Nueva Notificación",
+    "send": "Enviar",
+    "title_placeholder": "Título de Notificación",
+    "message_placeholder": "Mensaje",
+    "recipients": "Destinatarios",
+    "scheduled": "Programado",
+    "status": "Estado",
+    "sent": "Enviado",
+    "pending": "Pendiente",
+    "draft": "Borrador",
+    "broadcast_center": "Centro de Difusión",
+    "global_notifications": "Notificaciones Globales",
+    "send_notifications_description": "Enviar notificaciones a todos los usuarios registrados instantáneamente."
+  },
+  "AdminAnalytics": {
+    "title": "Analítica",
+    "revenue": "Ingresos",
+    "orders": "Pedidos",
+    "users": "Usuarios",
+    "products": "Productos",
+    "views": "Vistas",
+    "total_revenue": "Ingresos Totales",
+    "total_orders": "Total de Pedidos",
+    "total_users": "Total de Usuarios",
+    "this_month": "This Month",
+    "this_year": "This Year",
+    "all_time": "Todo el Tiempo",
+    "growth": "Crecimiento",
+    "decline": "Disminución"
+  },
+  "AdminCalendar": {
+    "title": "Calendario",
+    "new_event": "Nuevo Evento",
+    "event_title": "Título del Evento",
+    "start_date": "Fecha de Inicio",
+    "end_date": "Fecha de Fin",
+    "all_day": "Todo el Día",
+    "add_event": "Añadir Evento",
+    "edit_event": "Editar Evento",
+    "delete_event": "Eliminar Evento",
+    "sales": "Ventas",
+    "campaign": "Campaña",
+    "meeting": "Reunión",
+    "maintenance": "Mantenimiento",
+    "partnership": "Asociación",
+    "operations": "Operaciones"
+  },
+  "PLP": {
+    "title_mens_collection": "Men's Collection",
+    "subtitle_shop": "Tienda",
+    "aria": {
+      "product_listing": "Listado de Productos",
+      "products": "Productos"
+    },
+    "errors": {
+      "failed_to_load_products": "Failed to load products."
+    },
+    "actions": {
+      "retry": "Reintentar",
+      "clear_filters_button": "Clear Filters"
+    },
+    "empty": {
+      "no_products": "No se encontraron productos",
+      "try_adjusting": "Intenta ajustar los filtros o la búsqueda"
+    }
+  },
+  "PDP": {
+    "size": "Talla",
+    "color": "Color",
+    "quantity": "Cantidad",
+    "add_to_cart": "Añadir al Carrito",
+    "add_to_favorites": "Añadir a Favoritos",
+    "share": "Compartir",
+    "description": "Descripción",
+    "specifications": "Especificaciones",
+    "reviews": "Reseñas",
+    "rating": "Calificación",
+    "in_stock": "En Stock",
+    "out_of_stock": "Agotado",
+    "select_size": "Por favor selecciona una talla",
+    "select_color": "Por favor selecciona un color"
+  },
+  "AdminSidebar": {
+    "nav": {
+      "aria_label": "Navegación de Admin",
+      "about": "Sobre Nosotros",
+      "dashboard": "Panel de Administración"
+    },
+    "logo": {
+      "aria_label": "Go to Dashboard"
+    },
+    "mobile": {
+      "close_label": "Cerrar Barra Lateral"
+    },
+    "sections": {
+      "main": "Principal",
+      "commerce": "Comercio",
+      "analytics": "Analítica",
+      "communication": "Comunicación",
+      "system": "Sistema"
+    },
+    "items": {
+      "dashboard": "Panel",
+      "orders": "Pedidos",
+      "users": "Usuarios",
+      "products": "Productos",
+      "categories": "Categorías",
+      "support_and_complaint": "Support & Complaints",
+      "charts": "Charts",
+      "revenue": "Ingresos",
+      "net_profit": "Ganancia Neta",
+      "complaints": "Quejas",
+      "views": "Vistas",
+      "notifications": "Notificaciones",
+      "calendar": "Calendario",
+      "settings": "Configuración"
+    },
+    "badge": {
+      "pending_count": "{count} pending"
+    },
+    "subitems": {
+      "users": "Usuarios",
+      "orders": "Pedidos",
+      "revenue": "Ingresos",
+      "net profit": "Ganancia Neta",
+      "complaints": "Quejas",
+      "products": "Productos",
+      "views": "Vistas"
+    },
+    "sidebar": {
+      "aria_label": "Barra Lateral de Admin"
+    },
+    "user_footer": {
+      "logout_label": "Cerrar Sesión"
+    }
+  },
+  "Chat": {
+    "type_message": "Escribe un mensaje...",
+    "choose_emoji": "Elegir emoji",
+    "send_message": "Enviar Mensaje",
+    "support": "Soporte Técnico",
+    "maximize": "Maximize",
+    "minimize": "Minimize",
+    "close_chat": "Cerrar Chat",
+    "please_login_before_continue": "Por favor inicia sesión para continuar",
+    "welcome_message": "Welcome to ZFashion! Drop us a message and we’ll get back to you in a few minutes. We're here to help you ❤😊"
+  },
+  "FilterSidebar": {
+    "sections": {
+      "category": "Categoría",
+      "size": "Talla",
+      "brand": "Marca",
+      "price_egp": "Precio (EGP)",
+      "filters": "Filtros"
+    },
+    "categories": {
+      "All": "Todos",
+      "Shirts": "Shirts",
+      "Pants": "Pants",
+      "T-Shirts": "T-Shirts",
+      "Jackets": "Jackets",
+      "Knitwear": "Knitwear",
+      "Hoodies": "Hoodies",
+      "Polo": "Polo",
+      "Shorts": "Shorts"
+    },
+    "sizes": {
+      "Small": "Small",
+      "Medium": "Medio",
+      "Large": "Large",
+      "XLarge": "Extra Large",
+      "labels": {
+        "Small": "S",
+        "Medium": "M",
+        "Large": "L",
+        "XLarge": "XL"
+      }
+    },
+    "brands": {
+      "Heritage": "Heritage",
+      "Core": "Core",
+      "Prestige": "Prestige"
+    },
+    "placeholders": {
+      "min": "Min",
+      "max": "Max"
+    },
+    "aria": {
+      "size_filter": "Filtro de Talla",
+      "min_price": "Precio Mínimo",
+      "max_price": "Precio Máximo",
+      "product_filters": "Filtros de Producto",
+      "close_filters": "Cerrar Filtros"
+    },
+    "actions": {
+      "clear_all_filters": "Limpiar Todos los Filtros",
+      "clear": "Limpiar Todo"
+    }
+  },
+  "PLPParts": {
+    "hero": {
+      "aria_category_banner": "{title} - Category Banner"
+    },
+    "toolbar": {
+      "open_filters": "Abrir Filtros",
+      "filters": "Filtros",
+      "search_placeholder": "Buscar productos...",
+      "search_aria": "Buscar productos",
+      "products": "Productos"
+    },
+    "sort": {
+      "newest": "Más Reciente",
+      "price_asc": "Precio: Bajo a Alto",
+      "price_desc": "Precio: Alto a Bajo",
+      "top_rated": "Mejor Calificado",
+      "discount": "Mayor Descuento"
+    },
+    "pagination": {
+      "aria": "Paginación",
+      "previous_page": "Página Anterior",
+      "page": "Página {page}",
+      "next_page": "Next Page"
+    }
+  },
+  "About": {
+    "Metadata": {
+      "title": "About Us - ZFashion Store | Where Global Elegance Meets Digital Innovation",
+      "description": "Descubre la misión de ZFashion de redefinir la industria de la moda a través de tecnología de vanguardia y elegancia atemporal. Fundada por Ibrahim AbuZaid.",
+      "keywords": "ZFashion, about us, fashion store, premium clothes, e-commerce, Ibrahim AbuZaid, modern fashion, luxury style",
+      "og_title": "About ZFashion Store - Redefining Digital Fashion",
+      "og_description": "Explore our journey of building a high-performance fashion platform that prioritizes user experience and global style.",
+      "og_image_alt": "ZFashion Store - Premium Fashion E-Commerce Platform",
+      "twitter_title": "About ZFashion Store | Global Elegance & Digital Innovation",
+      "twitter_description": "Leading the future of digital fashion commerce with speed and security."
+    },
+    "seo": {
+      "breadcrumb_name": "Sobre Nosotros",
+      "faq": {
+        "q1": {
+          "question": "¿Qué es ZFashion?",
+          "answer": "ZFashion Store is a premium e-commerce platform dedicated to providing the latest global fashion trends with a focus on speed, security, and user experience."
+        },
+        "q2": {
+          "question": "¿Quién fundó ZFashion?",
+          "answer": "ZFashion was founded and developed by Ibrahim AbuZaid, aiming to bridge the gap between high-end fashion and modern software engineering."
+        },
+        "q3": {
+          "question": "¿Es seguro comprar en ZFashion?",
+          "answer": "Yes, we use multi-layer security protocols and the latest encryption standards to ensure every transaction is 100% safe."
+        },
+        "q4": {
+          "question": "¿Qué hace diferente a ZFashion?",
+          "answer": "Our platform combines unrivaled loading speeds with a curated selection of products, powered by modern Next.js technology."
+        },
+        "q5": {
+          "question": "¿Ofrecen soporte técnico?",
+          "answer": "¡Absolutamente! Nuestro dedicado equipo de ingeniería proporciona monitoreo técnico 24/7 para garantizar una experiencia de compra perfecta."
+        }
+      }
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "current": "Sobre Nosotros"
+    },
+    "hero": {
+      "title_part_1": "Where Global Elegance",
+      "title_part_2": "Meets Digital Innovation",
+      "description": "En ZFashion, creemos que el estilo nunca debe ser un compromiso. Hemos construido una plataforma que armoniza el arte de la moda con la precisión de la tecnología moderna.",
+      "badges": {
+        "seo": "100% Puntuación SEO",
+        "support": "Soporte Técnico 24/7",
+        "security": "Multi-Layer Security"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "ZFashion was born out of a simple yet ambitious vision: to create a digital shopping experience that is as elegant as the clothes we sell. We noticed that many platforms lacked the speed and smoothness that modern customers deserve.",
+      "p2": "Founded by Ibrahim AbuZaid, we didn't just build a store; we engineered a high-performance ecosystem. Using the latest web technologies, we've created a space where browsing is instant, and your security is never in doubt.",
+      "stats": {
+        "hours": {
+          "value": "1000+",
+          "label": "Hours of Development"
+        },
+        "seo": {
+          "value": "100%",
+          "label": "SEO Performance"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Technical Excellence"
+        }
+      }
+    },
+    "mission_vision": {
+      "title": "Mission & Vision",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To empower fashion enthusiasts by providing a seamless, fast, and secure platform that brings global trends to their doorstep with a single click."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become the global benchmark for fashion e-commerce, where technology serves as the invisible thread weaving through every piece of style."
+      }
+    },
+    "values": {
+      "title": "Valores Fundamentales",
+      "subtitle": "The principles that drive every line of code and every curated collection we offer.",
+      "perfection": {
+        "title": "Technical Perfection",
+        "description": "We are obsessed with performance, ensuring our platform is one of the fastest in the industry."
+      },
+      "integrity": {
+        "title": "Integridad",
+        "description": "We believe in absolute transparency in our operations, pricing, and customer data handling."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "We don't follow trends; we set them by integrating AI and real-time connectivity into your shopping."
+      },
+      "trust": {
+        "title": "Sustainable Trust",
+        "description": "Building a long-term relationship with our customers through reliability and quality."
+      }
+    },
+    "support": {
+      "title": "Expert Engineers at Your Service",
+      "p1_part1": "Behind our elegant storefront lies a dedicated team. We don't just sell clothes; we offer",
+      "p1_strong": "Technical Peace of Mind",
+      "p1_part2": ".",
+      "p2": "Our team monitors platform stability in real-time, ensuring that your shopping journey is never interrupted by technical hurdles.",
+      "stats": {
+        "monitoring": {
+          "value": "24/7",
+          "label": "Monitoreo en Tiempo Real"
+        },
+        "response": {
+          "value": "<1s",
+          "label": "Respuesta Promedio"
+        },
+        "resolution": {
+          "value": "100%",
+          "label": "Resolución de Problemas"
+        },
+        "dedication": {
+          "value": "∞",
+          "label": "Dedication Level"
+        }
+      }
+    },
+    "why": {
+      "title": "Why ZFashion?",
+      "subtitle": "Technical excellence meets fashion-forward innovation",
+      "features": {
+        "unrivaled_speed": {
+          "title": "Unrivaled Speed",
+          "description": "Construido en Next.js 15 para tiempos de carga casi instantáneos en todos los dispositivos."
+        },
+        "modern_saas": {
+          "title": "Modern Architecture",
+          "description": "Una arquitectura cloud-native robusta que crece con las necesidades de nuestros clientes."
+        },
+        "realtime_connectivity": {
+          "title": "Actualizaciones en Tiempo Real",
+          "description": "Seguimiento de stock en vivo y actualizaciones instantáneas del estado del pedido para total claridad."
+        },
+        "smart_notifications": {
+          "title": "Smart Notifications",
+          "description": "Mantente actualizado con alertas personalizadas sobre reducciones de precio y nuevas llegadas."
+        },
+        "elite_security": {
+          "title": "Elite Security",
+          "description": "Cifrado de extremo a extremo para tus pagos y datos personales."
+        },
+        "seamless_experience": {
+          "title": "Seamless UX",
+          "description": "Una interfaz diseñada para navegación intuitiva y pago sin esfuerzo."
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Experimentar la Excelencia?",
+      "description": "Únete a miles de entusiastas de la moda que eligen ZFashion para una experiencia de compra premium.",
+      "button": "Start Shopping Now"
+    }
+  },
+  "Checkout": {
+    "aria_label": "Checkout Page",
+    "order_summary_sidebar": "Order Summary - Sidebar",
+    "your_information": "Tu Información",
+    "payment": "Pago",
+    "steps": {
+      "information": "Información",
+      "payment": "Pago",
+      "confirmation": "Confirmation"
+    }
+  },
+  "AddressForm": {
+    "aria_label": "Shipping Information Form",
+    "contact": "Contacto",
+    "email_address": "Correo Electrónico",
+    "email_placeholder": "you@example.com",
+    "phone_number": "Número de Teléfono",
+    "phone_placeholder": "123 456 7890",
+    "shipping_address": "Dirección de Envío",
+    "country": "Country",
+    "select_country": "Seleccionar País…",
+    "first_name": "Nombre",
+    "first_name_placeholder": "Ahmed",
+    "last_name": "Apellido",
+    "last_name_placeholder": "Al-Murad",
+    "street_address": "Dirección",
+    "street_placeholder": "123 Calle Principal",
+    "apartment_optional": "Apartment / Unit (Optional)",
+    "apartment_placeholder": "Apt 4B",
+    "city": "City",
+    "city_placeholder": "Cairo",
+    "postal_code": "Postal Code",
+    "postal_placeholder": "10001",
+    "state_governorate": "Estado / Gobernación",
+    "loading": "Cargando…",
+    "select_country_first": "Selecciona país primero",
+    "select_state": "Seleccionar Estado…",
+    "continue_to_payment": "Continuar al Pago →"
+  },
+  "PaymentDemo": {
+    "card_details": "Card Details",
+    "secure": "Secure",
+    "card_number": "Número de Tarjeta",
+    "cardholder_name": "Nombre del Titular",
+    "expiry": "Fecha de Expiración",
+    "cvv": "CVV",
+    "processing": "Processing…",
+    "pay_button": "Pagar {amount} →",
+    "or": "O",
+    "redirecting": "Redirecting…",
+    "pay_with_paypal": "Pagar con PayPal",
+    "back_to_information": "Back to Information",
+    "ssl_secured": "SSL Seguro"
+  },
+  "OrderSummary": {
+    "aria_label": "Resumen del Pedido",
+    "order_summary": "Resumen del Pedido",
+    "discount_code": "Código de Descuento",
+    "coupon_placeholder": "Ejemplo: AHORRA10",
+    "apply": "Aplicar",
+    "invalid_coupon": "Código de cupón inválido",
+    "applied_suffix": "Applied — {percent}% off!",
+    "subtotal": "Subtotal",
+    "discount_label": "Discount ({percent}%)",
+    "shipping": "Envío",
+    "free": "Free",
+    "estimated_tax": "Impuesto Estimado",
+    "total": "Total",
+    "secure_ssl": "Cifrado SSL de 256 bits"
+  },
+  "SuccessScreen": {
+    "order_confirmed": "Pedido Confirmado",
+    "thank_you": "Gracias",
+    "order_placed": "Your order has been placed and is being prepared.",
+    "order_number": "Número de Pedido",
+    "email": "Correo Electrónico",
+    "ship_to": "Enviar A",
+    "shipping": "Envío",
+    "timeline": {
+      "confirmed": "Pedido Confirmado",
+      "just_now": "Justo Ahora",
+      "prepared": "Being Prepared",
+      "estimated_hours": "Estimado {hours} horas",
+      "out_for_delivery": "En Camino",
+      "estimated_days": "Estimado {days} días",
+      "email_sent": "Confirmation Email Sent"
+    },
+    "continue_shopping": "Seguir Comprando",
+    "track_order": "Rastrear Pedido"
+  },
   "Footer": {
-    "brand_name": "Global Store",
-    "brand_description": "Your trusted destination for quality products worldwide"
+    "brand": {
+      "name": "Tu Tienda",
+      "description": "Curating exceptional products and experiences for discerning customers since 2014."
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "Ingresa tu correo",
+      "done": "Done!",
+      "join": "Unirse",
+      "note": "Recibe ofertas exclusivas, consejos de estilo y acceso anticipado a nuevas colecciones."
+    },
+    "shop": {
+      "title": "Tienda",
+      "new_arrivals": "New Arrivals",
+      "bestsellers": "Bestsellers",
+      "sale": "Rebaja",
+      "collections": "Collections",
+      "gift_cards": "Tarjetas de Regalo"
+    },
+    "support": {
+      "title": "Soporte",
+      "contact_us": "Contáctanos",
+      "faqs": "FAQs",
+      "shipping": "Información de Envío",
+      "returns": "Returns & Exchanges",
+      "size_guide": "Guía de Tallas"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nosotros",
+      "careers": "Carreras",
+      "sustainability": "Sostenibilidad",
+      "press": "Prensa",
+      "blog": "Blog"
+    },
+    "contact": {
+      "title": "Contacto",
+      "linkedin": "Perfil de LinkedIn"
+    },
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Cookie Policy"
+    },
+    "bottom": {
+      "copy": "© {year} Your Store. All rights reserved."
+    },
+    "payments": {
+      "accept": "We accept:"
+    }
   }
 }

@@ -1,124 +1,293 @@
 {
   "nav": {
-    "home": "होम",
-    "shop": "दुकान",
     "products": "उत्पाद",
-    "about": "हमारे बारे में",
-    "contact": "संपर्क करें",
+    "contact": "हमसे संपर्क करें",
     "cart": "कार्ट",
-    "account": "खाता"
+    "account": "खाता",
+    "about": "हमारे बारे में",
+    "dashboard": "एडमिन डैशबोर्ड",
+    "home": "होम",
+    "ctg": {
+      "all": "सभी:",
+      "Accessories": "एसेसरीज़",
+      "men": "पुरुष",
+      "kids": "बच्चे",
+      "women": "महिलाएँ",
+      "caps": "शर्ट्स",
+      "Shirts": "शर्ट्स",
+      "jackets": "जैकेट्स",
+      "Jacket": "जैकेट्स",
+      "pants": "पैंट्स"
+    }
+  },
+  "Lang": {
+    "select_language": "भाषा चुनें",
+    "language": "भाषा"
+  },
+  "CartNav": {
+    "empty_cart": "कार्ट खाली है",
+    "cart": "कार्ट",
+    "items": "आइटम",
+    "cart_label": "शॉपिंग कार्ट",
+    "product_label": "उत्पाद",
+    "continue_shopping": "खरीदारी जारी रखें",
+    "aria_label": "शॉपिंग कार्ट",
+    "empty_text": "कार्ट खाली है",
+    "view_all": "सभी देखें ({count})",
+    "view_cart": "कार्ट देखें"
+  },
+  "EmptyCart": {
+    "cart_is_empty": "आपकी कार्ट खाली है",
+    "start_shopping": "खरीदारी शुरू करें",
+    "empty_cart_aria": "Shopping cart is empty",
+    "empty_cart_title": "No items added yet",
+    "empty_cart_description": "आपकी कार्ट खाली है। उत्पाद ब्राउज़ करना शुरू करें और अपनी पसंद का जोड़ें।",
+    "browse_products": "उत्पाद ब्राउज़ करें"
+  },
+  "Rating": {
+    "rating": "रेटिंग",
+    "rate_product": "उत्पाद रेट करें"
+  },
+  "Navbar": {
+    "aria_label": "मुख्य नेविगेशन",
+    "mobileMenu": {
+      "AdminDashboard": "एडमिन डैशबोर्ड",
+      "open": "मेनू खोलें",
+      "close": "मेनू बंद करें",
+      "title": "मेनू",
+      "home": "होम",
+      "about": "हमारे बारे में",
+      "dashboard": "एडमिन डैशबोर्ड",
+      "all": "सभी",
+      "myAccount": "मेरा खाता",
+      "myOrders": "मेरे ऑर्डर",
+      "ctg": {
+        "all": "सभी:",
+        "Accessories": "एसेसरीज़",
+        "men": "पुरुष",
+        "kids": "बच्चे",
+        "women": "महिलाएँ",
+        "caps": "शर्ट्स",
+        "jackets": "Jackets",
+        "Jacket": "Jackets",
+        "pants": "पैंट्स",
+        "Shirts": "शर्ट्स"
+      }
+    }
+  },
+  "AnnouncementBar": {
+    "controls": {
+      "previous": "पिछला",
+      "next": "अगला",
+      "dismiss": "खारिज करें"
+    }
+  },
+  "ProductCard": {
+    "add_to_cart": "कार्ट में जोड़ें",
+    "view_details": "विवरण देखें",
+    "out_of_stock": "स्टॉक में नहीं",
+    "discount_off": "{discount}% Off",
+    "quick_view": "त्वरित दृश्य — {name}",
+    "view": "{name} देखें"
+  },
+  "Filters": {
+    "title": "फ़िल्टर",
+    "price_range": "मूल्य सीमा",
+    "price_0_50": "मूल्य $0 से $50",
+    "price_50_100": "मूल्य $50 से $100",
+    "price_100_200": "मूल्य $100 से $200",
+    "price_200_plus": "मूल्य $200 और उससे अधिक",
+    "category": "श्रेणी",
+    "gender": "लिंग",
+    "gender_male": "पुरुष",
+    "gender_female": "महिलाएँ",
+    "gender_unisex": "यूनिसेक्स",
+    "gender_kids": "बच्चे",
+    "size": "आकार",
+    "size_small": "छोटा",
+    "size_medium": "मध्यम",
+    "size_large": "बड़ा",
+    "size_xlarge": "एक्स्ट्रा बड़ा",
+    "brand": "ब्रांड",
+    "rating": "रेटिंग",
+    "clear_all": "सभी साफ़ करें",
+    "apply": "फ़िल्टर लागू करें",
+    "apply_filters": "फ़िल्टर लागू करें",
+    "clear_filters": "सभी फ़िल्टर साफ़ करें",
+    "filters_aria_label": "उत्पाद फ़िल्टर",
+    "male": "पुरुष",
+    "female": "महिलाएँ",
+    "unisex": "यूनिसेक्स",
+    "kids": "बच्चे"
+  },
+  "Hero": {
+    "shop_now": "अभी खरीदें",
+    "discount_badge": "-50%",
+    "slides": {
+      "1": {
+        "title": "Streetwear",
+        "tag": "🚀 Most Popular"
+      },
+      "2": {
+        "title": "Summer Collection",
+        "tag": "🔥 Hot"
+      },
+      "3": {
+        "title": "लग्जरी घड़ियाँ",
+        "tag": "⭐ Premium"
+      },
+      "4": {
+        "title": "डिज़ाइनर बैग",
+        "tag": "💎 New"
+      }
+    }
   },
   "announcement": {
-    "flash_sale": "⚡ फ्लैश सेल: 50% तक की छूट - सीमित समय के लिए!",
-    "free_shipping": "🚚 $50 से अधिक के ऑर्डर पर मुफ्त शिपिंग",
-    "new_collection": "✨ नया संग्रह - अभी खरीदें!"
+    "flash_sale": "⚡ Flash Sale: Up to 50% Off - Limited Time Only!",
+    "free_shipping": "🚚 Free Shipping on Orders Over $50",
+    "new_collection": "✨ New Collection - Shop Now!"
   },
   "auth": {
+    "logoutSuccessfully": "Logged out successfully",
+    "failedLogout": "Logout failed",
+    "somethingWentWrong": "कुछ गलत हो गया, कृपया फिर से प्रयास करें",
+    "TooManyRequest": "कृपया पुनः प्रयास करने से पहले एक पल प्रतीक्षा करें",
+    "loginACC": "साइन इन करें",
+    "registerACC": "खाता बनाएँ",
+    "profile": "प्रोफ़ाइल",
+    "logout": "लॉग आउट",
+    "cart": "कार्ट",
+    "orders": "ऑर्डर",
     "login": {
-      "title": "वापसी पर स्वागत है",
-      "subtitle": "जारी रखने के लिए लॉग इन करें",
-      "emailOrUsername": "ईमेल या उपयोगकर्ता नाम",
-      "emailPlaceholder": "अपना ईमेल या उपयोगकर्ता नाम दर्ज करें",
-      "emailRequired": "ईमेल या उपयोगकर्ता नाम आवश्यक है",
+      "title": "वापसी पर स्वागत",
+      "subtitle": "जारी रखने के लिए साइन इन करें",
+      "emailOrUsername": "ईमेल",
+      "emailPlaceholder": "ईमेल दर्ज करें",
+      "emailRequired": "Email is required",
       "password": "पासवर्ड",
-      "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
-      "passwordRequired": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए",
+      "passwordPlaceholder": "पासवर्ड दर्ज करें",
+      "passwordRequired": "पासवर्ड कम से कम 6 अक्षर का होना चाहिए",
       "forgotPassword": "पासवर्ड भूल गए?",
-      "submit": "लॉग इन करें",
-      "loading": "लॉग इन हो रहा है...",
+      "submit": "साइन इन करें",
+      "loading": "साइन इन हो रहा है...",
       "noAccount": "खाता नहीं है?",
-      "register": "खाता बनाएं"
+      "register": "खाता बनाएँ",
+      "loginSuccessfully": "सफलतापूर्वक साइन इन हुआ",
+      "invalidCredentials": "उपयोगकर्ता नाम या पासवर्ड गलत है",
+      "AccessDenied": "जारी रखने के लिए कृपया अपना ईमेल सत्यापित करें। हमने आपके इनबॉक्स में एक सत्यापन ईमेल भेजा है।"
     },
     "register": {
-      "title": "नया खाता बनाएं",
-      "subtitle": "हमसे जुड़ें और खरीदारी शुरू करें",
+      "title": "नया खाता बनाएँ",
+      "subtitle": "Join us and start shopping",
       "email": "ईमेल",
       "emailPlaceholder": "अपना ईमेल दर्ज करें",
-      "emailInvalid": "अमान्य ईमेल पता",
+      "emailInvalid": "अमान्य ईमेल",
       "username": "उपयोगकर्ता नाम",
-      "usernamePlaceholder": "एक अनूठा उपयोगकर्ता नाम चुनें",
-      "usernameInvalid": "उपयोगकर्ता नाम 3-20 अक्षरों का होना चाहिए",
+      "usernamePlaceholder": "Choose a unique username",
+      "usernameInvalid": "Username must be 3-20 characters",
       "password": "पासवर्ड",
-      "passwordPlaceholder": "एक सुरक्षित पासवर्ड चुनें",
-      "passwordInvalid": "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए",
+      "passwordPlaceholder": "Choose a strong password",
+      "passwordInvalid": "पासवर्ड कम से कम 6 अक्षर का होना चाहिए",
       "confirmPassword": "पासवर्ड की पुष्टि करें",
-      "confirmPasswordPlaceholder": "अपना पासवर्ड फिर से दर्ज करें",
+      "confirmPasswordPlaceholder": "पासवर्ड फिर से दर्ज करें",
       "passwordMismatch": "पासवर्ड मेल नहीं खाते",
-      "submit": "खाता बनाएं",
-      "loading": "खाता बनाया जा रहा है...",
+      "submit": "खाता बनाएँ",
+      "loading": "Creating account...",
       "haveAccount": "पहले से ही खाता है?",
-      "login": "लॉग इन करें"
+      "login": "साइन इन करें",
+      "weak": "कमज़ोर",
+      "medium": "मध्यम",
+      "strong": "मजबूत",
+      "Email is already taken": "Email is already taken",
+      "Name is already taken": "Username is already taken"
+    },
+    "verify": {
+      "invalidLink": "अमान्य सत्यापन लिंक",
+      "success": "आपका ईमेल सफलतापूर्वक सत्यापित हो गया है!",
+      "error": "कुछ गलत हो गया। कृपया फिर से प्रयास करें।",
+      "loading": "Verifying...",
+      "successTitle": "ईमेल सत्यापित! ✨",
+      "errorTitle": "Verification Failed",
+      "successNote": "🎉 Your account is now active! You can start using all features.",
+      "goToLogin": "साइन इन पर जाएँ",
+      "errorNote": "The verification link may have expired or is invalid.",
+      "resendEmail": "सत्यापन ईमेल फिर से भेजें",
+      "needHelp": "मदद चाहिए?",
+      "contactSupport": "सहायता से संपर्क करें"
     },
     "forgot": {
       "title": "पासवर्ड भूल गए?",
-      "subtitle": "हम इसे पुनः प्राप्त करने में आपकी सहायता करेंगे",
-      "info": "अपना ईमेल पता दर्ज करें और हम आपको अपना पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे।",
-      "email": "ईमेल पता",
+      "subtitle": "We'll help you recover it",
+      "info": "अपना ईमेल दर्ज करें और हम आपको पासवर्ड रीसेट लिंक भेजेंगे।",
+      "email": "ईमेल",
       "emailPlaceholder": "अपना ईमेल दर्ज करें",
-      "emailInvalid": "अमान्य ईमेल पता",
-      "submit": "रीसेट लिंक भेजें",
+      "emailInvalid": "अमान्य ईमेल",
+      "submit": "Send Reset Link",
       "loading": "भेजा जा रहा है...",
-      "backToLogin": "लॉगिन पर वापस जाएं",
-      "successTitle": "अपना ईमेल जांचें",
-      "successSubtitle": "रीसेट लिंक भेज दिया गया",
-      "successMessage": "हमने आपके ईमेल पते पर पासवर्ड रीसेट लिंक भेज दिया है।",
-      "checkEmail": "कृपया अपना इनबॉक्स और स्पैम फ़ोल्डर जांचें।",
-      "resend": "लिंक पुन: भेजें"
+      "backToLogin": "साइन इन पर वापस जाएँ",
+      "successTitle": "अपना ईमेल जाँचें",
+      "successSubtitle": "रीसेट लिंक भेजा गया",
+      "successMessage": "We've sent a password reset link to your email.",
+      "checkEmail": "कृपया अपना इनबॉक्स और स्पैम फ़ोल्डर जाँचें।",
+      "resend": "लिंक फिर से भेजें",
+      "userNotFound": "User not found"
     },
     "reset": {
-      "title": "पासवर्ड रीसेट करें",
-      "subtitle": "एक नया मजबूत पासवर्ड चुनें",
-      "newPassword": "नया पासवर्ड",
+      "title": "पासवर्ड रीसेट",
+      "subtitle": "Choose a new strong password",
+      "newPassword": "New Password",
       "passwordPlaceholder": "नया पासवर्ड दर्ज करें",
-      "passwordInvalid": "पासवर्ड कम से कम 8 अक्षर का होना चाहिए",
+      "passwordInvalid": "पासवर्ड कम से कम 6 अक्षर का होना चाहिए",
       "confirmPassword": "पासवर्ड की पुष्टि करें",
-      "confirmPasswordPlaceholder": "पासवर्ड दोबारा दर्ज करें",
+      "confirmPasswordPlaceholder": "पासवर्ड फिर से दर्ज करें",
       "passwordMismatch": "पासवर्ड मेल नहीं खाते",
-      "weak": "कमजोर",
+      "weak": "कमज़ोर",
       "medium": "मध्यम",
       "strong": "मजबूत",
       "submit": "पासवर्ड अपडेट करें",
-      "loading": "अपडेट हो रहा है...",
-      "backToLogin": "लॉगिन पर वापस जाएं",
+      "loading": "Updating...",
+      "backToLogin": "साइन इन पर वापस जाएँ",
       "successTitle": "सफलता!",
-      "successSubtitle": "पासवर्ड अपडेट हो गया",
-      "successMessage": "आपका पासवर्ड सफलतापूर्वक अपडेट कर दिया गया है!",
-      "canLogin": "अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।",
-      "loginNow": "अभी लॉगिन करें"
+      "successSubtitle": "Password Updated",
+      "successMessage": "आपका पासवर्ड सफलतापूर्वक अपडेट हो गया है!",
+      "canLogin": "You can now sign in with your new password.",
+      "loginNow": "अभी साइन इन करें"
     },
     "social": {
-      "divider": "या निम्नलिखित के साथ लॉग इन करें"
+      "divider": "या इसके साथ साइन इन करें"
     }
   },
   "hero": {
-    "subtitle": "सभी के लिए प्रीमियम गुणवत्ता फैशन",
+    "subtitle": "सबके लिए उच्च गुणवत्ता वाला फैशन",
     "shop_now": "अभी खरीदें",
     "title": {
-      "Streetwear": "स्ट्रीटवियर",
-      "Summer Collection": "गर्मी संग्रह",
-      "Luxury Watches": "लक्ज़री घड़ियाँ",
+      "Streetwear": "Streetwear",
+      "Summer Collection": "Summer Collection",
+      "Luxury Watches": "लग्जरी घड़ियाँ",
       "Designer Bags": "डिज़ाइनर बैग"
     }
   },
   "filters": {
-    "title": "फिल्टर",
+    "title": "फ़िल्टर",
     "price_range": "मूल्य सीमा",
     "category": "श्रेणी",
     "gender": "लिंग",
+    "size": "आकार",
     "brand": "ब्रांड",
     "rating": "रेटिंग",
     "clear_all": "सभी साफ़ करें",
     "apply": "फ़िल्टर लागू करें",
     "male": "पुरुष",
-    "female": "महिला",
-    "unisex": "यूनिसेक्स"
+    "female": "महिलाएँ",
+    "unisex": "यूनिसेक्स",
+    "kids": "बच्चे"
   },
   "products": {
-    "title": "हमारे उत्पाद",
-    "sort_by": "इसके अनुसार क्रमबद्ध करें",
+    "title": "Our Products",
+    "sort_by": "क्रमबद्ध करें",
     "search": "उत्पाद खोजें...",
-    "price_low_high": "मूल्य: कम से अधिक",
-    "price_high_low": "मूल्य: अधिक से कम",
+    "price_low_high": "मूल्य: निम्न से उच्च",
+    "price_high_low": "मूल्य: उच्च से निम्न",
     "newest": "नवीनतम पहले",
     "popular": "सबसे लोकप्रिय",
     "add_to_cart": "कार्ट में जोड़ें",
@@ -126,213 +295,1266 @@
     "out_of_stock": "स्टॉक में नहीं"
   },
   "brands": {
-    "title": "विशेष ब्रांड",
-    "subtitle": "हमारे विश्वसनीय भागीदारों से खरीदें"
+    "title": "Featured Brands",
+    "subtitle": "Shop from our trusted partners"
   },
-
-  "ShowcaseSection": {
-    "explore_all": "सभी देखें"
-  },
-
   "AdminCharts": {
     "complaints": {
-      "title": "शिकायत विश्लेषण",
-      "description": "ग्राहक शिकायतों को के संवीदण सतः निगरानी करें",
+      "title": "Complaints Analysis",
+      "description": "Monitor and resolve customer complaints effectively",
       "total": "कुल शिकायतें",
       "daily_avg": "दैनिक औसत",
-      "peak_volume": "शीर्ष प्रषष्ठ",
-      "resolution_rate": "समाधान दर",
-      "insights_title": "शिकायत अंतर्दृष्टि"
+      "peak_volume": "चरम वॉल्यूम",
+      "resolution_rate": "Resolution Rate",
+      "insights_title": "Complaints Insights"
     },
     "orders": {
-      "title": "ऑर्डर विश्लेषण",
-      "description": "ऑर्डर वॉल्यूम और कसरत थिक्म को गौ संधतें",
-      "total": "कुल ऑर्डरें",
+      "title": "Orders Analysis",
+      "description": "Track order volume and performance metrics",
+      "total": "कुल ऑर्डर",
       "daily_avg": "दैनिक औसत",
-      "peak_volume": "शीर्ष प्रषष्ठ",
-      "above_avg": "औसत से कम ऊपी",
+      "peak_volume": "चरम वॉल्यूम",
+      "above_avg": "औसत से ऊपर",
       "insights_title": "ऑर्डर अंतर्दृष्टि"
     },
     "revenue": {
-      "title": "साधन विश्लेषण",
-      "description": "राजस्व धारण असर उतदाड़ बुझे देखूफल करें",
-      "total": "कुल साधन",
+      "title": "राजस्व विश्लेषण",
+      "description": "Monitor financial trends and performance",
+      "total": "कुल राजस्व",
       "daily_avg": "दैनिक औसत",
-      "peak": "ध्वजोत्वर साधन",
-      "growth_rate": "मुढत की संदर",
-      "insights_title": "साधन अंतर्दृष्टि"
+      "peak": "चरम राजस्व",
+      "growth_rate": "वृद्धि दर",
+      "insights_title": "राजस्व अंतर्दृष्टि"
     },
     "users": {
-      "title": "उपयोगकर्ता विश्लेषण",
-      "description": "उपयोगकर्ता बढ़त और गपत थिक्म को गौ संधतें",
+      "title": "Users Analysis",
+      "description": "Track user growth and engagement",
       "total": "कुल उपयोगकर्ता",
       "daily_avg": "दैनिक औसत",
-      "peak_day": "शीर्ष दिन",
-      "growth_days": "बढ़त कथप",
+      "peak_day": "चरम दिन",
+      "growth_days": "वृद्धि दिवस",
       "insights_title": "उपयोगकर्ता अंतर्दृष्टि"
     },
-    "netProfit": {
-      "title": "शुद्ध लाभ विश्लेषण",
-      "description": "मुढत्वतिह असर असर लाभ मौड़ थिक्म संलंग रहें",
+    "net_profit": {
+      "title": "Net Profit Analysis",
+      "description": "Monitor profitability and profit margins",
       "total": "कुल शुद्ध लाभ",
       "daily_avg": "दैनिक औसत",
-      "profit_margin": "लाभ मौड़",
-      "peak": "शीर्ष लाभ",
+      "profit_margin": "लाभ मार्जिन",
+      "peak": "चरम लाभ",
       "insights_title": "लाभ अंतर्दृष्टि"
     },
     "products": {
-      "title": "उतपाद विश्लेषण",
-      "description": "उतपाद कसरत असर बकरी लेखौं को गौ संधतें",
-      "insights_title": "उतपाद अंतर्दृष्टि"
+      "title": "Products Analysis",
+      "description": "Track product performance and sales data",
+      "insights_title": "उत्पाद अंतर्दृष्टि"
     },
     "views": {
-      "title": "देखी विश्लेषण",
-      "description": "वेबसीट देख असर केडी शुलवार को सलामलंग रहें",
-      "insights_title": "देखी अंतर्दृष्टि"
+      "title": "दृश्य विश्लेषण",
+      "description": "Monitor site views and traffic patterns",
+      "insights_title": "दृश्य अंतर्दृष्टि"
     }
   },
-
-  "HeroSection": {
-    "announcement": "नई सीजन सेल - चयनित वस्तुओं पर 50% तक छूट!",
-    "collection_badge": "वसंत संग्रह 2025",
-    "main_title_1": "शैली जो",
-    "main_title_2": "अपने लिए",
-    "main_title_3": "बोलती है।",
-    "description": "सावधानीपूर्वक चयनित टुकड़े। असाधारण गुणवत्ता। न्यायसंगत कीमतें। विश्वव्यापी {users}+ खरीदारों में शामिल हों।",
-    "shop_button": "संग्रह खरीदें",
-    "lookbook_button": "लुकबुक देखें",
-    "stat_1_value": "खुश ग्राहक",
-    "stat_1_sub": "विश्वव्यापी",
-    "stat_2_value": "5-सितारा रिव्यू",
-    "stat_2_sub": "औसतन 4.9 ★",
-    "stat_3_value": "क्यूरेटेड स्टाइलें",
-    "stat_3_sub": "साप्ताहिक नई",
+  "HeroSectionHome": {
+    "announcement": "नया सीज़न सेल - चुनिंदा आइटम पर 50% तक की छूट!",
+    "collection_badge": "Spring 2025 Collection",
+    "main_title_1": "एक शैली जो",
+    "main_title_2": "speaks",
+    "main_title_3": "for itself.",
+    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
+    "shop_button": "कलेक्शन खरीदें",
+    "lookbook_button": "View Lookbook",
+    "stat_1_value": "Happy Customers",
+    "stat_1_sub": "Worldwide",
+    "stat_2_value": "5-सितारा समीक्षाएँ",
+    "stat_2_sub": "4.9 ★ औसत",
+    "stat_3_value": "Curated Styles",
+    "stat_3_sub": "New Weekly",
     "stat_4_value": "दृश्य",
-    "stat_4_sub": "कुल संचित दर्शक पहुंच",
-    "price_label": "से शुरुआत",
+    "stat_4_sub": "कुल संचयी पहुँच",
+    "price_label": "Starting from",
     "product_images": [
-      { "tag": "नई आगमन", "name": "शहरी खरीदार", "price": "£89" },
-      { "tag": "सबसे अधिक मांग", "name": "स्ट्रीट एसेंशियल", "price": "£64" },
-      { "tag": "सीमित संस्करण", "name": "प्रीमियम संस्करण", "price": "£129" }
+      {
+        "tag": "नया आगमन",
+        "name": "City Carrier",
+        "price": "£89"
+      },
+      {
+        "tag": "सबसे अधिक चाहा जाने वाला",
+        "name": "स्ट्रीट एसेंशियल",
+        "price": "£64"
+      },
+      {
+        "tag": "सीमित संस्करण",
+        "name": "Premium Edition",
+        "price": "£129"
+      }
     ],
-    "testimonial_quote": "गुणवत्ता विश्व-स्तरीय है!",
-    "testimonial_author": "Sarah M. — सत्यापित",
+    "testimonial_quote": "विश्व स्तरीय गुणवत्ता!",
+    "testimonial_author": "Sarah M. — Verified",
     "marquee_items": [
-      { "text": "तेज़ डिलीवरी" },
-      { "text": "सुरक्षित भुगतान" },
-      { "text": "प्रीमियम गुणवत्ता" },
-      { "text": "साप्ताहिक बूंदें" }
+      {
+        "text": "तेज़ डिलीवरी"
+      },
+      {
+        "text": "सुरक्षित भुगतान"
+      },
+      {
+        "text": "Premium Quality"
+      },
+      {
+        "text": "New Pieces Weekly"
+      }
     ]
   },
-
   "TestimonialsSection": {
-    "verified_buyer": "सत्यापित खरीदार",
-    "testimonials": "हमारे ग्राहक क्या कहते हैं",
-    "reviews": "28,000+ समीक्षाएं",
-    "rating": "4.9"
+    "verified_buyer": "Verified Customer",
+    "testimonials": "Customer Reviews on Our Products",
+    "reviews": "28000+ समीक्षाएँ",
+    "rating": "4.9",
+    "customer_reviews": "Customer Reviews"
   },
-
   "CollectionsSlider": {
-    "curated": "चयनित",
-    "legendary_collections": "किंवदंती संग्रह",
-    "view_all": "सभी देखें",
-    "view_all_collections": "सभी संग्रह देखें"
+    "collections": "Collections",
+    "view_collection": "कलेक्शन देखें",
+    "featured_collection": "Featured Collection"
   },
-
   "HorizontalProductScroll": {
     "view_all": "सभी देखें",
-    "view_all_title": "सभी {title} देखें"
+    "products": "उत्पाद",
+    "view_all_title": "सभी देखें"
   },
-
-  "footer": {
-    "about_us": "हमारे बारे में",
-    "customer_service": "ग्राहक सेवा",
-    "follow_us": "हमें फॉलो करें",
-    "newsletter": "हमारे न्यूज़लेटर की सदस्यता लें",
-    "subscribe": "सदस्यता लें",
-    "rights": "सर्वाधिकार सुरक्षित"
-  },
-
-  "Footer": {
-    "brand_name": "ग्लोबल स्टोर",
-    "brand_description": "दुनिया भर में गुणवत्तापूर्ण उत्पादों के लिए आपका विश्वसनीय गंतव्य। हम आपको सर्वोत्तम खरीदारी अनुभव प्रदान करते हैं जिसमें प्रीमियम चयन और असाधारण सेवा शामिल है।",
-    "sections": {
-      "about_us": "हमारे बारे में",
-      "customer_service": "ग्राहक सेवा",
-      "follow_us": "हमें फॉलो करें"
+  "AdminTopNav": {
+    "alert": "अलर्ट: सभी आँकड़े हर घंटे अपडेट किए जाते हैं",
+    "hamburger_aria_label": "मेनू खोलें",
+    "search_placeholder": "ऑर्डर, उपयोगकर्ता, उत्पाद खोजें...",
+    "search_label": "खोजें",
+    "search": "खोजें",
+    "search_open_label": "खोज खोलें",
+    "search_close_label": "खोज बंद करें",
+    "notifications": {
+      "title": "नोटिफिकेशन",
+      "new": "नया",
+      "view_all": "सभी देखें",
+      "aria_label": "ऑर्डर सूची"
     },
-    "links": {
-      "our_story": "हमारी कहानी",
-      "careers": "करियर",
-      "press": "प्रेस",
-      "contact_us": "हमसे संपर्क करें",
-      "shipping_info": "शिपिंग जानकारी",
-      "returns": "रिटर्न और विनिमय"
+    "user_menu": {
+      "aria_label": "उपयोगकर्ता मेनू",
+      "options_aria_label": "उपयोगकर्ता विकल्प",
+      "settings": "सेटिंग्स",
+      "my_profile": "मेरी प्रोफ़ाइल",
+      "help_and_support": "सहायता और समर्थन",
+      "sign_out": "साइन आउट"
     },
-    "social": {
-      "facebook": "Facebook",
-      "twitter": "Twitter",
-      "instagram": "Instagram",
-      "youtube": "YouTube"
-    },
-    "newsletter": {
-      "title": "हमारे न्यूजलेटर की सदस्यता लें",
-      "placeholder": "अपना ईमेल दर्ज करें",
-      "subscribe_button": "सदस्य बनें"
-    },
-    "copyright": {
-      "brand": "ग्लोबल स्टोर",
-      "rights_reserved": "सर्वाधिकार सुरक्षित"
+    "user": {
+      "short_name": "आप",
+      "full_name": "Full Username",
+      "email": "ईमेल"
     }
   },
-
+  "Notifications": {
+    "title": "नोटिफिकेशन",
+    "notifications_blocked": "नोटिफिकेशन ब्लॉक हैं। ब्राउज़र सेटिंग से नोटिफिकेशन की अनुमति दें।",
+    "enable_notifications": "नोटिफिकेशन सक्षम करें",
+    "mark_all_read": "सब पढ़ा हुआ चिह्नित करें",
+    "notifications_disabled_warning": "To receive notifications, allow them from your browser.",
+    "delete_all_read": "सभी पढ़े नोटिफिकेशन हटाएँ",
+    "no_notifications_yet": "No notifications yet.",
+    "delete_this_notification": "यह नोटिफिकेशन हटाएँ",
+    "delete_notification_aria": "नोटिफिकेशन हटाएँ",
+    "bell_aria": "नोटिफिकेशन, {count} अपठित",
+    "notification_details_title": "नोटिफिकेशन विवरण",
+    "sender_alt": "Sender"
+  },
+  "AdminStatus": {
+    "statuses": {
+      "pending": "लंबित",
+      "processing": "प्रसंस्करण",
+      "shipped": "भेज दिया",
+      "delivered": "डिलीवर किया गया",
+      "cancelled": "Cancelled",
+      "View": "विवरण देखें"
+    }
+  },
+  "AdminStatusFilter": {
+    "filter_aria_label": "Filter by status",
+    "all_statuses": "सभी स्थितियाँ",
+    "statuses": {
+      "pending": "लंबित",
+      "processing": "प्रसंस्करण",
+      "shipped": "भेज दिया",
+      "delivered": "डिलीवर किया गया",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminUpdateStatusModal": {
+    "modal_title": "स्थिति अपडेट करें",
+    "current_status_label": "वर्तमान स्थिति",
+    "change_to_label": "Change To",
+    "cancel_button": "रद्द करें",
+    "confirm_button": "पुष्टि करें",
+    "saving_text": "Saving…",
+    "statuses": {
+      "pending": "लंबित",
+      "processing": "प्रसंस्करण",
+      "shipped": "भेज दिया",
+      "delivered": "डिलीवर किया गया",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminViewItemsModal": {
+    "modal_title": "ऑर्डर आइटम",
+    "item_count": "{count} product",
+    "unit_count": "{count} unit",
+    "column_product": "उत्पाद",
+    "column_qty": "मात्रा",
+    "column_price": "मूल्य",
+    "subtotal_label": "उप-योग"
+  },
+  "ComparisonToggle": {
+    "compare_period": "Compare Period"
+  },
+  "ExportButton": {
+    "export_csv": "CSV एक्सपोर्ट करें"
+  },
+  "EmptyState": {
+    "no_data_available": "कोई डेटा उपलब्ध नहीं",
+    "no_data_description": "No data found to display"
+  },
+  "TimeframeSelector": {
+    "last_7_days": "पिछले 7 दिन",
+    "last_30_days": "पिछले 30 दिन",
+    "last_90_days": "पिछले 90 दिन",
+    "this_year": "This Year"
+  },
+  "DataTable": {
+    "no_orders_found": "कोई ऑर्डर नहीं मिला"
+  },
+  "NotifFilter": {
+    "sort_by": "क्रमबद्ध करें",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "sort_order": "सॉर्ट ऑर्डर",
+    "high_to_low": "High to Low",
+    "low_to_high": "Low to High",
+    "sort_by_aria_label": "क्रमबद्ध करें",
+    "order_aria_label": "सॉर्ट ऑर्डर"
+  },
+  "NotifRow": {
+    "view_details": "विवरण देखें",
+    "delete": "हटाएँ",
+    "sent_at": "पर भेजा गया",
+    "opens": "Opens",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "delete_confirmation": "क्या आप वाकई यह नोटिफिकेशन हटाना चाहते हैं?",
+    "confirm": "पुष्टि करें",
+    "cancel": "रद्द करें"
+  },
+  "StatsGrid": {
+    "total_sent": "कुल भेजे गए",
+    "total_opens": "कुल ओपन",
+    "open_rate": "ओपन रेट",
+    "avg_open_rate": "Average Open Rate"
+  },
+  "NotifHistory": {
+    "tab_notifications": "Push & In-App Notifications",
+    "tab_announcements": "घोषणा पट्टी",
+    "total": "Total:",
+    "aria_label": "नोटिफिकेशन इतिहास",
+    "empty_notifications": "अभी तक कोई नोटिफिकेशन नहीं",
+    "empty_announcements": "No announcement bars yet",
+    "empty_created_items_hint": "Items you create will appear here"
+  },
+  "AdminProductBasicInfo": {
+    "section_title": "Basic Information",
+    "section_subtitle": "Name, description, and category",
+    "field_product_name": "उत्पाद का नाम",
+    "placeholder_product_name": "उदाहरण: क्लासिक सफेद शर्ट"
+  },
+  "AdminProductPricing": {
+    "section_title": "मूल्य निर्धारण और स्टॉक",
+    "section_subtitle": "Price, discount, and inventory",
+    "field_price": "मूल्य (EGP)",
+    "field_discount": "% छूट"
+  },
+  "AdminGalleryUpload": {
+    "max_files_error": "Maximum {count} images allowed",
+    "file_too_large": "File exceeds {size} MB",
+    "invalid_format": "File format not supported",
+    "drag_drop": "छवियाँ यहाँ खींचें या चुनने के लिए क्लिक करें"
+  },
+  "AdminImageUpload": {
+    "max_size_error": "File exceeds maximum {size} MB",
+    "invalid_format": "केवल JPG, PNG और WebP स्वीकार्य",
+    "drag_drop": "छवि यहाँ खींचें या चुनने के लिए क्लिक करें",
+    "remove_image": "छवि हटाएँ"
+  },
+  "AdminDeleteDialog": {
+    "close_aria_label": "Close Dialog",
+    "cancel_button": "रद्द करें",
+    "confirm_button": "हटाने की पुष्टि करें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएँ",
+    "deleting": "Deleting..."
+  },
+  "AdminCategories": {
+    "new_root_title": "New Category",
+    "title": "श्रेणियाँ",
+    "edit_title": "श्रेणी संपादित करें",
+    "loading": "लोड हो रहा है…",
+    "stats": "{root} categories · {sub} subcategories",
+    "new_category": "New Category",
+    "search_placeholder": "श्रेणियाँ खोजें…",
+    "search_aria": "श्रेणियाँ खोजें",
+    "refresh": "Refresh Categories",
+    "results_for": "{count} results for \"{query}\"",
+    "categories_count": "{count} categories",
+    "add_root": "श्रेणी जोड़ें",
+    "failed_to_load": "Failed to load categories",
+    "try_again": "फिर से प्रयास करें",
+    "no_match": "कोई मिलती श्रेणी नहीं मिली",
+    "no_categories_yet": "अभी तक कोई श्रेणी नहीं",
+    "try_different_keyword": "एक अलग कीवर्ड आज़माएँ",
+    "create_first_category": "शुरू करने के लिए अपनी पहली श्रेणी बनाएँ",
+    "hover_help_prefix": "कार्रवाइयाँ देखने के लिए श्रेणी पर होवर करें",
+    "add_category_aria": "नई श्रेणी जोड़ें",
+    "add_category": "श्रेणी जोड़ें",
+    "sub_label": "उपश्रेणी",
+    "add_sub_aria": "{name} में उपश्रेणी जोड़ें",
+    "add_sub": "उपश्रेणी जोड़ें",
+    "edit_aria": "Edit {name}",
+    "edit": "संपादित करें",
+    "delete_aria": "Delete {name}",
+    "delete": "हटाएँ",
+    "delete_category": "श्रेणी हटाएँ",
+    "delete_confirm": "क्या आप वाकई \"{name}\" हटाना चाहते हैं? इससे {count} उपश्रेणियाँ भी हट जाएँगी (यदि कोई हों)।",
+    "field_name": "श्रेणी का नाम",
+    "placeholder_example": "Example: Clothing",
+    "field_slug": "स्लग",
+    "auto_generated": "ऑटो-जनरेटेड",
+    "placeholder_slug": "slug example: clothing",
+    "field_image": "श्रेणी छवि",
+    "field_image_hint": "वैकल्पिक · स्टोर में प्रदर्शित",
+    "uploading_image": "Uploading image...",
+    "sub_categories": "उपश्रेणियाँ",
+    "optional": "वैकल्पिक",
+    "no_sub_categories": "अभी तक कोई उपश्रेणी नहीं",
+    "field_parent": "Parent Category",
+    "select_parent": "पैरेंट श्रेणी चुनें…",
+    "add": "जोड़ें",
+    "placeholder_sub_name": "Subcategory name",
+    "placeholder_sub_slug": "subcategory slug",
+    "remove_sub_aria": "Remove subcategory",
+    "editable": "Editable",
+    "leave_empty_root": "रूट श्रेणी बनाने के लिए खाली छोड़ दें",
+    "no_parent_root": "कोई पैरेंट नहीं (रूट श्रेणी)",
+    "cancel": "रद्द करें",
+    "saving": "Saving...",
+    "save_changes": "परिवर्तन सहेजें",
+    "create": "बनाएँ"
+  },
+  "AdminStatsCards": {
+    "vs_previous_period": "vs Previous Period"
+  },
+  "AdminInsightsPanel": {
+    "default_title": "मुख्य अंतर्दृष्टि"
+  },
+  "AdminCustomTooltip": {
+    "value_label": "Value"
+  },
+  "AdminNotifRow": {
+    "view_details": "विवरण देखें",
+    "delete": "हटाएँ",
+    "customize": "अनुकूलित करें",
+    "preview_link": "पूर्वावलोकन लिंक",
+    "mark_read": "पढ़ा हुआ चिह्नित करें",
+    "mark_unread": "अपठित चिह्नित करें"
+  },
+  "AdminNotifComposer": {
+    "title": "नोटिफिकेशन कंपोज़र",
+    "aria_label": "Create Notification",
+    "select_recipients": "प्राप्तकर्ता चुनें",
+    "notification_type": "चैनल भेजें",
+    "push_notification": "पुश नोटिफिकेशन",
+    "in_app": "इन-ऐप",
+    "announcement_bar": "घोषणा पट्टी",
+    "notification_title": "नोटिफिकेशन शीर्षक",
+    "notification_description": "Notification Description",
+    "preview_button": "पूर्वावलोकन",
+    "send_button": "अभी भेजें",
+    "schedule_button": "Schedule",
+    "subtitle": "Send notifications to all users instantly",
+    "sending_as": "{role} के रूप में भेजा जा रहा है",
+    "you": "आप",
+    "mobile_desktop": "मोबाइल और डेस्कटॉप",
+    "in_app_hint": "घंटी आइकन · वेब इंटरफ़ेस",
+    "announcement_bar_hint": "शीर्ष साइट बैनर",
+    "notification_sent_success": "Notification sent to all users!",
+    "notification_sent_error": "Failed to send. Try again.",
+    "title_placeholder": "Example: 🔥 Flash Deal — 24 Hours Only!",
+    "description_placeholder": "नोटिफिकेशन संदेश लिखें। इसे स्पष्ट और एक्शन-ओरिएंटेड बनाएँ।",
+    "push_only": "केवल पुश",
+    "action_url": "एक्शन लिंक",
+    "push_only_hint": "— Push notification only",
+    "notification_image": "नोटिफिकेशन छवि",
+    "uploading": "Uploading...",
+    "uploaded": "अपलोड किया गया",
+    "drop_to_upload": "अपलोड करने के लिए छोड़ें",
+    "drag_click_to_choose": "ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें",
+    "file_types_hint": "PNG, JPG, WEBP · Max 5MB",
+    "announcement_bar_only": "Announcement bar only",
+    "bar_link_label": "बार लिंक",
+    "bar_background_color": "Bar Background Color",
+    "push_url_placeholder": "https://yourapp.com/offer",
+    "push_image_preview_alt": "Notification image preview",
+    "pick_color": "रंग चुनें",
+    "close": "बंद करें",
+    "bar_preview": "बार पूर्वावलोकन",
+    "announcement_placeholder": "Your announcement text will appear here…",
+    "sending": "Sending",
+    "broadcast_to_all_users": "सभी उपयोगकर्ताओं को प्रसारित करें",
+    "will_be_sent_to_users": "तुरंत ~{count} उपयोगकर्ताओं को भेजा जाएगा"
+  },
+  "AdminPreviews": {
+    "phone_preview": "फ़ोन पूर्वावलोकन",
+    "in_app_preview": "इन-ऐप पूर्वावलोकन",
+    "announcement_preview": "घोषणा पट्टी पूर्वावलोकन",
+    "now": "अभी",
+    "notification_title_placeholder": "नोटिफिकेशन शीर्षक",
+    "message_placeholder": "आपका संदेश यहाँ दिखाई देगा।",
+    "notifications_label": "नोटिफिकेशन",
+    "new_count": "{count} New",
+    "no_other_notifications": "कोई अन्य नोटिफिकेशन नहीं"
+  },
+  "AdminAnnouncementBarPreview": {
+    "view_offer": "ऑफर देखें",
+    "aria_label": "Announcement bar preview",
+    "live_preview": "लाइव पूर्वावलोकन · घोषणा पट्टी"
+  },
+  "AdminChatPane": {
+    "conversation": "बातचीत",
+    "ticket_details": "टिकट विवरण",
+    "message_input": "अपना संदेश टाइप करें...",
+    "send_message": "भेजें",
+    "status_label": "Status:",
+    "priority_label": "Priority:"
+  },
+  "AdminTicketList": {
+    "search_tickets": "टिकट खोजें",
+    "no_tickets": "कोई टिकट नहीं",
+    "unread": "नया"
+  },
+  "AdminUsersFilter": {
+    "search_users": "उपयोगकर्ता खोजें",
+    "filter_role": "भूमिका के अनुसार",
+    "filter_status": "स्थिति के अनुसार",
+    "items_per_page": "प्रति पेज आइटम",
+    "all_roles": "All Roles",
+    "all_statuses": "सभी स्थितियाँ"
+  },
+  "AdminUsersStats": {
+    "total_users": "कुल उपयोगकर्ता",
+    "active_users": "सक्रिय उपयोगकर्ता",
+    "banned_users": "Banned Users"
+  },
+  "AdminUpdataStatusModal": {
+    "title": "Update User Status",
+    "current_status": "वर्तमान स्थिति:",
+    "new_status": "New Status:",
+    "cancel_button": "रद्द करें",
+    "save_button": "सहेजें"
+  },
+  "AdminChartCard": {
+    "view_full_chart": "पूर्ण चार्ट देखें",
+    "loading": "लोड हो रहा है..."
+  },
+  "AdminStatCard": {
+    "view_analytics": "एनालिटिक्स देखें"
+  },
+  "AdminGeoMap": {
+    "sales_by_region": "क्षेत्र के अनुसार बिक्री",
+    "total_revenue": "कुल राजस्व"
+  },
+  "AdminAvatar": {
+    "user_avatar": "उपयोगकर्ता अवतार",
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन"
+  },
+  "AdminBadge": {
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "pending": "लंबित",
+    "completed": "पूर्ण",
+    "admin": "एडमिन",
+    "user": "उपयोगकर्ता",
+    "moderator": "मॉडरेटर",
+    "high": "उच्च",
+    "medium": "मध्यम",
+    "low": "कम"
+  },
+  "AdminButton": {
+    "loading": "Processing...",
+    "submit": "जमा करें",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "delete": "हटाएँ",
+    "edit": "संपादित करें"
+  },
+  "AdminModal": {
+    "close": "बंद करें"
+  },
+  "AdminDataTable": {
+    "search": "खोजें...",
+    "no_results": "कोई परिणाम नहीं",
+    "sort_ascending": "आरोही क्रम",
+    "sort_descending": "अवरोही क्रम",
+    "sort_toggle": "Toggle Sort",
+    "Status": "स्थिति"
+  },
+  "AdminShell": {
+    "mobile_menu": "Navigation Menu"
+  },
+  "CardNav": {
+    "cart": "कार्ट",
+    "delete_item": "Delete Item",
+    "back": "वापस",
+    "size": "आकार",
+    "total_price": "Total Price",
+    "checkout": "चेकआउट"
+  },
+  "MainContent": {
+    "filters": "फ़िल्टर",
+    "products": "उत्पाद",
+    "no_products": "कोई उत्पाद नहीं"
+  },
+  "Pagination": {
+    "previous": "पिछला",
+    "next": "अगला",
+    "page": "पेज",
+    "of": "of",
+    "results": "कुल",
+    "showing": "दिखा रहा है"
+  },
+  "BellItem": {
+    "delete": "हटाएँ",
+    "mark_as_read": "पढ़ा हुआ चिह्नित करें",
+    "mark_as_unread": "अपठित चिह्नित करें"
+  },
+  "BellOnceItem": {
+    "view_more": "और देखें",
+    "close": "बंद करें",
+    "date": "तारीख"
+  },
+  "DeleteAllNotifButton": {
+    "delete_all": "सभी हटाएँ",
+    "delete_all_notifications": "सभी नोटिफिकेशन हटाएँ"
+  },
+  "HeaderBell": {
+    "notifications": "नोटिफिकेशन",
+    "mark_all_as_read": "सब पढ़ा हुआ चिह्नित करें"
+  },
+  "Cart": {
+    "shopping_cart": "शॉपिंग कार्ट",
+    "empty_cart": "Cart is empty",
+    "continue_shopping": "खरीदारी जारी रखें",
+    "checkout": "चेकआउट",
+    "order_summary": "ऑर्डर सारांश",
+    "subtotal": "उप-योग",
+    "shipping": "शिपिंग",
+    "total": "कुल",
+    "items": "आइटम",
+    "view_cart": "कार्ट देखें",
+    "view_all": "सभी देखें ({count})",
+    "items_label": "कार्ट आइटम",
+    "remove": "उत्पाद हटाएँ"
+  },
+  "CartItem": {
+    "size": "आकार",
+    "price": "मूल्य",
+    "quantity": "मात्रा",
+    "remove": "हटाएँ",
+    "delete": "हटाएँ",
+    "delete_aria": "Delete {product}",
+    "quantity_aria": "Product quantity",
+    "decrease_qty": "Decrease quantity",
+    "increase_qty": "Increase quantity",
+    "total_label": "कुल"
+  },
+  "Applyrequest": {
+    "title": "ऑर्डर सारांश",
+    "subtotal": "उप-योग",
+    "shipping": "शिपिंग",
+    "total": "कुल",
+    "checkout": "चेकआउट",
+    "apply_request": "अनुरोध करें",
+    "order_summary": "ऑर्डर सारांश",
+    "items_count": "{count} item",
+    "show_more": "{count} और आइटम दिखाएँ",
+    "promo_label": "डिस्काउंट कोड",
+    "promo_placeholder": "कोड दर्ज करें",
+    "apply_button": "लागू करें",
+    "coupon_success": "कोड {code} लागू! 40% छूट मिली",
+    "coupon_error": "अमान्य कोड",
+    "discount_label": "छूट",
+    "shipping_label": "शिपिंग",
+    "grand_total_label": "कुल",
+    "checkout_button": "Complete Order",
+    "vat_note": "VAT सहित",
+    "promo_aria": "Discount code field",
+    "price_details_aria": "Price details",
+    "grand_total_aria": "Grand total summary",
+    "cart_items_aria": "Cart items",
+    "promo_code": "डिस्काउंट कोड",
+    "apply_code": "लागू करें",
+    "discount_applied": "छूट लागू!",
+    "shipping_fee": "शिपिंग शुल्क",
+    "proceed_checkout": "Proceed to Checkout",
+    "continue_shopping": "खरीदारी जारी रखें",
+    "trust": {
+      "safe_payment": "सुरक्षित भुगतान",
+      "quality": "Quality Guarantee",
+      "free_returns": "मुफ्त रिटर्न"
+    }
+  },
+  "trust": {
+    "safe_payment": "सुरक्षित भुगतान",
+    "quality": "Quality Guarantee",
+    "free_returns": "मुफ्त रिटर्न"
+  },
+  "CartHeader": {
+    "products": "उत्पाद",
+    "cart_header": "कार्ट हेडर",
+    "title": "शॉपिंग कार्ट",
+    "products_in_cart": "{count} products in your cart"
+  },
+  "ChatWindow": {
+    "messages": "संदेश",
+    "type_message": "अपना संदेश टाइप करें...",
+    "send": "भेजें",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "बंद करें"
+  },
+  "MessageItem": {
+    "delivered": "डिलीवर किया गया",
+    "read": "Read",
+    "sending": "भेजा जा रहा है..."
+  },
+  "Carousel": {
+    "previous": "पिछला",
+    "next": "अगला",
+    "slide": "Slide"
+  },
+  "CategoryGrid": {
+    "categories": "श्रेणियाँ",
+    "shop_category": "श्रेणी के अनुसार खरीदें",
+    "shop": "दुकान",
+    "no_categories": "कोई श्रेणी नहीं",
+    "CATEGORY": "श्रेणियाँ",
+    "ctgDescribtion": "हमारी नवीनतम श्रेणियाँ एक्सप्लोर करें",
+    "men": "Men",
+    "kids": "बच्चे",
+    "Accessories": "एसेसरीज़"
+  },
+  "ProductCardHome": {
+    "add_to_cart": "कार्ट में जोड़ें",
+    "quick_view": "त्वरित दृश्य",
+    "out_of_stock": "स्टॉक में नहीं",
+    "price": "मूल्य"
+  },
+  "ShowcaseSection": {
+    "featured": "Featured",
+    "shop_now": "अभी खरीदें",
+    "view_all": "सभी देखें",
+    "explore_all": "सब कुछ एक्सप्लोर करें",
+    "Men's_Collection": "पुरुष",
+    "Little_Legends": "बच्चे",
+    "men-pants": "नवीनतम फैशन ट्रेंड्स",
+    "Accessories": "एसेसरीज़",
+    "Jackets": "Jackets",
+    "men_describe": "आपके लिए",
+    "pants_describe": "नवीनतम फैशन ट्रेंड्स",
+    "women_describe": "नवीनतम एक्सेसरीज़",
+    "Accessories_describe": "अपना स्टाइल पूरा करें",
+    "jackets_describe": "ठंडे मौसम के लिए",
+    "jacket_describe": "ठंडे मौसम के लिए"
+  },
+  "ZoomOverlay": {
+    "aria_zoom": "Zoom — {name}",
+    "zoom_in": "ज़ूम इन",
+    "zoom_out": "ज़ूम आउट",
+    "rotate": "Rotate",
+    "reset": "रीसेट",
+    "close": "बंद करें",
+    "hint": "Pinch or scroll to zoom · Drag to pan"
+  },
+  "CheckoutClient": {
+    "checkout": "चेकआउट",
+    "step": "Step",
+    "cart": "कार्ट",
+    "address": "पता",
+    "payment": "भुगतान",
+    "confirmation": "Confirmation"
+  },
+  "CheckoutStepper": {
+    "step_cart": "कार्ट",
+    "step_address": "पता",
+    "step_payment": "भुगतान",
+    "step_confirmation": "Confirmation",
+    "completed": "पूर्ण"
+  },
+  "SocialLogin": {
+    "sign_up_with": "के साथ साइन अप करें",
+    "facebook": "Facebook",
+    "google": "Google",
+    "github": "GitHub",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "PDPDetails": {
+    "product_details": "उत्पाद विवरण",
+    "description": "विवरण",
+    "specifications": "विशेषताएँ",
+    "reviews": "समीक्षाएँ",
+    "add_to_cart": "कार्ट में जोड़ें",
+    "add_to_wishlist": "विशलिस्ट में जोड़ें",
+    "size": "आकार",
+    "quantity": "मात्रा",
+    "in_stock": "स्टॉक में",
+    "out_of_stock": "स्टॉक में नहीं",
+    "save_percent": "{percent}% बचाएँ",
+    "color_label": "रंग:",
+    "size_error": "कृपया आकार चुनें",
+    "size_label": "आकार:",
+    "select_size": "आकार चुनें",
+    "size_guide": "आकार गाइड",
+    "guarantees": {
+      "free_returns": "मुफ्त रिटर्न",
+      "secure_checkout": "सुरक्षित चेकआउट",
+      "fast_delivery": "तेज़ डिलीवरी"
+    }
+  },
+  "PDPGallery": {
+    "product_gallery": "उत्पाद गैलरी",
+    "previous": "पिछला",
+    "next": "अगला",
+    "thumbnail": "थंबनेल",
+    "zoom": "ज़ूम"
+  },
+  "PLPClient": {
+    "products": "उत्पाद",
+    "sort": "सॉर्ट",
+    "filter": "फ़िल्टर",
+    "no_products": "कोई उत्पाद नहीं",
+    "price_low_to_high": "मूल्य: निम्न से उच्च",
+    "price_high_to_low": "मूल्य: उच्च से निम्न",
+    "newest": "नवीनतम",
+    "bestseller": "सबसे ज़्यादा बिकने वाला"
+  },
+  "DepartmentsProductCard": {
+    "view": "देखें",
+    "add_to_cart": "कार्ट में जोड़ें",
+    "add_to_wishlist": "विशलिस्ट में जोड़ें",
+    "rating": "रेटिंग",
+    "price": "मूल्य",
+    "in_stock": "स्टॉक में"
+  },
+  "ProductDiffrentActions": {
+    "add_to_cart": "कार्ट में जोड़ें",
+    "add_to_wishlist": "विशलिस्ट में जोड़ें",
+    "share": "साझा करें",
+    "quantity": "मात्रा",
+    "size": "आकार",
+    "decrease": "मात्रा घटाएँ",
+    "increase": "मात्रा बढ़ाएँ"
+  },
+  "ProductActions": {
+    "quantity": "मात्रा",
+    "adding": "जोड़ा जा रहा है...",
+    "added": "✓ Added",
+    "add_to_cart": "कार्ट में जोड़ें",
+    "share_aria": "उत्पाद साझा करें"
+  },
+  "ReviewSection": {
+    "reviews": "समीक्षाएँ",
+    "header": {
+      "title": "Customer Reviews",
+      "verified_purchases": "Verified Purchases"
+    },
+    "rating_distribution": "रेटिंग वितरण",
+    "star_label": "{count} stars",
+    "write_review": "समीक्षा लिखें",
+    "visual_breakdown": "Visual Breakdown",
+    "rating": "रेटिंग",
+    "review": "Review",
+    "verified_buyer": "Verified Buyer",
+    "helpful": "Helpful",
+    "not_helpful": "Not Helpful",
+    "submit": "जमा करें",
+    "loading_reviews": "समीक्षाएँ लोड हो रही हैं...",
+    "no_reviews_yet": "No reviews yet",
+    "be_first": "अपनी राय साझा करने वाले पहले व्यक्ति बनें!",
+    "loading_more": "और समीक्षाएँ लोड हो रही हैं...",
+    "all_reviews_loaded": "All reviews loaded ({count})",
+    "customer_recommended": "ग्राहक सिफारिश दर",
+    "out_of": "out of",
+    "customers": "customers",
+    "anonymous": "अनाम",
+    "just_posted": "Just Posted",
+    "mark_helpful_aria": "उपयोगी के रूप में चिह्नित करें{count, plural, =0 {} one{ (1)} other{ ({count})}}",
+    "form": {
+      "title": "समीक्षा जोड़ें",
+      "your_rating": "Your Rating",
+      "your_review": "Your Review",
+      "placeholder": "अपना अनुभव यहाँ लिखें...",
+      "min_chars": "Minimum 10 characters",
+      "submitting": "Submitting...",
+      "submit": "जमा करें",
+      "cancel": "रद्द करें"
+    }
+  },
+  "DepartmentsStarRating": {
+    "rating": "रेटिंग",
+    "stars": "Stars",
+    "rate": "Rate",
+    "out_of_5": "out of 5"
+  },
+  "ProfileContent": {
+    "loading": "लोड हो रहा है...",
+    "profile": "प्रोफ़ाइल",
+    "user_profile": "उपयोगकर्ता प्रोफ़ाइल"
+  },
+  "ProfileSkeleton": {
+    "loading": "लोड हो रहा है..."
+  },
+  "profile": {
+    "pageTitle": "प्रोफ़ाइल",
+    "pageDescription": "Browse your personal information, orders, favorites, and settings.",
+    "admin": {
+      "title": "User Management Panel",
+      "notification": {
+        "title": "Send Notification to User",
+        "titleLabel": "नोटिफिकेशन शीर्षक",
+        "titlePlaceholder": "Enter notification title...",
+        "messageLabel": "Notification Message",
+        "messagePlaceholder": "Enter notification message...",
+        "sending": "भेजा जा रहा है…",
+        "send": "भेजें"
+      },
+      "insights": {
+        "title": "Statistics",
+        "lifetimeValue": "ग्राहक जीवनकाल मूल्य",
+        "totalOrders": "कुल ऑर्डर",
+        "avgOrderValue": "औसत ऑर्डर मूल्य",
+        "favorites": "पसंदीदा"
+      },
+      "statusToggle": {
+        "confirm": "क्या आप वाकई उपयोगकर्ता की स्थिति {status} में बदलना चाहते हैं?",
+        "title": "स्थिति टॉगल करें",
+        "current": "वर्तमान स्थिति",
+        "loading": "Updating…",
+        "ban": "प्रतिबंध",
+        "activate": "सक्रिय करें"
+      }
+    },
+    "miniCart": {
+      "title": "Mini Cart",
+      "empty": "Empty",
+      "noItems": "No items in cart",
+      "shopNow": "अभी खरीदें",
+      "items": "आइटम",
+      "viewAll": "सभी देखें",
+      "subtotal": "उप-योग",
+      "viewCart": "कार्ट देखें"
+    },
+    "favorites": {
+      "title": "पसंदीदा",
+      "noItems": "कोई पसंदीदा आइटम नहीं",
+      "startBrowsing": "Start browsing products",
+      "browseProducts": "उत्पाद ब्राउज़ करें",
+      "viewAll": "सभी देखें",
+      "items": "आइटम"
+    },
+    "orders": {
+      "title": "ऑर्डर",
+      "noOrders": "No orders",
+      "startShopping": "खरीदारी शुरू करें",
+      "shopNow": "अभी खरीदें",
+      "viewAll": "सभी देखें",
+      "viewDetails": "विवरण देखें",
+      "recentOrders": "Recent Orders",
+      "viewAllOrders": "सभी ऑर्डर देखें"
+    }
+  },
+  "CalendarClient": {
+    "calendar": "कैलेंडर",
+    "add_event": "ईवेंट जोड़ें",
+    "event": "Event",
+    "date": "तारीख",
+    "time": "समय",
+    "title": "शीर्षक",
+    "description": "विवरण",
+    "save": "सहेजें",
+    "delete": "हटाएँ",
+    "close": "बंद करें",
+    "edit": "संपादित करें"
+  },
+  "OrdersClient": {
+    "orders": "ऑर्डर",
+    "order_id": "ऑर्डर आईडी",
+    "customer": "ग्राहक",
+    "date": "तारीख",
+    "status": "स्थिति",
+    "total": "कुल",
+    "actions": "कार्रवाइयाँ",
+    "view": "देखें",
+    "download": "डाउनलोड करें",
+    "filter": "फ़िल्टर",
+    "search": "खोजें",
+    "no_orders": "कोई ऑर्डर नहीं",
+    "status_pending": "लंबित",
+    "status_processing": "प्रसंस्करण",
+    "status_shipped": "भेज दिया",
+    "status_delivered": "डिलीवर किया गया",
+    "status_cancelled": "Cancelled"
+  },
+  "Orders": {
+    "title": "मेरे ऑर्डर",
+    "orders": "ऑर्डर",
+    "empty_title": "अभी तक कोई ऑर्डर नहीं",
+    "empty_subtitle": "Start browsing the store and add products to your cart.",
+    "browse_products": "अभी खरीदें",
+    "labels": {
+      "order_number": "ऑर्डर नंबर",
+      "date": "तारीख",
+      "total": "कुल"
+    },
+    "status": {
+      "pending_payment": "लंबित",
+      "processing": "प्रसंस्करण",
+      "shipped": "भेज दिया",
+      "delivered": "डिलीवर किया गया",
+      "cancelled": "Cancelled"
+    },
+    "cancel": {
+      "success": "Order cancelled successfully",
+      "error": "Failed to cancel order",
+      "loading": "Cancelling...",
+      "button": "ऑर्डर रद्द करें"
+    }
+  },
+  "SupportClient": {
+    "support": "सहायता",
+    "tickets": "टिकट",
+    "messages": "संदेश",
+    "chat": "चैट",
+    "ticket_id": "टिकट आईडी",
+    "subject": "Subject",
+    "status": "स्थिति",
+    "priority": "प्राथमिकता",
+    "created": "Created",
+    "type_message": "अपना संदेश टाइप करें...",
+    "send": "भेजें",
+    "no_tickets": "कोई टिकट नहीं",
+    "no_messages": "कोई संदेश नहीं"
+  },
+  "UsersClient": {
+    "users": "उपयोगकर्ता",
+    "user_id": "उपयोगकर्ता ID",
+    "name": "नाम",
+    "email": "ईमेल",
+    "role": "भूमिका",
+    "status": "स्थिति",
+    "actions": "कार्रवाइयाँ",
+    "view": "देखें",
+    "edit": "संपादित करें",
+    "delete": "हटाएँ",
+    "filter": "फ़िल्टर",
+    "search": "खोजें",
+    "no_users": "कोई उपयोगकर्ता नहीं",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "admin": "एडमिन",
+    "user": "उपयोगकर्ता"
+  },
+  "AdminDashboard": {
+    "dashboard": "डैशबोर्ड",
+    "welcome": "स्वागत",
+    "overview": "अवलोकन",
+    "revenue": "राजस्व",
+    "orders": "ऑर्डर",
+    "users": "उपयोगकर्ता",
+    "products": "उत्पाद",
+    "total_revenue": "कुल राजस्व",
+    "total_orders": "कुल ऑर्डर",
+    "total_users": "कुल उपयोगकर्ता",
+    "total_products": "कुल उत्पाद",
+    "growth": "वृद्धि",
+    "last_30_days": "पिछले 30 दिन"
+  },
+  "AdminDashboardClient": {
+    "title": "डैशबोर्ड",
+    "welcome": "वापसी पर स्वागत है! यहाँ आज आपके स्टोर में क्या हो रहा है।",
+    "live": "लाइव"
+  },
+  "AdminLatestOrders": {
+    "title": "Latest Orders",
+    "order_id": "ऑर्डर आईडी",
+    "customer": "ग्राहक",
+    "amount": "राशि",
+    "status": "स्थिति",
+    "date": "तारीख",
+    "status_pending_payment": "Pending Payment",
+    "status_processing": "प्रसंस्करण",
+    "status_shipped": "भेज दिया",
+    "status_delivered": "डिलीवर किया गया",
+    "status_cancelled": "Cancelled",
+    "status_refunded": "Refunded"
+  },
+  "AdminLatestUsers": {
+    "title": "नए उपयोगकर्ता",
+    "user": "उपयोगकर्ता",
+    "email": "ईमेल",
+    "status": "स्थिति",
+    "joined": "Joined",
+    "status_active": "सक्रिय",
+    "status_inactive": "निष्क्रिय"
+  },
+  "AdminGeography": {
+    "title": "वैश्विक पहुँच",
+    "loading_map": "Loading map...",
+    "home_page": "होम पेज",
+    "product_page": "Product Page",
+    "about_page": "पेज के बारे में",
+    "traffic_distribution": "ट्रैफिक वितरण",
+    "global_reach": "वैश्विक पहुँच"
+  },
+  "AdminStats": {
+    "total_revenue": "कुल राजस्व",
+    "total_orders": "कुल ऑर्डर",
+    "user_growth": "उपयोगकर्ता वृद्धि",
+    "total_visits": "कुल विज़िट",
+    "vs_last_week": "vs Last Week"
+  },
+  "AdminChartsUI": {
+    "profit_volatility_analysis": "लाभ अस्थिरता विश्लेषण",
+    "peak": "चरम",
+    "low": "कम",
+    "revenue_vs_growth": "राजस्व बनाम वृद्धि दर",
+    "revenue": "राजस्व",
+    "growth_percent": "% वृद्धि",
+    "cumulative_user_growth": "संचयी उपयोगकर्ता वृद्धि",
+    "users": "उपयोगकर्ता",
+    "orders_multi_view_analysis": "ऑर्डर मल्टी-व्यू विश्लेषण",
+    "orders": "ऑर्डर",
+    "traffic_distribution": "ट्रैफिक वितरण",
+    "track_pages": "Track pages attracting most visitors"
+  },
+  "AdminChartsLabels": {
+    "profit": "लाभ",
+    "average": "औसत"
+  },
+  "NotificationsPage": {
+    "notifications": "नोटिफिकेशन",
+    "send_notification": "नोटिफिकेशन भेजें",
+    "notification_title": "नोटिफिकेशन शीर्षक",
+    "notificatio\n_message": "Notification Message",
+    "recipients": "प्राप्तकर्ता",
+    "send": "भेजें",
+    "success": "सफलतापूर्वक भेजा गया",
+    "error": "Send Error",
+    "pending": "लंबित",
+    "sent": "भेजा गया",
+    "failed": "Failed"
+  },
+  "ChatModal": {
+    "contact_admin": "Contact Admin",
+    "type_message": "अपना संदेश टाइप करें...",
+    "send": "भेजें",
+    "close": "बंद करें",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन",
+    "new_message": "New Message",
+    "typing": "Typing...",
+    "sent": "भेजा गया",
+    "delivered": "डिलीवर किया गया",
+    "read": "Read"
+  },
+  "ChatWidget": {
+    "chatbot": {
+      "ariaLabel": "AI सहायक",
+      "botName": "ZFashin-helper",
+      "status": "● Instant Reply •",
+      "clearChat": "चैट साफ़ करें",
+      "close": "बंद करें",
+      "quickQuestionsLabel": "Common Questions",
+      "loading": "लोड हो रहा है",
+      "olderMessages": "Older Messages",
+      "typing": "Typing reply",
+      "emptyStateTitle": "Hello! How can I help you? 👋",
+      "emptyStateSubtitle": "ऊपर से एक प्रश्न चुनें या अपना संदेश टाइप करें",
+      "inputPlaceholder": "अपना संदेश टाइप करें...",
+      "inputLabel": "संदेश इनपुट फ़ील्ड",
+      "sendMessage": "संदेश भेजें",
+      "poweredBy": "AI द्वारा संचालित"
+    },
+    "quickQuestions": {
+      "q1": "स्टोर डिजाइनर के बारे में और संपर्क कैसे करें",
+      "q2": "ZFashion वेबसाइट क्या है",
+      "q3": "इस स्टोर को क्या खास बनाता है"
+    },
+    "menu": {
+      "ariaLabel": "संपर्क विकल्प",
+      "unreadMessages": "{{count}} unread messages",
+      "technicalSupport": {
+        "title": "तकनीकी सहायता",
+        "subtitle": "सहायता टीम से चैट करें"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "सीधे हमें संदेश भेजें"
+      },
+      "hotline": {
+        "title": "Hotline",
+        "number": "01080761700"
+      },
+      "aiAssistant": {
+        "title": "AI सहायक",
+        "subtitle": "Instant Reply • AI"
+      }
+    },
+    "fab": {
+      "close": "मेनू बंद करें",
+      "open": "संपर्क विकल्प खोलें"
+    },
+    "errors": {
+      "loadMessages": "Failed to load messages",
+      "connectionFailed": "कनेक्शन विफल"
+    }
+  },
+  "UserColumns": {
+    "user": "उपयोगकर्ता",
+    "email": "ईमेल",
+    "role": "भूमिका",
+    "status": "स्थिति",
+    "joined": "Joined",
+    "actions": "कार्रवाइयाँ",
+    "admin": "एडमिन",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "banned": "प्रतिबंधित"
+  },
   "Admin": {
     "dashboard": "डैशबोर्ड",
     "orders": "ऑर्डर",
     "products": "उत्पाद",
     "users": "उपयोगकर्ता",
-    "support": "समर्थन",
-    "notifications": "सूचनाएं",
-    "analytics": "विश्लेषण",
+    "support": "सहायता",
+    "notifications": "नोटिफिकेशन",
+    "analytics": "एनालिटिक्स",
     "calendar": "कैलेंडर",
-    "charts": "चार्ट",
-    "logout": "लॉगआउट",
+    "charts": "Charts",
+    "logout": "लॉग आउट",
     "settings": "सेटिंग्स",
     "profile": "प्रोफ़ाइल"
   },
-
   "AdminOrders": {
+    "Orders": "ऑर्डर",
     "title": "ऑर्डर",
-    "order_id": "ऑर्डर ID",
+    "order_id": "ऑर्डर आईडी",
     "customer": "ग्राहक",
     "total": "कुल",
     "status": "स्थिति",
     "date": "तारीख",
     "view": "देखें",
     "edit": "संपादित करें",
-    "delete": "हटाएं",
+    "delete": "हटाएँ",
     "pending": "लंबित",
-    "confirmed": "पुष्टि की गई",
-    "shipped": "भेज दिया गया",
+    "confirmed": "Confirmed",
+    "shipped": "भेज दिया",
     "delivered": "डिलीवर किया गया",
-    "cancelled": "रद्द किया गया"
+    "cancelled": "Cancelled",
+    "confirmed_revenue": "Confirmed Revenue"
   },
-
   "AdminProducts": {
     "title": "उत्पाद",
     "add_product": "उत्पाद जोड़ें",
     "edit_product": "उत्पाद संपादित करें",
-    "delete_product": "उत्पाद हटाएं",
-    "categories": "श्रेणियां",
+    "delete_product": "उत्पाद हटाएँ",
+    "categories": "श्रेणियाँ",
     "add_category": "श्रेणी जोड़ें",
-    "price": "कीमत",
+    "price": "मूल्य",
     "stock": "स्टॉक",
     "name": "नाम",
     "description": "विवरण",
     "image": "छवि",
-    "gallery": "गैलरी"
+    "gallery": "गैलरी",
+    "filters": "फ़िल्टर",
+    "reset_all": "सब रीसेट करें",
+    "category": "श्रेणी",
+    "all_categories": "सभी श्रेणियाँ",
+    "price_range": "मूल्य सीमा (EGP)",
+    "min": "Min",
+    "max": "Max",
+    "gender": "लिंग",
+    "gender_male": "पुरुष",
+    "gender_female": "महिलाएँ",
+    "gender_kids": "बच्चे",
+    "gender_unisex": "यूनिसेक्स",
+    "sizes": "आकार",
+    "size_small": "S",
+    "size_medium": "M",
+    "size_large": "L",
+    "size_xlarge": "XL",
+    "filters_active": "Applied: {count}",
+    "loading": "लोड हो रहा है…",
+    "products_found": "{count} products found",
+    "search_placeholder": "उत्पाद खोजें…",
+    "no_products_found": "कोई उत्पाद नहीं मिला",
+    "try_adjust_filters": "फ़िल्टर समायोजित करने का प्रयास करें",
+    "create_first_product": "अपना पहला उत्पाद बनाएँ",
+    "clear_filters": "Clear Filters",
+    "failed_to_load": "उत्पाद लोड करने में विफल",
+    "try_again": "फिर से प्रयास करें",
+    "active_label": "सक्रिय:",
+    "min_label": "न्यूनतम £",
+    "max_label": "Max £",
+    "col_product": "उत्पाद",
+    "col_category": "श्रेणी",
+    "col_price": "मूल्य",
+    "col_stock": "स्टॉक",
+    "col_sizes": "आकार",
+    "col_rating": "रेटिंग",
+    "col_actions": "कार्रवाइयाँ",
+    "discount_off": "{discount}% Off",
+    "in_stock": "स्टॉक में",
+    "out_of_stock": "स्टॉक में नहीं",
+    "units": "unit/units",
+    "delete_confirm": "क्या आप वाकई \"{name}\" हटाना चाहते हैं? इस क्रिया को वापस नहीं लिया जा सकता।"
   },
-
+  "AdminProductForm": {
+    "edit_title": "उत्पाद संपादित करें",
+    "new_title": "New Product",
+    "editing": "संपादन: {name}",
+    "fill_in_details": "उत्पाद विवरण भरें",
+    "main_image": "Main Image",
+    "current_image_shown": "वर्तमान छवि दिखाई गई",
+    "required": "Required",
+    "gallery": "गैलरी",
+    "gallery_count": "{count} / 8 images",
+    "variants": "Variants",
+    "gender": "लिंग",
+    "sizes": "आकार",
+    "cancel": "रद्द करें",
+    "save_changes": "परिवर्तन सहेजें",
+    "create_product": "उत्पाद बनाएँ",
+    "uploading_main": "Uploading main image…",
+    "uploading_gallery": "Uploading {count} file(s)…",
+    "upload_failed": "Image upload failed. Try again."
+  },
   "AdminUsers": {
     "title": "उपयोगकर्ता",
     "user_id": "उपयोगकर्ता ID",
@@ -340,52 +1562,77 @@
     "name": "नाम",
     "role": "भूमिका",
     "status": "स्थिति",
-    "joined": "शामिल हुए",
+    "joined": "Joined",
     "edit": "संपादित करें",
-    "delete": "हटाएं",
-    "admin": "प्रशासक",
+    "delete": "हटाएँ",
+    "admin": "एडमिन",
     "user": "उपयोगकर्ता",
     "moderator": "मॉडरेटर",
     "active": "सक्रिय",
     "inactive": "निष्क्रिय",
     "banned": "प्रतिबंधित"
   },
-
   "AdminSupport": {
-    "title": "समर्थन टिकट",
-    "ticket_id": "टिकट ID",
-    "subject": "विषय",
+    "title": "सहायता टिकट",
+    "ticket_id": "टिकट आईडी",
+    "subject": "Subject",
     "customer": "ग्राहक",
     "status": "स्थिति",
     "priority": "प्राथमिकता",
-    "created": "बनाया गया",
+    "created": "Created",
     "open": "खुला",
     "in_progress": "प्रगति में",
-    "resolved": "समाधान किया गया",
+    "resolved": "हल किया",
     "closed": "बंद",
     "high": "उच्च",
     "medium": "मध्यम",
-    "low": "निम्न",
-    "reply": "जवाब",
-    "close_ticket": "टिकट बंद करें"
+    "low": "कम",
+    "reply": "उत्तर दें",
+    "close_ticket": "टिकट बंद करें",
+    "select_conversation": "Select Conversation",
+    "choose_ticket_from_left": "बातचीत देखने के लिए बाएँ पैनल से एक सहायता टिकट चुनें।",
+    "email_aria": "Email {name}",
+    "more_options": "और विकल्प",
+    "chat_messages_aria": "चैट संदेश",
+    "conversation_separator": "बातचीत",
+    "ticket_list_panel_aria": "टिकट सूची पैनल",
+    "support_tickets_list_aria": "Support Tickets List",
+    "tickets": "टिकट",
+    "search_placeholder": "टिकट या संदेश खोजें...",
+    "search_aria": "टिकट खोजें",
+    "clear_search": "खोज साफ़ करें",
+    "filter_by_status_aria": "स्थिति के अनुसार फ़िल्टर करें",
+    "status_all": "सभी",
+    "status_open": "खुला",
+    "status_pending": "लंबित",
+    "status_resolved": "हल किया",
+    "status_closed": "बंद",
+    "no_tickets_found": "कोई टिकट नहीं मिला",
+    "no_messages": "कोई संदेश नहीं",
+    "ticket_from": "Ticket from {name}",
+    "showing_range": "{total} में से {shown} दिखा रहा है",
+    "chat_panel_aria": "चैट पैनल",
+    "back_to_ticket_list_aria": "टिकट सूची पर वापस जाएँ",
+    "all_tickets": "All Tickets"
   },
-
   "AdminNotifications": {
-    "title": "सूचनाएं",
-    "new_notification": "नई सूचना",
+    "title": "नोटिफिकेशन",
+    "new_notification": "नया नोटिफिकेशन",
     "send": "भेजें",
-    "title_placeholder": "सूचना शीर्षक",
+    "title_placeholder": "नोटिफिकेशन शीर्षक",
     "message_placeholder": "संदेश",
     "recipients": "प्राप्तकर्ता",
-    "scheduled": "अनुसूचित",
+    "scheduled": "निर्धारित",
     "status": "स्थिति",
     "sent": "भेजा गया",
     "pending": "लंबित",
-    "draft": "ड्राफ्ट"
+    "draft": "ड्राफ्ट",
+    "broadcast_center": "प्रसारण केंद्र",
+    "global_notifications": "वैश्विक नोटिफिकेशन",
+    "send_notifications_description": "सभी पंजीकृत उपयोगकर्ताओं को तुरंत नोटिफिकेशन भेजें।"
   },
-
   "AdminAnalytics": {
-    "title": "विश्लेषण",
+    "title": "एनालिटिक्स",
     "revenue": "राजस्व",
     "orders": "ऑर्डर",
     "users": "उपयोगकर्ता",
@@ -394,97 +1641,80 @@
     "total_revenue": "कुल राजस्व",
     "total_orders": "कुल ऑर्डर",
     "total_users": "कुल उपयोगकर्ता",
-    "this_month": "इस महीने",
-    "this_year": "इस वर्ष",
-    "all_time": "सभी समय",
+    "this_month": "This Month",
+    "this_year": "This Year",
+    "all_time": "हमेशा",
     "growth": "वृद्धि",
     "decline": "गिरावट"
   },
-
   "AdminCalendar": {
     "title": "कैलेंडर",
-    "new_event": "नया ईवेंट",
+    "new_event": "नया इवेंट",
     "event_title": "ईवेंट शीर्षक",
-    "start_date": "शुरुआती तारीख",
-    "end_date": "अंतिम तारीख",
-    "all_day": "पूरे दिन",
+    "start_date": "प्रारंभ तिथि",
+    "end_date": "समाप्ति तिथि",
+    "all_day": "पूरा दिन",
     "add_event": "ईवेंट जोड़ें",
     "edit_event": "ईवेंट संपादित करें",
-    "delete_event": "ईवेंट हटाएं",
-    "sales": "बिक्रय",
+    "delete_event": "ईवेंट हटाएँ",
+    "sales": "बिक्री",
     "campaign": "अभियान",
-    "meeting": "बैठक",
+    "meeting": "मीटिंग",
     "maintenance": "रखरखाव",
-    "partnership": "भागीदारी",
+    "partnership": "साझेदारी",
     "operations": "संचालन"
   },
-
   "PLP": {
-    "filters": "फ़िल्टर",
-    "sort": "क्रमबद्ध करें",
-    "price": "कीमत",
-    "category": "श्रेणी",
-    "brand": "ब्रांड",
-    "size": "आकार",
-    "sort_by": "क्रमबद्ध करें",
-    "newest": "नवीनतम",
-    "popular": "सबसे लोकप्रिय",
-    "price_low_high": "कीमत: कम से अधिक",
-    "price_high_low": "कीमत: अधिक से कम",
-    "rating": "रेटिंग",
-    "clear_filters": "फ़िल्टर साफ़ करें",
-    "no_results": "कोई परिणाम नहीं मिले",
-    "showing": "दिखा रहे हैं",
-    "of": "का",
-    "results": "परिणाम"
+    "title_mens_collection": "Men's Collection",
+    "subtitle_shop": "दुकान",
+    "aria": {
+      "product_listing": "उत्पाद सूची",
+      "products": "उत्पाद"
+    },
+    "errors": {
+      "failed_to_load_products": "Failed to load products."
+    },
+    "actions": {
+      "retry": "पुनः प्रयास",
+      "clear_filters_button": "Clear Filters"
+    },
+    "empty": {
+      "no_products": "कोई उत्पाद नहीं मिला",
+      "try_adjusting": "फ़िल्टर या खोज क्वेरी समायोजित करने का प्रयास करें"
+    }
   },
-
   "PDP": {
     "size": "आकार",
-    "color": "रंग",
+    "color": "Color",
     "quantity": "मात्रा",
     "add_to_cart": "कार्ट में जोड़ें",
     "add_to_favorites": "पसंदीदा में जोड़ें",
-    "share": "शेयर करें",
+    "share": "साझा करें",
     "description": "विवरण",
-    "specifications": "विनिर्देश",
-    "reviews": "समीक्षाएं",
+    "specifications": "विशेषताएँ",
+    "reviews": "समीक्षाएँ",
     "rating": "रेटिंग",
     "in_stock": "स्टॉक में",
-    "out_of_stock": "स्टॉक से बाहर",
+    "out_of_stock": "स्टॉक में नहीं",
     "select_size": "कृपया आकार चुनें",
     "select_color": "कृपया रंग चुनें"
   },
-
-  "Filters": {
-    "all": "सभी",
-    "clear_all": "सभी साफ़ करें",
-    "apply": "लागू करें",
-    "male": "पुरुष",
-    "female": "महिला",
-    "kids": "बच्चे",
-    "unisex": "यूनिसेक्स",
-    "small": "छोटा",
-    "medium": "मध्यम",
-    "large": "बड़ा",
-    "x_large": "अतिरिक्त बड़ा",
-    "2x_large": "2XL"
-  },
-
   "AdminSidebar": {
     "nav": {
-      "aria_label": "व्यवस्थापक नेविगेशन"
+      "aria_label": "एडमिन नेविगेशन",
+      "about": "हमारे बारे में",
+      "dashboard": "एडमिन डैशबोर्ड"
     },
     "logo": {
-      "aria_label": "डैशबोर्ड पर जाएं"
+      "aria_label": "Go to Dashboard"
     },
     "mobile": {
       "close_label": "साइडबार बंद करें"
     },
     "sections": {
       "main": "मुख्य",
-      "commerce": "व्यापार",
-      "analytics": "विश्लेषण",
+      "commerce": "वाणिज्य",
+      "analytics": "एनालिटिक्स",
       "communication": "संचार",
       "system": "सिस्टम"
     },
@@ -493,72 +1723,425 @@
       "orders": "ऑर्डर",
       "users": "उपयोगकर्ता",
       "products": "उत्पाद",
-      "categories": "श्रेणियां",
-      "segments": "खंड",
-      "charts": "चार्ट",
+      "categories": "श्रेणियाँ",
+      "support_and_complaint": "Support & Complaints",
+      "charts": "Charts",
       "revenue": "राजस्व",
       "net_profit": "शुद्ध लाभ",
       "complaints": "शिकायतें",
-      "notifications": "सूचनाएं",
+      "views": "दृश्य",
+      "notifications": "नोटिफिकेशन",
       "calendar": "कैलेंडर",
       "settings": "सेटिंग्स"
     },
     "badge": {
-      "pending_count": "{count} लंबित"
+      "pending_count": "{count} pending"
     },
     "subitems": {
       "users": "उपयोगकर्ता",
       "orders": "ऑर्डर",
       "revenue": "राजस्व",
       "net profit": "शुद्ध लाभ",
-      "complaints": "शिकायतें"
+      "complaints": "शिकायतें",
+      "products": "उत्पाद",
+      "views": "दृश्य"
     },
     "sidebar": {
-      "aria_label": "प्रशासक साइडबार"
+      "aria_label": "एडमिन साइडबार"
     },
     "user_footer": {
-      "logout_label": "लॉगआउट"
+      "logout_label": "लॉग आउट"
     }
   },
-
-  "CartItem": {
-    "delete_button": "हटाने",
-    "delete_aria": "{product} हटाने",
-    "quantity_aria": "मात्रा",
-    "decrease_qty": "मात्रा कम करें",
-    "increase_qty": "मात्रा बढ़ाएं",
-    "total_label": "कुल"
-  },
-
-  "CartHeader": {
-    "title": "शॉपिंग कार्ट",
-    "products_in_cart": "कार्ट में {count} उत्पाद"
-  },
-
-  "Applyrequest": {
-    "order_summary": "ऑर्डर सारांश",
-    "items_count": "{count} वस्तु",
-    "promo_code": "प्रचार कोड",
-    "apply_code": "लागू करें",
-    "discount_applied": "छूट लागू की गई!",
-    "subtotal": "उप-कुल",
-    "shipping_fee": "शिपिंग शुल्क",
-    "total": "कुल",
-    "proceed_checkout": "चेकआउट के लिए आगे बढ़ें",
-    "continue_shopping": "खरीदारी जारी रखें"
-  },
-
-  "HeroSection": {
-    "announcement": "नई मौसम की बिक्री - चुनिंदा वस्तुओं पर 50% तक छूट!"
-  },
-
-  "CategoryGrid": {
-    "shop_category": "श्रेणी के अनुसार खरीदें"
-  },
-
   "Chat": {
     "type_message": "संदेश टाइप करें...",
     "choose_emoji": "इमोजी चुनें",
-    "send_message": "संदेश भेजें"
+    "send_message": "संदेश भेजें",
+    "support": "तकनीकी सहायता",
+    "maximize": "Maximize",
+    "minimize": "Minimize",
+    "close_chat": "चैट बंद करें",
+    "please_login_before_continue": "जारी रखने के लिए कृपया साइन इन करें",
+    "welcome_message": "Welcome to ZFashion! Drop us a message and we’ll get back to you in a few minutes. We're here to help you ❤😊"
+  },
+  "FilterSidebar": {
+    "sections": {
+      "category": "श्रेणी",
+      "size": "आकार",
+      "brand": "ब्रांड",
+      "price_egp": "मूल्य (EGP)",
+      "filters": "फ़िल्टर"
+    },
+    "categories": {
+      "All": "सभी",
+      "Shirts": "Shirts",
+      "Pants": "Pants",
+      "T-Shirts": "T-Shirts",
+      "Jackets": "Jackets",
+      "Knitwear": "Knitwear",
+      "Hoodies": "Hoodies",
+      "Polo": "Polo",
+      "Shorts": "Shorts"
+    },
+    "sizes": {
+      "Small": "Small",
+      "Medium": "मध्यम",
+      "Large": "Large",
+      "XLarge": "Extra Large",
+      "labels": {
+        "Small": "S",
+        "Medium": "M",
+        "Large": "L",
+        "XLarge": "XL"
+      }
+    },
+    "brands": {
+      "Heritage": "हैरिटेज",
+      "Core": "कोर",
+      "Prestige": "प्रेस्टीज"
+    },
+    "placeholders": {
+      "min": "Min",
+      "max": "Max"
+    },
+    "aria": {
+      "size_filter": "आकार फ़िल्टर",
+      "min_price": "न्यूनतम मूल्य",
+      "max_price": "अधिकतम मूल्य",
+      "product_filters": "उत्पाद फ़िल्टर",
+      "close_filters": "फ़िल्टर बंद करें"
+    },
+    "actions": {
+      "clear_all_filters": "सभी फ़िल्टर साफ़ करें",
+      "clear": "सभी साफ़ करें"
+    }
+  },
+  "PLPParts": {
+    "hero": {
+      "aria_category_banner": "{title} - Category Banner"
+    },
+    "toolbar": {
+      "open_filters": "फ़िल्टर खोलें",
+      "filters": "फ़िल्टर",
+      "search_placeholder": "उत्पाद खोजें...",
+      "search_aria": "उत्पाद खोजें",
+      "products": "उत्पाद"
+    },
+    "sort": {
+      "newest": "नवीनतम",
+      "price_asc": "मूल्य: निम्न से उच्च",
+      "price_desc": "मूल्य: उच्च से निम्न",
+      "top_rated": "सर्वोच्च रेटेड",
+      "discount": "सबसे बड़ी छूट"
+    },
+    "pagination": {
+      "aria": "पेजिनेशन",
+      "previous_page": "पिछला पेज",
+      "page": "पेज {page}",
+      "next_page": "Next Page"
+    }
+  },
+  "About": {
+    "Metadata": {
+      "title": "About Us - ZFashion Store | Where Global Elegance Meets Digital Innovation",
+      "description": "ZFashion के मिशन को खोजें कि कैसे अत्याधुनिक तकनीक और कालातीत elegance के माध्यम से फैशन उद्योग को फिर से परिभाषित किया जा रहा है। संस्थापक: इब्राहिम अबूज़ैद।",
+      "keywords": "ZFashion, about us, fashion store, premium clothes, e-commerce, Ibrahim AbuZaid, modern fashion, luxury style",
+      "og_title": "About ZFashion Store - Redefining Digital Fashion",
+      "og_description": "Explore our journey of building a high-performance fashion platform that prioritizes user experience and global style.",
+      "og_image_alt": "ZFashion Store - Premium Fashion E-Commerce Platform",
+      "twitter_title": "About ZFashion Store | Global Elegance & Digital Innovation",
+      "twitter_description": "Leading the future of digital fashion commerce with speed and security."
+    },
+    "seo": {
+      "breadcrumb_name": "हमारे बारे में",
+      "faq": {
+        "q1": {
+          "question": "ZFashion क्या है?",
+          "answer": "ZFashion Store is a premium e-commerce platform dedicated to providing the latest global fashion trends with a focus on speed, security, and user experience."
+        },
+        "q2": {
+          "question": "ZFashion की स्थापना किसने की?",
+          "answer": "ZFashion was founded and developed by Ibrahim AbuZaid, aiming to bridge the gap between high-end fashion and modern software engineering."
+        },
+        "q3": {
+          "question": "क्या ZFashion पर खरीदारी सुरक्षित है?",
+          "answer": "Yes, we use multi-layer security protocols and the latest encryption standards to ensure every transaction is 100% safe."
+        },
+        "q4": {
+          "question": "ZFashion को क्या अलग बनाता है?",
+          "answer": "Our platform combines unrivaled loading speeds with a curated selection of products, powered by modern Next.js technology."
+        },
+        "q5": {
+          "question": "क्या आप तकनीकी सहायता प्रदान करते हैं?",
+          "answer": "बिल्कुल! हमारी समर्पित इंजीनियरिंग टीम सहज शॉपिंग अनुभव सुनिश्चित करने के लिए 24/7 तकनीकी निगरानी प्रदान करती है।"
+        }
+      }
+    },
+    "breadcrumb": {
+      "home": "होम",
+      "current": "हमारे बारे में"
+    },
+    "hero": {
+      "title_part_1": "Where Global Elegance",
+      "title_part_2": "Meets Digital Innovation",
+      "description": "ZFashion में, हम मानते हैं कि स्टाइल कभी भी समझौता नहीं होना चाहिए। हमने एक ऐसा प्लेटफ़ॉर्म बनाया है जो फैशन की कला को आधुनिक तकनीक की सटीकता के साथ मेल खाता है।",
+      "badges": {
+        "seo": "100% SEO स्कोर",
+        "support": "24/7 तकनीकी सहायता",
+        "security": "Multi-Layer Security"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "ZFashion was born out of a simple yet ambitious vision: to create a digital shopping experience that is as elegant as the clothes we sell. We noticed that many platforms lacked the speed and smoothness that modern customers deserve.",
+      "p2": "Founded by Ibrahim AbuZaid, we didn't just build a store; we engineered a high-performance ecosystem. Using the latest web technologies, we've created a space where browsing is instant, and your security is never in doubt.",
+      "stats": {
+        "hours": {
+          "value": "1000+",
+          "label": "Hours of Development"
+        },
+        "seo": {
+          "value": "100%",
+          "label": "SEO Performance"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Technical Excellence"
+        }
+      }
+    },
+    "mission_vision": {
+      "title": "Mission & Vision",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To empower fashion enthusiasts by providing a seamless, fast, and secure platform that brings global trends to their doorstep with a single click."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become the global benchmark for fashion e-commerce, where technology serves as the invisible thread weaving through every piece of style."
+      }
+    },
+    "values": {
+      "title": "मूल मूल्य",
+      "subtitle": "The principles that drive every line of code and every curated collection we offer.",
+      "perfection": {
+        "title": "Technical Perfection",
+        "description": "We are obsessed with performance, ensuring our platform is one of the fastest in the industry."
+      },
+      "integrity": {
+        "title": "ईमानदारी",
+        "description": "We believe in absolute transparency in our operations, pricing, and customer data handling."
+      },
+      "innovation": {
+        "title": "इनोवेशन",
+        "description": "We don't follow trends; we set them by integrating AI and real-time connectivity into your shopping."
+      },
+      "trust": {
+        "title": "Sustainable Trust",
+        "description": "Building a long-term relationship with our customers through reliability and quality."
+      }
+    },
+    "support": {
+      "title": "Expert Engineers at Your Service",
+      "p1_part1": "Behind our elegant storefront lies a dedicated team. We don't just sell clothes; we offer",
+      "p1_strong": "Technical Peace of Mind",
+      "p1_part2": ".",
+      "p2": "Our team monitors platform stability in real-time, ensuring that your shopping journey is never interrupted by technical hurdles.",
+      "stats": {
+        "monitoring": {
+          "value": "24/7",
+          "label": "रीयल-टाइम मॉनिटरिंग"
+        },
+        "response": {
+          "value": "<1s",
+          "label": "औसत प्रतिक्रिया"
+        },
+        "resolution": {
+          "value": "100%",
+          "label": "समस्या समाधान"
+        },
+        "dedication": {
+          "value": "∞",
+          "label": "Dedication Level"
+        }
+      }
+    },
+    "why": {
+      "title": "Why ZFashion?",
+      "subtitle": "Technical excellence meets fashion-forward innovation",
+      "features": {
+        "unrivaled_speed": {
+          "title": "Unrivaled Speed",
+          "description": "Next.js 15 पर बना, सभी डिवाइस पर लगभग तुरंत लोडिंग के लिए।"
+        },
+        "modern_saas": {
+          "title": "Modern Architecture",
+          "description": "एक मजबूत क्लाउड-नेटिव आर्किटेक्चर जो हमारे ग्राहकों की जरूरतों के साथ बढ़ता है।"
+        },
+        "realtime_connectivity": {
+          "title": "रीयल-टाइम अपडेट",
+          "description": "लाइव स्टॉक ट्रैकिंग और तुरंत ऑर्डर स्टेटस अपडेट पूरी स्पष्टता के लिए।"
+        },
+        "smart_notifications": {
+          "title": "Smart Notifications",
+          "description": "कीमतों में कमी और नए आगमन पर व्यक्तिगत अलर्ट के साथ अपडेट रहें।"
+        },
+        "elite_security": {
+          "title": "Elite Security",
+          "description": "आपके भुगतान और व्यक्तिगत डेटा के लिए एंड-टू-एंड एन्क्रिप्शन।"
+        },
+        "seamless_experience": {
+          "title": "Seamless UX",
+          "description": "एक इंटरफ़ेस जो सहज नेविगेशन और आसान चेकआउट के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    "cta": {
+      "title": "उत्कृष्टता का अनुभव करने के लिए तैयार हैं?",
+      "description": "हज़ारों फैशन उत्साहियों से जुड़ें जो प्रीमियम शॉपिंग अनुभव के लिए ZFashion चुनते हैं।",
+      "button": "Start Shopping Now"
+    }
+  },
+  "Checkout": {
+    "aria_label": "Checkout Page",
+    "order_summary_sidebar": "Order Summary - Sidebar",
+    "your_information": "आपकी जानकारी",
+    "payment": "भुगतान",
+    "steps": {
+      "information": "जानकारी",
+      "payment": "भुगतान",
+      "confirmation": "Confirmation"
+    }
+  },
+  "AddressForm": {
+    "aria_label": "Shipping Information Form",
+    "contact": "संपर्क",
+    "email_address": "ईमेल",
+    "email_placeholder": "you@example.com",
+    "phone_number": "फ़ोन नंबर",
+    "phone_placeholder": "123 456 7890",
+    "shipping_address": "शिपिंग पता",
+    "country": "Country",
+    "select_country": "देश चुनें…",
+    "first_name": "पहला नाम",
+    "first_name_placeholder": "अहमद",
+    "last_name": "उपनाम",
+    "last_name_placeholder": "Al-Murad",
+    "street_address": "सड़क पता",
+    "street_placeholder": "123 मुख्य सड़क",
+    "apartment_optional": "Apartment / Unit (Optional)",
+    "apartment_placeholder": "Apt 4B",
+    "city": "City",
+    "city_placeholder": "Cairo",
+    "postal_code": "Postal Code",
+    "postal_placeholder": "10001",
+    "state_governorate": "राज्य / गवर्नरेट",
+    "loading": "लोड हो रहा है…",
+    "select_country_first": "पहले देश चुनें",
+    "select_state": "राज्य चुनें…",
+    "continue_to_payment": "भुगतान पर जारी रखें →"
+  },
+  "PaymentDemo": {
+    "card_details": "Card Details",
+    "secure": "Secure",
+    "card_number": "कार्ड नंबर",
+    "cardholder_name": "कार्डधारक का नाम",
+    "expiry": "समाप्ति तिथि",
+    "cvv": "CVV",
+    "processing": "Processing…",
+    "pay_button": "{amount} का भुगतान करें →",
+    "or": "या",
+    "redirecting": "Redirecting…",
+    "pay_with_paypal": "PayPal से भुगतान करें",
+    "back_to_information": "Back to Information",
+    "ssl_secured": "SSL सुरक्षित"
+  },
+  "OrderSummary": {
+    "aria_label": "ऑर्डर सारांश",
+    "order_summary": "ऑर्डर सारांश",
+    "discount_code": "डिस्काउंट कोड",
+    "coupon_placeholder": "उदाहरण: SAVE10",
+    "apply": "लागू करें",
+    "invalid_coupon": "अमान्य कूपन कोड",
+    "applied_suffix": "Applied — {percent}% off!",
+    "subtotal": "उप-योग",
+    "discount_label": "Discount ({percent}%)",
+    "shipping": "शिपिंग",
+    "free": "Free",
+    "estimated_tax": "अनुमानित कर",
+    "total": "कुल",
+    "secure_ssl": "सुरक्षित 256-बिट SSL एन्क्रिप्शन"
+  },
+  "SuccessScreen": {
+    "order_confirmed": "ऑर्डर की पुष्टि हो गई",
+    "thank_you": "धन्यवाद",
+    "order_placed": "Your order has been placed and is being prepared.",
+    "order_number": "ऑर्डर नंबर",
+    "email": "ईमेल",
+    "ship_to": "भेजें",
+    "shipping": "शिपिंग",
+    "timeline": {
+      "confirmed": "ऑर्डर की पुष्टि हो गई",
+      "just_now": "अभी",
+      "prepared": "Being Prepared",
+      "estimated_hours": "अनुमानित {hours} घंटे",
+      "out_for_delivery": "डिलीवरी के लिए बाहर",
+      "estimated_days": "अनुमानित {days} दिन",
+      "email_sent": "Confirmation Email Sent"
+    },
+    "continue_shopping": "खरीदारी जारी रखें",
+    "track_order": "ऑर्डर ट्रैक करें"
+  },
+  "Footer": {
+    "brand": {
+      "name": "आपका स्टोर",
+      "description": "Curating exceptional products and experiences for discerning customers since 2014."
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "अपना ईमेल दर्ज करें",
+      "done": "Done!",
+      "join": "जुड़ें",
+      "note": "एक्सक्लूसिव ऑफर, स्टाइल टिप्स और नई कलेक्शन की शीघ्र पहुँच प्राप्त करें।"
+    },
+    "shop": {
+      "title": "दुकान",
+      "new_arrivals": "New Arrivals",
+      "bestsellers": "Bestsellers",
+      "sale": "बिक्री",
+      "collections": "Collections",
+      "gift_cards": "गिफ्ट कार्ड"
+    },
+    "support": {
+      "title": "सहायता",
+      "contact_us": "हमसे संपर्क करें",
+      "faqs": "FAQs",
+      "shipping": "शिपिंग जानकारी",
+      "returns": "Returns & Exchanges",
+      "size_guide": "आकार गाइड"
+    },
+    "company": {
+      "title": "कंपनी",
+      "about": "हमारे बारे में",
+      "careers": "करियर",
+      "sustainability": "स्थिरता",
+      "press": "प्रेस",
+      "blog": "ब्लॉग"
+    },
+    "contact": {
+      "title": "संपर्क",
+      "linkedin": "LinkedIn प्रोफ़ाइल"
+    },
+    "legal": {
+      "privacy": "गोपनीयता नीति",
+      "terms": "सेवा की शर्तें",
+      "cookies": "Cookie Policy"
+    },
+    "bottom": {
+      "copy": "© {year} Your Store. All rights reserved."
+    },
+    "payments": {
+      "accept": "We accept:"
+    }
   }
 }

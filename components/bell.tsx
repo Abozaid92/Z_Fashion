@@ -91,7 +91,7 @@ export default function BellModal({ session }: { session: string | null }) {
 
         {/* === Dropdown Modal === */}
         {open && (
-          <div className="absolute right-0 mt-3 w-80 sm:w-80 w-[calc(100vw-2rem)] bg-white rounded-xl shadow-2xl border border-emerald-100 overflow-hidden z-50 -mr-24 md:-mr-2 animate-in fade-in slide-in-from-top-2 duration-200">
+          <div className="absolute right-0 mt-3 w-80 sm:w-80 w-[calc(100vw-2rem)] bg-white rounded-xl shadow-2xl border border-emerald-100 overflow-hidden z-50 -mr-24  animate-in fade-in slide-in-from-top-2 duration-200">
             {!session ?
               /* رسالة تسجيل الدخول في حالة عدم وجود سيشن */
               <div className="p-8 text-center flex flex-col items-center gap-3">

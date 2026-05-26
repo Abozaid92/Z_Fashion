@@ -48,7 +48,7 @@ const CartNav = () => {
         <div
           ref={dropdownRef}
           className="absolute right-12 mt-14 w-72 sm:w-80 bg-white rounded-xl shadow-xl border border-lime-100 overflow-hidden z-50 sm
-          -mr-36 md:-mr-8"
+          -mr-36 "
           style={{
             animation: "slideDown 0.2s ease-out",
           }}

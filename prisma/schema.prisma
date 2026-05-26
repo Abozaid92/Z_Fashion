@@ -60,8 +60,7 @@ enum AnalyticType {
   REVENUE
   NET_PROFIT
   COMPLAINTS
-  PRODUCTS
-  VIEWS
+
 }
 
 enum AnalyticsType {

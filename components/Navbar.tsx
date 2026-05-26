@@ -56,7 +56,7 @@ export default function Navbar({ session }: { session: typeProps | null }) {
           "top-0 z-50 bg-white border-b border-stone-100 transition-all",
           !isWrapped && "sticky",
         )}
-        style={{ boxShadow: "0 1px 0 0 rgb(231 229 228)" }}
+        style={{ boxShadow: "0 1px 0 0 rgb(231 229 228)", direction: "ltr" }}
         role="navigation"
         aria-label={t("aria_label")}
       >

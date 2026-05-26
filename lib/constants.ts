@@ -1,4 +1,4 @@
-export const DOMAIN = "https://z-fashion-ecru.vercel.app";
+export const DOMAIN = "http://localhost:3000";
 export const productPerPage = 10;
 export const couponCode = "Abouzaid2026";
 export const messagesPerOnce = 15;

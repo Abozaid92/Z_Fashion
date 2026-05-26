@@ -315,10 +315,7 @@ export default async function AboutPage({
                     {t("story.p2")}
                   </p>
                   <meta itemProp="name" content="ZFashion Store" />
-                  <meta
-                    itemProp="url"
-                    content="https://z-fashion-ecru.vercel.app"
-                  />
+                  <meta itemProp="url" content="http://localhost:3000" />
                 </div>
 
                 <div className="relative">

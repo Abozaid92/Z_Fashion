@@ -11,127 +11,89 @@ import { Coupon } from "@prisma/client";
 import prisma from "@/lib/db";
 import { orderPerPage } from "@/lib/constants";
 import redisClient from "@/lib/redisClient";
-
-/**
- * دالة مستقلة تحتوي على منطق إنشاء الطلب الفعلي
- * تم فصلها لتمكين تخطي الـ Guard أثناء اختبارات الضغط (k6)
- */
-const createOrderLogic = async (
-  request: NextRequest,
-  userId: string,
-  data: OrderInput,
-) => {
-  try {
-    let coupon: Coupon | null = null;
-    if (data.coupon) {
-      try {
-        coupon = await checkIfCouponExist(data);
-      } catch (error: any) {
-        return NextResponse.json(
-          { message: error.message || "Invalid coupon" },
-          { status: 400 },
-        );
-      }
-      const isCouponUsed = await prisma?.userCoupon.findUnique({
-        where: {
-          userId_couponCode: {
-            userId: userId,
-            couponCode: data.coupon,
-          },
-        },
-      });
-      if (isCouponUsed)
-        return NextResponse.json(
-          { message: "You have already used this coupon code." },
-          { status: 400 },
-        );
-    }
-
-    // order part
-    const productDetails = await matchProductsPricesinDBAndrequest(data);
-    const totalAmount = await getTotalAmount(productDetails, coupon);
-
-    // @TODO
-    // حاول خفف الروات ده علي قد ما تقدر
-    await prisma.$transaction(async (tx) => {
-      await tx.order.create({
-        data: {
-          userId: userId,
-          totalAmount: totalAmount,
-          status: data.status,
-          orderItems: {
-            createMany: {
-              data: productDetails.map((el) => ({
-                price: el.price,
-                quantity: el.quantity,
-                productId: el.id,
-              })),
-            },
-          },
-        },
-      });
-
-      if (data.coupon) {
-        await tx.coupon.update({
-          where: { code: data.coupon },
-          data: { usedCount: { increment: 1 } },
-        });
-        await tx.userCoupon.create({
-          data: {
-            userId: userId,
-            couponCode: data.coupon,
-          },
-        });
-      }
-    });
-
-    //  redis
-    addProductsToRedis(productDetails);
-
-    return NextResponse.json(
-      { message: "we create a new order" },
-      { status: 201 },
-    );
-  } catch (error: any) {
-    return NextResponse.json(
-      { message: error.message || "Error" },
-      { status: 500 },
-    );
-  }
-};
-
-// الـ Guard الطبيعي للمستخدمين في الموقع لحمايته في الـ Production
-const guardedPOST = userGuard(orderSchema, createOrderLogic);
-
 /**
  * @method POST
  * @description create a new order
  * @route /api/products/order
- * @access public (only user login / bypass for testing)
+ * @access public (only user login)
  * */
-export async function POST(request: NextRequest) {
-  const bypassKey = request.headers.get("x-bypass-auth");
 
-  // 🚀 حركة التخطي الذكية لاختبارات الـ k6
-  if (bypassKey === "my_super_secret_test_key") {
+export const POST = userGuard(
+  orderSchema,
+  async (request: NextRequest, userId, data) => {
     try {
-      const data = await request.json();
+      let coupon: Coupon | null = null;
+      if (data.coupon) {
+        try {
+          coupon = await checkIfCouponExist(data);
+        } catch (error: any) {
+          return NextResponse.json(
+            { message: error.message || "Invalid coupon" },
+            { status: 400 },
+          );
+        }
+        const isCouponUsed = await prisma?.userCoupon.findUnique({
+          where: {
+            userId_couponCode: {
+              userId: userId,
+              couponCode: data.coupon,
+            },
+          },
+        });
+        if (isCouponUsed)
+          return NextResponse.json(
+            { message: "You have already used this coupon code." },
+            { status: 400 },
+          );
+      }
+      // order part
+      const productDetails = await matchProductsPricesinDBAndrequest(data);
+      const totalAmount = await getTotalAmount(productDetails, coupon);
+      // @TODO
+      // حاول خفف الروات ده علي قد ما تقدر
+      await prisma.$transaction(async (tx) => {
+        await tx.order.create({
+          data: {
+            userId: userId,
+            totalAmount: totalAmount,
+            status: data.status,
+            orderItems: {
+              createMany: {
+                data: productDetails.map((el) => ({
+                  price: el.price,
+                  quantity: el.quantity,
+                  productId: el.id,
+                })),
+              },
+            },
+          },
+        });
 
-      // ⚠️ تنبيه: حط هنا ID يوزر حقيقي موجود فعلاً في الـ DB عندك عشان الـ Relations متضربش
-      const mockUserId = "548487ab-40fd-4d76-8748-533a6aeafb0e";
+        if (data.coupon) {
+          await tx.coupon.update({
+            where: { code: data.coupon },
+            data: { usedCount: { increment: 1 } },
+          });
+          await tx.userCoupon.create({
+            data: {
+              userId: userId,
+              couponCode: data.coupon,
+            },
+          });
+        }
+      });
+      //  redis
+      addProductsToRedis(productDetails);
 
-      return await createOrderLogic(request, mockUserId, data);
-    } catch (err) {
       return NextResponse.json(
-        { message: "Invalid request body" },
-        { status: 400 },
+        { message: "we create a new order" },
+        { status: 201 },
       );
+    } catch (error) {
+      return NextResponse.json({ message: "Error" }, { status: 500 });
     }
-  }
-
-  // لو الطلب عادي ومش تيست وضغط، يشتغل الـ Guard الطبيعي بالـ Session
-  return guardedPOST(request);
-}
+  },
+);
 
 const getProductsPrices = async (date: OrderInput) => {
   const productsIds = date.items.map((el) => el.productId);
@@ -209,18 +171,19 @@ const addProductsToRedis = (data: productDetailsType[]) => {
           }
         }),
       );
+      // console.log("Redis Leaderboard Updated");
     } catch (error) {
       console.error("Redis Background Task Error:", error);
     }
   })();
 };
-
 /*
  *@method GET
  * @description Get All Orders with pagination and status filtering
  * @route /api/products/order
  * @access Private (Admin only)
  */
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = request.nextUrl;
@@ -241,11 +204,11 @@ export async function GET(request: NextRequest) {
     );
   }
 }
-
 /**
  * دالة مساعدة لجلب الطلبات من قاعدة البيانات
  */
 const getOrders = async (pageNumber: number, status: string | null) => {
+  // بناء شرط البحث: لو الـ status موجود هنفلتر بيه، لو null الـ whereClause هتكون فاضية
   const whereClause = status ? { status: status as any } : {};
 
   const Orders = await prisma.order.findMany({
@@ -281,10 +244,13 @@ const getOrders = async (pageNumber: number, status: string | null) => {
  * @route /api/products/order
  * @access private (Admin only)
  */
+
+// هتحتاج تضيف updateOrderSchema في ملف الـ utils بتاعك
 export const PATCH = adminGuard(
   updateOrderSchema,
   async (request: NextRequest, userId, data) => {
     try {
+      // 1. التأكد من وجود الطلب وتحديث حالته
       const updatedOrder = await updateOrderStatus(data.orderId, data.status);
 
       return NextResponse.json(
@@ -310,6 +276,7 @@ const updateOrderStatus = async (orderId: string, newStatus: any) => {
 
   if (!order) throw new Error("Order not found");
 
+  // التحديث
   return await prisma.order.update({
     where: { id: orderId },
     data: { status: newStatus },

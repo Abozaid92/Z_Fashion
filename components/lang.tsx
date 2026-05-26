@@ -57,7 +57,7 @@ const Lang = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="absolute right-0 mt-2  sm:-mr-16 w-72 sm:w-80 bg-white rounded-xl md:-mr-10 w-48 bg-white rounded-lg shadow-xl py-2 border border-gray-200"
+            className="absolute right-0 mt-2  sm:-mr-72  sm:w-44 md:w-52 lg:w-60 bg-white rounded-xl md:-mr-40  shadow-xl py-2 border border-gray-200"
           >
             {locales.map((loc) => (
               <Link

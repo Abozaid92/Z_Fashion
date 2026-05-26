@@ -1,176 +1,2147 @@
 {
   "nav": {
-    "home": "Home",
-    "shop": "Shop",
-    "products": "Products",
-    "about": "About",
-    "contact": "Contact",
-    "cart": "Cart",
-    "account": "Account"
+    "products": "Продукты",
+    "contact": "Связаться с нами",
+    "cart": "Корзина",
+    "account": "Аккаунт",
+    "about": "О нас",
+    "dashboard": "Панель администратора",
+    "home": "Главная",
+    "ctg": {
+      "all": "Все:",
+      "Accessories": "Аксессуары",
+      "men": "Men",
+      "kids": "Дети",
+      "women": "Женщины",
+      "caps": "Shirts",
+      "Shirts": "Shirts",
+      "jackets": "Jackets",
+      "Jacket": "Jackets",
+      "pants": "Pants"
+    }
   },
-  "Hero": {
-    "subtitle": "Premium quality fashion for everyone",
-    "shop_now": "Shop Now",
-    "discount_badge": "Save 50%",
-    "slides": {
-      "1": {
-        "title": "Streetwear"
-      },
-      "2": {
-        "title": "Summer Collection"
-      },
-      "3": {
-        "title": "Luxury Watches"
-      },
-      "4": {
-        "title": "Designer Bags"
+  "Lang": {
+    "select_language": "Выбрать язык",
+    "language": "Language"
+  },
+  "CartNav": {
+    "empty_cart": "Cart is empty",
+    "cart": "Корзина",
+    "items": "Товары",
+    "cart_label": "Корзина покупок",
+    "product_label": "Продукт",
+    "continue_shopping": "Продолжить покупки",
+    "aria_label": "Корзина покупок",
+    "empty_text": "Cart is empty",
+    "view_all": "Просмотреть все ({count})",
+    "view_cart": "Просмотреть корзину"
+  },
+  "EmptyCart": {
+    "cart_is_empty": "Ваша корзина пуста",
+    "start_shopping": "Начать покупки",
+    "empty_cart_aria": "Shopping cart is empty",
+    "empty_cart_title": "No items added yet",
+    "empty_cart_description": "Ваша корзина пуста. Начните просматривать товары и добавляйте то, что вам подходит.",
+    "browse_products": "Просмотреть товары"
+  },
+  "Rating": {
+    "rating": "Рейтинг",
+    "rate_product": "Rate Product"
+  },
+  "Navbar": {
+    "aria_label": "Main Navigation",
+    "mobileMenu": {
+      "AdminDashboard": "Панель администратора",
+      "open": "Открыть меню",
+      "close": "Закрыть меню",
+      "title": "Menu",
+      "home": "Главная",
+      "about": "О нас",
+      "dashboard": "Панель администратора",
+      "all": "Все",
+      "myAccount": "Мой аккаунт",
+      "myOrders": "Мои заказы",
+      "ctg": {
+        "all": "Все:",
+        "Accessories": "Аксессуары",
+        "men": "Men",
+        "kids": "Дети",
+        "women": "Женщины",
+        "caps": "Shirts",
+        "jackets": "Jackets",
+        "Jacket": "Jackets",
+        "pants": "Pants",
+        "Shirts": "Shirts"
       }
     }
   },
-  "HeroSection": {
-    "announcement": "New Season Sale - Up to 50% OFF on select items!",
-    "collection_badge": "Spring Collection 2025",
-    "main_title_1": "Style That",
-    "main_title_2": "speaks",
-    "main_title_3": "For Itself.",
-    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
-    "shop_button": "Shop The Drop",
-    "lookbook_button": "See Lookbook",
-    "stat_1_value": "Happy Customers",
-    "stat_1_sub": "Worldwide",
-    "stat_2_value": "5-Star Reviews",
-    "stat_2_sub": "Avg. Rating",
-    "stat_3_value": "Curated Styles",
-    "stat_3_sub": "New Weekly",
-    "stat_4_value": "Total Views",
-    "stat_4_sub": "Audience Reach",
-    "price_label": "Starting from",
-    "testimonial_quote": "Quality is world-class!",
-    "testimonial_author": "Sarah M. — Verified"
+  "AnnouncementBar": {
+    "controls": {
+      "previous": "Предыдущий",
+      "next": "Следующий",
+      "dismiss": "Отклонить"
+    }
   },
-  "ShowcaseSection": {
-    "explore_all": "Explore All",
-    "view_all": "View All",
-    "new_arrivals": "New Arrivals",
-    "complete_look": "Complete the Look"
-  },
-  "HorizontalProductScroll": {
-    "view_all": "View All",
-    "scroll": "Scroll"
-  },
-  "TestimonialsSection": {
-    "testimonials": "What Our Customers Say",
-    "verified_buyer": "Verified Buyer",
-    "reviews": "28,000+ reviews",
-    "rating": "4.9"
-  },
-  "Chat": {
-    "support": "Support",
-    "test_button": "Test Button",
-    "type_message": "Type a message...",
-    "offline": "Offline"
+  "ProductCard": {
+    "add_to_cart": "Добавить в корзину",
+    "view_details": "Просмотреть детали",
+    "out_of_stock": "Нет в наличии",
+    "discount_off": "{discount}% Off",
+    "quick_view": "Быстрый просмотр — {name}",
+    "view": "View {name}"
   },
   "Filters": {
     "title": "Фильтры",
-    "filters_aria_label": "Фильтры продуктов",
-    "price_range": "Диапазон цен",
-    "price_0_50": "Цена $0 - $50",
-    "price_50_100": "Цена $50 - $100",
-    "price_100_200": "Цена $100 - $200",
-    "price_200_plus": "Цена $200+",
+    "price_range": "Ценовой диапазон",
+    "price_0_50": "Цена от $0 до $50",
+    "price_50_100": "Цена от $50 до $100",
+    "price_100_200": "Цена от $100 до $200",
+    "price_200_plus": "Цена $200 и выше",
+    "category": "Категория",
     "gender": "Пол",
-    "gender_male": "Мужской",
-    "male": "Мужчины",
-    "gender_female": "Женский",
-    "female": "Женщины",
+    "gender_male": "Men",
+    "gender_female": "Женщины",
     "gender_unisex": "Унисекс",
-    "unisex": "Унисекс",
     "gender_kids": "Дети",
-    "kids": "Дети",
     "size": "Размер",
-    "size_small": "Маленький",
+    "size_small": "Small",
     "size_medium": "Средний",
-    "size_large": "Большой",
-    "size_xlarge": "Очень большой",
+    "size_large": "Large",
+    "size_xlarge": "Extra Large",
+    "brand": "Бренд",
+    "rating": "Рейтинг",
+    "clear_all": "Очистить все",
+    "apply": "Применить фильтры",
     "apply_filters": "Применить фильтры",
-    "apply": "Применить",
-    "clear_filters": "Очистить все",
-    "clear_all": "Очистить все"
+    "clear_filters": "Очистить все фильтры",
+    "filters_aria_label": "Фильтры продуктов",
+    "male": "Men",
+    "female": "Женщины",
+    "unisex": "Унисекс",
+    "kids": "Дети"
   },
-  "Categories": {
-    "accessories": "Аксессуары",
-    "men": "Мужчины",
-    "women": "Женщины",
-    "kids": "Дети",
-    "Shirts": "Кепки",
-    "jackets": "Куртки",
-    "pants": "Брюки",
-    "shirts": "Рубашки",
-    "t_shirts": "Футболки",
-    "hoodies": "Худи",
-    "knitwear": "Трикотаж",
-    "polo": "Поло",
-    "shorts": "Шорты"
+  "Hero": {
+    "shop_now": "Купить сейчас",
+    "discount_badge": "-50%",
+    "slides": {
+      "1": {
+        "title": "Streetwear",
+        "tag": "🚀 Most Popular"
+      },
+      "2": {
+        "title": "Summer Collection",
+        "tag": "🔥 Hot"
+      },
+      "3": {
+        "title": "Люксовые часы",
+        "tag": "⭐ Premium"
+      },
+      "4": {
+        "title": "Сумки от дизайнеров",
+        "tag": "💎 New"
+      }
+    }
+  },
+  "announcement": {
+    "flash_sale": "⚡ Flash Sale: Up to 50% Off - Limited Time Only!",
+    "free_shipping": "🚚 Free Shipping on Orders Over $50",
+    "new_collection": "✨ New Collection - Shop Now!"
+  },
+  "auth": {
+    "logoutSuccessfully": "Logged out successfully",
+    "failedLogout": "Logout failed",
+    "somethingWentWrong": "Что-то пошло не так, пожалуйста, попробуйте еще раз",
+    "TooManyRequest": "Пожалуйста, подождите немного перед повторной попыткой",
+    "loginACC": "Войти",
+    "registerACC": "Создать аккаунт",
+    "profile": "Профиль",
+    "logout": "Выйти",
+    "cart": "Корзина",
+    "orders": "Заказы",
+    "login": {
+      "title": "С возвращением",
+      "subtitle": "Войдите, чтобы продолжить",
+      "emailOrUsername": "Электронная почта",
+      "emailPlaceholder": "Введите email",
+      "emailRequired": "Email is required",
+      "password": "Пароль",
+      "passwordPlaceholder": "Введите пароль",
+      "passwordRequired": "Пароль должен содержать минимум 6 символов",
+      "forgotPassword": "Забыли пароль?",
+      "submit": "Войти",
+      "loading": "Signing in...",
+      "noAccount": "Нет аккаунта?",
+      "register": "Создать аккаунт",
+      "loginSuccessfully": "Signed in successfully",
+      "invalidCredentials": "Username or password is incorrect",
+      "AccessDenied": "Пожалуйста, подтвердите ваш email, чтобы продолжить. Мы отправили письмо для подтверждения."
+    },
+    "register": {
+      "title": "Создать новый аккаунт",
+      "subtitle": "Join us and start shopping",
+      "email": "Электронная почта",
+      "emailPlaceholder": "Введите ваш email",
+      "emailInvalid": "Неверный email",
+      "username": "Имя пользователя",
+      "usernamePlaceholder": "Choose a unique username",
+      "usernameInvalid": "Username must be 3-20 characters",
+      "password": "Пароль",
+      "passwordPlaceholder": "Choose a strong password",
+      "passwordInvalid": "Пароль должен содержать минимум 6 символов",
+      "confirmPassword": "Подтвердить пароль",
+      "confirmPasswordPlaceholder": "Повторно введите пароль",
+      "passwordMismatch": "Пароли не совпадают",
+      "submit": "Создать аккаунт",
+      "loading": "Creating account...",
+      "haveAccount": "Уже есть аккаунт?",
+      "login": "Войти",
+      "weak": "Слабый",
+      "medium": "Средний",
+      "strong": "Сильный",
+      "Email is already taken": "Email is already taken",
+      "Name is already taken": "Username is already taken"
+    },
+    "verify": {
+      "invalidLink": "Неверная ссылка подтверждения",
+      "success": "Ваш email успешно подтвержден!",
+      "error": "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
+      "loading": "Verifying...",
+      "successTitle": "Email подтвержден! ✨",
+      "errorTitle": "Verification Failed",
+      "successNote": "🎉 Your account is now active! You can start using all features.",
+      "goToLogin": "Перейти ко входу",
+      "errorNote": "The verification link may have expired or is invalid.",
+      "resendEmail": "Отправить письмо подтверждения повторно",
+      "needHelp": "Нужна помощь?",
+      "contactSupport": "Связаться с поддержкой"
+    },
+    "forgot": {
+      "title": "Забыли пароль?",
+      "subtitle": "We'll help you recover it",
+      "info": "Введите ваш email, и мы отправим вам ссылку для сброса пароля.",
+      "email": "Электронная почта",
+      "emailPlaceholder": "Введите ваш email",
+      "emailInvalid": "Неверный email",
+      "submit": "Send Reset Link",
+      "loading": "Отправка...",
+      "backToLogin": "Назад ко входу",
+      "successTitle": "Проверьте свою почту",
+      "successSubtitle": "Ссылка для сброса отправлена",
+      "successMessage": "We've sent a password reset link to your email.",
+      "checkEmail": "Пожалуйста, проверьте ваш почтовый ящик и папку спам.",
+      "resend": "Отправить ссылку повторно",
+      "userNotFound": "User not found"
+    },
+    "reset": {
+      "title": "Сбросить пароль",
+      "subtitle": "Choose a new strong password",
+      "newPassword": "New Password",
+      "passwordPlaceholder": "Введите новый пароль",
+      "passwordInvalid": "Пароль должен содержать минимум 6 символов",
+      "confirmPassword": "Подтвердить пароль",
+      "confirmPasswordPlaceholder": "Повторно введите пароль",
+      "passwordMismatch": "Пароли не совпадают",
+      "weak": "Слабый",
+      "medium": "Средний",
+      "strong": "Сильный",
+      "submit": "Обновить пароль",
+      "loading": "Updating...",
+      "backToLogin": "Назад ко входу",
+      "successTitle": "Успех!",
+      "successSubtitle": "Password Updated",
+      "successMessage": "Ваш пароль успешно обновлен!",
+      "canLogin": "You can now sign in with your new password.",
+      "loginNow": "Войти сейчас"
+    },
+    "social": {
+      "divider": "Или войдите с помощью"
+    }
+  },
+  "hero": {
+    "subtitle": "Высококачественная мода для всех",
+    "shop_now": "Купить сейчас",
+    "title": {
+      "Streetwear": "Streetwear",
+      "Summer Collection": "Summer Collection",
+      "Luxury Watches": "Люксовые часы",
+      "Designer Bags": "Сумки от дизайнеров"
+    }
+  },
+  "filters": {
+    "title": "Фильтры",
+    "price_range": "Ценовой диапазон",
+    "category": "Категория",
+    "gender": "Пол",
+    "size": "Размер",
+    "brand": "Бренд",
+    "rating": "Рейтинг",
+    "clear_all": "Очистить все",
+    "apply": "Применить фильтры",
+    "male": "Men",
+    "female": "Женщины",
+    "unisex": "Унисекс",
+    "kids": "Дети"
+  },
+  "products": {
+    "title": "Our Products",
+    "sort_by": "Сортировать по",
+    "search": "Search for products...",
+    "price_low_high": "Цена: от низкой к высокой",
+    "price_high_low": "Цена: от высокой к низкой",
+    "newest": "Сначала новые",
+    "popular": "Самый популярный",
+    "add_to_cart": "Добавить в корзину",
+    "view_details": "Просмотреть детали",
+    "out_of_stock": "Нет в наличии"
+  },
+  "brands": {
+    "title": "Featured Brands",
+    "subtitle": "Shop from our trusted partners"
   },
   "AdminCharts": {
     "complaints": {
-      "title": "Complaints Analytics",
+      "title": "Complaints Analysis",
       "description": "Monitor and resolve customer complaints effectively",
-      "total": "Total Complaints",
-      "daily_avg": "Daily Average",
-      "peak_volume": "Peak Volume",
+      "total": "Всего жалоб",
+      "daily_avg": "Средний дневной показатель",
+      "peak_volume": "Пиковый объем",
       "resolution_rate": "Resolution Rate",
-      "insights_title": "Complaint Insights"
+      "insights_title": "Complaints Insights"
     },
     "orders": {
-      "title": "Order Analytics",
+      "title": "Orders Analysis",
       "description": "Track order volume and performance metrics",
-      "total": "Total Orders",
-      "daily_avg": "Daily Average",
-      "peak_volume": "Peak Volume",
-      "above_avg": "Above Average",
-      "insights_title": "Order Insights"
+      "total": "Всего заказов",
+      "daily_avg": "Средний дневной показатель",
+      "peak_volume": "Пиковый объем",
+      "above_avg": "Выше среднего",
+      "insights_title": "Аналитика заказов"
     },
     "revenue": {
-      "title": "Revenue Analytics",
-      "description": "Monitor revenue streams and financial performance",
-      "total": "Total Revenue",
-      "daily_avg": "Daily Average",
-      "peak": "Peak Revenue",
-      "growth_rate": "Growth Rate",
-      "insights_title": "Revenue Insights"
+      "title": "Анализ выручки",
+      "description": "Monitor financial trends and performance",
+      "total": "Общая выручка",
+      "daily_avg": "Средний дневной показатель",
+      "peak": "Пиковая выручка",
+      "growth_rate": "Темп роста",
+      "insights_title": "Аналитика выручки"
     },
     "users": {
-      "title": "User Analytics",
-      "description": "Track user growth and engagement metrics",
-      "total": "Total Users",
-      "daily_avg": "Daily Average",
-      "peak_day": "Peak Day",
-      "growth_days": "Growth Days",
-      "insights_title": "User Insights"
+      "title": "Users Analysis",
+      "description": "Track user growth and engagement",
+      "total": "Всего пользователей",
+      "daily_avg": "Средний дневной показатель",
+      "peak_day": "Пиковый день",
+      "growth_days": "Дни роста",
+      "insights_title": "Аналитика пользователей"
     },
-    "netProfit": {
-      "title": "Net Profit Analytics",
-      "description": "Monitor profitability and margin performance",
-      "total": "Total Net Profit",
-      "daily_avg": "Daily Average",
-      "profit_margin": "Profit Margin",
-      "peak": "Peak Profit",
-      "insights_title": "Profit Insights"
+    "net_profit": {
+      "title": "Net Profit Analysis",
+      "description": "Monitor profitability and profit margins",
+      "total": "Общая чистая прибыль",
+      "daily_avg": "Средний дневной показатель",
+      "profit_margin": "Маржа прибыли",
+      "peak": "Пиковая прибыль",
+      "insights_title": "Аналитика прибыли"
     },
     "products": {
-      "title": "Product Analytics",
+      "title": "Products Analysis",
       "description": "Track product performance and sales data",
-      "insights_title": "Product Insights"
+      "insights_title": "Аналитика продуктов"
     },
     "views": {
-      "title": "Views Analytics",
-      "description": "Monitor website views and traffic patterns",
-      "insights_title": "Views Insights"
+      "title": "Анализ просмотров",
+      "description": "Monitor site views and traffic patterns",
+      "insights_title": "Аналитика просмотров"
     }
   },
+  "HeroSectionHome": {
+    "announcement": "Распродажа нового сезона - Скидка до 50% на избранные товары!",
+    "collection_badge": "Spring 2025 Collection",
+    "main_title_1": "Стиль, который",
+    "main_title_2": "speaks",
+    "main_title_3": "for itself.",
+    "description": "Carefully curated pieces. Exceptional quality. Fair prices. Join over {users}+ shoppers worldwide.",
+    "shop_button": "Купить коллекцию",
+    "lookbook_button": "View Lookbook",
+    "stat_1_value": "Happy Customers",
+    "stat_1_sub": "Worldwide",
+    "stat_2_value": "5-звездочные отзывы",
+    "stat_2_sub": "4,9 ★ Средний",
+    "stat_3_value": "Curated Styles",
+    "stat_3_sub": "New Weekly",
+    "stat_4_value": "Просмотры",
+    "stat_4_sub": "Общий совокупный охват",
+    "price_label": "Starting from",
+    "product_images": [
+      {
+        "tag": "Новое поступление",
+        "name": "City Carrier",
+        "price": "£89"
+      },
+      {
+        "tag": "Самый востребованный",
+        "name": "Street Essential",
+        "price": "£64"
+      },
+      {
+        "tag": "Ограниченный выпуск",
+        "name": "Premium Edition",
+        "price": "£129"
+      }
+    ],
+    "testimonial_quote": "Качество мирового класса!",
+    "testimonial_author": "Sarah M. — Verified",
+    "marquee_items": [
+      {
+        "text": "Быстрая доставка"
+      },
+      {
+        "text": "Безопасная оплата"
+      },
+      {
+        "text": "Premium Quality"
+      },
+      {
+        "text": "New Pieces Weekly"
+      }
+    ]
+  },
+  "TestimonialsSection": {
+    "verified_buyer": "Verified Customer",
+    "testimonials": "Customer Reviews on Our Products",
+    "reviews": "28000+ Отзывов",
+    "rating": "4,9",
+    "customer_reviews": "Customer Reviews"
+  },
+  "CollectionsSlider": {
+    "collections": "Collections",
+    "view_collection": "Просмотреть коллекцию",
+    "featured_collection": "Featured Collection"
+  },
+  "HorizontalProductScroll": {
+    "view_all": "Просмотреть все",
+    "products": "Продукты",
+    "view_all_title": "Просмотреть все"
+  },
+  "AdminTopNav": {
+    "alert": "Внимание: Вся статистика обновляется каждый час",
+    "hamburger_aria_label": "Открыть меню",
+    "search_placeholder": "Поиск заказов, пользователей, продуктов...",
+    "search_label": "Поиск",
+    "search": "Поиск",
+    "search_open_label": "Open Search",
+    "search_close_label": "Close Search",
+    "notifications": {
+      "title": "Уведомления",
+      "new": "Новый",
+      "view_all": "Просмотреть все",
+      "aria_label": "Список заказов"
+    },
+    "user_menu": {
+      "aria_label": "Меню пользователя",
+      "options_aria_label": "Опции пользователя",
+      "settings": "Настройки",
+      "my_profile": "Мой профиль",
+      "help_and_support": "Помощь и поддержка",
+      "sign_out": "Выйти"
+    },
+    "user": {
+      "short_name": "Вы",
+      "full_name": "Full Username",
+      "email": "Электронная почта"
+    }
+  },
+  "Notifications": {
+    "title": "Уведомления",
+    "notifications_blocked": "Уведомления заблокированы. Разрешите уведомления в настройках браузера.",
+    "enable_notifications": "Включить уведомления",
+    "mark_all_read": "Отметить все прочитанным",
+    "notifications_disabled_warning": "To receive notifications, allow them from your browser.",
+    "delete_all_read": "Удалить все прочитанные уведомления",
+    "no_notifications_yet": "No notifications yet.",
+    "delete_this_notification": "Удалить это уведомление",
+    "delete_notification_aria": "Удалить уведомление",
+    "bell_aria": "Уведомления, {count} непрочитанных",
+    "notification_details_title": "Детали уведомления",
+    "sender_alt": "Sender"
+  },
+  "AdminStatus": {
+    "statuses": {
+      "pending": "В ожидании",
+      "processing": "Обработка",
+      "shipped": "Отправлено",
+      "delivered": "Доставлено",
+      "cancelled": "Cancelled",
+      "View": "Просмотреть детали"
+    }
+  },
+  "AdminStatusFilter": {
+    "filter_aria_label": "Filter by status",
+    "all_statuses": "Все статусы",
+    "statuses": {
+      "pending": "В ожидании",
+      "processing": "Обработка",
+      "shipped": "Отправлено",
+      "delivered": "Доставлено",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminUpdateStatusModal": {
+    "modal_title": "Обновить статус",
+    "current_status_label": "Текущий статус",
+    "change_to_label": "Change To",
+    "cancel_button": "Отмена",
+    "confirm_button": "Подтвердить",
+    "saving_text": "Saving…",
+    "statuses": {
+      "pending": "В ожидании",
+      "processing": "Обработка",
+      "shipped": "Отправлено",
+      "delivered": "Доставлено",
+      "cancelled": "Cancelled"
+    }
+  },
+  "AdminViewItemsModal": {
+    "modal_title": "Товары заказа",
+    "item_count": "{count} product",
+    "unit_count": "{count} unit",
+    "column_product": "Продукт",
+    "column_qty": "Количество",
+    "column_price": "Цена",
+    "subtotal_label": "Итого"
+  },
+  "ComparisonToggle": {
+    "compare_period": "Compare Period"
+  },
+  "ExportButton": {
+    "export_csv": "Экспорт CSV"
+  },
+  "EmptyState": {
+    "no_data_available": "Нет доступных данных",
+    "no_data_description": "No data found to display"
+  },
+  "TimeframeSelector": {
+    "last_7_days": "Последние 7 дней",
+    "last_30_days": "Последние 30 дней",
+    "last_90_days": "Последние 90 дней",
+    "this_year": "This Year"
+  },
+  "DataTable": {
+    "no_orders_found": "Заказы не найдены"
+  },
+  "NotifFilter": {
+    "sort_by": "Сортировать по",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "sort_order": "Порядок сортировки",
+    "high_to_low": "High to Low",
+    "low_to_high": "Low to High",
+    "sort_by_aria_label": "Сортировать по",
+    "order_aria_label": "Порядок сортировки"
+  },
+  "NotifRow": {
+    "view_details": "Просмотреть детали",
+    "delete": "Удалить",
+    "sent_at": "Отправлено в",
+    "opens": "Opens",
+    "opens_count": "Opens Count",
+    "target_users": "Target Users",
+    "delete_confirmation": "Вы уверены, что хотите удалить это уведомление?",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена"
+  },
+  "StatsGrid": {
+    "total_sent": "Всего отправлено",
+    "total_opens": "Всего открытий",
+    "open_rate": "Показатель открытия",
+    "avg_open_rate": "Average Open Rate"
+  },
+  "NotifHistory": {
+    "tab_notifications": "Push & In-App Notifications",
+    "tab_announcements": "Панель объявлений",
+    "total": "Total:",
+    "aria_label": "История уведомлений",
+    "empty_notifications": "Пока нет уведомлений",
+    "empty_announcements": "No announcement bars yet",
+    "empty_created_items_hint": "Items you create will appear here"
+  },
+  "AdminProductBasicInfo": {
+    "section_title": "Basic Information",
+    "section_subtitle": "Name, description, and category",
+    "field_product_name": "Название продукта",
+    "placeholder_product_name": "Пример: Классическая белая рубашка"
+  },
+  "AdminProductPricing": {
+    "section_title": "Цены и запасы",
+    "section_subtitle": "Price, discount, and inventory",
+    "field_price": "Цена (EGP)",
+    "field_discount": "% скидки"
+  },
+  "AdminGalleryUpload": {
+    "max_files_error": "Maximum {count} images allowed",
+    "file_too_large": "File exceeds {size} MB",
+    "invalid_format": "File format not supported",
+    "drag_drop": "Перетащите изображения сюда или нажмите, чтобы выбрать"
+  },
+  "AdminImageUpload": {
+    "max_size_error": "File exceeds maximum {size} MB",
+    "invalid_format": "Принимаются только JPG, PNG и WebP",
+    "drag_drop": "Перетащите изображение сюда или нажмите, чтобы выбрать",
+    "remove_image": "Удалить изображение"
+  },
+  "AdminDeleteDialog": {
+    "close_aria_label": "Close Dialog",
+    "cancel_button": "Отмена",
+    "confirm_button": "Подтвердить удаление",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "deleting": "Deleting..."
+  },
+  "AdminCategories": {
+    "new_root_title": "New Category",
+    "title": "Категории",
+    "edit_title": "Редактировать категорию",
+    "loading": "Загрузка…",
+    "stats": "{root} categories · {sub} subcategories",
+    "new_category": "New Category",
+    "search_placeholder": "Поиск категорий…",
+    "search_aria": "Поиск категорий",
+    "refresh": "Refresh Categories",
+    "results_for": "{count} results for \"{query}\"",
+    "categories_count": "{count} categories",
+    "add_root": "Добавить категорию",
+    "failed_to_load": "Failed to load categories",
+    "try_again": "Попробовать снова",
+    "no_match": "Совпадающие категории не найдены",
+    "no_categories_yet": "Пока нет категорий",
+    "try_different_keyword": "Попробуйте другое ключевое слово",
+    "create_first_category": "Создайте свою первую категорию, чтобы начать",
+    "hover_help_prefix": "Наведите на категорию, чтобы увидеть действия",
+    "add_category_aria": "Добавить новую категорию",
+    "add_category": "Добавить категорию",
+    "sub_label": "Подкатегория",
+    "add_sub_aria": "Добавить подкатегорию к {name}",
+    "add_sub": "Добавить подкатегорию",
+    "edit_aria": "Edit {name}",
+    "edit": "Редактировать",
+    "delete_aria": "Delete {name}",
+    "delete": "Удалить",
+    "delete_category": "Удалить категорию",
+    "delete_confirm": "Вы уверены, что хотите удалить \"{name}\"? Это также удалит {count} подкатегорий (если есть).",
+    "field_name": "Название категории",
+    "placeholder_example": "Example: Clothing",
+    "field_slug": "Слаг",
+    "auto_generated": "Автоматически сгенерировано",
+    "placeholder_slug": "slug example: clothing",
+    "field_image": "Изображение категории",
+    "field_image_hint": "Необязательно · Отображается в магазине",
+    "uploading_image": "Uploading image...",
+    "sub_categories": "Подкатегории",
+    "optional": "Необязательно",
+    "no_sub_categories": "Пока нет подкатегорий",
+    "field_parent": "Parent Category",
+    "select_parent": "Выбрать родительскую категорию…",
+    "add": "Добавить",
+    "placeholder_sub_name": "Subcategory name",
+    "placeholder_sub_slug": "subcategory slug",
+    "remove_sub_aria": "Remove subcategory",
+    "editable": "Editable",
+    "leave_empty_root": "Оставьте пустым, чтобы сделать корневой категорией",
+    "no_parent_root": "Нет родителя (корневая категория)",
+    "cancel": "Отмена",
+    "saving": "Saving...",
+    "save_changes": "Сохранить изменения",
+    "create": "Создать"
+  },
+  "AdminStatsCards": {
+    "vs_previous_period": "vs Previous Period"
+  },
+  "AdminInsightsPanel": {
+    "default_title": "Ключевые выводы"
+  },
+  "AdminCustomTooltip": {
+    "value_label": "Value"
+  },
+  "AdminNotifRow": {
+    "view_details": "Просмотреть детали",
+    "delete": "Удалить",
+    "customize": "Настроить",
+    "preview_link": "Ссылка предпросмотра",
+    "mark_read": "Отметить прочитанным",
+    "mark_unread": "Отметить непрочитанным"
+  },
+  "AdminNotifComposer": {
+    "title": "Композитор уведомлений",
+    "aria_label": "Create Notification",
+    "select_recipients": "Выбрать получателей",
+    "notification_type": "Канал отправки",
+    "push_notification": "Push-уведомление",
+    "in_app": "В приложении",
+    "announcement_bar": "Панель объявлений",
+    "notification_title": "Заголовок уведомления",
+    "notification_description": "Notification Description",
+    "preview_button": "Предпросмотр",
+    "send_button": "Отправить сейчас",
+    "schedule_button": "Schedule",
+    "subtitle": "Send notifications to all users instantly",
+    "sending_as": "Отправка от лица {role}",
+    "you": "Вы",
+    "mobile_desktop": "Мобильные и десктоп",
+    "in_app_hint": "Иконка колокольчика · Веб-интерфейс",
+    "announcement_bar_hint": "Верхний баннер сайта",
+    "notification_sent_success": "Notification sent to all users!",
+    "notification_sent_error": "Failed to send. Try again.",
+    "title_placeholder": "Example: 🔥 Flash Deal — 24 Hours Only!",
+    "description_placeholder": "Напишите текст уведомления. Сделайте его четким и ориентированным на действие.",
+    "push_only": "Только push",
+    "action_url": "Ссылка действия",
+    "push_only_hint": "— Push notification only",
+    "notification_image": "Изображение уведомления",
+    "uploading": "Uploading...",
+    "uploaded": "Загружено",
+    "drop_to_upload": "Отпустите для загрузки",
+    "drag_click_to_choose": "Перетащите или нажмите, чтобы выбрать",
+    "file_types_hint": "PNG, JPG, WEBP · Max 5MB",
+    "announcement_bar_only": "Announcement bar only",
+    "bar_link_label": "Ссылка бара",
+    "bar_background_color": "Bar Background Color",
+    "push_url_placeholder": "https://yourapp.com/offer",
+    "push_image_preview_alt": "Notification image preview",
+    "pick_color": "Выбрать цвет",
+    "close": "Закрыть",
+    "bar_preview": "Предпросмотр бара",
+    "announcement_placeholder": "Your announcement text will appear here…",
+    "sending": "Sending",
+    "broadcast_to_all_users": "Трансляция всем пользователям",
+    "will_be_sent_to_users": "Будет мгновенно отправлено ~{count} пользователям"
+  },
+  "AdminPreviews": {
+    "phone_preview": "Предпросмотр телефона",
+    "in_app_preview": "Предпросмотр в приложении",
+    "announcement_preview": "Предпросмотр панели объявлений",
+    "now": "Сейчас",
+    "notification_title_placeholder": "Заголовок уведомления",
+    "message_placeholder": "Ваше сообщение появится здесь.",
+    "notifications_label": "Уведомления",
+    "new_count": "{count} New",
+    "no_other_notifications": "Нет других уведомлений"
+  },
+  "AdminAnnouncementBarPreview": {
+    "view_offer": "Просмотр предложения",
+    "aria_label": "Announcement bar preview",
+    "live_preview": "Прямой эфир · Панель объявлений"
+  },
+  "AdminChatPane": {
+    "conversation": "Разговор",
+    "ticket_details": "Детали тикета",
+    "message_input": "Введите сообщение...",
+    "send_message": "Отправить",
+    "status_label": "Status:",
+    "priority_label": "Priority:"
+  },
+  "AdminTicketList": {
+    "search_tickets": "Поиск тикетов",
+    "no_tickets": "Нет тикетов",
+    "unread": "Новый"
+  },
+  "AdminUsersFilter": {
+    "search_users": "Search Users",
+    "filter_role": "По роли",
+    "filter_status": "По статусу",
+    "items_per_page": "Товаров на странице",
+    "all_roles": "All Roles",
+    "all_statuses": "Все статусы"
+  },
+  "AdminUsersStats": {
+    "total_users": "Всего пользователей",
+    "active_users": "Активные пользователи",
+    "banned_users": "Banned Users"
+  },
+  "AdminUpdataStatusModal": {
+    "title": "Update User Status",
+    "current_status": "Текущий статус:",
+    "new_status": "New Status:",
+    "cancel_button": "Отмена",
+    "save_button": "Сохранить"
+  },
+  "AdminChartCard": {
+    "view_full_chart": "Просмотр полной таблицы",
+    "loading": "Загрузка..."
+  },
+  "AdminStatCard": {
+    "view_analytics": "Просмотр аналитики"
+  },
+  "AdminGeoMap": {
+    "sales_by_region": "Продажи по регионам",
+    "total_revenue": "Общая выручка"
+  },
+  "AdminAvatar": {
+    "user_avatar": "Аватар пользователя",
+    "online": "Онлайн",
+    "offline": "Офлайн"
+  },
+  "AdminBadge": {
+    "active": "Активный",
+    "inactive": "Неактивный",
+    "pending": "В ожидании",
+    "completed": "Завершено",
+    "admin": "Админ",
+    "user": "Пользователь",
+    "moderator": "Модератор",
+    "high": "Высокий",
+    "medium": "Средний",
+    "low": "Низкий"
+  },
+  "AdminButton": {
+    "loading": "Processing...",
+    "submit": "Отправить",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать"
+  },
+  "AdminModal": {
+    "close": "Закрыть"
+  },
+  "AdminDataTable": {
+    "search": "Search...",
+    "no_results": "Нет результатов",
+    "sort_ascending": "Сортировать по возрастанию",
+    "sort_descending": "Сортировать по убыванию",
+    "sort_toggle": "Toggle Sort",
+    "Status": "Статус"
+  },
+  "AdminShell": {
+    "mobile_menu": "Navigation Menu"
+  },
+  "CardNav": {
+    "cart": "Корзина",
+    "delete_item": "Delete Item",
+    "back": "Назад",
+    "size": "Размер",
+    "total_price": "Total Price",
+    "checkout": "Оформление заказа"
+  },
+  "MainContent": {
+    "filters": "Фильтры",
+    "products": "Продукты",
+    "no_products": "Нет товаров"
+  },
+  "Pagination": {
+    "previous": "Предыдущий",
+    "next": "Следующий",
+    "page": "Страница",
+    "of": "of",
+    "results": "Итого",
+    "showing": "Показано"
+  },
+  "BellItem": {
+    "delete": "Удалить",
+    "mark_as_read": "Отметить прочитанным",
+    "mark_as_unread": "Отметить непрочитанным"
+  },
+  "BellOnceItem": {
+    "view_more": "View More",
+    "close": "Закрыть",
+    "date": "Дата"
+  },
+  "DeleteAllNotifButton": {
+    "delete_all": "Удалить все",
+    "delete_all_notifications": "Удалить все уведомления"
+  },
+  "HeaderBell": {
+    "notifications": "Уведомления",
+    "mark_all_as_read": "Отметить все прочитанным"
+  },
+  "Cart": {
+    "shopping_cart": "Корзина покупок",
+    "empty_cart": "Cart is empty",
+    "continue_shopping": "Продолжить покупки",
+    "checkout": "Оформление заказа",
+    "order_summary": "Сводка заказа",
+    "subtotal": "Итого",
+    "shipping": "Доставка",
+    "total": "Итого",
+    "items": "Товары",
+    "view_cart": "Просмотреть корзину",
+    "view_all": "Просмотреть все ({count})",
+    "items_label": "Товары в корзине",
+    "remove": "Удалить продукт"
+  },
+  "CartItem": {
+    "size": "Размер",
+    "price": "Цена",
+    "quantity": "Количество",
+    "remove": "Удалить",
+    "delete": "Удалить",
+    "delete_aria": "Delete {product}",
+    "quantity_aria": "Product quantity",
+    "decrease_qty": "Decrease quantity",
+    "increase_qty": "Increase quantity",
+    "total_label": "Итого"
+  },
+  "Applyrequest": {
+    "title": "Сводка заказа",
+    "subtotal": "Итого",
+    "shipping": "Доставка",
+    "total": "Итого",
+    "checkout": "Оформление заказа",
+    "apply_request": "Подать заявку",
+    "order_summary": "Сводка заказа",
+    "items_count": "{count} item",
+    "show_more": "Показать еще {count} товаров",
+    "promo_label": "Код скидки",
+    "promo_placeholder": "Введите код",
+    "apply_button": "Применить",
+    "coupon_success": "Код {code} применен! Скидка 40% предоставлена",
+    "coupon_error": "Неверный код",
+    "discount_label": "Скидка",
+    "shipping_label": "Доставка",
+    "grand_total_label": "Итого",
+    "checkout_button": "Complete Order",
+    "vat_note": "НДС включен",
+    "promo_aria": "Discount code field",
+    "price_details_aria": "Price details",
+    "grand_total_aria": "Grand total summary",
+    "cart_items_aria": "Cart items",
+    "promo_code": "Код скидки",
+    "apply_code": "Применить",
+    "discount_applied": "Скидка применена!",
+    "shipping_fee": "Стоимость доставки",
+    "proceed_checkout": "Proceed to Checkout",
+    "continue_shopping": "Продолжить покупки",
+    "trust": {
+      "safe_payment": "Безопасная оплата",
+      "quality": "Quality Guarantee",
+      "free_returns": "Бесплатный возврат"
+    }
+  },
+  "trust": {
+    "safe_payment": "Безопасная оплата",
+    "quality": "Quality Guarantee",
+    "free_returns": "Бесплатный возврат"
+  },
+  "CartHeader": {
+    "products": "Продукты",
+    "cart_header": "Заголовок корзины",
+    "title": "Корзина покупок",
+    "products_in_cart": "{count} products in your cart"
+  },
+  "ChatWindow": {
+    "messages": "Сообщения",
+    "type_message": "Введите сообщение...",
+    "send": "Отправить",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "Закрыть"
+  },
+  "MessageItem": {
+    "delivered": "Доставлено",
+    "read": "Read",
+    "sending": "Отправка..."
+  },
+  "Carousel": {
+    "previous": "Предыдущий",
+    "next": "Следующий",
+    "slide": "Slide"
+  },
+  "CategoryGrid": {
+    "categories": "Категории",
+    "shop_category": "Покупать по категориям",
+    "shop": "Магазин",
+    "no_categories": "Нет категорий",
+    "CATEGORY": "Категории",
+    "ctgDescribtion": "Исследуйте наши новейшие категории",
+    "men": "Men",
+    "kids": "Дети",
+    "Accessories": "Аксессуары"
+  },
+  "ProductCardHome": {
+    "add_to_cart": "Добавить в корзину",
+    "quick_view": "Быстрый просмотр",
+    "out_of_stock": "Нет в наличии",
+    "price": "Цена"
+  },
+  "ShowcaseSection": {
+    "featured": "Featured",
+    "shop_now": "Купить сейчас",
+    "view_all": "Просмотреть все",
+    "explore_all": "Исследовать все",
+    "Men's_Collection": "Men",
+    "Little_Legends": "Дети",
+    "men-pants": "Последние модные тренды",
+    "Accessories": "Аксессуары",
+    "Jackets": "Jackets",
+    "men_describe": "Для вас",
+    "pants_describe": "Последние модные тренды",
+    "women_describe": "Новейшие аксессуары",
+    "Accessories_describe": "Завершите свой стиль",
+    "jackets_describe": "Для холодной погоды",
+    "jacket_describe": "Для холодной погоды"
+  },
+  "ZoomOverlay": {
+    "aria_zoom": "Zoom — {name}",
+    "zoom_in": "Увеличить",
+    "zoom_out": "Уменьшить",
+    "rotate": "Rotate",
+    "reset": "Сбросить",
+    "close": "Закрыть",
+    "hint": "Pinch or scroll to zoom · Drag to pan"
+  },
+  "CheckoutClient": {
+    "checkout": "Оформление заказа",
+    "step": "Step",
+    "cart": "Корзина",
+    "address": "Адрес",
+    "payment": "Оплата",
+    "confirmation": "Confirmation"
+  },
+  "CheckoutStepper": {
+    "step_cart": "Корзина",
+    "step_address": "Адрес",
+    "step_payment": "Оплата",
+    "step_confirmation": "Confirmation",
+    "completed": "Завершено"
+  },
+  "SocialLogin": {
+    "sign_up_with": "Зарегистрироваться с",
+    "facebook": "Facebook",
+    "google": "Google",
+    "github": "GitHub",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "PDPDetails": {
+    "product_details": "Детали продукта",
+    "description": "Описание",
+    "specifications": "Характеристики",
+    "reviews": "Отзывы",
+    "add_to_cart": "Добавить в корзину",
+    "add_to_wishlist": "Добавить в список желаний",
+    "size": "Размер",
+    "quantity": "Количество",
+    "in_stock": "В наличии",
+    "out_of_stock": "Нет в наличии",
+    "save_percent": "Сэкономить {percent}%",
+    "color_label": "Цвет:",
+    "size_error": "Пожалуйста, выберите размер",
+    "size_label": "Размер:",
+    "select_size": "Выбрать размер",
+    "size_guide": "Руководство по размерам",
+    "guarantees": {
+      "free_returns": "Бесплатный возврат",
+      "secure_checkout": "Безопасное оформление заказа",
+      "fast_delivery": "Быстрая доставка"
+    }
+  },
+  "PDPGallery": {
+    "product_gallery": "Галерея продукта",
+    "previous": "Предыдущий",
+    "next": "Следующий",
+    "thumbnail": "Thumbnail",
+    "zoom": "Масштаб"
+  },
+  "PLPClient": {
+    "products": "Продукты",
+    "sort": "Сортировать",
+    "filter": "Фильтр",
+    "no_products": "Нет товаров",
+    "price_low_to_high": "Цена: от низкой к высокой",
+    "price_high_to_low": "Цена: от высокой к низкой",
+    "newest": "Новейший",
+    "bestseller": "Бестселлер"
+  },
+  "DepartmentsProductCard": {
+    "view": "Просмотр",
+    "add_to_cart": "Добавить в корзину",
+    "add_to_wishlist": "Добавить в список желаний",
+    "rating": "Рейтинг",
+    "price": "Цена",
+    "in_stock": "В наличии"
+  },
+  "ProductDiffrentActions": {
+    "add_to_cart": "Добавить в корзину",
+    "add_to_wishlist": "Добавить в список желаний",
+    "share": "Поделиться",
+    "quantity": "Количество",
+    "size": "Размер",
+    "decrease": "Decrease",
+    "increase": "Increase"
+  },
+  "ProductActions": {
+    "quantity": "Количество",
+    "adding": "Добавление...",
+    "added": "✓ Added",
+    "add_to_cart": "Добавить в корзину",
+    "share_aria": "Поделиться продуктом"
+  },
+  "ReviewSection": {
+    "reviews": "Отзывы",
+    "header": {
+      "title": "Customer Reviews",
+      "verified_purchases": "Verified Purchases"
+    },
+    "rating_distribution": "Распределение рейтингов",
+    "star_label": "{count} stars",
+    "write_review": "Написать отзыв",
+    "visual_breakdown": "Visual Breakdown",
+    "rating": "Рейтинг",
+    "review": "Review",
+    "verified_buyer": "Verified Buyer",
+    "helpful": "Helpful",
+    "not_helpful": "Not Helpful",
+    "submit": "Отправить",
+    "loading_reviews": "Загрузка отзывов...",
+    "no_reviews_yet": "No reviews yet",
+    "be_first": "Будьте первым, кто поделится своим мнением!",
+    "loading_more": "Загрузка отзывов...",
+    "all_reviews_loaded": "All reviews loaded ({count})",
+    "customer_recommended": "Уровень рекомендаций клиентов",
+    "out_of": "out of",
+    "customers": "customers",
+    "anonymous": "Анонимный",
+    "just_posted": "Just Posted",
+    "mark_helpful_aria": "Отметить полезным{count, plural, =0 {} one{ (1)} other{ ({count})}}",
+    "form": {
+      "title": "Добавить отзыв",
+      "your_rating": "Your Rating",
+      "your_review": "Your Review",
+      "placeholder": "Напишите свой опыт здесь...",
+      "min_chars": "Minimum 10 characters",
+      "submitting": "Submitting...",
+      "submit": "Отправить",
+      "cancel": "Отмена"
+    }
+  },
+  "DepartmentsStarRating": {
+    "rating": "Рейтинг",
+    "stars": "Stars",
+    "rate": "Rate",
+    "out_of_5": "out of 5"
+  },
+  "ProfileContent": {
+    "loading": "Загрузка...",
+    "profile": "Профиль",
+    "user_profile": "Профиль пользователя"
+  },
+  "ProfileSkeleton": {
+    "loading": "Загрузка..."
+  },
+  "profile": {
+    "pageTitle": "Профиль",
+    "pageDescription": "Browse your personal information, orders, favorites, and settings.",
+    "admin": {
+      "title": "User Management Panel",
+      "notification": {
+        "title": "Send Notification to User",
+        "titleLabel": "Заголовок уведомления",
+        "titlePlaceholder": "Enter notification title...",
+        "messageLabel": "Notification Message",
+        "messagePlaceholder": "Enter notification message...",
+        "sending": "Отправка…",
+        "send": "Отправить"
+      },
+      "insights": {
+        "title": "Statistics",
+        "lifetimeValue": "Пожизненная ценность клиента",
+        "totalOrders": "Всего заказов",
+        "avgOrderValue": "Средний чек",
+        "favorites": "Избранное"
+      },
+      "statusToggle": {
+        "confirm": "Вы уверены, что хотите изменить статус пользователя на {status}?",
+        "title": "Переключить статус",
+        "current": "Текущий статус",
+        "loading": "Updating…",
+        "ban": "Заблокировать",
+        "activate": "Активировать"
+      }
+    },
+    "miniCart": {
+      "title": "Mini Cart",
+      "empty": "Empty",
+      "noItems": "No items in cart",
+      "shopNow": "Купить сейчас",
+      "items": "Товары",
+      "viewAll": "Просмотреть все",
+      "subtotal": "Итого",
+      "viewCart": "Просмотреть корзину"
+    },
+    "favorites": {
+      "title": "Избранное",
+      "noItems": "Нет избранных товаров",
+      "startBrowsing": "Start browsing products",
+      "browseProducts": "Просмотреть товары",
+      "viewAll": "Просмотреть все",
+      "items": "Товары"
+    },
+    "orders": {
+      "title": "Заказы",
+      "noOrders": "No orders",
+      "startShopping": "Начать покупки",
+      "shopNow": "Купить сейчас",
+      "viewAll": "Просмотреть все",
+      "viewDetails": "Просмотреть детали",
+      "recentOrders": "Recent Orders",
+      "viewAllOrders": "Просмотреть все заказы"
+    }
+  },
+  "CalendarClient": {
+    "calendar": "Календарь",
+    "add_event": "Добавить событие",
+    "event": "Event",
+    "date": "Дата",
+    "time": "Время",
+    "title": "Заголовок",
+    "description": "Описание",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "close": "Закрыть",
+    "edit": "Редактировать"
+  },
+  "OrdersClient": {
+    "orders": "Заказы",
+    "order_id": "ID заказа",
+    "customer": "Клиент",
+    "date": "Дата",
+    "status": "Статус",
+    "total": "Итого",
+    "actions": "Действия",
+    "view": "Просмотр",
+    "download": "Скачать",
+    "filter": "Фильтр",
+    "search": "Поиск",
+    "no_orders": "Нет заказов",
+    "status_pending": "В ожидании",
+    "status_processing": "Обработка",
+    "status_shipped": "Отправлено",
+    "status_delivered": "Доставлено",
+    "status_cancelled": "Cancelled"
+  },
+  "Orders": {
+    "title": "Мои заказы",
+    "orders": "Заказы",
+    "empty_title": "Пока нет заказов",
+    "empty_subtitle": "Start browsing the store and add products to your cart.",
+    "browse_products": "Купить сейчас",
+    "labels": {
+      "order_number": "Номер заказа",
+      "date": "Дата",
+      "total": "Итого"
+    },
+    "status": {
+      "pending_payment": "В ожидании",
+      "processing": "Обработка",
+      "shipped": "Отправлено",
+      "delivered": "Доставлено",
+      "cancelled": "Cancelled"
+    },
+    "cancel": {
+      "success": "Order cancelled successfully",
+      "error": "Failed to cancel order",
+      "loading": "Cancelling...",
+      "button": "Отменить заказ"
+    }
+  },
+  "SupportClient": {
+    "support": "Поддержка",
+    "tickets": "Тикеты",
+    "messages": "Сообщения",
+    "chat": "Чат",
+    "ticket_id": "ID тикета",
+    "subject": "Subject",
+    "status": "Статус",
+    "priority": "Приоритет",
+    "created": "Created",
+    "type_message": "Введите сообщение...",
+    "send": "Отправить",
+    "no_tickets": "Нет тикетов",
+    "no_messages": "Нет сообщений"
+  },
+  "UsersClient": {
+    "users": "Пользователи",
+    "user_id": "ID пользователя",
+    "name": "Имя",
+    "email": "Электронная почта",
+    "role": "Роль",
+    "status": "Статус",
+    "actions": "Действия",
+    "view": "Просмотр",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "filter": "Фильтр",
+    "search": "Поиск",
+    "no_users": "Нет пользователей",
+    "active": "Активный",
+    "inactive": "Неактивный",
+    "admin": "Админ",
+    "user": "Пользователь"
+  },
+  "AdminDashboard": {
+    "dashboard": "Панель управления",
+    "welcome": "Добро пожаловать",
+    "overview": "Обзор",
+    "revenue": "Выручка",
+    "orders": "Заказы",
+    "users": "Пользователи",
+    "products": "Продукты",
+    "total_revenue": "Общая выручка",
+    "total_orders": "Всего заказов",
+    "total_users": "Всего пользователей",
+    "total_products": "Всего продуктов",
+    "growth": "Рост",
+    "last_30_days": "Последние 30 дней"
+  },
+  "AdminDashboardClient": {
+    "title": "Панель управления",
+    "welcome": "С возвращением! Вот что происходит в вашем магазине сегодня.",
+    "live": "В прямом эфире"
+  },
+  "AdminLatestOrders": {
+    "title": "Latest Orders",
+    "order_id": "ID заказа",
+    "customer": "Клиент",
+    "amount": "Сумма",
+    "status": "Статус",
+    "date": "Дата",
+    "status_pending_payment": "Pending Payment",
+    "status_processing": "Обработка",
+    "status_shipped": "Отправлено",
+    "status_delivered": "Доставлено",
+    "status_cancelled": "Cancelled",
+    "status_refunded": "Refunded"
+  },
+  "AdminLatestUsers": {
+    "title": "Новые пользователи",
+    "user": "Пользователь",
+    "email": "Электронная почта",
+    "status": "Статус",
+    "joined": "Joined",
+    "status_active": "Активный",
+    "status_inactive": "Неактивный"
+  },
+  "AdminGeography": {
+    "title": "Глобальный охват",
+    "loading_map": "Loading map...",
+    "home_page": "Главная страница",
+    "product_page": "Product Page",
+    "about_page": "Страница О нас",
+    "traffic_distribution": "Распределение трафика",
+    "global_reach": "Глобальный охват"
+  },
+  "AdminStats": {
+    "total_revenue": "Общая выручка",
+    "total_orders": "Всего заказов",
+    "user_growth": "Рост пользователей",
+    "total_visits": "Всего визитов",
+    "vs_last_week": "vs Last Week"
+  },
+  "AdminChartsUI": {
+    "profit_volatility_analysis": "Анализ волатильности прибыли",
+    "peak": "Пик",
+    "low": "Низкий",
+    "revenue_vs_growth": "Выручка и темп роста",
+    "revenue": "Выручка",
+    "growth_percent": "% Рост",
+    "cumulative_user_growth": "Накопительный рост пользователей",
+    "users": "Пользователи",
+    "orders_multi_view_analysis": "Многовидовой анализ заказов",
+    "orders": "Заказы",
+    "traffic_distribution": "Распределение трафика",
+    "track_pages": "Track pages attracting most visitors"
+  },
+  "AdminChartsLabels": {
+    "profit": "Прибыль",
+    "average": "Средний"
+  },
+  "NotificationsPage": {
+    "notifications": "Уведомления",
+    "send_notification": "Отправить уведомление",
+    "notification_title": "Заголовок уведомления",
+    "notificatio\n_message": "Notification Message",
+    "recipients": "Получатели",
+    "send": "Отправить",
+    "success": "Успешно отправлено",
+    "error": "Send Error",
+    "pending": "В ожидании",
+    "sent": "Отправлено",
+    "failed": "Failed"
+  },
+  "ChatModal": {
+    "contact_admin": "Contact Admin",
+    "type_message": "Введите сообщение...",
+    "send": "Отправить",
+    "close": "Закрыть",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "online": "Онлайн",
+    "offline": "Офлайн",
+    "new_message": "New Message",
+    "typing": "Typing...",
+    "sent": "Отправлено",
+    "delivered": "Доставлено",
+    "read": "Read"
+  },
+  "ChatWidget": {
+    "chatbot": {
+      "ariaLabel": "ИИ-ассистент",
+      "botName": "ZFashin-helper",
+      "status": "● Instant Reply •",
+      "clearChat": "Очистить чат",
+      "close": "Закрыть",
+      "quickQuestionsLabel": "Common Questions",
+      "loading": "Загрузка",
+      "olderMessages": "Older Messages",
+      "typing": "Typing reply",
+      "emptyStateTitle": "Hello! How can I help you? 👋",
+      "emptyStateSubtitle": "Выберите вопрос выше или введите свое сообщение",
+      "inputPlaceholder": "Введите сообщение...",
+      "inputLabel": "Поле ввода сообщения",
+      "sendMessage": "Отправить сообщение",
+      "poweredBy": "Powered by AI"
+    },
+    "quickQuestions": {
+      "q1": "О дизайнере магазина и как связаться",
+      "q2": "Что такое сайт ZFashion",
+      "q3": "Что делает этот магазин особенным"
+    },
+    "menu": {
+      "ariaLabel": "Варианты связи",
+      "unreadMessages": "{{count}} unread messages",
+      "technicalSupport": {
+        "title": "Техническая поддержка",
+        "subtitle": "Чат с командой поддержки"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "Напишите нам напрямую"
+      },
+      "hotline": {
+        "title": "Hotline",
+        "number": "01080761700"
+      },
+      "aiAssistant": {
+        "title": "ИИ-ассистент",
+        "subtitle": "Instant Reply • AI"
+      }
+    },
+    "fab": {
+      "close": "Закрыть меню",
+      "open": "Открыть варианты связи"
+    },
+    "errors": {
+      "loadMessages": "Failed to load messages",
+      "connectionFailed": "Соединение не удалось"
+    }
+  },
+  "UserColumns": {
+    "user": "Пользователь",
+    "email": "Электронная почта",
+    "role": "Роль",
+    "status": "Статус",
+    "joined": "Joined",
+    "actions": "Действия",
+    "admin": "Админ",
+    "active": "Активный",
+    "inactive": "Неактивный",
+    "banned": "Заблокирован"
+  },
+  "Admin": {
+    "dashboard": "Панель управления",
+    "orders": "Заказы",
+    "products": "Продукты",
+    "users": "Пользователи",
+    "support": "Поддержка",
+    "notifications": "Уведомления",
+    "analytics": "Аналитика",
+    "calendar": "Календарь",
+    "charts": "Charts",
+    "logout": "Выйти",
+    "settings": "Настройки",
+    "profile": "Профиль"
+  },
+  "AdminOrders": {
+    "Orders": "Заказы",
+    "title": "Заказы",
+    "order_id": "ID заказа",
+    "customer": "Клиент",
+    "total": "Итого",
+    "status": "Статус",
+    "date": "Дата",
+    "view": "Просмотр",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "pending": "В ожидании",
+    "confirmed": "Confirmed",
+    "shipped": "Отправлено",
+    "delivered": "Доставлено",
+    "cancelled": "Cancelled",
+    "confirmed_revenue": "Confirmed Revenue"
+  },
+  "AdminProducts": {
+    "title": "Продукты",
+    "add_product": "Добавить продукт",
+    "edit_product": "Редактировать продукт",
+    "delete_product": "Удалить продукт",
+    "categories": "Категории",
+    "add_category": "Добавить категорию",
+    "price": "Цена",
+    "stock": "Запас",
+    "name": "Имя",
+    "description": "Описание",
+    "image": "Изображение",
+    "gallery": "Галерея",
+    "filters": "Фильтры",
+    "reset_all": "Сбросить все",
+    "category": "Категория",
+    "all_categories": "Все категории",
+    "price_range": "Ценовой диапазон (EGP)",
+    "min": "Min",
+    "max": "Max",
+    "gender": "Пол",
+    "gender_male": "Men",
+    "gender_female": "Женщины",
+    "gender_kids": "Дети",
+    "gender_unisex": "Унисекс",
+    "sizes": "Размеры",
+    "size_small": "S",
+    "size_medium": "M",
+    "size_large": "L",
+    "size_xlarge": "XL",
+    "filters_active": "Applied: {count}",
+    "loading": "Загрузка…",
+    "products_found": "{count} products found",
+    "search_placeholder": "Search products…",
+    "no_products_found": "Товары не найдены",
+    "try_adjust_filters": "Попробуйте настроить фильтры",
+    "create_first_product": "Создайте свой первый продукт",
+    "clear_filters": "Clear Filters",
+    "failed_to_load": "Не удалось загрузить товары",
+    "try_again": "Попробовать снова",
+    "active_label": "Активный:",
+    "min_label": "Мин £",
+    "max_label": "Max £",
+    "col_product": "Продукт",
+    "col_category": "Категория",
+    "col_price": "Цена",
+    "col_stock": "Запас",
+    "col_sizes": "Размеры",
+    "col_rating": "Рейтинг",
+    "col_actions": "Действия",
+    "discount_off": "{discount}% Off",
+    "in_stock": "В наличии",
+    "out_of_stock": "Нет в наличии",
+    "units": "unit/units",
+    "delete_confirm": "Вы уверены, что хотите удалить \"{name}\"? Это действие нельзя отменить."
+  },
+  "AdminProductForm": {
+    "edit_title": "Редактировать продукт",
+    "new_title": "New Product",
+    "editing": "Редактирование: {name}",
+    "fill_in_details": "Заполните детали продукта",
+    "main_image": "Main Image",
+    "current_image_shown": "Показано текущее изображение",
+    "required": "Required",
+    "gallery": "Галерея",
+    "gallery_count": "{count} / 8 images",
+    "variants": "Variants",
+    "gender": "Пол",
+    "sizes": "Размеры",
+    "cancel": "Отмена",
+    "save_changes": "Сохранить изменения",
+    "create_product": "Создать продукт",
+    "uploading_main": "Uploading main image…",
+    "uploading_gallery": "Uploading {count} file(s)…",
+    "upload_failed": "Image upload failed. Try again."
+  },
+  "AdminUsers": {
+    "title": "Пользователи",
+    "user_id": "ID пользователя",
+    "email": "Электронная почта",
+    "name": "Имя",
+    "role": "Роль",
+    "status": "Статус",
+    "joined": "Joined",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "admin": "Админ",
+    "user": "Пользователь",
+    "moderator": "Модератор",
+    "active": "Активный",
+    "inactive": "Неактивный",
+    "banned": "Заблокирован"
+  },
+  "AdminSupport": {
+    "title": "Тикеты поддержки",
+    "ticket_id": "ID тикета",
+    "subject": "Subject",
+    "customer": "Клиент",
+    "status": "Статус",
+    "priority": "Приоритет",
+    "created": "Created",
+    "open": "Открыть",
+    "in_progress": "В процессе",
+    "resolved": "Решено",
+    "closed": "Закрыт",
+    "high": "Высокий",
+    "medium": "Средний",
+    "low": "Низкий",
+    "reply": "Ответить",
+    "close_ticket": "Закрыть тикет",
+    "select_conversation": "Select Conversation",
+    "choose_ticket_from_left": "Выберите тикет поддержки на левой панели, чтобы просмотреть разговор.",
+    "email_aria": "Email {name}",
+    "more_options": "Другие варианты",
+    "chat_messages_aria": "Сообщения чата",
+    "conversation_separator": "Разговор",
+    "ticket_list_panel_aria": "Панель списка тикетов",
+    "support_tickets_list_aria": "Support Tickets List",
+    "tickets": "Тикеты",
+    "search_placeholder": "Поиск тикетов или сообщений...",
+    "search_aria": "Поиск тикетов",
+    "clear_search": "Очистить поиск",
+    "filter_by_status_aria": "Фильтровать по статусу",
+    "status_all": "Все",
+    "status_open": "Открыть",
+    "status_pending": "В ожидании",
+    "status_resolved": "Решено",
+    "status_closed": "Закрыт",
+    "no_tickets_found": "Тикеты не найдены",
+    "no_messages": "Нет сообщений",
+    "ticket_from": "Ticket from {name}",
+    "showing_range": "Показано {shown} из {total}",
+    "chat_panel_aria": "Панель чата",
+    "back_to_ticket_list_aria": "Назад к списку тикетов",
+    "all_tickets": "All Tickets"
+  },
+  "AdminNotifications": {
+    "title": "Уведомления",
+    "new_notification": "Новое уведомление",
+    "send": "Отправить",
+    "title_placeholder": "Заголовок уведомления",
+    "message_placeholder": "Сообщение",
+    "recipients": "Получатели",
+    "scheduled": "Запланировано",
+    "status": "Статус",
+    "sent": "Отправлено",
+    "pending": "В ожидании",
+    "draft": "Черновик",
+    "broadcast_center": "Центр вещания",
+    "global_notifications": "Глобальные уведомления",
+    "send_notifications_description": "Мгновенно отправлять уведомления всем зарегистрированным пользователям."
+  },
+  "AdminAnalytics": {
+    "title": "Аналитика",
+    "revenue": "Выручка",
+    "orders": "Заказы",
+    "users": "Пользователи",
+    "products": "Продукты",
+    "views": "Просмотры",
+    "total_revenue": "Общая выручка",
+    "total_orders": "Всего заказов",
+    "total_users": "Всего пользователей",
+    "this_month": "This Month",
+    "this_year": "This Year",
+    "all_time": "За все время",
+    "growth": "Рост",
+    "decline": "Снижение"
+  },
+  "AdminCalendar": {
+    "title": "Календарь",
+    "new_event": "Новое событие",
+    "event_title": "Название события",
+    "start_date": "Дата начала",
+    "end_date": "Дата окончания",
+    "all_day": "Весь день",
+    "add_event": "Добавить событие",
+    "edit_event": "Редактировать событие",
+    "delete_event": "Удалить событие",
+    "sales": "Продажи",
+    "campaign": "Кампания",
+    "meeting": "Встреча",
+    "maintenance": "Обслуживание",
+    "partnership": "Партнерство",
+    "operations": "Операции"
+  },
+  "PLP": {
+    "title_mens_collection": "Men's Collection",
+    "subtitle_shop": "Магазин",
+    "aria": {
+      "product_listing": "Список продуктов",
+      "products": "Продукты"
+    },
+    "errors": {
+      "failed_to_load_products": "Failed to load products."
+    },
+    "actions": {
+      "retry": "Повторить",
+      "clear_filters_button": "Clear Filters"
+    },
+    "empty": {
+      "no_products": "Товары не найдены",
+      "try_adjusting": "Попробуйте настроить фильтры или поисковый запрос"
+    }
+  },
+  "PDP": {
+    "size": "Размер",
+    "color": "Color",
+    "quantity": "Количество",
+    "add_to_cart": "Добавить в корзину",
+    "add_to_favorites": "Добавить в избранное",
+    "share": "Поделиться",
+    "description": "Описание",
+    "specifications": "Характеристики",
+    "reviews": "Отзывы",
+    "rating": "Рейтинг",
+    "in_stock": "В наличии",
+    "out_of_stock": "Нет в наличии",
+    "select_size": "Пожалуйста, выберите размер",
+    "select_color": "Пожалуйста, выберите цвет"
+  },
+  "AdminSidebar": {
+    "nav": {
+      "aria_label": "Навигация администратора",
+      "about": "О нас",
+      "dashboard": "Панель администратора"
+    },
+    "logo": {
+      "aria_label": "Go to Dashboard"
+    },
+    "mobile": {
+      "close_label": "Закрыть боковую панель"
+    },
+    "sections": {
+      "main": "Главный",
+      "commerce": "Коммерция",
+      "analytics": "Аналитика",
+      "communication": "Коммуникация",
+      "system": "Система"
+    },
+    "items": {
+      "dashboard": "Панель управления",
+      "orders": "Заказы",
+      "users": "Пользователи",
+      "products": "Продукты",
+      "categories": "Категории",
+      "support_and_complaint": "Support & Complaints",
+      "charts": "Charts",
+      "revenue": "Выручка",
+      "net_profit": "Чистая прибыль",
+      "complaints": "Жалобы",
+      "views": "Просмотры",
+      "notifications": "Уведомления",
+      "calendar": "Календарь",
+      "settings": "Настройки"
+    },
+    "badge": {
+      "pending_count": "{count} pending"
+    },
+    "subitems": {
+      "users": "Пользователи",
+      "orders": "Заказы",
+      "revenue": "Выручка",
+      "net profit": "Чистая прибыль",
+      "complaints": "Жалобы",
+      "products": "Продукты",
+      "views": "Просмотры"
+    },
+    "sidebar": {
+      "aria_label": "Боковая панель администратора"
+    },
+    "user_footer": {
+      "logout_label": "Выйти"
+    }
+  },
+  "Chat": {
+    "type_message": "Введите сообщение...",
+    "choose_emoji": "Выберите эмодзи",
+    "send_message": "Отправить сообщение",
+    "support": "Техническая поддержка",
+    "maximize": "Maximize",
+    "minimize": "Minimize",
+    "close_chat": "Закрыть чат",
+    "please_login_before_continue": "Пожалуйста, войдите, чтобы продолжить",
+    "welcome_message": "Welcome to ZFashion! Drop us a message and we’ll get back to you in a few minutes. We're here to help you ❤😊"
+  },
+  "FilterSidebar": {
+    "sections": {
+      "category": "Категория",
+      "size": "Размер",
+      "brand": "Бренд",
+      "price_egp": "Цена (EGP)",
+      "filters": "Фильтры"
+    },
+    "categories": {
+      "All": "Все",
+      "Shirts": "Shirts",
+      "Pants": "Pants",
+      "T-Shirts": "T-Shirts",
+      "Jackets": "Jackets",
+      "Knitwear": "Knitwear",
+      "Hoodies": "Hoodies",
+      "Polo": "Polo",
+      "Shorts": "Shorts"
+    },
+    "sizes": {
+      "Small": "Small",
+      "Medium": "Средний",
+      "Large": "Large",
+      "XLarge": "Extra Large",
+      "labels": {
+        "Small": "S",
+        "Medium": "M",
+        "Large": "L",
+        "XLarge": "XL"
+      }
+    },
+    "brands": {
+      "Heritage": "Heritage",
+      "Core": "Core",
+      "Prestige": "Prestige"
+    },
+    "placeholders": {
+      "min": "Min",
+      "max": "Max"
+    },
+    "aria": {
+      "size_filter": "Фильтр размера",
+      "min_price": "Минимальная цена",
+      "max_price": "Максимальная цена",
+      "product_filters": "Фильтры продуктов",
+      "close_filters": "Закрыть фильтры"
+    },
+    "actions": {
+      "clear_all_filters": "Очистить все фильтры",
+      "clear": "Очистить все"
+    }
+  },
+  "PLPParts": {
+    "hero": {
+      "aria_category_banner": "{title} - Category Banner"
+    },
+    "toolbar": {
+      "open_filters": "Открыть фильтры",
+      "filters": "Фильтры",
+      "search_placeholder": "Поиск продуктов...",
+      "search_aria": "Поиск продуктов",
+      "products": "Продукты"
+    },
+    "sort": {
+      "newest": "Новейший",
+      "price_asc": "Цена: от низкой к высокой",
+      "price_desc": "Цена: от высокой к низкой",
+      "top_rated": "С высоким рейтингом",
+      "discount": "Наибольшая скидка"
+    },
+    "pagination": {
+      "aria": "Пагинация",
+      "previous_page": "Предыдущая страница",
+      "page": "Страница {page}",
+      "next_page": "Next Page"
+    }
+  },
+  "About": {
+    "Metadata": {
+      "title": "About Us - ZFashion Store | Where Global Elegance Meets Digital Innovation",
+      "description": "Откройте для себя миссию ZFashion по переосмыслению модной индустрии с помощью передовых технологий и вневременной элегантности. Основано Ибрагимом Абузайдом.",
+      "keywords": "ZFashion, about us, fashion store, premium clothes, e-commerce, Ibrahim AbuZaid, modern fashion, luxury style",
+      "og_title": "About ZFashion Store - Redefining Digital Fashion",
+      "og_description": "Explore our journey of building a high-performance fashion platform that prioritizes user experience and global style.",
+      "og_image_alt": "ZFashion Store - Premium Fashion E-Commerce Platform",
+      "twitter_title": "About ZFashion Store | Global Elegance & Digital Innovation",
+      "twitter_description": "Leading the future of digital fashion commerce with speed and security."
+    },
+    "seo": {
+      "breadcrumb_name": "О нас",
+      "faq": {
+        "q1": {
+          "question": "Что такое ZFashion?",
+          "answer": "ZFashion Store is a premium e-commerce platform dedicated to providing the latest global fashion trends with a focus on speed, security, and user experience."
+        },
+        "q2": {
+          "question": "Кто основал ZFashion?",
+          "answer": "ZFashion was founded and developed by Ibrahim AbuZaid, aiming to bridge the gap between high-end fashion and modern software engineering."
+        },
+        "q3": {
+          "question": "Безопасен ли шоппинг в ZFashion?",
+          "answer": "Yes, we use multi-layer security protocols and the latest encryption standards to ensure every transaction is 100% safe."
+        },
+        "q4": {
+          "question": "Чем ZFashion отличается?",
+          "answer": "Our platform combines unrivaled loading speeds with a curated selection of products, powered by modern Next.js technology."
+        },
+        "q5": {
+          "question": "Предоставляете ли вы техническую поддержку?",
+          "answer": "Абсолютно! Наша выделенная инженерная команда обеспечивает технический мониторинг 24/7 для беспрепятственного шопинга."
+        }
+      }
+    },
+    "breadcrumb": {
+      "home": "Главная",
+      "current": "О нас"
+    },
+    "hero": {
+      "title_part_1": "Where Global Elegance",
+      "title_part_2": "Meets Digital Innovation",
+      "description": "В ZFashion мы верим, что стиль никогда не должен быть компромиссом. Мы создали платформу, которая гармонично сочетает искусство моды с точностью современных технологий.",
+      "badges": {
+        "seo": "100% SEO Оценка",
+        "support": "Техническая поддержка 24/7",
+        "security": "Multi-Layer Security"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "ZFashion was born out of a simple yet ambitious vision: to create a digital shopping experience that is as elegant as the clothes we sell. We noticed that many platforms lacked the speed and smoothness that modern customers deserve.",
+      "p2": "Founded by Ibrahim AbuZaid, we didn't just build a store; we engineered a high-performance ecosystem. Using the latest web technologies, we've created a space where browsing is instant, and your security is never in doubt.",
+      "stats": {
+        "hours": {
+          "value": "1000+",
+          "label": "Hours of Development"
+        },
+        "seo": {
+          "value": "100%",
+          "label": "SEO Performance"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Technical Excellence"
+        }
+      }
+    },
+    "mission_vision": {
+      "title": "Mission & Vision",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To empower fashion enthusiasts by providing a seamless, fast, and secure platform that brings global trends to their doorstep with a single click."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become the global benchmark for fashion e-commerce, where technology serves as the invisible thread weaving through every piece of style."
+      }
+    },
+    "values": {
+      "title": "Основные ценности",
+      "subtitle": "The principles that drive every line of code and every curated collection we offer.",
+      "perfection": {
+        "title": "Technical Perfection",
+        "description": "We are obsessed with performance, ensuring our platform is one of the fastest in the industry."
+      },
+      "integrity": {
+        "title": "Честность",
+        "description": "We believe in absolute transparency in our operations, pricing, and customer data handling."
+      },
+      "innovation": {
+        "title": "Инновация",
+        "description": "We don't follow trends; we set them by integrating AI and real-time connectivity into your shopping."
+      },
+      "trust": {
+        "title": "Sustainable Trust",
+        "description": "Building a long-term relationship with our customers through reliability and quality."
+      }
+    },
+    "support": {
+      "title": "Expert Engineers at Your Service",
+      "p1_part1": "Behind our elegant storefront lies a dedicated team. We don't just sell clothes; we offer",
+      "p1_strong": "Technical Peace of Mind",
+      "p1_part2": ".",
+      "p2": "Our team monitors platform stability in real-time, ensuring that your shopping journey is never interrupted by technical hurdles.",
+      "stats": {
+        "monitoring": {
+          "value": "24/7",
+          "label": "Мониторинг в реальном времени"
+        },
+        "response": {
+          "value": "<1с",
+          "label": "Среднее время ответа"
+        },
+        "resolution": {
+          "value": "100%",
+          "label": "Решение проблем"
+        },
+        "dedication": {
+          "value": "∞",
+          "label": "Dedication Level"
+        }
+      }
+    },
+    "why": {
+      "title": "Why ZFashion?",
+      "subtitle": "Technical excellence meets fashion-forward innovation",
+      "features": {
+        "unrivaled_speed": {
+          "title": "Unrivaled Speed",
+          "description": "Построен на Next.js 15 для почти мгновенной загрузки на всех устройствах."
+        },
+        "modern_saas": {
+          "title": "Modern Architecture",
+          "description": "Надежная облачная архитектура, которая растет вместе с потребностями наших клиентов."
+        },
+        "realtime_connectivity": {
+          "title": "Обновления в реальном времени",
+          "description": "Отслеживание запасов в реальном времени и мгновенные обновления статуса заказа для полной ясности."
+        },
+        "smart_notifications": {
+          "title": "Smart Notifications",
+          "description": "Будьте в курсе с персонализированными оповещениями о снижении цен и новинках."
+        },
+        "elite_security": {
+          "title": "Elite Security",
+          "description": "Сквозное шифрование для ваших платежей и личных данных."
+        },
+        "seamless_experience": {
+          "title": "Seamless UX",
+          "description": "Интерфейс, разработанный для интуитивной навигации и легкого оформления заказа."
+        }
+      }
+    },
+    "cta": {
+      "title": "Готовы испытать совершенство?",
+      "description": "Присоединяйтесь к тысячам модных энтузиастов, которые выбирают ZFashion для премиального шопинга.",
+      "button": "Start Shopping Now"
+    }
+  },
+  "Checkout": {
+    "aria_label": "Checkout Page",
+    "order_summary_sidebar": "Order Summary - Sidebar",
+    "your_information": "Ваша информация",
+    "payment": "Оплата",
+    "steps": {
+      "information": "Информация",
+      "payment": "Оплата",
+      "confirmation": "Confirmation"
+    }
+  },
+  "AddressForm": {
+    "aria_label": "Shipping Information Form",
+    "contact": "Контакт",
+    "email_address": "Электронная почта",
+    "email_placeholder": "you@example.com",
+    "phone_number": "Номер телефона",
+    "phone_placeholder": "123 456 7890",
+    "shipping_address": "Адрес доставки",
+    "country": "Country",
+    "select_country": "Выбрать страну…",
+    "first_name": "Имя",
+    "first_name_placeholder": "Ахмед",
+    "last_name": "Фамилия",
+    "last_name_placeholder": "Al-Murad",
+    "street_address": "Улица",
+    "street_placeholder": "ул. Главная, 123",
+    "apartment_optional": "Apartment / Unit (Optional)",
+    "apartment_placeholder": "Apt 4B",
+    "city": "City",
+    "city_placeholder": "Cairo",
+    "postal_code": "Postal Code",
+    "postal_placeholder": "10001",
+    "state_governorate": "Штат / губернаторство",
+    "loading": "Загрузка…",
+    "select_country_first": "Сначала выберите страну",
+    "select_state": "Выбрать штат…",
+    "continue_to_payment": "Перейти к оплате →"
+  },
+  "PaymentDemo": {
+    "card_details": "Card Details",
+    "secure": "Secure",
+    "card_number": "Номер карты",
+    "cardholder_name": "Имя держателя карты",
+    "expiry": "Срок действия",
+    "cvv": "CVV",
+    "processing": "Processing…",
+    "pay_button": "Оплатить {amount} →",
+    "or": "Или",
+    "redirecting": "Redirecting…",
+    "pay_with_paypal": "Оплатить через PayPal",
+    "back_to_information": "Back to Information",
+    "ssl_secured": "SSL защищено"
+  },
+  "OrderSummary": {
+    "aria_label": "Сводка заказа",
+    "order_summary": "Сводка заказа",
+    "discount_code": "Код скидки",
+    "coupon_placeholder": "Пример: SAVE10",
+    "apply": "Применить",
+    "invalid_coupon": "Неверный код купона",
+    "applied_suffix": "Applied — {percent}% off!",
+    "subtotal": "Итого",
+    "discount_label": "Discount ({percent}%)",
+    "shipping": "Доставка",
+    "free": "Free",
+    "estimated_tax": "Ориентировочный налог",
+    "total": "Итого",
+    "secure_ssl": "Безопасное 256-битное SSL-шифрование"
+  },
+  "SuccessScreen": {
+    "order_confirmed": "Заказ подтвержден",
+    "thank_you": "Спасибо",
+    "order_placed": "Your order has been placed and is being prepared.",
+    "order_number": "Номер заказа",
+    "email": "Электронная почта",
+    "ship_to": "Доставить",
+    "shipping": "Доставка",
+    "timeline": {
+      "confirmed": "Заказ подтвержден",
+      "just_now": "Только что",
+      "prepared": "Being Prepared",
+      "estimated_hours": "Ориентировочно {hours} часов",
+      "out_for_delivery": "В пути",
+      "estimated_days": "Ориентировочно {days} дней",
+      "email_sent": "Confirmation Email Sent"
+    },
+    "continue_shopping": "Продолжить покупки",
+    "track_order": "Отследить заказ"
+  },
   "Footer": {
-    "brand_name": "Global Store",
-    "brand_description": "Your trusted destination for quality products worldwide"
+    "brand": {
+      "name": "Ваш магазин",
+      "description": "Curating exceptional products and experiences for discerning customers since 2014."
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "Введите ваш email",
+      "done": "Done!",
+      "join": "Присоединиться",
+      "note": "Получайте эксклюзивные предложения, советы по стилю и ранний доступ к новым коллекциям."
+    },
+    "shop": {
+      "title": "Магазин",
+      "new_arrivals": "New Arrivals",
+      "bestsellers": "Bestsellers",
+      "sale": "Распродажа",
+      "collections": "Collections",
+      "gift_cards": "Подарочные карты"
+    },
+    "support": {
+      "title": "Поддержка",
+      "contact_us": "Связаться с нами",
+      "faqs": "FAQs",
+      "shipping": "Информация о доставке",
+      "returns": "Returns & Exchanges",
+      "size_guide": "Руководство по размерам"
+    },
+    "company": {
+      "title": "Компания",
+      "about": "О нас",
+      "careers": "Карьера",
+      "sustainability": "Устойчивость",
+      "press": "Пресса",
+      "blog": "Блог"
+    },
+    "contact": {
+      "title": "Контакт",
+      "linkedin": "Профиль LinkedIn"
+    },
+    "legal": {
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования",
+      "cookies": "Cookie Policy"
+    },
+    "bottom": {
+      "copy": "© {year} Your Store. All rights reserved."
+    },
+    "payments": {
+      "accept": "We accept:"
+    }
   }
 }
