@@ -17,7 +17,8 @@ export default async function CategoriesPage({
 
   await queryClient.prefetchQuery({
     queryKey: categoryKeys.list(),
-    queryFn: () => fetchCategories(DOMAIN ?? "http://localhost:3000"),
+    queryFn: () =>
+      fetchCategories(DOMAIN ?? "https://z-fashion-ecru.vercel.app"),
   });
 
   const namespaces = [
