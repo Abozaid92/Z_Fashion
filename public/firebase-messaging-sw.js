@@ -21,20 +21,17 @@ const messaging = firebase.messaging();
 messaging.onBackgroundMessage((payload) => {
   // console.log("Payload received:", payload);
 
-  const notificationTitle = payload?.notification?.title || "إشعار جديد";
+  // 💡 التعديل الجوهري هنا: القراءة أصبحت بالكامل من كائن data لأن السيرفرات بتبعت Data-Only
+  const notificationTitle = payload?.data?.title || "إشعار جديد";
 
   const notificationOptions = {
-    body: payload?.notification?.body || "",
+    body: payload?.data?.body || "",
     icon: "/logo.png",
-    // 💡 التعديل هنا: بنجرب كل الاحتمالات لضمان ظهور الصورة
-    image:
-      payload?.notification?.image ||
-      payload?.data?.image ||
-      payload?.notification?.imageUrl,
     badge: "/logo.png",
-    // 💡 التعديل هنا: لازم نمرر الـ data عشان كود الـ click_action يشتغل
+    // هنا بيقرأ رابط الصورة الكبيرة لو مبعوتة من وركر الإعلانات، ولو مش مبعوتة (شات) هتبقى فاضية ومش هتبوظ التنسيق
+    image: payload?.data?.image || "",
     data: {
-      url: payload?.data?.url || payload?.notification?.click_action || "/",
+      url: payload?.data?.url || "/",
     },
   };
 
@@ -43,6 +40,7 @@ messaging.onBackgroundMessage((payload) => {
     notificationOptions,
   );
 });
+
 // 2. التعامل مع ضغطة المستخدم على الإشعار
 self.addEventListener("notificationclick", function (event) {
   // إغلاق الإشعار من قائمة التنبيهات فور الضغط عليه

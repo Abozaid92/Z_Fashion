@@ -133,8 +133,8 @@ function MobileMenuContent({ t, r, onClose }: any) {
   const [openCat, setOpenCat] = useState<string | null>(null);
 
   return (
-    <div className="flex flex-col h-full text-black/10">
-      <div className="flex items-center justify-between px-5 text-black/10 py-4 border-b">
+    <div className="flex flex-col h-full text-black">
+      <div className="flex items-center justify-between px-5 text-black py-4 border-b">
         <p className="font-bold">{t("mobileMenu.title")}</p>
         <button onClick={onClose}>
           <X size={16} />
@@ -145,15 +145,11 @@ function MobileMenuContent({ t, r, onClose }: any) {
         <Link
           href="/admin"
           onClick={onClose}
-          className="block text-black/10 px-5 py-3"
+          className="block text-black px-5 py-3"
         >
           {t("mobileMenu.AdminDashboard")}
         </Link>
-        <Link
-          href="/"
-          onClick={onClose}
-          className="block text-black/10 px-5 py-3"
-        >
+        <Link href="/" onClick={onClose} className="block text-black px-5 py-3">
           {t("mobileMenu.home")}
         </Link>
 
@@ -164,7 +160,7 @@ function MobileMenuContent({ t, r, onClose }: any) {
             <div key={cat.id}>
               <button
                 onClick={() => setOpenCat(isOpen ? null : cat.id)}
-                className="w-full flex justify-between px-5 py-3 text-black/10"
+                className="w-full flex justify-between px-5 py-3 text-black"
               >
                 {r(cat.name)}
                 <ChevronDown className={cn(isOpen && "rotate-180")} />
@@ -182,7 +178,7 @@ function MobileMenuContent({ t, r, onClose }: any) {
                         key={child.id}
                         href={`/products?cat=${child.slug}`}
                         onClick={onClose}
-                        className="block text-black/10 px-8 py-2"
+                        className="block text-black px-8 py-2"
                       >
                         {r(child.name)}
                       </Link>
@@ -196,7 +192,7 @@ function MobileMenuContent({ t, r, onClose }: any) {
         <Link
           href="/about"
           onClick={onClose}
-          className="block text-black/10 px-5 py-3"
+          className="block text-black px-5 py-3"
         >
           {t("mobileMenu.about")}
         </Link>
