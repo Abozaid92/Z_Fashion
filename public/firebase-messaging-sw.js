@@ -5,6 +5,14 @@ importScripts(
   "https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js",
 );
 
+// 💡 تعديل 1: إجبار المتصفح على تفعيل الكود الجديد فوراً بدون انتظار
+self.addEventListener("install", (event) => {
+  self.skipWaiting();
+});
+self.addEventListener("activate", (event) => {
+  event.waitUntil(clients.claim());
+});
+
 // إعدادات فايربيز (تأكد إن القيم دي تطابق مشروعك)
 firebase.initializeApp({
   apiKey: "AIza...",
@@ -21,17 +29,21 @@ const messaging = firebase.messaging();
 messaging.onBackgroundMessage((payload) => {
   // console.log("Payload received:", payload);
 
-  // 💡 التعديل الجوهري هنا: القراءة أصبحت بالكامل من كائن data لأن السيرفرات بتبعت Data-Only
-  const notificationTitle = payload?.data?.title || "إشعار جديد";
+  // 💡 تعديل 2 (القراءة الدفاعية): مسك البيانات بأي شكل يبعته الـ SDK سواء مفرود أو جوه كائن
+  console.log("Payload received:", payload);
+  const notificationTitle =
+    payload?.data?.title || payload?.title || "إشعار جديد";
+  const notificationBody = payload?.data?.body || payload?.body || "";
+  const notificationImage = payload?.data?.image || payload?.image || "";
+  const notificationUrl = payload?.data?.url || payload?.url || "/";
 
   const notificationOptions = {
-    body: payload?.data?.body || "",
+    body: notificationBody,
     icon: "/logo.png",
     badge: "/logo.png",
-    // هنا بيقرأ رابط الصورة الكبيرة لو مبعوتة من وركر الإعلانات، ولو مش مبعوتة (شات) هتبقى فاضية ومش هتبوظ التنسيق
-    image: payload?.data?.image || "",
+    image: notificationImage,
     data: {
-      url: payload?.data?.url || "/",
+      url: notificationUrl, // هيمشي مع الكود اللي تحت في الضغطة
     },
   };
 
@@ -43,11 +55,9 @@ messaging.onBackgroundMessage((payload) => {
 
 // 2. التعامل مع ضغطة المستخدم على الإشعار
 self.addEventListener("notificationclick", function (event) {
-  // إغلاق الإشعار من قائمة التنبيهات فور الضغط عليه
   event.notification.close();
 
-  // استخراج الرابط من الـ data المرسلة من السيرفر
-  // لو مبعتناش URL، هيفتح الصفحة الرئيسية للموقع
+  // استخراج الرابط بأمان من الـ data المرسلة
   const urlToOpen =
     event.notification.data && event.notification.data.url ?
       event.notification.data.url
