@@ -89,7 +89,7 @@ export async function generateMetadata({
   return {
     title: `${translation.title} | Shop Buck Commander®`,
     description: `${translation.desc} Trusted by over 100,000+ customers worldwide. Free returns on all orders.`,
-    metadataBase: new URL(DOMAIN || "http://localhost:3000"),
+    metadataBase: new URL(DOMAIN || "https://z-fashion-ecru.vercel.app"),
     keywords: [
       "ZFashin",
       "fashion store",

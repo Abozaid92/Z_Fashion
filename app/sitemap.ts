@@ -2,7 +2,7 @@
 import { MetadataRoute } from "next";
 import prisma from "@/lib/db";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://z-fashion-ecru.vercel.app";
 // ترتيب اللغات (الإنجليزي هو الملك أول واحد)
 const locales = ["en", "ar", "de", "hi", "zh", "ru", "fr", "es"];
 

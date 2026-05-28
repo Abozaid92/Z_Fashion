@@ -5,7 +5,7 @@ import getQueryClient from "@/lib/getQueryClient";
 
 async function getViewAnalytics() {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000"}/api/analytics/views`,
+    `${process.env.NEXT_PUBLIC_API_URL || "https://z-fashion-ecru.vercel.app"}/api/analytics/views`,
     {
       cache: "no-store",
     },

@@ -174,7 +174,7 @@ const AccountNav = ({ session }: { session: typeProps | null }) => {
             <div className="p-2 space-y-1 text-black/10">
               <Link
                 href="/profile"
-                className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-blue-50"
+                className="flex text-black/10 items-center gap-3 px-3 py-3 rounded-xl hover:bg-blue-50"
               >
                 <Settings className="w-4 h-4" />
                 {r("profile")}
@@ -182,7 +182,7 @@ const AccountNav = ({ session }: { session: typeProps | null }) => {
 
               <Link
                 href="/cart"
-                className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-100"
+                className="flex text-black/10 items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-100"
               >
                 <ShoppingCart className="w-4 h-4" />
                 {r("cart")}
@@ -190,7 +190,7 @@ const AccountNav = ({ session }: { session: typeProps | null }) => {
 
               <Link
                 href="/orders"
-                className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-100"
+                className="flex items-center text-black/10 gap-3 px-3 py-3 rounded-xl hover:bg-slate-100"
               >
                 <CreditCard className="w-4 h-4" />
                 {r("orders")}
@@ -199,10 +199,10 @@ const AccountNav = ({ session }: { session: typeProps | null }) => {
               <button
                 onClick={handleLogout}
                 disabled={isLoading}
-                className="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-red-50"
+                className="w-full flex items-center text-black/10 gap-3 px-3 py-3 rounded-xl hover:bg-red-50"
               >
                 {isLoading ?
-                  <div className="w-4 h-4 border-2 border-red-500 border-t-transparent rounded-full animate-spin" />
+                  <div className="w-4 h-4 border-2 border-red-500  border-t-transparent rounded-full animate-spin" />
                 : <LogOut className="w-4 h-4" />}
                 {r("logout")}
               </button>

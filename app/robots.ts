@@ -2,7 +2,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://z-fashion-ecru.vercel.app";
 
   return {
     rules: {

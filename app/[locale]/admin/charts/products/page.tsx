@@ -6,7 +6,7 @@ import getQueryClient from "@/lib/getQueryClient";
 
 async function getProductAnalytics() {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000"}/api/analytics/products`,
+    `${process.env.NEXT_PUBLIC_API_URL || "https://z-fashion-ecru.vercel.app"}/api/analytics/products`,
     { cache: "no-store" },
   );
   return response.json();
