@@ -5,18 +5,9 @@ import { signIn } from "@/auth";
 import { sendVerificationToken } from "@/lib/email";
 import { generateVerificationToken } from "@/app/[locale]/utils/generateToken";
 import { loginSchema } from "@/app/[locale]/utils/login";
-import { ratelimit } from "@/lib/ratelimit";
 import { headers } from "next/headers";
 export const loginAction = async (data: LoginFormData, lang: string) => {
   try {
-    const ip = (await headers()).get("x-forwarded-for") ?? "127.0.0.1";
-    const { success } = await ratelimit.limit(ip);
-    if (!success) {
-      return {
-        success: false,
-        message: "TooManyRequest",
-      };
-    }
     const validation = loginSchema.safeParse(data);
     if (validation.success === false) {
       return {

@@ -133,7 +133,7 @@ function MobileMenuContent({ t, r, onClose }: any) {
   const [openCat, setOpenCat] = useState<string | null>(null);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full text-black/10">
       <div className="flex items-center justify-between px-5 py-4 border-b">
         <p className="font-bold">{t("mobileMenu.title")}</p>
         <button onClick={onClose}>

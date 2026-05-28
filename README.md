@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-Open [https://z-fashion-ecru.vercel.app](https://z-fashion-ecru.vercel.app) to view the site.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## 📁 Project Structure
 

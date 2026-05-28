@@ -17,7 +17,7 @@ const withAnalyzer = withBundleAnalyzer({
 //  ابقي استبدل دي بدومينات حقيقه يا حمصه
 const cspHeader = `
 default-src 'self';
-script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.paypal.com https://www.sandbox.paypal.com https://js.stripe.com;
+script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.paypal.com https://www.sandbox.paypal.com https://js.stripe.com https://www.gstatic.com;
 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
 img-src 'self' blob: data: https://res.cloudinary.com avatars.githubusercontent.com lh3.googleusercontent.com images.unsplash.com via.placeholder.com placehold.co picsum.photos source.unsplash.com https://www.paypalobjects.com;
 font-src 'self' data: https://fonts.gstatic.com;

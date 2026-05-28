@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react"; // 👈 إضافة الهوكس هنا لتتبع حالة اللمس والفتح
 import { Link, usePathname } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { ChevronRight } from "lucide-react";
@@ -101,8 +102,7 @@ function NavLink({
 }
 
 // ─────────────────────────────────────────────────────────────
-// Category with dropdown — CSS `group` + `group-hover` only
-// No useState, no JS toggle
+// Category with dropdown — Hybrid (CSS hover on Desktop / JS click on Touch)
 // ─────────────────────────────────────────────────────────────
 function CategoryDropdown({
   category,
@@ -113,29 +113,57 @@ function CategoryDropdown({
   isActive: boolean;
   r: ReturnType<typeof useTranslations>;
 }) {
-  // console.log(category);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const touchQuery = window.matchMedia("(pointer: coarse)");
+    setIsTouchDevice(touchQuery.matches);
+
+    const handler = (e: MediaQueryListEvent) => setIsTouchDevice(e.matches);
+    touchQuery.addEventListener("change", handler);
+    return () => touchQuery.removeEventListener("change", handler);
+  }, []);
+
   return (
-    /*
-      `group` on the container:
-      - hover on container → dropdown becomes visible
-      - pt-px on dropdown bridges the 1px gap so mouse can travel down
-    */
     <div className="relative group" role="none">
+      {/* Backdrop خفي لغلق القائمة عند الضغط في أي مكان خارجي على أجهزة اللمس */}
+      {isTouchDevice && isOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-transparent"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+
       {/* ── Trigger ─────────────────────────────────────────── */}
       <Link
         href={`/products?cat=${category.slug}`}
+        onClick={(e) => {
+          if (isTouchDevice) {
+            e.preventDefault(); // منع الانتقال الفوري على الموبايل/التابلت
+            setIsOpen((prev) => !prev); // تشغيل الـ Toggle بدلاً منه
+          }
+        }}
         className={cn(
           "relative flex items-center gap-0.5 px-4 py-2",
           "text-[13px] font-semibold tracking-[0.08em] uppercase transition-colors duration-150",
-          "text-stone-600 hover:text-stone-950 group-hover:text-stone-950",
+          "text-stone-600",
+          !isTouchDevice ? "hover:text-stone-950 group-hover:text-stone-950"
+          : isOpen ? "text-stone-950"
+          : "",
         )}
         aria-haspopup="true"
-        aria-expanded="false"
+        aria-expanded={isOpen ? "true" : "false"}
       >
         {r(category.name)}
         {/* Subtle chevron */}
         <svg
-          className="w-2.5 h-2.5 ml-0.5 mt-px text-stone-400 transition-transform duration-200 group-hover:rotate-180"
+          className={cn(
+            "w-2.5 h-2.5 ml-0.5 mt-px text-stone-400 transition-transform duration-200",
+            !isTouchDevice ? "group-hover:rotate-180"
+            : isOpen ? "rotate-180"
+            : "",
+          )}
           fill="none"
           viewBox="0 0 10 10"
           aria-hidden="true"
@@ -153,27 +181,25 @@ function CategoryDropdown({
         <span
           className={cn(
             "absolute bottom-0 left-4 right-4 h-[1.5px] bg-stone-950 transition-transform duration-200 origin-left",
-            isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100",
+            isActive ? "scale-x-100"
+            : !isTouchDevice ? "scale-x-0 group-hover:scale-x-100"
+            : isOpen ? "scale-x-100"
+            : "scale-x-0",
           )}
         />
       </Link>
 
-      {/*
-        ── Dropdown panel ────────────────────────────────────────
-        Technique:
-        - invisible + opacity-0 + translate-y-1 → default
-        - group-hover: visible + opacity-100 + translate-y-0
-        - pointer-events-none → pointer-events-auto on hover
-        - pt-1.5 bridges the gap so mouse can reach the panel
-        - All CSS, zero JS
-      */}
+      {/* ── Dropdown panel ──────────────────────────────────────── */}
       <div
         className={cn(
           "absolute top-full left-0 z-50 pt-1.5",
-          // Invisible by default
           "invisible opacity-0 translate-y-1 pointer-events-none",
-          // CSS hover reveal — smooth
-          "group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto",
+          // ديناميكية التحكم: CSS للكمبيوتر والـ State للموبايل/التابلت
+          !isTouchDevice &&
+            "group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto",
+          isTouchDevice &&
+            isOpen &&
+            "visible opacity-100 translate-y-0 pointer-events-auto",
           "transition-all duration-200 ease-out",
         )}
         role="menu"
@@ -184,6 +210,7 @@ function CategoryDropdown({
           {/* Optional: category link at top */}
           <Link
             href={`/products?cat=${category.slug}`}
+            onClick={() => isTouchDevice && setIsOpen(false)}
             className="flex items-center justify-between px-4 py-2.5 text-[11px] font-bold uppercase tracking-[0.12em] text-stone-400 hover:text-stone-700 border-b border-stone-100 hover:bg-stone-50 transition-colors"
             role="menuitem"
           >
@@ -195,6 +222,7 @@ function CategoryDropdown({
             <Link
               key={child.id}
               href={`/products?cat=${child.slug}`}
+              onClick={() => isTouchDevice && setIsOpen(false)} // غلق القائمة بعد اختيار العنصر الفرعي
               className={cn(
                 "flex items-center justify-between px-4 py-2.5",
                 "text-[13px] font-medium text-stone-700",
@@ -205,7 +233,6 @@ function CategoryDropdown({
               role="menuitem"
             >
               <span>{r(child.name)}</span>
-              {/* show chevron in case we ever add 3rd level */}
               <ChevronRight size={12} className="text-stone-300" />
             </Link>
           ))}

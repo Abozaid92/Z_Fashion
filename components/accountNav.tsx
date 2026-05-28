@@ -171,7 +171,7 @@ const AccountNav = ({ session }: { session: typeProps | null }) => {
             </div>
 
             {/* Items */}
-            <div className="p-2 space-y-1">
+            <div className="p-2 space-y-1 text-black/10">
               <Link
                 href="/profile"
                 className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-blue-50"

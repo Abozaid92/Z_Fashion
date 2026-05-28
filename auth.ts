@@ -1,3 +1,4 @@
+// auth.ts
 import NextAuth from "next-auth";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import authConfig from "./auth.config";
@@ -5,46 +6,72 @@ import prisma from "./lib/db";
 import { Role } from "@prisma/client";
 import { getCountryByIp } from "./lib/getCountryBy_IP";
 import redisClient from "./lib/redisClient";
-export const { handlers, signIn, signOut, auth } = NextAuth({
-  callbacks: {
-    async jwt({ token }) {
-      //
-      return token;
-    },
-    // include id in session and include role(we created it in prisma )
-    async session({ session, token }) {
-      if (session.user && token.sub) {
-        session.user.id = token.sub;
-        const userFavorites = await prisma.user.findUnique({
-          where: {
-            id: session.user.id,
-          },
+import Credentials from "next-auth/providers/credentials";
+import { loginSchema } from "./app/[locale]/utils/login";
+import bycrypt from "bcryptjs";
 
-          include: {
-            favorite: {
-              select: {
-                productId: true,
-              },
-            },
-          },
-        });
-        if (!userFavorites) {
-          throw new Error("access deny, user havnot foavourite");
+export const { handlers, signIn, signOut, auth } = NextAuth({
+  adapter: PrismaAdapter(prisma),
+  session: { strategy: "jwt" },
+  ...authConfig,
+  providers: [
+    ...authConfig.providers, // بيجيب جوجل وجيت هاب تلقائي
+    Credentials({
+      async authorize(data) {
+        const validation = loginSchema.safeParse(data);
+        if (validation.success) {
+          const { password, email } = validation.data;
+          const user = await prisma.user.findFirst({
+            where: { email: email },
+          });
+          if (!user || !user.password) return null;
+
+          const comparePassword = await bycrypt.compare(
+            password,
+            user.password,
+          );
+          if (comparePassword) return user;
         }
-        session.user.role = token.role as Role;
-        // الي فوق مشتغلتش فعمت دي
-        session.user.role = userFavorites.role;
-        session.user.country = userFavorites.country;
-        session.user.favorites = userFavorites?.favorite.map(
-          (el) => el.productId,
-        );
+        return null;
+      },
+    }),
+  ],
+  callbacks: {
+    async jwt({ token, user }) {
+      // الـ user هنا بيكون متاح فقط "أثناء تسجيل الدخول الناجح لأول مرة"
+      if (user) {
+        token.id = user.id;
+
+        // بنعمل كويري لمرة واحدة فقط وقت الدخول نجيب كل البيانات اللي تهمنا ونحطها في الـ JWT Token المشفر
+        const dbUser = await prisma.user.findUnique({
+          where: { id: user.id },
+          include: { favorite: { select: { productId: true } } },
+        });
+
+        if (dbUser) {
+          token.role = dbUser.role;
+          token.country = dbUser.country;
+          token.favorites = dbUser.favorite.map((el) => el.productId);
+        }
       }
-      //
+      return token; // التوكن ده بيتحفظ في الكوكيز وبيمشي معانا في كل ريكويست خفيف وسريع
+    },
+
+    async session({ session, token }) {
+      // هنا بقى طيران! مفيش أي كويري لقاعدة البيانات.. بنقرا من التوكن اللي في الميموري علطول $O(1)$
+      if (session.user && token.id) {
+        session.user.id = token.id as string;
+        session.user.role = token.role as Role;
+        session.user.country = token.country as string;
+        session.user.favorites = token.favorites as string[];
+      }
       return session;
     },
-    // if user didn;t verify his email
+
     async signIn({ user, account }) {
       const country = await getCountryByIp();
+
+      // تحديث الـ Redis والـ DB بشكل آمن
       try {
         redisClient
           .hIncrBy("stats:total:allStats", "totalUsers", 1)
@@ -52,7 +79,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       } catch (e) {
         console.error("Redis incre totalUsers err Error:", e);
       }
-      // 2. تحديث الدولة في الداتابيز (تعمل مع جوجل، جيت هاب، وأيضاً الكريدينشالز)
+
       if (user.id) {
         await prisma.user
           .update({
@@ -61,34 +88,28 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
           })
           .catch(() => {});
       }
+
       if (account?.provider !== "credentials") {
         return true;
       }
+
       const userFromDb = await prisma.user.findUnique({
         where: { id: user.id },
       });
+
       if (!userFromDb?.emailVerified) {
-        return false;
+        return false; // هيرمي AccessDenied والـ Action هيلقطه ويبعت الإيميل
       }
-      // 1. جلب الدولة خفية
 
       return true;
     },
   },
-  // (email verified === nul) when i make login by provider(foofle,facebook,etc)
-  // this event to  put value in email cerified
   events: {
     async linkAccount({ user }) {
       await prisma.user.update({
         where: { id: user.id },
-        data: {
-          emailVerified: new Date(),
-        },
+        data: { emailVerified: new Date() },
       });
     },
   },
-
-  adapter: PrismaAdapter(prisma),
-  session: { strategy: "jwt" },
-  ...authConfig,
 });
