@@ -45,28 +45,28 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:shadatucme@gmail.com"
+                  href="mailto:ebrahim.abozaid567@gmail.com"
                   className="flex items-center gap-2 text-sm text-slate-600 hover:text-slate-900"
                 >
                   <Mail className="w-4 h-4" />
-                  shadatucme@gmail.com
+                  ebrahim.abozaid567@gmail.com
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://wa.me/201060382482"
+                  href="https://wa.me/201080761700"
                   target="_blank"
                   className="flex items-center gap-2 text-sm text-slate-600 hover:text-slate-900"
                 >
                   <Phone className="w-4 h-4" />
-                  +20 106 038 2482
+                  +20 108 076 1700
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/ibrahim-abuzaid-9750b5404/"
                   target="_blank"
                   className="flex items-center gap-2 text-sm text-slate-600 hover:text-slate-900"
                 >

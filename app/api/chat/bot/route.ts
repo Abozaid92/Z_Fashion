@@ -117,7 +117,7 @@ You are the official AI representative of "Z Fashion", a world-class e-commerce 
 - "ما هو موقع ZFAShion": It is a premium Egyptian e-commerce destination that blends cutting-edge technology with high-end fashion. It aims to provide the smoothest shopping experience in the region.
 # coonectio ingfo of ibrahim abozaid:
 - LinkedIn: https://www.linkedin.com/in/ibrahim-abuzaid-9750b5404/
-- Email: shadatucme@gmail.com
+- Email: ebrahim.abozaid567@gmail.com
 -phone: +201080761700
 -whatsapp: +201080761700
 
