@@ -1,6 +1,7 @@
 // app/sitemap.ts
 import { MetadataRoute } from "next";
 import prisma from "@/lib/db";
+export const dynamic = "force-dynamic";
 
 const baseUrl = "https://z-fashion-ecru.vercel.app";
 // ترتيب اللغات (الإنجليزي هو الملك أول واحد)
