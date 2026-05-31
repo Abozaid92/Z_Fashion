@@ -43,7 +43,8 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        // تم تعديل هذا السطر فقط لاستثناء خريطة الموقع من قيود الحماية مؤقتاً
+        source: "/((?!sitemap\\.xml$).*)",
         headers: [
           {
             key: "Content-Security-Policy",
@@ -61,7 +62,6 @@ const nextConfig: NextConfig = {
             value: "max-age=63072000; includeSubDomains; preload",
           },
           {
-            // تم تحويلها لـ SAMEORIGIN لأن الـ CSP الحديث يعتمد على frame-ancestors وللسماح بالـ Framing الداخلي الآمن
             key: "X-Frame-Options",
             value: "SAMEORIGIN",
           },
