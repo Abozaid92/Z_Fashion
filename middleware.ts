@@ -9,10 +9,14 @@ const { auth } = NextAuth(authConfig);
 const intlMiddleware = createMiddleware(routing);
 
 export default async function middleware(req: NextRequest) {
-  const intlResponse = intlMiddleware(req);
   const { nextUrl } = req;
   const path = nextUrl.pathname;
+  const intlResponse = intlMiddleware(req);
+  if (path === "/sitemap.xml" || path === "/robots.txt" || path.includes(".")) {
+    return NextResponse.next();
+  }
   const authen = await auth();
+
   //  عشان نقدر نتحقق هل المستخدم في صفحه اللوجين ولا لاء
   //  لازم نجيب اللعه الحاليه عشان نضيف في المسار الحالي
   const locale = req.cookies.get("NEXT_LOCALE")?.value;
