@@ -1,75 +1,84 @@
-// app/sitemap.ts
-import { MetadataRoute } from "next";
+import { NextResponse } from "next/server";
 import prisma from "@/lib/db";
-export const dynamic = "force-dynamic";
 
 const baseUrl = "https://z-fashion-ecru.vercel.app";
-// ترتيب اللغات (الإنجليزي هو الملك أول واحد)
 const locales = ["en", "ar", "de", "hi", "zh", "ru", "fr", "es"];
 
-// دالة مساعدة سحرية بتولد الـ 8 لغات لكل رابط في ثانية
-const getAlternates = (path: string) => {
-  const languages: Record<string, string> = {};
-  locales.forEach((locale) => {
-    languages[locale] = `${baseUrl}/${locale}${path}`;
-  });
-  return { languages };
-};
+export async function GET() {
+  try {
+    // 1. جلب البيانات من الـ Database
+    const categories = await prisma.category.findMany({
+      select: { slug: true, updatedAt: true },
+    });
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  // ==========================================
-  // 1. الصفحات الثابتة بالـ 8 لغات (الإنجليزي أساسي)
-  // ==========================================
-  // const staticPages: MetadataRoute.Sitemap = [
-  //   {
-  //     url: `${baseUrl}/en`, // الرابط الرئيسي إنجليزي
-  //     lastModified: new Date(),
-  //     changeFrequency: "hourly",
-  //     priority: 1.0,
-  //     alternates: getAlternates(""),
-  //   },
-  //   {
-  //     url: `${baseUrl}/en/cart`,
-  //     lastModified: new Date(),
-  //     changeFrequency: "weekly",
-  //     priority: 0.5,
-  //     alternates: getAlternates("/cart"),
-  //   },
-  //   {
-  //     url: `${baseUrl}/en/about`,
-  //     lastModified: new Date(),
-  //     changeFrequency: "weekly",
-  //     priority: 0.5,
-  //     alternates: getAlternates("/about"),
-  //   },
-  //   {
-  //     url: `${baseUrl}/en/products`,
-  //     lastModified: new Date(),
-  //     changeFrequency: "hourly",
-  //     priority: 0.7,
-  //     alternates: getAlternates("/products"),
-  //   },
-  // ];
+    const products = await prisma.product.findMany({
+      select: { slug: true, updatedAt: true },
+    });
 
-  // ==========================================
-  // 2. صفحات الأقسام اللي في الناف بار بالـ 8 لغات
-  // ==========================================
+    const now = new Date().toISOString();
 
-  // ==========================================
-  // 3. صفحات المنتجات ديناميكياً بالـ 8 لغات
-  // ==========================================
-  const products = await prisma.product.findMany({
-    select: { slug: true, updatedAt: true },
-  });
+    // 2. بناء رأس ملف الـ XML والـ Namespaces المطلوبة للترجمة
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">`;
 
-  const productPages: MetadataRoute.Sitemap = products.map((product) => ({
-    url: `${baseUrl}/en/products/${product.slug}`,
-    lastModified: new Date(product.updatedAt),
-    changeFrequency: "hourly",
-    priority: 0.7,
-    alternates: getAlternates(`/products/${product.slug}`),
-  }));
+    // دالة مساعدة لإنشاء التاجات لكل رابط مع لغاته البديلة
+    const createUrlNode = (
+      path: string,
+      lastMod: string,
+      changeFreq: string,
+      priority: string,
+    ) => {
+      let node = `
+  <url>
+    <loc>${baseUrl}/en${path}</loc>
+    <lastmod>${lastMod}</lastmod>
+    <changefreq>${changeFreq}</changefreq>
+    <priority>${priority}</priority>`;
 
-  // تجميع كل الروابط العالمية (ثابتة + أقسام الناف + منتجات)
-  return [...productPages];
+      // إضافة الـ alternates الـ 8 لغات لكل مسار
+      locales.forEach((locale) => {
+        node += `
+    <xhtml:link rel="alternate" hreflang="${locale}" href="${baseUrl}/${locale}${path}" />`;
+      });
+
+      node += `
+  </url>`;
+      return node;
+    };
+
+    // 3. إضافة الصفحات الثابتة
+    xml += createUrlNode("", now, "hourly", "1.0");
+    xml += createUrlNode("/cart", now, "weekly", "0.5");
+    xml += createUrlNode("/about", now, "weekly", "0.5");
+    xml += createUrlNode("/products", now, "hourly", "0.7");
+
+    // 4. إضافة صفحات الأقسام ديناميكياً
+    categories.forEach((category) => {
+      const catPath = `/products?cat=${category.slug}`;
+      const catDate = new Date(category.updatedAt).toISOString();
+      xml += createUrlNode(catPath, catDate, "hourly", "0.8");
+    });
+
+    // 5. إضافة صفحات المنتجات ديناميكياً
+    products.forEach((product) => {
+      const prodPath = `/products/${product.slug}`;
+      const prodDate = new Date(product.updatedAt).toISOString();
+      xml += createUrlNode(prodPath, prodDate, "hourly", "0.7");
+    });
+
+    xml += `
+</urlset>`;
+
+    // 6. السحر كله هنا: إرجاع الاستجابة وإجبار الـ Content-Type على XML رغماً عن الجميع
+    return new NextResponse(xml, {
+      headers: {
+        "Content-Type": "application/xml; charset=utf-8",
+        // كاش ذكي لمدة ساعة عشان السيرفر يبقى طلقة وميضغطش على الداتابيز
+        "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=59",
+      },
+    });
+  } catch (error) {
+    console.error("Sitemap generation error:", error);
+    return new NextResponse("Internal Server Error", { status: 500 });
+  }
 }
