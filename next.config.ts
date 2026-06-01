@@ -23,7 +23,6 @@ frame-ancestors 'self' https://search.google.com;
 `;
 
 const nextConfig: NextConfig = {
-  // إخفاء الـ Header اللي بيقول إننا شغالين Next.js (إخفاء الهوية)
   poweredByHeader: false,
 
   images: {
@@ -39,11 +38,24 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // 2. تطبيق كل الـ Security Headers
   async headers() {
     return [
+      // ✅ الإضافة دي هي الحل - بتضبط Content-Type للـ sitemap
       {
-        // تم تعديل هذا السطر فقط لاستثناء خريطة الموقع من قيود الحماية مؤقتاً
+        source: "/sitemap.xml",
+        headers: [
+          {
+            key: "Content-Type",
+            value: "application/xml; charset=utf-8",
+          },
+          {
+            key: "Cache-Control",
+            value: "public, max-age=3600, s-maxage=3600",
+          },
+        ],
+      },
+      // باقي الهيدرز زي ما هي
+      {
         source: "/((?!sitemap\\.xml$).*)",
         headers: [
           {

@@ -30,12 +30,6 @@ export default async function middleware(req: NextRequest) {
   // );
   //
 
-  if (routerAuth.includes(path) && isLoggedIn) {
-    //
-    return NextResponse.redirect(new URL("/", nextUrl));
-  } else {
-    //
-  }
   if (intlResponse) return intlResponse;
 
   return NextResponse.next();
